@@ -1,0 +1,15 @@
+.hero {
+   @apply grid grid-cols-1 md:grid-cols-10 gap-10 justify-between items-center;
+   .info {
+      @apply sm:col-span-4;
+      button {
+         @apply rounded-basic px-12 py-3 bg-accent-1 border-[1px] border-transparent mt-4 text-white transition-all;
+         &:hover {
+            @apply text-accent-1 border-accent-1 bg-transparent;
+         }
+      }
+   }
+   .photo {
+      @apply rounded-basic bg-gray-200 sm:col-span-6 justify-self-end;
+   }
+}

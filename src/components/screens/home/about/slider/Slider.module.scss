@@ -1,0 +1,15 @@
+.slider {
+   @apply sm:col-span-6 order-2 sm:order-1;
+   .employee {
+      @apply flex flex-col items-center justify-center pb-10;
+      .image {
+         @apply bg-gray-200 w-[90%] sm:w-full rounded-basic;
+      }
+      .name {
+         @apply mt-4 text-xl font-semibold text-text-1;
+      }
+      .position {
+         @apply mt-1 text-sm text-text-2;
+      }
+   }
+}

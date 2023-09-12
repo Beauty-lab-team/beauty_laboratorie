@@ -1,0 +1,18 @@
+.footer {
+   @apply bg-footer border-t text-text-1 px-3 py-12;
+   .content {
+      @apply container mx-auto flex flex-col sm:flex-row sm:justify-between sm:items-center gap-10;
+   }
+   .contacts {
+      @apply flex flex-col gap-2 text-lg;
+      a {
+         @apply text-text-1 hover:underline;
+      }
+   }
+   .social {
+      @apply flex items-center gap-3;
+      a {
+         @apply w-10 h-10 hover:scale-105 transition-all;
+      }
+   }
+}
