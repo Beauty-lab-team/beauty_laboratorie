@@ -4,10 +4,10 @@
       @apply h-[200px];
    }
    .content {
-      @apply container px-3 mx-auto flex justify-center items-center;
+      @apply container px-3 mx-auto flex justify-between items-center;
    }
    .menuBtn {
-      @apply sm:hidden scale-75 absolute right-0;
+      @apply sm:hidden scale-75;
       svg {
          @apply fill-navlinks;
       }
