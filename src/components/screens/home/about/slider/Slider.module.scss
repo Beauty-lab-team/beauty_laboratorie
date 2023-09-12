@@ -1,5 +1,5 @@
 .slider {
-   @apply sm:col-span-6 order-2 sm:order-1;
+   @apply md:col-span-6 order-2 md:order-1;
    .employee {
       @apply flex flex-col items-center justify-center pb-10;
       .image {
