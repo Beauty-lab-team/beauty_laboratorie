@@ -3,20 +3,22 @@ import Links from './Links'
 import s from './Navbar.module.scss'
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
+import useMediaQuery from '../../hooks/useMediaQuery'
 
 const Navbar = () => {
    const { pathname } = useRouter()
    const [isMenuOpen, setIsMenuOpen] = useState(false)
    const menuClickHandler = () => setIsMenuOpen(!isMenuOpen)
 
+   const logoWidth = useMediaQuery('(min-width: 768px)') ? 400 : 300
+
    return (
       <nav className={`${s.navbar} ${isMenuOpen ? s.expanded : ''}`}>
          <div className={s.content}>
-            <h3 className={s.name}>
-               <Link href='/'>
-                  <img src='/logo.png' alt='logo' />
-               </Link>
-            </h3>
+            <Link className={s.logo} href='/'>
+               <Image src='/logo.svg' alt='BEAUTY.LABORATORIE' width={logoWidth} height={20} />
+            </Link>
             <button className={s.menuBtn} onClick={menuClickHandler}>
                <svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' id='menu'>
                   <path fill='none' d='M0 0h48v48H0z'></path>

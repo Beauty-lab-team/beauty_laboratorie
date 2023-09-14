@@ -1,0 +1,9 @@
+.benefits {
+   @apply mt-24 sm:mt-44;
+   .sections {
+      @apply grid grid-cols-1 md:grid-cols-3 gap-10 justify-between items-center;
+      .section {
+         @apply mt-3 rounded-basic bg-accent-2 p-6;
+      }
+   }
+}

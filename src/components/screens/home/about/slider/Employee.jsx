@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import s from './Slider.module.scss'
+import s from './Employee.module.scss'
 
 export default function Employee({ name, position, image }) {
    return (

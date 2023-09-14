@@ -6,8 +6,9 @@ module.exports = {
          colors: {
             background: '#FAFAFA',
             'text-1': '#1A1A1A',
-            'text-2': '#4B4B4B',
-            'accent-1': '#4d4dff',
+            'text-2': '#4D4D5D',
+            'accent-1': '#414358',
+            'accent-2': '#eef0f3',
             navbar: 'rgba(255, 255, 255, 0.7)',
             navlinks: '#9699a0',
             'navlinks-current': '#d1d5db',
@@ -17,6 +18,8 @@ module.exports = {
          fontSize: {
             'heading-mobile': '54px',
             'heading-desktop': '64px',
+            'cardHeading-mobile': '30px',
+            'cardHeading-desktop': '32px',
          },
          fontFamily: {
             helvetica: ['Helvetica', 'sans-serif'],
