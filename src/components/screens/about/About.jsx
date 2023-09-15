@@ -1,16 +1,16 @@
 import Bio from './bio/Bio'
 import Certificates from './certificates/Certificates'
-import Employees from './employees/Employees'
 import Equipment from './equipment/Equipment'
-import Features from './features/Features'
+import Features from '../../common/Features'
 import Photos from './photos/Photos'
+import Team from './team/Team'
 
 export default function About() {
    return (
       <div>
          <Bio />
          <Features />
-         <Employees />
+         <Team />
          <Equipment />
          <Certificates />
          <Photos />
