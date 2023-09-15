@@ -1,4 +1,4 @@
-import Layout from '../components/Layout'
+import Layout from '../components/seo/Layout'
 import About from '../components/screens/about/About'
 
 export default function AboutUs({ preview }) {
