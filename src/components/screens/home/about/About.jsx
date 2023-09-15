@@ -1,13 +1,14 @@
 import { SwiperSlide } from 'swiper/react'
+import Section from '../../../UI/Section'
 import Heading from '../../../UI/Heading'
 import Text from '../../../UI/Text'
 import Slider from '../../../UI/slider/Slider'
 import s from './About.module.scss'
-import Employee from './slider/Employee'
+import Employee from './employee/Employee'
 
 export default function About() {
    return (
-      <div className={s.about}>
+      <Section className='grid grid-cols-1 md:grid-cols-10 gap-10 justify-between items-center'>
          <div className={s.employees}>
             <Slider slides={2}>
                <SwiperSlide>
@@ -32,6 +33,6 @@ export default function About() {
                Luxusplasmaliner та викладач медичних основ в міжнародній школі Перманентного макіяжу Ірини Вербової.
             </Text>
          </div>
-      </div>
+      </Section>
    )
 }

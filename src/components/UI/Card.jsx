@@ -1,10 +1,9 @@
-import s from './Benefits.module.scss'
-import Text from '../../../UI/Text'
-import CardHeading from '../../../UI/CardHeading'
+import CardHeading from './CardHeading'
+import Text from './Text'
 
-export default function Section() {
+export default function Card() {
    return (
-      <div className={s.section}>
+      <div className='mt-0 rounded-basic bg-accent-2 p-6'>
          <CardHeading>Lorem ipsum dolor sit amet</CardHeading>
          <Text>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit aliquam nemo error commodi vitae sint nisi exercitationem vel pariatur

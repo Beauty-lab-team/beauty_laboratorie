@@ -1,11 +1,8 @@
-.services {
-   @apply mt-24 sm:mt-44;
-   .servicesList {
-      .service {
-         @apply mt-3 rounded-basic bg-accent-2 p-6 mb-10;
-         .image {
-            @apply h-[200px] w-full bg-gray-200 rounded-[22px] mb-5;
-         }
+.servicesList {
+   .service {
+      @apply mt-3 rounded-basic bg-accent-2 p-6 mb-10;
+      .image {
+         @apply h-[200px] w-full bg-gray-200 rounded-[22px] mb-5;
       }
    }
 }

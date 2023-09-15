@@ -31,8 +31,7 @@ export async function getAllPostsFromServices(preview) {
     query NewQuery {
       services {
         nodes {
-          posluga {
-            fieldGroupName
+          service {
             name
             prices
             desc

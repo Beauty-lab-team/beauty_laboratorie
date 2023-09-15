@@ -1,4 +1,5 @@
 import { SwiperSlide } from 'swiper/react'
+import Section from '../../../UI/Section'
 import Heading from '../../../UI/Heading'
 import Slider from '../../../UI/slider/Slider'
 import Service from './Service'
@@ -6,7 +7,7 @@ import s from './Services.module.scss'
 
 export default function Services() {
    return (
-      <div className={s.services}>
+      <Section>
          <Heading>Послуги</Heading>
          <div className={s.servicesList}>
             <Slider slides={4}>
@@ -60,6 +61,6 @@ export default function Services() {
                </SwiperSlide>
             </Slider>
          </div>
-      </div>
+      </Section>
    )
 }

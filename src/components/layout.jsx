@@ -1,5 +1,5 @@
 import Footer from './footer/Footer'
-import Meta from './meta'
+import Meta from './Meta'
 import Navbar from './navbar/Navbar'
 
 export default function Layout({ title, description, preview, children }) {

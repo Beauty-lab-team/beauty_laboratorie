@@ -9,16 +9,16 @@ export default function Slider({ slides, children }) {
          breakpoints={{
             320: {
                slidesPerView: 1,
-               spaceBetween: 24,
+               spaceBetween: 12,
             },
             768: {
                slidesPerView: 2,
             },
             1024: {
-               spaceBetween: 40,
+               spaceBetween: 36,
             },
          }}
-         spaceBetween={24}
+         spaceBetween={12}
          slidesPerView={slides}
          modules={[Keyboard, Pagination]}
          pagination={{ clickable: true }}
