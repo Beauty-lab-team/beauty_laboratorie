@@ -1,4 +1,4 @@
-import Layout from './../components/Layout'
+import Layout from '../../components/Layout'
 import Home from '../components/screens/home/Home'
 // import HeroPost from '../components/hero-post'
 // import { getAllPostsForHome, getAllPostsFromServices } from '../lib/api'
