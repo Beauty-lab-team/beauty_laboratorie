@@ -5,7 +5,7 @@ import Features from '../../common/Features'
 import Photos from './photos/Photos'
 import Team from './team/Team'
 
-export default function About() {
+export default function AboutPage() {
    return (
       <div>
          <Bio />

@@ -4,10 +4,11 @@ import Heading from '../../../UI/Heading'
 import Slider from '../../../UI/slider/Slider'
 import Service from './Service'
 import s from './Services.module.scss'
+import LinkToPage from '../../../UI/LinkToPage'
 
 export default function Services() {
    return (
-      <Section>
+      <Section id='services'>
          <Heading>Послуги</Heading>
          <div className={s.servicesList}>
             <Slider slides={4}>
@@ -61,6 +62,7 @@ export default function Services() {
                </SwiperSlide>
             </Slider>
          </div>
+         <LinkToPage link='/services'>Всі послуги</LinkToPage>
       </Section>
    )
 }

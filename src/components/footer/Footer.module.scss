@@ -4,7 +4,7 @@
       @apply container mx-auto flex flex-col sm:flex-row sm:justify-between sm:items-center gap-10;
    }
    .contacts {
-      @apply flex flex-col gap-2 text-lg;
+      @apply flex flex-col items-start gap-3 text-xl;
       a {
          @apply text-text-1 hover:underline;
       }

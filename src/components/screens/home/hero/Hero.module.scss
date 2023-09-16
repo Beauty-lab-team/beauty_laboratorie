@@ -3,7 +3,7 @@
    .info {
       @apply sm:col-span-4;
       button {
-         @apply rounded-basic px-12 py-3 bg-accent-1 border-[1px] border-transparent mt-4 text-white transition-all;
+         @apply rounded-basic px-12 py-3 bg-accent-1 border border-transparent mt-4 text-white transition-all;
          &:hover {
             @apply text-accent-1 border-accent-1 bg-transparent;
          }

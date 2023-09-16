@@ -1,5 +1,5 @@
 import Layout from '../components/seo/Layout'
-import Home from '../components/screens/home/Home'
+import HomePage from '../components/screens/home/Home'
 // import HeroPost from '../components/hero-post'
 // import { getAllPostsForHome, getAllPostsFromServices } from '../lib/api'
 
@@ -9,7 +9,7 @@ export default function Index({ preview }) {
 
    return (
       <Layout title='BEAUTY.LABORATORIE' description='...'>
-         <Home />
+         <HomePage />
       </Layout>
    )
 }
