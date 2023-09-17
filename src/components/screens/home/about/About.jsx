@@ -6,7 +6,7 @@ import s from './About.module.scss'
 
 export default function About() {
    return (
-      <Section className='grid grid-cols-1 md:grid-cols-10 gap-10 justify-between items-center'>
+      <Section className='grid grid-cols-1 md:grid-cols-10 gap-10 justify-between'>
          <div className={s.employees}>
             <Employees />
          </div>

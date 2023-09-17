@@ -6,7 +6,7 @@ module.exports = {
          colors: {
             background: '#FAFAFA',
             'text-1': '#1A1A1A',
-            'text-2': '#4D4D5D',
+            'text-2': '#7c7c85',
             'accent-1': '#414358',
             'accent-2': '#eff0f2',
             navbar: 'rgba(255, 255, 255, 0.7)',

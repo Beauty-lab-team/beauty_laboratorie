@@ -1,19 +1,24 @@
-import Section from '../UI/Section'
-import Heading from '../UI/Heading'
 import Card from '../UI/Card'
-import useMediaQuery from '../../hooks/useMediaQuery'
-import { useRouter } from 'next/router'
 
 export default function Features() {
-   const { pathname } = useRouter()
-   const isLargeScreen = useMediaQuery('(min-width: 768px)')
-   const isHomePage = pathname == '/'
-   const cardsView = isLargeScreen ? (isHomePage ? 3 : 6) : 3
-
    return (
-      <Section>
-         <Heading>{isHomePage ? 'Чому треба обрати нас?' : 'Особливості'}</Heading>
-         <div className='grid grid-cols-1 md:grid-cols-3 gap-3 justify-between items-center'>{Array(cardsView).fill(<Card />)}</div>
-      </Section>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4'>
+         <Card
+            heading='Комплексний догляд'
+            text='Наша косметологічна студія спеціалізується на догляді за обличчям та тілом, щоб забезпечити вам повний комплексний підхід до краси і добробуту'
+         />
+         <Card
+            heading='Сучасні технології'
+            text='Ми використовуємо передові апарати нового покоління, щоб забезпечити вам найкращі результати в косметології'
+         />
+         <Card
+            heading='Висококваліфіковані фахівці'
+            text='Наші спеціалісти мають медичну освіту і фахову підготовку в галузі косметології. Вони постійно підвищують свою кваліфікацію та слідкують за останніми тенденціями у світі краси'
+         />
+         <Card
+            heading='Персональний підхід'
+            text="Ми створюємо індивідуальні програми для кожного клієнта, об'єднуючи різні процедури для досягнення оптимальних результатів"
+         />
+      </div>
    )
 }

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import s from './Services.module.scss'
-import Text from '../../../UI/Text'
-import CardHeading from '../../../UI/CardHeading'
+import Text from '../../UI/Text'
+import CardHeading from '../../UI/CardHeading'
 
 export default function Service({ name, description, image, prices }) {
    return (

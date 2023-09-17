@@ -15,10 +15,9 @@ export default function Slider({ slides, children }) {
                slidesPerView: 2,
             },
             1024: {
-               spaceBetween: 36,
+               spaceBetween: 16,
             },
          }}
-         spaceBetween={12}
          slidesPerView={slides}
          modules={[Keyboard, Pagination]}
          pagination={{ clickable: true }}
