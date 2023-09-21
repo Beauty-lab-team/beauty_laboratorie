@@ -1,11 +1,11 @@
 .form {
-   @apply flex flex-col gap-3 sm:gap-4;
+   @apply flex flex-col gap-3 sm:gap-4 w-full md:w-1/2;
    div {
       @apply flex gap-3 sm:gap-4;
    }
    input,
    textarea {
-      @apply w-full text-text-1 border border-accent-2 rounded-basic px-5 py-3;
+      @apply w-full text-text-1 sm:text-lg border border-accent-2 rounded-basic px-5 py-3;
       &::placeholder {
          @apply text-text-2/70;
       }
