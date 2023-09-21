@@ -1,4 +1,4 @@
-import Features from '../../../common/Features'
+import Features from '../../../common/features/Features'
 import Heading from '../../../UI/Heading'
 import Section from '../../../UI/Section'
 

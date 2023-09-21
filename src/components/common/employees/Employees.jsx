@@ -21,6 +21,9 @@ export default function Employees() {
          <SwiperSlide>
             <Employee name='John Doe' position='Косметолог' image='' />
          </SwiperSlide>
+         <SwiperSlide>
+            <Employee name='John Doe' position='Косметолог' image='' />
+         </SwiperSlide>
       </Slider>
    )
 }
