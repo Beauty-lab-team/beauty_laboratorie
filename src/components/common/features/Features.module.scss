@@ -1,0 +1,15 @@
+.features {
+   @apply grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4;
+   .feature {
+      @apply rounded-basic bg-accent-2 p-6;
+      .heading {
+         @apply flex justify-between items-center;
+         svg {
+            @apply transition-transform transform duration-200 ease-out origin-center relative right-2;
+            &.open {
+               @apply rotate-90 mb-3;
+            }
+         }
+      }
+   }
+}
