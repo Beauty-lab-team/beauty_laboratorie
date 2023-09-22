@@ -1,15 +1,16 @@
 .hero {
-   @apply grid grid-cols-1 md:grid-cols-10 gap-10 justify-between items-center;
+   @apply grid grid-cols-1 lg:grid-cols-10 gap-10 md:gap-12 justify-between items-center;
    .info {
-      @apply sm:col-span-4;
+      @apply lg:col-span-4 lg:order-1;
       button {
-         @apply rounded-basic px-12 py-3 bg-accent-1 border border-transparent mt-4 text-white transition-all;
-         &:hover {
+         @apply rounded-basic px-12 py-3 bg-accent-1 border border-transparent mt-4 text-white transition-all w-full lg:w-auto;
+         &:hover,
+         &:active {
             @apply text-accent-1 border-accent-1 bg-transparent;
          }
       }
    }
    .photo {
-      @apply rounded-basic bg-gray-200 sm:col-span-6 justify-self-end;
+      @apply lg:order-2 rounded-basic border border-accent-1 lg:col-span-6 justify-self-center lg:justify-self-end;
    }
 }

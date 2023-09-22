@@ -12,8 +12,8 @@ module.exports = {
             navbar: 'rgba(255, 255, 255, 0.7)',
             navlinks: '#9699a0',
             'navlinks-current': '#414358',
-            footer: '#F2F2F2',
-            'footer-text': '#9699a0',
+            // footer: '#F2F2F2',
+            // 'footer-text': '#9699a0',
          },
          fontSize: {
             'heading-mobile': '52px',

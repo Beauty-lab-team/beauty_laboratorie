@@ -1,7 +1,7 @@
 .employee {
    @apply flex flex-col items-center justify-center mb-10;
    .image {
-      @apply bg-gray-200 w-[90%] sm:w-full rounded-basic;
+      @apply border border-accent-1 w-[90%] sm:w-full rounded-basic;
    }
    .name {
       @apply mt-4 text-xl font-semibold text-text-1;
@@ -10,3 +10,18 @@
       @apply mt-1 text-sm text-text-2;
    }
 }
+// .employee {
+//    @apply flex items-center gap-5 bg-accent-2 rounded-basic p-6 mb-10;
+//    .image {
+//       @apply bg-gray-300 w-[140px] h-[140px] border border-text-1 rounded-basic;
+//    }
+//    .person {
+//       @apply flex flex-col;
+//       .name {
+//          @apply mt-4 text-xl font-semibold text-text-1;
+//       }
+//       .position {
+//          @apply mt-1 text-sm text-text-2;
+//       }
+//    }
+// }

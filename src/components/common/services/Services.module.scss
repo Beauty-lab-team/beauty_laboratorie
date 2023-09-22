@@ -1,9 +1,9 @@
 .servicesList {
-   @apply pb-10;
+   @apply pb-6 lg:pb-0;
    .service {
-      @apply rounded-basic bg-accent-2 p-6 pb-10;
+      @apply rounded-basic bg-accent-2 p-6 mb-12 lg:mb-0;
       .image {
-         @apply h-[200px] w-full bg-gray-200 rounded-[22px] mb-5;
+         @apply h-[200px] w-full border border-accent-1 rounded-[22px] mb-5;
       }
    }
 }

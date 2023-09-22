@@ -7,6 +7,7 @@ import Text from '../../../UI/Text'
 export default function Hero() {
    return (
       <div className={s.hero}>
+         <Image className={s.photo} src='' alt='' width={600} height={480} />
          <div className={s.info}>
             <Heading>Смас-ліфтінг у Дніпрі</Heading>
             <Text>
@@ -16,11 +17,10 @@ export default function Hero() {
                <br />
                Довірте свою красу нам
             </Text>
-            <Link href='#services'>
-               <button>Переглянути послуги</button>
+            <Link href='#appointment'>
+               <button>Записатися на прийом</button>
             </Link>
          </div>
-         <Image className={s.photo} src='' alt='' width={600} height={480} />
       </div>
    )
 }

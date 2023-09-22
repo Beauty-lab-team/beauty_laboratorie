@@ -3,12 +3,8 @@ import Slider from '../../UI/slider/Slider'
 import Service from './Service'
 import s from './Services.module.scss'
 import LinkToPage from '../../UI/LinkToPage'
-import { useRouter } from 'next/router'
 
 export default function Services() {
-   const { pathname } = useRouter()
-   const isHomePage = pathname == '/'
-
    return (
       <>
          <div className={s.servicesList}>
@@ -63,7 +59,7 @@ export default function Services() {
                </SwiperSlide>
             </Slider>
          </div>
-         {isHomePage && <LinkToPage link='/services'>Всі послуги</LinkToPage>}
+         {/* {isHomePage && <LinkToPage link='/services'>Всі послуги</LinkToPage>} */}
       </>
    )
 }

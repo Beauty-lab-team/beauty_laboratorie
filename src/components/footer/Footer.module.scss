@@ -1,18 +1,30 @@
 .footer {
-   @apply bg-footer border-t text-text-1 px-3 py-12;
+   @apply bg-accent-2 border-t;
    .content {
-      @apply container mx-auto flex flex-col sm:flex-row sm:justify-between sm:items-center gap-10;
+      @apply container px-3 md:px-12 py-12 mx-auto flex flex-col sm:flex-row sm:justify-between sm:items-center gap-6;
    }
    .contacts {
-      @apply flex flex-col items-start gap-3 text-xl;
+      @apply flex flex-col sm:flex-row gap-6 sm:gap-8;
       a {
-         @apply text-text-1 hover:underline;
+         @apply text-text-2 text-lg hover:underline;
+      }
+   }
+   .contacts,
+   .social {
+      p {
+         @apply text-text-1 text-xl mb-1 sm:mb-3;
       }
    }
    .social {
-      @apply flex items-center gap-3;
-      a {
-         @apply w-10 h-10 hover:scale-105 transition-all;
+      @apply flex flex-col;
+      div {
+         @apply flex gap-3;
       }
+      a {
+         @apply w-10 h-10 hover:opacity-80 duration-200 ease-out transition-all;
+      }
+   }
+   .bottom {
+      @apply text-accent-1 text-center py-3;
    }
 }

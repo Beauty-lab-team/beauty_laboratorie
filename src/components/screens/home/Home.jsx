@@ -1,15 +1,15 @@
 import About from './about/About'
-import Appointment from './appointment/Appointment'
+import Appointment from '../../common/appointment/Appointment'
 import Benefits from './benefits/Benefits'
 import Hero from './hero/Hero'
-import Services from './services/Services'
+import ServicesHome from './services/ServicesHome'
 
 export default function HomePage() {
    return (
       <div>
          <Hero />
          <About />
-         <Services />
+         <ServicesHome />
          <Benefits />
          <Appointment />
       </div>
