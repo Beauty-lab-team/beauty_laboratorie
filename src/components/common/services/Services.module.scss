@@ -5,5 +5,11 @@
       .image {
          @apply h-[200px] w-full border border-accent-1 rounded-[22px] mb-5;
       }
+      .buttons {
+         @apply flex gap-3 mt-5;
+         button {
+            @apply border border-accent-1 rounded-basic px-4 py-2 text-accent-1 hover:bg-accent-1 hover:text-white transition-all;
+         }
+      }
    }
 }

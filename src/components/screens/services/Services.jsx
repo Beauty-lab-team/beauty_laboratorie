@@ -4,7 +4,7 @@ import Services from '../../common/services/Services'
 
 export default function ServicesPage() {
    return (
-      <Section className='mt-[0px] sm:mt-[0px]'>
+      <Section className='pt-[0px] md:pt-[0px]'>
          <Heading>Послуги</Heading>
          <Services />
       </Section>
