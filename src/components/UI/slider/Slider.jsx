@@ -42,7 +42,7 @@ export default function Slider({ slides, children, showArrows }) {
             keyboard={{ enabled: true }}
          >
             {children}
-            <div className='hidden lg:flex items-center justify-center gap-3 z-50 pb-10'>
+            <div className='hidden lg:flex items-center justify-center gap-3 pb-10'>
                <div className='prev text-accent-1 w-9 h-9 border border-accent-1 p-1 rounded-xl hover:bg-accent-1 hover:text-white transition-colors duration-200'>
                   <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'>
                      <path d='M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12l4.58-4.59z' />

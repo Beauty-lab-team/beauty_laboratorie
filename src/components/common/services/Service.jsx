@@ -3,7 +3,7 @@ import s from './Services.module.scss'
 import Text from '../../UI/Text'
 import CardHeading from '../../UI/CardHeading'
 
-export default function Service({ name, description, image }) {
+export default function Service({ name, description, image, formHandler }) {
    return (
       <div className={s.service}>
          <Image className={s.image} src={image} alt='' width={300} height={200} />
@@ -11,7 +11,7 @@ export default function Service({ name, description, image }) {
             <CardHeading>{name}</CardHeading>
             <Text>{description}</Text>
             <div className={s.buttons}>
-               <button>Запис на прийом</button>
+               <button onClick={() => formHandler(true)}>Запис на прийом</button>
                <button>Ціни</button>
             </div>
          </div>

@@ -3,8 +3,12 @@ import Slider from '../../UI/slider/Slider'
 import Service from './Service'
 import s from './Services.module.scss'
 import { useRouter } from 'next/router'
+import Modal from '../../UI/modal/Modal'
+import Form from '../form/Form'
+import { useState } from 'react'
 
 export default function Services() {
+   const [isOpen, setIsOpen] = useState(false)
    const { pathname } = useRouter()
    const isHomePage = pathname == '/'
 
@@ -43,11 +47,14 @@ export default function Services() {
 
    return (
       <div className={s.servicesList}>
+         <Modal open={isOpen} handleClose={setIsOpen}>
+            <Form handleClose={setIsOpen} />
+         </Modal>
          {isHomePage && (
             <Slider slides={4} showArrows={false}>
                {services.splice(0, 4).map((el, i) => (
                   <SwiperSlide key={i}>
-                     <Service {...el} />
+                     <Service {...el} formHandler={setIsOpen} />
                   </SwiperSlide>
                ))}
             </Slider>

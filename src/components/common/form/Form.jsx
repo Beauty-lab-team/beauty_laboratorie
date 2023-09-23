@@ -2,7 +2,7 @@ import { useState } from 'react'
 import ReactInputMask from 'react-input-mask'
 import s from './Form.module.scss'
 
-export default function Form() {
+export default function Form({ handleClose }) {
    const [phone, setPhone] = useState('')
    const [name, setName] = useState('')
    const [description, setDescription] = useState('')
@@ -19,8 +19,7 @@ export default function Form() {
       setName('')
       setPhone('')
       setDescription('')
-      console.log(data)
-      alert('Ваша заявка прийнята')
+      handleClose ? handleClose(false) : null
    }
 
    return (
