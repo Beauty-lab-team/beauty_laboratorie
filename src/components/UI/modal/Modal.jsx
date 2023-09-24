@@ -1,6 +1,6 @@
 import s from './Modal.module.scss'
 
-const Modal = ({ open, children, handleClose }) => {
+export default function Modal({ open, children, handleClose }) {
    return (
       <div className={`${s.modalBlock} ${open ? s.show : ''}`}>
          <div className={s.backdrop} onClick={() => handleClose(false)}></div>
@@ -10,5 +10,3 @@ const Modal = ({ open, children, handleClose }) => {
       </div>
    )
 }
-
-export default Modal

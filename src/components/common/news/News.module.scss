@@ -1,0 +1,12 @@
+.news {
+   @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4;
+   .newsCard {
+      @apply bg-accent-2 rounded-basic p-6;
+      div {
+         @apply flex items-end justify-between gap-2 mt-4 md:mt-5;
+         span {
+            @apply text-sm md:text-base text-text-2;
+         }
+      }
+   }
+}
