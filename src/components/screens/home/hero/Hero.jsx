@@ -3,6 +3,7 @@ import s from './Hero.module.scss'
 import Link from 'next/link'
 import Heading from '../../../UI/Heading'
 import Text from '../../../UI/Text'
+import Button from '../../../UI/Button'
 
 export default function Hero() {
    return (
@@ -18,7 +19,7 @@ export default function Hero() {
                Довірте свою красу нам
             </Text>
             <Link href='#appointment'>
-               <button>Записатися на прийом</button>
+               <Button>Записатися на прийом</Button>
             </Link>
          </div>
       </div>

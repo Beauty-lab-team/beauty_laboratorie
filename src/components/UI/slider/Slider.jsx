@@ -33,6 +33,7 @@ export default function Slider({ slides, children, showArrows }) {
                delay: 6000,
                disableOnInteraction: false,
             }}
+            autoHeight
             pagination={{ clickable: true }}
             navigation={{
                navigation,

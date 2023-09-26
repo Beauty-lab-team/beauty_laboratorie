@@ -1,6 +1,11 @@
 import { useRouter } from 'next/router'
+import Layout from '../../components/seo/Layout'
 
 export default function Page() {
    const router = useRouter()
-   return <p>Post: {router.query.slug}</p>
+   return (
+      <Layout title='BEAUTY.LABORATORIE | Контакти' description='...'>
+         post {router.query.slug}
+      </Layout>
+   )
 }

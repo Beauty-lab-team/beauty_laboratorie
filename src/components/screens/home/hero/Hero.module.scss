@@ -3,9 +3,8 @@
    .info {
       @apply lg:col-span-4 lg:order-1;
       button {
-         @apply rounded-basic px-12 py-3 bg-accent-1 border border-transparent mt-4 text-white transition-all w-full lg:w-auto;
-         &:hover,
-         &:active {
+         @apply px-12 py-3 bg-accent-1 text-white mt-4 w-full lg:w-auto;
+         &:hover {
             @apply text-accent-1 border-accent-1 bg-transparent;
          }
       }

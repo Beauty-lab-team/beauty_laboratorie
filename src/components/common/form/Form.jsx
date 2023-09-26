@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import ReactInputMask from 'react-input-mask'
 import s from './Form.module.scss'
+import Button from '../../UI/Button'
 
 export default function Form({ handleClose }) {
    const [phone, setPhone] = useState('')
@@ -26,7 +27,14 @@ export default function Form({ handleClose }) {
       <form className={s.form} onSubmit={handlerSubmit}>
          <div>
             <input value={name} onChange={e => setName(e.target.value)} name='name' id='name' type='text' placeholder="Ім'я" required />
-            <ReactInputMask mask='(+38)999-999-99-99' value={phone} onChange={handleInput} placeholder='Номер телефону' aria-label='Номер телефону' />
+            <ReactInputMask
+               mask='(+38)999-999-99-99'
+               value={phone}
+               onChange={handleInput}
+               inputMode='tel'
+               placeholder='Номер телефону'
+               aria-label='Номер телефону'
+            />
          </div>
          <textarea
             value={description}
@@ -38,7 +46,7 @@ export default function Form({ handleClose }) {
             placeholder='Коментар'
             required
          ></textarea>
-         <input className={s.submit} type='submit' value='Відправити заявку' />
+         <Button type='submit'>Відправити заявку</Button>
       </form>
    )
 }

@@ -13,8 +13,8 @@
    textarea {
       @apply resize-none;
    }
-   .submit {
-      @apply rounded-basic px-12 py-3 bg-accent-1 border border-transparent text-white transition-all;
+   button {
+      @apply px-12 py-3 bg-accent-1 text-white;
       &:hover {
          @apply text-accent-1 border-accent-1 bg-transparent;
       }

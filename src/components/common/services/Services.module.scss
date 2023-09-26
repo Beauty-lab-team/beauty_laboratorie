@@ -3,13 +3,16 @@
    .service {
       @apply rounded-basic bg-accent-2 p-6 mb-12 lg:mb-0;
       .image {
-         @apply h-[200px] w-full border border-accent-1 rounded-[22px] mb-5;
+         @apply h-[200px] w-full border border-accent-1 rounded-[20px] mb-5;
       }
       .buttons {
          @apply flex gap-3 mt-5;
-         button {
-            @apply border border-accent-1 rounded-basic px-4 py-2 text-accent-1 hover:bg-accent-1 hover:text-white transition-all;
-         }
       }
+   }
+}
+.servicesGrid {
+   @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6;
+   .service {
+      @apply mb-0;
    }
 }
