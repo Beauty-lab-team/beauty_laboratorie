@@ -1,5 +1,9 @@
-import React from 'react'
+import Appointment from '../../common/appointment/Appointment'
 
 export default function ContactsPage() {
-   return <div>Contacts</div>
+   return (
+      <div>
+         <Appointment />
+      </div>
+   )
 }
