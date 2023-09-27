@@ -1,5 +1,5 @@
 .employee {
-   @apply flex flex-col items-center justify-center mb-10 lg:mb-4;
+   @apply flex flex-col items-center justify-center mb-10 xl:mb-4 text-center;
    .image {
       @apply border border-accent-1 w-full rounded-basic;
    }

@@ -14,7 +14,7 @@
    }
 }
 .navLinks {
-   @apply absolute md:static top-[75px] right-0 px-3 hidden md:flex flex-col md:flex-row justify-between md:justify-end items-end md:items-center w-full gap-[15px] md:gap-[30px] lg:gap-[44px] text-xl md:text-base lg:text-lg font-medium text-navlinks;
+   @apply absolute md:static top-[75px] right-0 sm:right-10 px-3 hidden md:flex flex-col md:flex-row justify-between md:justify-end items-end md:items-center w-full gap-[15px] md:gap-[30px] lg:gap-[44px] text-xl md:text-base lg:text-lg font-medium text-navlinks;
    &.show {
       @apply flex;
    }

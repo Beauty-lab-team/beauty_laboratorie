@@ -4,6 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+   font-family: 'Druzhok';
+   src: url('/fonts/DRUZHOK.otf');
+}
+@font-face {
+   font-family: 'Petale';
+   src: url('/fonts/LomoHiber - Petale Thin.otf');
+}
+@font-face {
+   font-family: 'Forum';
+   src: url('/fonts/Forum-Regular.ttf');
+}
+
 html,
 body {
    @apply scroll-smooth bg-background font-helvetica;

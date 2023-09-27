@@ -1,7 +1,7 @@
 .servicesList {
    @apply pb-6 lg:pb-0;
    .service {
-      @apply rounded-basic bg-accent-2 p-6 mb-12 lg:mb-0;
+      @apply rounded-basic bg-accent-2 p-6 mb-12 xl:mb-0;
       .image {
          @apply h-[200px] w-full border border-accent-1 rounded-[20px] mb-5;
       }

@@ -154,8 +154,8 @@ export default function Services() {
             <Form handleClose={handleClose} />
          </Modal>
          {isHomePage && (
-            <Slider slides={4}>
-               {data.splice(0, 4).map((el, i) => (
+            <Slider slides={3}>
+               {data.splice(0, 3).map((el, i) => (
                   <SwiperSlide key={i}>
                      <ServiceCard {...el} formHandler={setIsOpen} />
                   </SwiperSlide>
