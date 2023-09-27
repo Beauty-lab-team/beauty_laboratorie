@@ -10,10 +10,10 @@ export default function AboutPage() {
       <div>
          <Bio />
          <Team />
-         <Benefits />
-         <Equipment />
-         <Certificates />
          <Clinic />
+         <Equipment />
+         <Benefits />
+         <Certificates />
       </div>
    )
 }

@@ -3,9 +3,10 @@ import { Keyboard, Navigation, Pagination, Autoplay } from 'swiper/modules'
 import 'swiper/scss'
 import 'swiper/scss/pagination'
 import 'swiper/scss/navigation'
+import useMediaQuery from '../../../hooks/useMediaQuery'
 
-export default function Slider({ slides, children, showArrows }) {
-   const navigation = showArrows ? true : false
+export default function Slider({ slides, children }) {
+   const isDesktop = useMediaQuery('(min-width: 1024px)')
 
    return (
       <>
@@ -35,7 +36,7 @@ export default function Slider({ slides, children, showArrows }) {
             autoHeight
             pagination={{ clickable: true }}
             navigation={{
-               navigation,
+               isDesktop,
                prevEl: '.prev',
                nextEl: '.next',
             }}
