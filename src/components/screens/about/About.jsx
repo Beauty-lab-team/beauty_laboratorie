@@ -1,9 +1,9 @@
 import Bio from './bio/Bio'
 import Certificates from './certificates/Certificates'
 import Equipment from './equipment/Equipment'
-import Photos from './photos/Photos'
 import Team from './team/Team'
 import Benefits from './benefits/Benefits'
+import Clinic from './clinic/Clinic'
 
 export default function AboutPage() {
    return (
@@ -13,7 +13,7 @@ export default function AboutPage() {
          <Benefits />
          <Equipment />
          <Certificates />
-         <Photos />
+         <Clinic />
       </div>
    )
 }

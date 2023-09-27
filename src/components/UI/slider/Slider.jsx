@@ -31,7 +31,6 @@ export default function Slider({ slides, children, showArrows }) {
             modules={[Keyboard, Navigation, Pagination, Autoplay]}
             autoplay={{
                delay: 6000,
-               disableOnInteraction: false,
             }}
             autoHeight
             pagination={{ clickable: true }}

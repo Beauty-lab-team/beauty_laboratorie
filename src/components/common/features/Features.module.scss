@@ -1,7 +1,7 @@
 .features {
    @apply grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4;
    .feature {
-      @apply rounded-basic bg-accent-2 p-6;
+      @apply rounded-basic bg-accent-2 p-5;
       .heading {
          @apply flex justify-between items-center;
          svg {

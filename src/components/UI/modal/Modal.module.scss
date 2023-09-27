@@ -13,7 +13,7 @@
 }
 
 .modal {
-   @apply fixed inset-0 z-50 flex justify-center items-start pointer-events-none p-3 md:top-[30%] md:p-0;
+   @apply fixed inset-0 z-50 flex justify-center items-start pointer-events-none p-3 top-1/2 -translate-y-1/2 md:p-0;
    .content {
       @apply bg-white rounded-basic p-4 overflow-y-auto pointer-events-none;
    }
