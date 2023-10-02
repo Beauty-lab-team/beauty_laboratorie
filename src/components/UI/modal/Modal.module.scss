@@ -9,7 +9,7 @@
 }
 
 .backdrop {
-   @apply fixed inset-0 scale-150 bg-accent-1/30 z-40 rounded-xl backdrop-blur-sm md:backdrop-blur-[2px] cursor-pointer;
+   @apply fixed inset-0 scale-150 bg-accent-1/30 z-40 rounded-xl backdrop-blur-sm md:backdrop-blur-[8px] cursor-pointer;
 }
 
 .modal {
