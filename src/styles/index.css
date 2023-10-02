@@ -5,21 +5,13 @@
 @tailwind utilities;
 
 @font-face {
-   font-family: 'Druzhok';
-   src: url('/fonts/DRUZHOK.otf');
-}
-@font-face {
-   font-family: 'Petale';
-   src: url('/fonts/LomoHiber - Petale Thin.otf');
-}
-@font-face {
    font-family: 'Forum';
    src: url('/fonts/Forum-Regular.ttf');
 }
 
 html,
 body {
-   @apply scroll-smooth bg-background font-helvetica tracking-[0.020em];
+   @apply scroll-smooth bg-background font-helvetica tracking-wide;
 }
 
 .swiper-pagination-bullet-active {

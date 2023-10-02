@@ -11,7 +11,7 @@ const Navbar = () => {
    const [isMenuOpen, setIsMenuOpen] = useState(false)
    const menuClickHandler = () => setIsMenuOpen(!isMenuOpen)
 
-   const logoWidth = useMediaQuery('(min-width: 768px)') ? 400 : 300
+   const logoWidth = useMediaQuery('(min-width: 768px)') ? 400 : 275
 
    return (
       <nav className={`${s.navbar} ${isMenuOpen ? s.expanded : ''}`}>

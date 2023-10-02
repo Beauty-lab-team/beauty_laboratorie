@@ -16,7 +16,7 @@ module.exports = {
          fontSize: {
             'heading-mobile': '56px',
             'heading-desktop': '72px',
-            'cardHeading-mobile': '28px',
+            'cardHeading-mobile': '26px',
             'cardHeading-desktop': '30px',
          },
          fontFamily: {
