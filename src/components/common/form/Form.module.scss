@@ -5,7 +5,7 @@
    }
    input,
    textarea {
-      @apply w-full text-text-1 md:text-lg border border-accent-2 rounded-basic px-5 py-3;
+      @apply w-full text-text-1 md:text-lg border border-accent-2 rounded-inner px-5 py-3;
       &::placeholder {
          @apply text-text-2/70;
       }

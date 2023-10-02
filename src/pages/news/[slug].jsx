@@ -47,9 +47,9 @@ export default function Page() {
    return (
       <Layout title={`BEAUTY.LABORATORIE | ${title}`} description='...'>
          <Heading>{title}</Heading>
-         <div className='lg:flex gap-4'>
-            <Text className='lg:max-w-3xl'>{description}</Text>
-            <Image className='flex-1 rounded-basic mt-5 border border-accent-1' src={image} width={500} height={500} alt='' />
+         <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6'>
+            <Text className='lg:col-span-2'>{description}</Text>
+            <Image className='lg:col-span-1 rounded-basic mt-5 lg:mt-0 border border-accent-1' src={image} width={500} height={500} alt='' />
          </div>
       </Layout>
    )

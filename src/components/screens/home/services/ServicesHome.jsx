@@ -6,16 +6,16 @@ import Services from '../../../common/services/Services'
 export default function ServicesHome() {
    return (
       <Section id='services'>
-         <div className='md:flex justify-between items-end'>
+         <div className='flex justify-between items-end'>
             <Heading>Послуги</Heading>
-            <LinkToPage className='hidden md:block md:mb-8' link='/services'>
+            <LinkToPage className='mb-5 lg:mb-[48px]' link='/services'>
                Всі послуги
             </LinkToPage>
          </div>
          <Services />
-         <LinkToPage className='md:hidden' link='/services'>
+         {/* <LinkToPage className='md:hidden' link='/services'>
             Всі послуги
-         </LinkToPage>
+         </LinkToPage> */}
       </Section>
    )
 }
