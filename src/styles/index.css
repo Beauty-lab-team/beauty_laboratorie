@@ -19,7 +19,7 @@
 
 html,
 body {
-   @apply scroll-smooth bg-background font-helvetica tracking-wide;
+   @apply scroll-smooth bg-background font-helvetica tracking-[0.020em];
 }
 
 .swiper-pagination-bullet-active {
