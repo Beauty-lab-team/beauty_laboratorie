@@ -1,7 +1,7 @@
-import NewsCard from './NewsCard'
-import s from './News.module.scss'
+import ArticleCard from './ArticleCard'
+import s from './Articles.module.scss'
 
-export default function News() {
+export default function Articles() {
    const news = [
       {
          id: 1,
@@ -29,7 +29,7 @@ export default function News() {
    return (
       <div className={s.news}>
          {news.map((el, i) => (
-            <NewsCard key={i} link={el.id} title={el.title} description={el.description} image={el.image} />
+            <ArticleCard key={i} link={el.id} title={el.title} description={el.description} image={el.image} />
          ))}
       </div>
    )

@@ -1,0 +1,33 @@
+.tables {
+   @apply columns-1 md:columns-2 gap-3 md:gap-4;
+}
+.tableSection {
+   @apply p-5 mb-3 md:mb-4 bg-accent-2 rounded-basic break-inside-avoid;
+   .heading {
+      @apply flex justify-between items-center;
+      svg {
+         @apply transition-transform transform duration-200 ease-out origin-center relative right-2;
+         &.open {
+            @apply rotate-90 mb-4;
+         }
+      }
+   }
+   table {
+      @apply w-full border-separate border border-spacing-0 rounded-inner overflow-hidden;
+      thead {
+         @apply bg-white;
+         th {
+            @apply p-3 md:text-lg text-left font-medium text-text-1;
+         }
+      }
+
+      tbody {
+         @apply bg-white/75;
+         tr {
+            td {
+               @apply p-3 text-sm text-text-2 md:font-light;
+            }
+         }
+      }
+   }
+}

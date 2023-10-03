@@ -1,10 +1,10 @@
-import NewsPage from '../components/screens/news/News'
+import ArticlesPage from '../components/screens/articles/Articles'
 import Layout from '../components/seo/Layout'
 
-export default function news() {
+export default function articles() {
    return (
       <Layout title='BEAUTY.LABORATORIE |Актуальні новини' description='...'>
-         <NewsPage />
+         <ArticlesPage />
       </Layout>
    )
 }

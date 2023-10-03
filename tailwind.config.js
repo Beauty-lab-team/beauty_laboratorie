@@ -7,11 +7,10 @@ module.exports = {
             background: '#FAFAFA',
             'text-1': '#1A1A1A',
             'text-2': '#7c7c85',
-            'accent-1': '#467bb8',
+            'text-3': '#9699a0',
+            'accent-1': '#4559ac',
             'accent-2': '#f3f3f4',
             navbar: 'rgba(255, 255, 255, 0.7)',
-            navlinks: '#9699a0',
-            'navlinks-current': '#414358',
          },
          fontSize: {
             'heading-mobile': '56px',

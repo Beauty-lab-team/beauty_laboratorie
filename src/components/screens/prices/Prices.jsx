@@ -1,12 +1,13 @@
+import React from 'react'
 import Heading from '../../UI/Heading'
-import News from '../../common/news/News'
 import Appointment from '../../common/appointment/Appointment'
+import PricesTable from './PricesTable'
 
-export default function NewsPage() {
+export default function Prices() {
    return (
       <div>
-         <Heading>Актуальні новини</Heading>
-         <News />
+         <Heading>Ціни</Heading>
+         <PricesTable />
          <Appointment />
       </div>
    )
