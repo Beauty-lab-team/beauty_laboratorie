@@ -3,7 +3,7 @@ import Layout from '../components/seo/Layout'
 
 export default function Services() {
    return (
-      <Layout title='BEAUTY.LABORATORIE | Наші послуги' description='...'>
+      <Layout title='BEAUTY.LABORATORIE | Нашi послуги' description='...'>
          <ServicesPage />
       </Layout>
    )

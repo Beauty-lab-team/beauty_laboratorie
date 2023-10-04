@@ -4,9 +4,9 @@ import s from './Navbar.module.scss'
 const Links = ({ pathname, isMenuOpen }) => {
    const links = [
       { title: 'Про нас', link: '/about-us' },
-      { title: 'Статті', link: '/articles' },
+      { title: 'Статтi', link: '/articles' },
       { title: 'Послуги', link: '/services' },
-      { title: 'Ціни', link: '/prices' },
+      { title: 'Цiни', link: '/prices' },
       { title: 'Контакти', link: '/contacts' },
    ]
 

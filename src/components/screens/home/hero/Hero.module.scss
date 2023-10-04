@@ -1,7 +1,7 @@
 .hero {
-   @apply grid grid-cols-1 lg:grid-cols-10 gap-10 md:gap-12 justify-between items-center;
+   @apply grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 justify-between items-center min-h-screen;
    .info {
-      @apply lg:col-span-4 lg:order-1;
+      @apply lg:col-span-1 lg:order-1 lg:pr-12 pt-[480px] lg:pt-0;
       button {
          @apply px-12 py-3 bg-accent-1 text-white mt-4 w-full lg:w-auto;
          &:hover {
@@ -10,6 +10,6 @@
       }
    }
    .photo {
-      @apply lg:order-2 rounded-basic border border-accent-1 lg:col-span-6 justify-self-center lg:justify-self-end;
+      @apply lg:order-2 lg:col-span-1 bg-accent-2 border border-accent-1 w-full lg:w-6/12 h-[440px] md:h-[540px] mt-[0px] md:mt-0 lg:h-full lg:rounded-bl-basic object-cover absolute inset-0 lg:inset-auto lg:right-0 lg:top-0;
    }
 }

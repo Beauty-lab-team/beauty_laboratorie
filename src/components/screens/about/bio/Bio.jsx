@@ -1,10 +1,11 @@
 import Heading from '../../../UI/Heading'
+import Section from '../../../UI/Section'
 import Text from '../../../UI/Text'
 
 export default function Bio() {
    return (
-      <div>
-         <Heading>Наша клініка</Heading>
+      <Section className='pt-[140px] lg:pt-[160px]'>
+         <Heading>Наша клiнiка</Heading>
          <Text>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis exercitationem voluptates blanditiis itaque in nihil, praesentium natus
             dolorem non similique alias sit consequuntur suscipit sequi! In quisquam amet assumenda culpa.
@@ -17,6 +18,6 @@ export default function Bio() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis exercitationem voluptates blanditiis itaque in nihil, praesentium natus
             dolorem non similique alias sit consequuntur suscipit sequi! In quisquam amet assumenda culpa.
          </Text>
-      </div>
+      </Section>
    )
 }

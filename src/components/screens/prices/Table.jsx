@@ -28,24 +28,20 @@ export default function Table({ title, data }) {
                         <tr>
                            <th>Час</th>
                            <th>Опис</th>
-                           <th>
-                              Ціна
-                              <br />
-                              (грн)
-                           </th>
+                           <th>Цiна</th>
                         </tr>
                      </thead>
                      <tbody>
                         {data.map((el, i) => (
                            <tr key={i}>
                               <td>
-                                 <Text className='text-base md:text-lg'>{el.time} хв.</Text>
+                                 <Text className='text-base md:text-lg'>{el.time}хв</Text>
                               </td>
                               <td>
                                  <Text className='text-base md:text-lg'>{el.description}</Text>
                               </td>
                               <td>
-                                 <Text className='text-base md:text-lg'>{el.price}</Text>
+                                 <Text className='text-base md:text-lg'>{el.price}грн</Text>
                               </td>
                            </tr>
                         ))}
@@ -61,24 +57,20 @@ export default function Table({ title, data }) {
                      <tr>
                         <th>Час</th>
                         <th>Опис</th>
-                        <th>
-                           Ціна
-                           <br />
-                           (грн)
-                        </th>
+                        <th>Цiна</th>
                      </tr>
                   </thead>
                   <tbody>
                      {data.map((el, i) => (
                         <tr key={i}>
                            <td>
-                              <Text className='text-base md:text-lg'>{el.time} хв.</Text>
+                              <Text className='text-base md:text-lg'>{el.time}хв</Text>
                            </td>
                            <td>
                               <Text className='text-base md:text-lg'>{el.description}</Text>
                            </td>
                            <td>
-                              <Text className='text-base md:text-lg'>{el.price}</Text>
+                              <Text className='text-base md:text-lg'>{el.price}грн</Text>
                            </td>
                         </tr>
                      ))}

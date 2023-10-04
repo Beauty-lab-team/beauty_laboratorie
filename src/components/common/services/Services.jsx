@@ -20,14 +20,14 @@ export default function Services() {
    const data = [
       {
          id: 1,
-         categoryMain: "Ін'єкції краси",
+         categoryMain: "iн'єкцiї краси",
          subcategories: [
             {
                subName: 'Gana V',
                services: [
                   {
                      id: 1,
-                     title: 'Полімолочна кислота',
+                     title: 'Полiмолочна кислота',
                      img: '',
                      time: 120,
                      price: 21000,
@@ -76,11 +76,11 @@ export default function Services() {
       },
       {
          id: 2,
-         categoryMain: 'RF-ліфтинг',
+         categoryMain: 'RF-лiфтинг',
          services: [
             {
                id: 5,
-               title: 'RF-ліфтинг 1',
+               title: 'RF-лiфтинг 1',
                img: '',
                time: 45,
                price: 1100,
@@ -90,7 +90,7 @@ export default function Services() {
             },
             {
                id: 6,
-               title: 'RF-ліфтинг 2',
+               title: 'RF-лiфтинг 2',
                img: '',
                time: 45,
                price: 1250,
@@ -100,7 +100,7 @@ export default function Services() {
             },
             {
                id: 7,
-               title: 'RF-ліфтинг 3',
+               title: 'RF-лiфтинг 3',
                img: '',
                time: 30,
                price: 950,
@@ -112,11 +112,11 @@ export default function Services() {
       },
       {
          id: 3,
-         categoryMain: 'Смас-ліфтинг',
+         categoryMain: 'Смас-лiфтинг',
          services: [
             {
                id: 8,
-               title: 'Смас-ліфтинг 1',
+               title: 'Смас-лiфтинг 1',
                img: '',
                time: 45,
                price: 1100,
@@ -126,7 +126,7 @@ export default function Services() {
             },
             {
                id: 9,
-               title: 'Смас-ліфтинг 2',
+               title: 'Смас-лiфтинг 2',
                img: '',
                time: 45,
                price: 1250,
@@ -136,7 +136,7 @@ export default function Services() {
             },
             {
                id: 10,
-               title: 'Смас-ліфтинг 3',
+               title: 'Смас-лiфтинг 3',
                img: '',
                time: 30,
                price: 950,

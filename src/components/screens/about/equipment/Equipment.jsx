@@ -7,20 +7,20 @@ import EquipmentCard from './EquipmentCard'
 export default function Equipment() {
    const equipmentContent = [
       {
-         name: 'Карбоксітерапія',
-         src: '/equipment/карбоксітерапія.jpg',
+         name: 'Карбоксiтерапiя',
+         src: '/equipment/карбоксiтерапiя.jpg',
       },
       {
-         name: 'Лазерна Депіляція',
-         src: '/equipment/лазерна_депіляція.jpg',
+         name: 'Лазерна Депiляцiя',
+         src: '/equipment/лазерна_депiляцiя.jpg',
       },
       {
-         name: 'Мікроголковий РФ',
-         src: '/equipment/Мікроголковий_РФ.mp4',
+         name: 'Мiкроголковий РФ',
+         src: '/equipment/Мiкроголковий_РФ.mp4',
       },
       {
-         name: 'Слім-сфера',
-         src: '/equipment/слім-сфера.mp4',
+         name: 'Слiм-сфера',
+         src: '/equipment/слiм-сфера.mp4',
       },
    ]
 

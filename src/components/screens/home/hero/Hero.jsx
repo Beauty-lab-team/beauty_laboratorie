@@ -8,15 +8,15 @@ import Button from '../../../UI/Button'
 export default function Hero() {
    return (
       <div className={s.hero}>
-         <Image className={s.photo} src='' alt='' width={600} height={480} />
+         <Image className={s.photo} src='/clinic/hero.jpg' alt='' width={500} height={440} objectFit='contain' />
          <div className={s.info}>
-            <Heading>Смас-ліфтінг у Дніпрі</Heading>
+            <Heading>Смас-лiфтiнг у Днiпрi</Heading>
             <Text>
-               Шукаєте кваліфікованих косметологів з відгуками? Наші клієнти вдячні за ефективні процедури. Переконайтеся в цьому, зв'язавшись з нами
-               безкоштовно для консультації.
+               Шукаєте квалiфiкованих косметологiв з вiдгуками? Нашi клiєнти вдячнi за ефективнi процедури. Переконайтеся в цьому, зв'язавшись з нами
+               безкоштовно для консультацiї.
                <br />
                <br />
-               Довірте свою красу нам
+               Довiрте свою красу нам
             </Text>
             <Link href='#appointment'>
                <Button>Записатися на прийом</Button>

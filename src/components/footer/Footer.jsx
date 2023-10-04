@@ -8,7 +8,7 @@ export default function Footer() {
                <div className={s.location}>
                   <p>Ми знаходимося за адресою:</p>
                   <a href="https://www.google.com/maps/place/Dmytra+Yavornytskoho+Ave,+72%D0%B1,+Dnipro,+Dnipropetrovs'ka+oblast,+Ukraine,+49000/@48.4706639,35.0328847,17z/data=!3m1!4b1!4m6!3m5!1s0x40dbe2e555b23623:0x2469c4a31d693eae!8m2!3d48.4706639!4d35.0354596!16s%2Fg%2F11c4ntq5m1?entry=ttu">
-                     пр. Д. Яворницького 72Б, Дніпро
+                     пр. Д. Яворницького 72Б, Днiпро
                   </a>
                </div>
                <div className={s.tel}>

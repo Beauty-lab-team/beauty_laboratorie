@@ -17,10 +17,10 @@ export default function Clinic() {
          src: '/clinic/3.mp4',
       },
    ]
-   
+
    return (
       <Section>
-         <Heading>Клініка всередині</Heading>
+         <Heading>Клiнiка всерединi</Heading>
          <Slider slides={3}>
             {clinicContent.map((el, i) => (
                <SwiperSlide key={i}>

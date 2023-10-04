@@ -8,8 +8,8 @@ export default function ServicesHome() {
       <Section id='services'>
          <div className='flex flex-col md:flex-row justify-between items-start md:items-end'>
             <Heading>Послуги</Heading>
-            <LinkToPage className='mb-5 lg:mb-[48px]' link='/services'>
-               Всі послуги
+            <LinkToPage className='mb-5 lg:mb-[44px]' link='/services'>
+               Всi послуги
             </LinkToPage>
          </div>
          <Services />

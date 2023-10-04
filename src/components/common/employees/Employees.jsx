@@ -8,12 +8,12 @@ export default function Employees() {
    const isHomePage = pathname == '/'
 
    const employees = [
-      { name: 'Єва Лонгорія', position: "Косметолог-ін'єкціоніст", image: '' },
-      { name: 'Олександра Червоненко', position: "Косметолог-ін'єкціоніст", image: '' },
-      { name: 'Оксана Розбейко', position: "Косметолог-ін'єкціоніст", image: '' },
-      { name: 'Єва Лонгорія', position: "Косметолог-ін'єкціоніст", image: '' },
-      { name: 'Олександра Червоненко', position: "Косметолог-ін'єкціоніст", image: '' },
-      { name: 'Оксана Розбейко', position: "Косметолог-ін'єкціоніст", image: '' },
+      { name: 'Єва Лонгорiя', position: "Косметолог-iн'єкцiонiст", image: '' },
+      { name: 'Олександра Червоненко', position: "Косметолог-iн'єкцiонiст", image: '' },
+      { name: 'Оксана Розбейко', position: "Косметолог-iн'єкцiонiст", image: '' },
+      { name: 'Єва Лонгорiя', position: "Косметолог-iн'єкцiонiст", image: '' },
+      { name: 'Олександра Червоненко', position: "Косметолог-iн'єкцiонiст", image: '' },
+      { name: 'Оксана Розбейко', position: "Косметолог-iн'єкцiонiст", image: '' },
    ]
 
    return (

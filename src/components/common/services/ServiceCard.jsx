@@ -16,7 +16,7 @@ export default function ServiceCard({ categoryMain, subcategories, services, for
             <CardHeading>{categoryMain}</CardHeading>
             <div className={s.buttons}>
                <Button onClick={handleOpen}>Запис на прийом</Button>
-               <Button>Ціни</Button>
+               <Button>Цiни</Button>
             </div>
          </div>
       </div>

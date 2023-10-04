@@ -13,15 +13,16 @@ module.exports = {
             navbar: 'rgba(255, 255, 255, 0.7)',
          },
          fontSize: {
-            'heading-mobile': '56px',
+            'heading-mobile': '60px',
             'heading-desktop': '72px',
             'cardHeading-mobile': '26px',
             'cardHeading-desktop': '30px',
          },
          fontFamily: {
             helvetica: ['Helvetica', 'sans-serif'],
+            montserrat: ['Montserrat', 'sans-serif'],
             forum: ['Forum', 'serif'],
-            praho: ['Praho-medium', 'serif'],
+            praho: ['Praho-regular', 'serif'],
          },
          borderRadius: {
             basic: '20px',

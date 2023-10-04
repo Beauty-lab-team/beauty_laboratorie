@@ -5,7 +5,7 @@ import Employees from '../../../common/employees/Employees'
 export default function Team() {
    return (
       <Section>
-         <Heading>Наші спеціалісти</Heading>
+         <Heading>Нашi спецiалiсти</Heading>
          <Employees />
       </Section>
    )

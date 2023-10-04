@@ -11,7 +11,7 @@ export default function ArticleCard({ link, title, description, image }) {
          <img src={image} alt='' />
          <div>
             <LinkToPage link={`articles/${link.toString()}`} className='!px-4 !py-2'>
-               Детальніше
+               Детальнiше
             </LinkToPage>
             <span>18 вересня 2023</span>
          </div>

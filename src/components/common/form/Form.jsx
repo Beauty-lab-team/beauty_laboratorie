@@ -26,7 +26,7 @@ export default function Form({ handleClose }) {
    return (
       <form className={s.form} onSubmit={handlerSubmit}>
          <div>
-            <input value={name} onChange={e => setName(e.target.value)} name='name' id='name' type='text' placeholder="Ім'я" required />
+            <input value={name} onChange={e => setName(e.target.value)} name='name' id='name' type='text' placeholder="iм'я" required />
             <ReactInputMask
                mask='(+38)999-999-99-99'
                value={phone}
@@ -46,7 +46,7 @@ export default function Form({ handleClose }) {
             placeholder='Коментар'
             required
          ></textarea>
-         <Button type='submit'>Відправити заявку</Button>
+         <Button type='submit'>Вiдправити заявку</Button>
       </form>
    )
 }
