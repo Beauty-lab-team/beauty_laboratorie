@@ -25,7 +25,7 @@ export default function Feature({ heading, text }) {
                {isOpen && <Text onClick={e => e.stopPropagation()}>{text}</Text>}
             </div>
          ) : (
-            <div className='rounded-basic bg-accent-2 p-6'>
+            <div className={s.feature}>
                <CardHeading className='mb-3'>{heading}</CardHeading>
                <Text>{text}</Text>
             </div>

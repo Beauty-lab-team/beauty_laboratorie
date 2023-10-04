@@ -21,10 +21,11 @@ module.exports = {
          fontFamily: {
             helvetica: ['Helvetica', 'sans-serif'],
             forum: ['Forum', 'serif'],
+            praho: ['Praho-medium', 'serif'],
          },
          borderRadius: {
-            basic: '24px',
-            inner: '18px',
+            basic: '20px',
+            inner: '14px',
          },
       },
    },

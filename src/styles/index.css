@@ -8,6 +8,14 @@
    font-family: 'Forum';
    src: url('/fonts/Forum-Regular.ttf');
 }
+@font-face {
+   font-family: 'Praho-regular';
+   src: url('/fonts/PrahoPro-Regular.ttf');
+}
+@font-face {
+   font-family: 'Praho-medium';
+   src: url('/fonts/PrahoPro-Medium.ttf');
+}
 
 html,
 body {
