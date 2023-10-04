@@ -37,7 +37,7 @@ export default function Page() {
    if (!newsItem) {
       return (
          <Layout title='BEAUTY.LABORATORIE | Новина не знайдена' description='...'>
-            <Heading>Такої новини не iснує</Heading>
+            <Heading className='pt-[140px] lg:pt-[160px]'>Такої новини не iснує</Heading>
          </Layout>
       )
    }
@@ -46,7 +46,7 @@ export default function Page() {
 
    return (
       <Layout title={`BEAUTY.LABORATORIE | ${title}`} description='...'>
-         <Heading>{title}</Heading>
+         <Heading className='pt-[140px] lg:pt-[160px]'>{title}</Heading>
          <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6'>
             <Text className='lg:col-span-2'>{description}</Text>
             <Image className='lg:col-span-1 rounded-basic mt-5 lg:mt-0 border border-accent-1' src={image} width={500} height={500} alt='' />
