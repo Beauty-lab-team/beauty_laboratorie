@@ -8,25 +8,25 @@ export default function Equipment() {
    const equipmentContent = [
       {
          name: 'Карбоксiтерапiя',
-         src: '/equipment/карбоксiтерапiя.jpg',
+         src: '/equipment/карбоксітерапія.jpg',
       },
       {
          name: 'Лазерна Депiляцiя',
-         src: '/equipment/лазерна_депiляцiя.jpg',
+         src: '/equipment/лазерна_депіляція.jpg',
       },
       {
          name: 'Мiкроголковий РФ',
-         src: '/equipment/Мiкроголковий_РФ.mp4',
+         src: '/equipment/Мікроголковий_РФ.mp4',
       },
       {
          name: 'Слiм-сфера',
-         src: '/equipment/слiм-сфера.mp4',
+         src: '/equipment/слім-сфера.mp4',
       },
    ]
 
    return (
       <Section>
-         <Heading>Обладнання</Heading>
+         <Heading>Наше обладнання</Heading>
          <Slider slides={3}>
             {equipmentContent.map((el, i) => (
                <SwiperSlide key={i}>

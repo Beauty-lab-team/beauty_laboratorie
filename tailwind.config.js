@@ -9,11 +9,11 @@ module.exports = {
             'text-2': '#7c7c85',
             'text-3': '#9699a0',
             'accent-1': '#4559ac',
-            'accent-2': '#f3f3f4',
+            'accent-2': '#f4f4f5',
             navbar: 'rgba(255, 255, 255, 0.7)',
          },
          fontSize: {
-            'heading-mobile': '60px',
+            'heading-mobile': '58px',
             'heading-desktop': '72px',
             'cardHeading-mobile': '26px',
             'cardHeading-desktop': '30px',

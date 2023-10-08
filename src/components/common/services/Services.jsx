@@ -20,20 +20,18 @@ export default function Services() {
    const data = [
       {
          id: 1,
-         categoryMain: "iн'єкцiї краси",
+         categoryMain: "Ін'єкції краси",
          subcategories: [
             {
                subName: 'Gana V',
                services: [
                   {
                      id: 1,
-                     title: 'Полiмолочна кислота',
                      img: '',
                      time: 120,
                      price: 21000,
-                     description:
-                        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsam fugit. Molestias consectetur eum molestiae omnis dolores vero labore ipsa officia distinctio, alias laudantium numquam commodi excepturi pariatur ab! Inventore!',
-                     slug: 'polimolochka-kislota',
+                     description: 'description',
+                     slug: 'polimolochna-kislota',
                   },
                ],
             },
@@ -42,32 +40,26 @@ export default function Services() {
                services: [
                   {
                      id: 2,
-                     title: 'Ботулотоксин 1',
                      img: '',
                      time: 10,
                      price: 2200,
-                     description:
-                        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsam fugit. Molestias consectetur eum molestiae omnis dolores vero labore ipsa officia distinctio, alias laudantium numquam commodi excepturi pariatur ab! Inventore!',
+                     description: 'description',
                      slug: 'botulotoksin-1',
                   },
                   {
                      id: 3,
-                     title: 'Ботулотоксин 2',
                      img: '',
                      time: 30,
                      price: 1300,
-                     description:
-                        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsam fugit. Molestias consectetur eum molestiae omnis dolores vero labore ipsa officia distinctio, alias laudantium numquam commodi excepturi pariatur ab! Inventore!',
+                     description: 'description',
                      slug: 'botulotoksin-2',
                   },
                   {
                      id: 4,
-                     title: 'Ботулотоксин 3',
                      img: '',
                      time: 30,
                      price: 1600,
-                     description:
-                        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsam fugit. Molestias consectetur eum molestiae omnis dolores vero labore ipsa officia distinctio, alias laudantium numquam commodi excepturi pariatur ab! Inventore!',
+                     description: 'description',
                      slug: 'botulotoksin-3',
                   },
                ],
@@ -80,32 +72,26 @@ export default function Services() {
          services: [
             {
                id: 5,
-               title: 'RF-лiфтинг 1',
                img: '',
                time: 45,
                price: 1100,
-               description:
-                  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsam fugit. Molestias consectetur eum molestiae omnis dolores vero labore ipsa officia distinctio, alias laudantium numquam commodi excepturi pariatur ab! Inventore!',
+               description: 'description',
                slug: 'rf-lifting-1',
             },
             {
                id: 6,
-               title: 'RF-лiфтинг 2',
                img: '',
                time: 45,
                price: 1250,
-               description:
-                  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsam fugit. Molestias consectetur eum molestiae omnis dolores vero labore ipsa officia distinctio, alias laudantium numquam commodi excepturi pariatur ab! Inventore!',
+               description: 'description',
                slug: 'rf-lifting-2',
             },
             {
                id: 7,
-               title: 'RF-лiфтинг 3',
                img: '',
                time: 30,
                price: 950,
-               description:
-                  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsam fugit. Molestias consectetur eum molestiae omnis dolores vero labore ipsa officia distinctio, alias laudantium numquam commodi excepturi pariatur ab! Inventore!',
+               description: 'description',
                slug: 'rf-lifting-3',
             },
          ],
@@ -116,32 +102,26 @@ export default function Services() {
          services: [
             {
                id: 8,
-               title: 'Смас-лiфтинг 1',
                img: '',
                time: 45,
                price: 1100,
-               description:
-                  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsam fugit. Molestias consectetur eum molestiae omnis dolores vero labore ipsa officia distinctio, alias laudantium numquam commodi excepturi pariatur ab! Inventore!',
+               description: 'description',
                slug: 'smas-lifting-1',
             },
             {
                id: 9,
-               title: 'Смас-лiфтинг 2',
                img: '',
                time: 45,
                price: 1250,
-               description:
-                  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsam fugit. Molestias consectetur eum molestiae omnis dolores vero labore ipsa officia distinctio, alias laudantium numquam commodi excepturi pariatur ab! Inventore!',
+               description: 'description',
                slug: 'smas-lifting-2',
             },
             {
                id: 10,
-               title: 'Смас-лiфтинг 3',
                img: '',
                time: 30,
                price: 950,
-               description:
-                  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsam fugit. Molestias consectetur eum molestiae omnis dolores vero labore ipsa officia distinctio, alias laudantium numquam commodi excepturi pariatur ab! Inventore!',
+               description: 'description',
                slug: 'smas-lifting-3',
             },
          ],

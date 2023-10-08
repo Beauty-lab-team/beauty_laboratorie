@@ -2,8 +2,9 @@ import Image from 'next/image'
 import s from './Services.module.scss'
 import CardHeading from '../../UI/CardHeading'
 import Button from '../../UI/Button'
+import LinkToPage from '../../UI/LinkToPage'
 
-export default function ServiceCard({ categoryMain, subcategories, services, formHandler }) {
+export default function ServiceCard({ categoryMain, id, formHandler }) {
    const handleOpen = () => {
       formHandler(true)
       document.body.style.overflow = 'hidden'
@@ -16,7 +17,7 @@ export default function ServiceCard({ categoryMain, subcategories, services, for
             <CardHeading>{categoryMain}</CardHeading>
             <div className={s.buttons}>
                <Button onClick={handleOpen}>Запис на прийом</Button>
-               <Button>Цiни</Button>
+               <LinkToPage link={`/prices/#${id}`}>Цiни</LinkToPage>
             </div>
          </div>
       </div>

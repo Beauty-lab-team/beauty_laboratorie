@@ -1,15 +1,18 @@
 .hero {
-   @apply grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 justify-between items-center min-h-screen;
+   // @apply grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 justify-between items-center min-h-screen 2xl:min-h-full 2xl:pt-44;
+   @apply grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 justify-between items-center;
    .info {
-      @apply lg:col-span-1 lg:order-1 lg:pr-12 pt-[480px] lg:pt-0;
+      // @apply lg:col-span-1 lg:order-1 lg:pr-12 pt-[480px] lg:pt-0;
+      @apply lg:col-span-1 lg:order-1 lg:pr-12;
       button {
-         @apply px-12 py-3 bg-accent-1 text-white mt-4 w-full lg:w-auto;
+         @apply px-12 py-2 bg-accent-1 text-white mt-4 w-full lg:w-auto;
          &:hover {
             @apply text-accent-1 border-accent-1 bg-transparent;
          }
       }
    }
    .photo {
-      @apply lg:order-2 lg:col-span-1 bg-accent-2 border border-accent-1 w-full lg:w-6/12 h-[440px] md:h-[540px] mt-[0px] md:mt-0 lg:h-full lg:rounded-bl-basic object-cover absolute inset-0 lg:inset-auto lg:right-0 lg:top-0;
+      // @apply lg:order-2 lg:col-span-1 bg-accent-2 w-full lg:w-6/12 h-[440px] md:h-[540px] lg:h-full 2xl:h-[600px] rounded-bl-basic object-cover absolute inset-0 lg:inset-auto lg:right-0 lg:top-0;
+      @apply lg:order-2 lg:col-span-1 w-full h-full lg:scale-110 rounded-basic border border-accent-1;
    }
 }

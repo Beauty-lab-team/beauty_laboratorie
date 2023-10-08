@@ -7,11 +7,19 @@
       @apply flex justify-between items-center;
       svg {
          @apply transition-transform transform duration-200 ease-out origin-center relative right-2;
-         &.open {
-            @apply rotate-90 mb-4;
+      }
+   }
+   .subname {
+      @apply text-text-1 text-xl mb-3 pt-5;
+   }
+   .tableMain {
+      .tableSub {
+         &:first-of-type .subname {
+            @apply pt-0;
          }
       }
    }
+
    table {
       @apply w-full border-separate border border-spacing-0 rounded-inner overflow-hidden;
       thead {
