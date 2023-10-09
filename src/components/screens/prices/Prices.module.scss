@@ -1,25 +1,7 @@
 .tables {
-   @apply columns-1 md:columns-2 gap-3 md:gap-4;
+   @apply grid items-start grid-cols-1 md:grid-cols-2 gap-3 md:gap-4;
 }
-.tableSection {
-   @apply p-5 mb-3 md:mb-4 bg-accent-2 rounded-basic break-inside-avoid;
-   .heading {
-      @apply flex justify-between items-center;
-      svg {
-         @apply transition-transform transform duration-200 ease-out origin-center relative right-2;
-      }
-   }
-   .subname {
-      @apply text-text-1 text-xl mb-3 pt-5;
-   }
-   .tableMain {
-      .tableSub {
-         &:first-of-type .subname {
-            @apply pt-0;
-         }
-      }
-   }
-
+.tableMain {
    table {
       @apply w-full border-separate border border-spacing-0 rounded-inner overflow-hidden;
       thead {
@@ -36,6 +18,14 @@
                @apply p-3 text-sm text-text-2 md:font-light;
             }
          }
+      }
+   }
+   .tableSub {
+      .subname {
+         @apply text-text-1 text-xl mb-3 pt-5;
+      }
+      &:first-of-type .subname {
+         @apply pt-0;
       }
    }
 }

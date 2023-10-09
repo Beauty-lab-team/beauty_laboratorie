@@ -1,7 +1,5 @@
 import Table from './Table'
 import s from './Prices.module.scss'
-import { useRouter } from 'next/router'
-import { useEffect } from 'react'
 
 export default function PricesTable() {
    const data = [

@@ -1,0 +1,12 @@
+.accordion {
+   @apply rounded-basic bg-accent-2 p-5;
+   .heading {
+      @apply flex justify-between items-center cursor-pointer;
+      svg {
+         @apply transition-transform transform duration-200 ease-out origin-center relative right-2;
+         &.open {
+            @apply rotate-90 mb-3;
+         }
+      }
+   }
+}

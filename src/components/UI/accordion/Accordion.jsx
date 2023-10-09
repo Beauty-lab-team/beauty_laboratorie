@@ -1,18 +1,36 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import s from './Accordion.module.scss'
 import useMediaQuery from '../../../hooks/useMediaQuery'
-import CardHeading from '../../UI/CardHeading'
-import Text from '../../UI/Text'
-import s from './Features.module.scss'
+import CardHeading from '../CardHeading'
+import { useRouter } from 'next/router'
 
-export default function Feature({ heading, text }) {
+export default function Accordion({ heading, sectionId, isClickable = false, children }) {
+   const router = useRouter()
+   const routeId = router.asPath.split('#')[1] || null
+
    const isDesktop = useMediaQuery('(min-width: 768px)')
    const [isOpen, setIsOpen] = useState(false)
    const toggleAccordion = () => setIsOpen(!isOpen)
 
+   // useEffect(() => setIsOpen(isDesktop), [isDesktop])
+
+   useEffect(() => {
+      if (routeId) {
+         const element = document.getElementById(routeId)
+         if (element) {
+            element.click()
+            window.scrollTo({
+               top: element.offsetTop - 100,
+               behavior: 'smooth',
+            })
+         }
+      }
+   }, [routeId])
+
    return (
       <>
-         {!isDesktop ? (
-            <div onClick={toggleAccordion} className={s.feature}>
+         {!isDesktop || isClickable ? (
+            <div onClick={toggleAccordion} className={s.accordion} id={sectionId}>
                <div className={s.heading}>
                   <CardHeading className={!isOpen ? 'mb-0' : 'mb-3'}>{heading}</CardHeading>
                   <svg className={isOpen && s.open} xmlns='http://www.w3.org/2000/svg' width='11' height='20' id='arrow'>
@@ -22,12 +40,12 @@ export default function Feature({ heading, text }) {
                      ></path>
                   </svg>
                </div>
-               {isOpen && <Text onClick={e => e.stopPropagation()}>{text}</Text>}
+               {isOpen && children}
             </div>
          ) : (
-            <div className={s.feature}>
+            <div className={s.accordion} id={sectionId}>
                <CardHeading className='mb-3'>{heading}</CardHeading>
-               <Text>{text}</Text>
+               {children}
             </div>
          )}
       </>
