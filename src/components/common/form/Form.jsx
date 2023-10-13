@@ -49,18 +49,22 @@ export default function Form({ handleClose }) {
 
    return (
       <form className={s.form} onSubmit={handlerSubmit}>
-         <div>
-            {errors.name && <span className={s.error}>{errors.name}</span>}
-            <input value={name} onChange={e => setName(e.target.value)} name='name' id='name' type='text' placeholder="iм'я" />
-            {errors.phone && <span className={s.error}>{errors.phone}</span>}
-            <ReactInputMask
-               mask='(+38)999-999-99-99'
-               value={phone}
-               onChange={handleInput}
-               inputMode='tel'
-               placeholder='Номер телефону'
-               aria-label='Номер телефону'
-            />
+         <div className='flex flex-col md:flex-row gap-2 md:gap-4'>
+            <div className='w-full flex flex-col gap-[5px] md:gap-[10px]'>
+               {errors.name && <span className={s.error}>{errors.name}</span>}
+               <input value={name} onChange={e => setName(e.target.value)} name='name' id='name' type='text' placeholder="iм'я" />
+            </div>
+            <div className='w-full flex flex-col gap-[5px] md:gap-[10px]'>
+               {errors.phone && <span className={s.error}>{errors.phone}</span>}
+               <ReactInputMask
+                  mask='(+38)999-999-99-99'
+                  value={phone}
+                  onChange={handleInput}
+                  inputMode='tel'
+                  placeholder='Номер телефону'
+                  aria-label='Номер телефону'
+               />
+            </div>
          </div>
          {errors.description && <span className={s.error}>{errors.description}</span>}
          <textarea

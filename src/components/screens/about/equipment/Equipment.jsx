@@ -15,12 +15,24 @@ export default function Equipment() {
          src: '/equipment/лазерна_депіляція.jpg',
       },
       {
+         name: 'Гідродермабразія',
+         src: '/equipment/гідродермабразія.jpg',
+      },
+      {
+         name: 'Оксигенотерапія',
+         src: '/equipment/оксигенотерапія.jpg',
+      },
+      {
          name: 'Мiкроголковий РФ',
          src: '/equipment/Мікроголковий_РФ.mp4',
       },
       {
          name: 'Слiм-сфера',
          src: '/equipment/слім-сфера.mp4',
+      },
+      {
+         name: 'Лімфодренаж',
+         src: '/equipment/лімфодренаж.mp4',
       },
    ]
 

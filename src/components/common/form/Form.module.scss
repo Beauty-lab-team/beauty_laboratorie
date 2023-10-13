@@ -1,8 +1,5 @@
 .form {
    @apply flex flex-col gap-2 md:gap-4 w-full;
-   div {
-      @apply flex flex-col md:flex-row gap-2 md:gap-4;
-   }
    input,
    textarea {
       @apply w-full text-text-1 md:text-lg border border-accent-2 rounded-inner px-5 py-3;
