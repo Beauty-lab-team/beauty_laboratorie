@@ -6,7 +6,7 @@ export default function ContactsPage() {
    return (
       <Section className='pt-[140px] lg:pt-[160px]'>
          <Heading>Як нас знайти</Heading>
-         <video className='w-full h-auto rounded-basic' src='/clinic/як-знайти.mp4' controls muted />
+         <video className='w-full h-auto rounded-basic' src='/clinic/як-знайти.mp4' controls muted autoPlay />
          <Image className='mt-24 md:mt-44' src='/info.svg' width={600} height={600} alt='info' />
          <Appointment />
       </Section>
