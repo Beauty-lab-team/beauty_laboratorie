@@ -19,4 +19,11 @@
          @apply text-accent-1 border-accent-1 bg-transparent;
       }
    }
+   .error {
+      @apply text-rose-400 text-base mb-[-5px] ml-2;
+      & + input,
+      & + textarea {
+         @apply border-rose-400/50 border-2;
+      }
+   }
 }

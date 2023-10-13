@@ -7,10 +7,33 @@ export default function Form({ handleClose }) {
    const [phone, setPhone] = useState('')
    const [name, setName] = useState('')
    const [description, setDescription] = useState('')
+   const [errors, setErrors] = useState({})
+
    const handleInput = ({ target: { value } }) => setPhone(value)
+
+   const validate = () => {
+      const errors = {}
+      if (!name.trim()) {
+         errors.name = "Ім'я не може бути порожнім"
+      }
+      if (!phone.trim()) {
+         errors.phone = 'Введіть номер телефону'
+      } else if (!/^\(\+38\)\d{3}-\d{3}-\d{2}-\d{2}$/.test(phone)) {
+         errors.phone = 'Невірний формат номеру телефону'
+      }
+      if (!description.trim()) {
+         errors.description = 'Коментар не може бути порожнім'
+      }
+      return errors
+   }
 
    const handlerSubmit = e => {
       e.preventDefault()
+      const errors = validate()
+      if (Object.keys(errors).length) {
+         setErrors(errors)
+         return
+      }
       const data = {
          name,
          phone,
@@ -20,13 +43,16 @@ export default function Form({ handleClose }) {
       setName('')
       setPhone('')
       setDescription('')
+      setErrors({})
       handleClose ? handleClose(false) : null
    }
 
    return (
       <form className={s.form} onSubmit={handlerSubmit}>
          <div>
-            <input value={name} onChange={e => setName(e.target.value)} name='name' id='name' type='text' placeholder="iм'я" required />
+            {errors.name && <span className={s.error}>{errors.name}</span>}
+            <input value={name} onChange={e => setName(e.target.value)} name='name' id='name' type='text' placeholder="iм'я" />
+            {errors.phone && <span className={s.error}>{errors.phone}</span>}
             <ReactInputMask
                mask='(+38)999-999-99-99'
                value={phone}
@@ -36,6 +62,7 @@ export default function Form({ handleClose }) {
                aria-label='Номер телефону'
             />
          </div>
+         {errors.description && <span className={s.error}>{errors.description}</span>}
          <textarea
             value={description}
             onChange={e => setDescription(e.target.value)}
@@ -44,7 +71,6 @@ export default function Form({ handleClose }) {
             cols='40'
             rows='6'
             placeholder='Коментар'
-            required
          ></textarea>
          <Button type='submit'>Вiдправити заявку</Button>
       </form>
