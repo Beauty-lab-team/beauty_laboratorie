@@ -9,7 +9,7 @@ export default function EquipmentCard({ name, src }) {
    return (
       <div className={s.equipment}>
          {isImage && <Image src={src} width={720} height={1280} alt={name} />}
-         {isVideo && <video src={src} autoPlay loop muted loading='lazy' />}
+         {isVideo && <video src={src} autoPlay loop playsInline muted loading='lazy' />}
          <CardHeading className='mt-3 text-center'>{name}</CardHeading>
       </div>
    )

@@ -10,10 +10,12 @@ export default function Slider({ slides, group, children, className }) {
          className={className}
          breakpoints={{
             320: {
+               slidesPerGroup: 1,
                slidesPerView: 1,
                spaceBetween: 12,
             },
             640: {
+               slidesPerGroup: 1,
                slidesPerView: 2,
                spaceBetween: 12,
             },
@@ -38,7 +40,7 @@ export default function Slider({ slides, group, children, className }) {
             nextEl: '.next',
          }}
          keyboard={{ enabled: true }}
-         speed={600}
+         speed={500}
          effect=''
       >
          {children}

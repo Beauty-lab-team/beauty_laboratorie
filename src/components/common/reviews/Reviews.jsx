@@ -26,7 +26,7 @@ export default function Reviews() {
             {reviews.map((el, i) => (
                <SwiperSlide key={i}>
                   <div className={s.review}>
-                     <Image className='rounded-basic' src={el} width={1200} height={800} alt='' />
+                     <Image className='rounded-basic h-[650px] w-full object-cover md:object-fill' src={el} width={1200} height={800} alt='' />
                   </div>
                </SwiperSlide>
             ))}

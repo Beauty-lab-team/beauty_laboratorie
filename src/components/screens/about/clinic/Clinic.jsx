@@ -30,13 +30,13 @@ export default function Clinic() {
                <SwiperSlide>
                   <div className={s.videos}>
                      <div className={s.video}>
-                        <video src='/clinic/1.mp4' autoPlay loop muted loading='lazy' />
+                        <video src='/clinic/1.mp4' autoPlay loop playsInline muted loading='lazy' />
                      </div>
                      <div className={s.video}>
-                        <video src='/clinic/2.mp4' autoPlay loop muted loading='lazy' />
+                        <video src='/clinic/2.mp4' autoPlay loop playsInline muted loading='lazy' />
                      </div>
                      <div className={s.video}>
-                        <video src='/clinic/3.mp4' autoPlay loop muted loading='lazy' />
+                        <video src='/clinic/3.mp4' autoPlay loop playsInline muted loading='lazy' />
                      </div>
                   </div>
                </SwiperSlide>
