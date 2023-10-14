@@ -39,7 +39,7 @@ export default function Equipment() {
    return (
       <Section>
          <Heading>Наше обладнання</Heading>
-         <Slider slides={3}>
+         <Slider slides={3} group={2}>
             {equipmentContent.map((el, i) => (
                <SwiperSlide key={i}>
                   <EquipmentCard name={el.name} src={el.src} />

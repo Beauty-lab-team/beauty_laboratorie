@@ -1,32 +1,46 @@
-import React from 'react'
 import Section from '../../../UI/Section'
 import Heading from '../../../UI/Heading'
 import Slider from '../../../UI/slider/Slider'
-import ClinicCard from './ClinicCard'
 import { SwiperSlide } from 'swiper/react'
+import Image from 'next/image'
+import s from './Clinic.module.scss'
+import useMediaQuery from '../../../../hooks/useMediaQuery'
 
 export default function Clinic() {
-   const clinicContent = [
-      {
-         src: '/clinic/1.mp4',
-      },
-      {
-         src: '/clinic/2.mp4',
-      },
-      {
-         src: '/clinic/3.mp4',
-      },
-   ]
+   const isDesktop = useMediaQuery('(min-width: 1024px)')
 
    return (
       <Section>
          <Heading>Клiнiка всерединi</Heading>
-         <Slider slides={3}>
-            {clinicContent.map((el, i) => (
-               <SwiperSlide key={i}>
-                  <ClinicCard src={el.src} />
+         <Slider slides={1}>
+            <SwiperSlide>
+               <div className={s.photos}>
+                  <div className={s.photo}>
+                     <Image quality={100} width={1280} height={960} src='/clinic/a.jpg' alt='' />
+                  </div>
+                  <div className={s.photo}>
+                     <Image quality={100} width={1280} height={960} src='/clinic/b.jpg' alt='' />
+                  </div>
+                  <div className={s.photo}>
+                     <Image quality={100} width={1280} height={960} src='/clinic/c.jpg' alt='' />
+                  </div>
+               </div>
+            </SwiperSlide>
+            {isDesktop && (
+               <SwiperSlide>
+                  <div className={s.videos}>
+                     <div className={s.video}>
+                        <video src='/clinic/1.mp4' autoPlay loop muted loading='lazy' />
+                     </div>
+                     <div className={s.video}>
+                        <video src='/clinic/2.mp4' autoPlay loop muted loading='lazy' />
+                     </div>
+                     <div className={s.video}>
+                        <video src='/clinic/3.mp4' autoPlay loop muted loading='lazy' />
+                     </div>
+                  </div>
                </SwiperSlide>
-            ))}
+            )}
          </Slider>
       </Section>
    )

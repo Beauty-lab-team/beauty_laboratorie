@@ -27,6 +27,15 @@ export default function Form({ handleClose }) {
       return errors
    }
 
+   const handleBlur = ({ target: { name } }) => {
+      const errors = validate()
+      if (errors[name]) {
+         setErrors(prevErrors => ({ ...prevErrors, [name]: errors[name] }))
+      } else {
+         setErrors(prevErrors => ({ ...prevErrors, [name]: '' }))
+      }
+   }
+
    const handlerSubmit = e => {
       e.preventDefault()
       const errors = validate()
@@ -52,7 +61,7 @@ export default function Form({ handleClose }) {
          <div className='flex flex-col md:flex-row gap-2 md:gap-4'>
             <div className='w-full flex flex-col gap-[5px] md:gap-[10px]'>
                {errors.name && <span className={s.error}>{errors.name}</span>}
-               <input value={name} onChange={e => setName(e.target.value)} name='name' id='name' type='text' placeholder="iм'я" />
+               <input value={name} onChange={e => setName(e.target.value)} onBlur={handleBlur} name='name' id='name' type='text' placeholder="iм'я" />
             </div>
             <div className='w-full flex flex-col gap-[5px] md:gap-[10px]'>
                {errors.phone && <span className={s.error}>{errors.phone}</span>}
@@ -60,6 +69,7 @@ export default function Form({ handleClose }) {
                   mask='(+38)999-999-99-99'
                   value={phone}
                   onChange={handleInput}
+                  onBlur={handleBlur}
                   inputMode='tel'
                   placeholder='Номер телефону'
                   aria-label='Номер телефону'
@@ -70,6 +80,7 @@ export default function Form({ handleClose }) {
          <textarea
             value={description}
             onChange={e => setDescription(e.target.value)}
+            onBlur={handleBlur}
             name='description'
             id='description'
             cols='40'

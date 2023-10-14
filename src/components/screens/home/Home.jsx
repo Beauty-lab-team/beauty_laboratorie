@@ -3,6 +3,7 @@ import Appointment from '../../common/appointment/Appointment'
 import Benefits from './benefits/Benefits'
 import Hero from './hero/Hero'
 import ServicesHome from './services/ServicesHome'
+import Reviews from '../../common/reviews/Reviews'
 
 export default function HomePage() {
    return (
@@ -11,6 +12,7 @@ export default function HomePage() {
          <ServicesHome />
          <About />
          <Benefits />
+         <Reviews />
          <Appointment />
       </div>
    )

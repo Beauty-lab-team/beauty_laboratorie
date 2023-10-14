@@ -5,6 +5,7 @@ import Team from './team/Team'
 import Benefits from './benefits/Benefits'
 import Clinic from './clinic/Clinic'
 import Appointment from '../../common/appointment/Appointment'
+import Reviews from '../../common/reviews/Reviews'
 
 export default function AboutPage() {
    return (
@@ -14,6 +15,7 @@ export default function AboutPage() {
          <Clinic />
          <Equipment />
          <Benefits />
+         <Reviews />
          <Certificates />
          <Appointment />
       </div>

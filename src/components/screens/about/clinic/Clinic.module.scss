@@ -1,10 +1,27 @@
-.clinic {
-   @apply rounded-basic bg-accent-2 p-3 mb-12 xl:mb-4;
-   img,
-   video {
-      @apply rounded-inner h-[550px] object-cover;
+.photos {
+   @apply grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-3 md:gap-4 mb-12 xl:mb-4;
+   & .photo {
+      @apply rounded-basic bg-accent-2 p-3;
+      img {
+         @apply rounded-inner;
+      }
+      &:nth-child(1) {
+         @apply md:col-span-2 md:row-span-2;
+      }
+      &:nth-child(2) {
+         @apply md:col-span-1 md:row-span-1;
+      }
+      &:nth-child(3) {
+         @apply md:col-span-1 md:row-span-1;
+      }
    }
-   video {
-      @apply pointer-events-none;
+}
+.videos {
+   @apply grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 mb-12 xl:mb-4;
+   & .video {
+      @apply rounded-basic bg-accent-2 p-3;
+      video {
+         @apply rounded-inner w-full h-[570px] object-cover;
+      }
    }
 }

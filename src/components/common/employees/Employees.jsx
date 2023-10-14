@@ -17,7 +17,7 @@ export default function Employees() {
    ]
 
    return (
-      <Slider slides={isHomePage ? 2 : 4}>
+      <Slider slides={isHomePage ? 2 : 4} group={isHomePage ? 2 : 3}>
          {employees.map((el, i) => (
             <SwiperSlide key={i}>
                <Employee name={el.name} position={el.position} image={el.image} />
