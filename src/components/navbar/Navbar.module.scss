@@ -1,7 +1,7 @@
 .navbar {
    @apply py-5 fixed left-0 right-0 z-30 backdrop-blur-lg border-b-[1px] border-navbar bg-navbar;
-   &.expanded {
-      @apply h-[310px];
+   &.open {
+      @apply h-[295px] sm:h-[130px];
    }
    .content {
       @apply container px-3 md:px-12 mx-auto flex justify-between items-center;
@@ -14,7 +14,7 @@
    }
 }
 .navLinks {
-   @apply absolute md:static top-[90px] right-0 sm:right-10 px-3 hidden md:flex flex-col md:flex-row justify-between md:justify-end items-end md:items-center w-full gap-[15px] md:gap-[20px] lg:gap-[44px] text-xl md:text-base lg:text-lg font-medium text-text-3;
+   @apply absolute md:static top-[75px] right-0 px-3 hidden md:flex flex-col sm:flex-row sm:justify-center items-end sm:items-center w-full gap-[15px] sm:gap-[32px] lg:gap-[44px] text-xl md:text-base lg:text-lg font-medium text-text-3;
    &.show {
       @apply flex;
    }

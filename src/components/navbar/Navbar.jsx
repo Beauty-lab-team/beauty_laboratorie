@@ -14,7 +14,7 @@ const Navbar = () => {
    const logoWidth = useMediaQuery('(min-width: 768px)') ? 400 : 285
 
    return (
-      <nav className={`${s.navbar} ${isMenuOpen ? s.expanded : ''}`}>
+      <nav className={`${s.navbar} ${isMenuOpen ? s.open : ''}`}>
          <div className={s.content}>
             <Link className={s.logo} href='/'>
                <Image src='/logo.svg' alt='BEAUTY.LABORATORIE' width={logoWidth} height={20} />

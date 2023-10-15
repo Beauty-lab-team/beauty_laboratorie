@@ -4,7 +4,7 @@ import 'swiper/scss'
 import 'swiper/scss/pagination'
 import 'swiper/scss/navigation'
 
-export default function Slider({ slides, group, children, className }) {
+export default function Slider({ slides, group, tabletSlides, children, className }) {
    return (
       <Swiper
          className={className}
@@ -16,7 +16,7 @@ export default function Slider({ slides, group, children, className }) {
             },
             640: {
                slidesPerGroup: 1,
-               slidesPerView: 2,
+               slidesPerView: tabletSlides || 2,
                spaceBetween: 12,
             },
             768: {
@@ -40,7 +40,7 @@ export default function Slider({ slides, group, children, className }) {
             nextEl: '.next',
          }}
          keyboard={{ enabled: true }}
-         speed={500}
+         speed={450}
          effect=''
       >
          {children}

@@ -10,6 +10,6 @@
       }
    }
    .photo {
-      @apply lg:order-2 lg:col-span-1 w-[500px] h-[440px] lg:scale-110 rounded-basic border border-accent-1;
+      @apply lg:order-2 lg:col-span-1 w-full lg:w-[500px] h-[440px] lg:scale-110 rounded-basic border border-accent-1;
    }
 }

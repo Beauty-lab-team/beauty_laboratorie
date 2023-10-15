@@ -12,7 +12,7 @@ export default function Clinic() {
    return (
       <Section>
          <Heading>Клiнiка всерединi</Heading>
-         <Slider slides={1}>
+         <Slider slides={1} tabletSlides={1}>
             <SwiperSlide>
                <div className={s.photos}>
                   <div className={s.photo}>
