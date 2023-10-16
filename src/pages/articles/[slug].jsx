@@ -36,7 +36,7 @@ export default function Page() {
 
    if (!newsItem) {
       return (
-         <Layout title='BEAUTY.LABORATORIE | Новина не знайдена' description='...'>
+         <Layout title='BEAUTY.LABORATORIE | Стаття не знайдена' description='...'>
             <Heading className='pt-[140px] lg:pt-[160px]'>Такої новини не iснує</Heading>
          </Layout>
       )
