@@ -9,10 +9,6 @@ export default function Form({ handleClose }) {
    const [description, setDescription] = useState('')
    const [errors, setErrors] = useState({})
 
-   const token = '6636841061:AAF7wnWZbg5DDsvnd79KX7v9wBnw_GCRq4o'
-   const chatId = '979872254'
-   // const chatId = '573909735'
-
    const handleInput = ({ target: { value } }) => setPhone(value)
 
    const validate = () => {
@@ -54,7 +50,7 @@ export default function Form({ handleClose }) {
       //    Коментар: ${description.trim()}
       // `
 
-      fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${data}`)
+      fetch(`https://api.telegram.org/bot${process.env.TOKEN}/sendMessage?chat_id=${process.env.CHAT_ID}&text=${data}`)
          .then(res => {
             alert('Ваша заявка успішно відправлена')
 
