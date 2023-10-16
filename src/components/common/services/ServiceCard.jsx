@@ -13,12 +13,10 @@ export default function ServiceCard({ categoryMain, id, formHandler }) {
    return (
       <div className={s.service}>
          <Image className={s.image} src={''} alt='' width={300} height={200} />
-         <div className={s.content}>
-            <CardHeading>{categoryMain}</CardHeading>
-            <div className={s.buttons}>
-               <Button onClick={handleOpen}>Запис на прийом</Button>
-               <LinkToPage link={`/prices/#${id}`}>Цiни</LinkToPage>
-            </div>
+         <CardHeading className='flex-1'>{categoryMain}</CardHeading>
+         <div className={s.buttons}>
+            <Button onClick={handleOpen}>Запис на прийом</Button>
+            <LinkToPage link={`/prices/#${id}`}>Цiни</LinkToPage>
          </div>
       </div>
    )

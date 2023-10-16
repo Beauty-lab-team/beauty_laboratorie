@@ -16,7 +16,7 @@ module.exports = {
             'heading-mobile': '58px',
             'heading-desktop': '72px',
             'cardHeading-mobile': '24px',
-            'cardHeading-desktop': '30px',
+            'cardHeading-desktop': '28px',
          },
          fontFamily: {
             helvetica: ['Helvetica', 'sans-serif'],

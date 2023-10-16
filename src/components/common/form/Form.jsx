@@ -9,6 +9,10 @@ export default function Form({ handleClose }) {
    const [description, setDescription] = useState('')
    const [errors, setErrors] = useState({})
 
+   const token = '6636841061:AAF7wnWZbg5DDsvnd79KX7v9wBnw_GCRq4o'
+   const chatId = '979872254'
+   // const chatId = '573909735'
+
    const handleInput = ({ target: { value } }) => setPhone(value)
 
    const validate = () => {
@@ -43,17 +47,27 @@ export default function Form({ handleClose }) {
          setErrors(errors)
          return
       }
-      const data = {
-         name,
-         phone,
-         description,
-      }
+      const data = `Ім'я: ${name.trim()}%0AТелефон: ${phone}%0AКоментар: ${description.trim()}`
+      // const data = `
+      //    Ім'я: ${name.trim()}
+      //    Телефон: <a href="tel:${phone}">${phone}</a>
+      //    Коментар: ${description.trim()}
+      // `
 
-      setName('')
-      setPhone('')
-      setDescription('')
-      setErrors({})
-      handleClose ? handleClose(false) : null
+      fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${data}`)
+         .then(res => {
+            alert('Ваша заявка успішно відправлена')
+
+            setName('')
+            setPhone('')
+            setDescription('')
+            setErrors({})
+            handleClose ? handleClose(false) : null
+         })
+         .catch(error => {
+            console.error(error)
+            alert('Виникла помилка, спробуйте ще раз')
+         })
    }
 
    return (

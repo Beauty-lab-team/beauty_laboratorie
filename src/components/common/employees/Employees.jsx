@@ -8,7 +8,11 @@ export default function Employees() {
    const isHomePage = pathname == '/'
 
    const employees = [
-      { name: 'Оксана Розбейко', about: 'Вища медична освіта, косметолог, стаж роботи в косметології 17 років', image: '' },
+      {
+         name: 'Оксана Розбейко',
+         about: 'Вища медична освіта, косметолог, стаж роботи в косметології 17 років',
+         image: '/employees/Оксана-Розбейко.png',
+      },
       {
          name: 'Софія Чеснакова',
          about: 'Косметолог, медична освіта, спеціаліст з апаратних технологій по догляду за обличчям та тілом',
@@ -17,7 +21,7 @@ export default function Employees() {
    ]
 
    return (
-      <Slider slides={isHomePage ? 2 : 4} group={isHomePage ? 2 : 3}>
+      <Slider slides={2}>
          {employees.map((el, i) => (
             <SwiperSlide key={i}>
                <Employee name={el.name} about={el.about} image={el.image} />

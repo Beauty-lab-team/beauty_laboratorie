@@ -1,7 +1,58 @@
-module.exports = {
+export const data = {
    services: [
       {
          id: 1,
+         categoryMain: 'Косметологія тіла',
+         services: [
+            {
+               time: null,
+               price: 1000,
+               description: 'Слімсфера 60 хв',
+            },
+            {
+               time: null,
+               price: 850,
+               description: 'Слімсфера 45 хв',
+            },
+            {
+               time: null,
+               price: 600,
+               description: 'Слімсфера ніг 30 хв',
+            },
+            {
+               time: null,
+               price: 60,
+               description: 'Прокат костюма',
+            },
+            {
+               time: null,
+               price: 660,
+               description: 'Продаж костюма',
+            },
+            {
+               time: null,
+               price: 750,
+               description: 'Пресотерапія 60 хв',
+            },
+            {
+               time: null,
+               price: 550,
+               description: 'Мікротоки 30 хв',
+            },
+            {
+               time: null,
+               price: 1200,
+               description: 'Обгортання Віскі 60 хв',
+            },
+            {
+               time: null,
+               price: 1200,
+               description: 'Обгортання Osmo Ericsson 60 хв',
+            },
+         ],
+      },
+      {
+         id: 2,
          categoryMain: 'Інʼєкції',
          subcategories: [
             {
@@ -152,27 +203,6 @@ module.exports = {
          ],
       },
       {
-         id: 2,
-         categoryMain: 'Косметологія обличчя',
-         services: [
-            {
-               time: null,
-               price: 1200,
-               description: 'Комбінована чистка',
-            },
-            {
-               time: null,
-               price: 1200,
-               description: 'Механічна чистка обличчя',
-            },
-            {
-               time: null,
-               price: 1300,
-               description: 'Ультразвукове очищення',
-            },
-         ],
-      },
-      {
          id: 3,
          categoryMain: 'Догляд за обличчям',
          services: [
@@ -231,52 +261,22 @@ module.exports = {
       },
       {
          id: 5,
-         categoryMain: 'Косметологія тіла',
+         categoryMain: 'Косметологія обличчя',
          services: [
             {
                time: null,
-               price: 1000,
-               description: 'Слімсфера 60 хв',
-            },
-            {
-               time: null,
-               price: 850,
-               description: 'Слімсфера 45 хв',
-            },
-            {
-               time: null,
-               price: 600,
-               description: 'Слімсфера ніг 30 хв',
-            },
-            {
-               time: null,
-               price: 60,
-               description: 'Прокат костюма',
-            },
-            {
-               time: null,
-               price: 660,
-               description: 'Продаж костюма',
-            },
-            {
-               time: null,
-               price: 750,
-               description: 'Пресотерапія 60 хв',
-            },
-            {
-               time: null,
-               price: 550,
-               description: 'Мікротоки 30 хв',
+               price: 1200,
+               description: 'Комбінована чистка',
             },
             {
                time: null,
                price: 1200,
-               description: 'Обгортання Віскі 60 хв',
+               description: 'Механічна чистка обличчя',
             },
             {
                time: null,
-               price: 1200,
-               description: 'Обгортання Osmo Ericsson 60 хв',
+               price: 1300,
+               description: 'Ультразвукове очищення',
             },
          ],
       },
