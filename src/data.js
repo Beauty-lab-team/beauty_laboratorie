@@ -2,6 +2,7 @@ export const data = {
    services: [
       {
          id: 1,
+         cover: '/services/косметологія-тіла.jpg',
          categoryMain: 'Косметологія тіла',
          services: [
             {
@@ -53,6 +54,7 @@ export const data = {
       },
       {
          id: 2,
+         cover: '/services/ін`єкції.jpg',
          categoryMain: 'Інʼєкції',
          subcategories: [
             {
@@ -204,6 +206,7 @@ export const data = {
       },
       {
          id: 3,
+         cover: '/services/догляд-за-обличчям.jpg',
          categoryMain: 'Догляд за обличчям',
          services: [
             {
@@ -230,6 +233,7 @@ export const data = {
       },
       {
          id: 4,
+         cover: '/services/пілінги.jpg',
          categoryMain: 'Пілінги',
          services: [
             {
@@ -261,6 +265,7 @@ export const data = {
       },
       {
          id: 5,
+         cover: '/services/косметологія-обличчя.jpg',
          categoryMain: 'Косметологія обличчя',
          services: [
             {
@@ -282,6 +287,7 @@ export const data = {
       },
       {
          id: 6,
+         cover: '/services/лазерна-епіляція.jpg',
          categoryMain: 'Лазерна епіляція',
          subcategories: [
             {

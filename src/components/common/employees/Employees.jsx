@@ -16,7 +16,7 @@ export default function Employees() {
       {
          name: 'Софія Чеснакова',
          about: 'Косметолог, медична освіта, спеціаліст з апаратних технологій по догляду за обличчям та тілом',
-         image: '/employees/Софія Чеснакова.jpg',
+         image: '/public/employees/Софія-Чеснакова.jpg',
       },
    ]
 

@@ -4,7 +4,7 @@ import CardHeading from '../../UI/CardHeading'
 import Button from '../../UI/Button'
 import LinkToPage from '../../UI/LinkToPage'
 
-export default function ServiceCard({ categoryMain, id, formHandler }) {
+export default function ServiceCard({ categoryMain, cover, id, formHandler }) {
    const handleOpen = () => {
       formHandler(true)
       document.body.style.overflow = 'hidden'
@@ -12,7 +12,7 @@ export default function ServiceCard({ categoryMain, id, formHandler }) {
 
    return (
       <div className={s.service}>
-         <Image className={s.image} src={''} alt='' width={300} height={200} />
+         <Image className={s.image} src={cover} alt='' width={300} height={200} />
          <CardHeading className='flex-1'>{categoryMain}</CardHeading>
          <div className={s.buttons}>
             <Button onClick={handleOpen}>Запис на прийом</Button>
