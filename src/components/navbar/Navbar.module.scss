@@ -14,7 +14,7 @@
    }
 }
 .navLinks {
-   @apply absolute md:static top-[75px] right-0 px-3 hidden md:flex flex-col sm:flex-row sm:justify-center items-end sm:items-center w-full gap-[15px] sm:gap-[32px] lg:gap-[44px] text-xl md:text-base lg:text-lg font-medium text-text-3;
+   @apply absolute md:static top-[75px] right-0 px-3 hidden md:flex flex-col sm:flex-row sm:justify-center md:justify-end items-end sm:items-center w-full gap-[15px] sm:gap-[32px] lg:gap-[44px] text-xl md:text-base lg:text-lg font-medium text-text-3;
    &.show {
       @apply flex;
    }

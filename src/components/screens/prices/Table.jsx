@@ -2,11 +2,11 @@ import Text from '../../UI/Text'
 import Accordion from '../../UI/accordion/Accordion'
 import s from './Prices.module.scss'
 
-function TableHead() {
+function TableHead({ el }) {
    return (
       <thead>
          <tr>
-            <th>Час</th>
+            {el.services[0].time && <th>Час</th>}
             <th>Опис</th>
             <th>Цiна</th>
          </tr>
@@ -16,9 +16,11 @@ function TableHead() {
 function TableContent({ el, i }) {
    return (
       <tr key={i}>
-         <td>
-            <Text className='text-base md:text-lg'>{el.time}хв</Text>
-         </td>
+         {el.time && (
+            <td>
+               <Text className='text-base md:text-lg'>{el.time}хв</Text>
+            </td>
+         )}
          <td>
             <Text className='text-base md:text-lg'>{el.description}</Text>
          </td>
@@ -37,7 +39,13 @@ export default function Table({ data }) {
                <div className={s.tableSub}>
                   <h4 className={s.subname}>{el.subName}</h4>
                   <table>
-                     <TableHead />
+                     <thead>
+                        <tr>
+                           {/* {el.services[0].time && <th>Час</th>} */}
+                           <th>Опис</th>
+                           <th>Цiна</th>
+                        </tr>
+                     </thead>
                      <tbody>
                         {el.services.map((el, i) => (
                            <TableContent el={el} i={i} />
@@ -48,7 +56,13 @@ export default function Table({ data }) {
             ))}
             {data.services && (
                <table onClick={e => e.stopPropagation()}>
-                  <TableHead />
+                  <thead>
+                     <tr>
+                        {/* {el.services[0].time && <th>Час</th>} */}
+                        <th>Опис</th>
+                        <th>Цiна</th>
+                     </tr>
+                  </thead>
                   <tbody>
                      {data.services?.map((el, i) => (
                         <TableContent el={el} i={i} />

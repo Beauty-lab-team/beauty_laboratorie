@@ -2,6 +2,9 @@
    @apply rounded-basic bg-accent-2 p-5;
    .heading {
       @apply flex justify-between items-center cursor-pointer;
+      h4 {
+         @apply max-w-[290px] md:max-w-none;
+      }
       svg {
          @apply transition-transform transform duration-200 ease-out origin-center relative right-2;
          &.open {

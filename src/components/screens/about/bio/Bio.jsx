@@ -1,22 +1,28 @@
 import Heading from '../../../UI/Heading'
 import Section from '../../../UI/Section'
 import Text from '../../../UI/Text'
+import CardHeading from '../../../UI/CardHeading'
 
 export default function Bio() {
    return (
       <Section className='pt-[140px] lg:pt-[160px]'>
          <Heading>Наша клiнiка</Heading>
          <Text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis exercitationem voluptates blanditiis itaque in nihil, praesentium natus
-            dolorem non similique alias sit consequuntur suscipit sequi! In quisquam amet assumenda culpa.
+            Студія краси Beauty.laboratorie надає широкий спектр послуг естетичної, апаратної, лазерної та інʼєкційної косметології. Ми працюємо на
+            результат і ніколи не обіцяємо неможливого
             <br />
             <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officiis unde vitae doloremque! Fugiat sed at dolorem quaerat accusantium
-            assumenda nulla.
+            Всі апарати нові і постійно проходять необхідні ТО. Інструменти проходять хірургічну стерилізацію
             <br />
             <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis exercitationem voluptates blanditiis itaque in nihil, praesentium natus
-            dolorem non similique alias sit consequuntur suscipit sequi! In quisquam amet assumenda culpa.
+            На рахунку нашої студії уже понад 100 задоволених клієнтів. Ми піклуємося не тільки за вашу молодість і красу, але і за комфорт вашого
+            перебування в нашій студії. У нас ви завжди зможете насолодитися затишною атмосферою і комфортом за чашечкою кави чи чаю
+            <br />
+            <br />
+            Ми завжди вам надаємо про ваш візит. Раді бачити вас завжди в нашому просторі
+            <br />
+            <br />
+            Пн-Сб: <span className='font-medium'>10:00 - 19:00</span> <br /> Нд: <span className='font-medium'>вихідний</span>
          </Text>
       </Section>
    )
