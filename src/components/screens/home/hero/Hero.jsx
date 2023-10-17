@@ -10,7 +10,7 @@ export default function Hero() {
    return (
       <Section>
          <div className={s.hero}>
-            <Image className={s.photo} src='' alt='' width={500} height={440} quality={100} priority />
+            <Image className={s.photo} src='/clinic/hero.jpg' alt='' width={500} height={440} quality={100} priority />
             <div className={s.info}>
                <Heading>Смас-лiфтiнг у Днiпрi</Heading>
                <Text>
