@@ -1,6 +1,6 @@
 .review {
    @apply rounded-basic bg-accent-2 p-3 mb-12 xl:mb-4;
    img {
-      @apply rounded-basic h-[650px] w-full object-cover object-top;
+      @apply rounded-basic h-[650px] 2xl:h-[725px] w-full object-cover object-top;
    }
 }
