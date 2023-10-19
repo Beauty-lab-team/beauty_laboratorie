@@ -413,5 +413,59 @@ export const data = {
             },
          ],
       },
+      {
+         id: 7,
+         cover: '',
+         categoryMain: 'Мікроголковий РФ',
+         services: [
+            {
+               time: null,
+               price: 3000,
+               description: 'Лице',
+            },
+            {
+               time: null,
+               price: 2000,
+               description: 'Шия',
+            },
+            {
+               time: null,
+               price: 4500,
+               description: 'Лице+шия',
+            },
+            {
+               time: null,
+               price: 4000,
+               description: 'Внутрішня поверхня стегна (2 ноги)',
+            },
+            {
+               time: null,
+               price: 3000,
+               description: 'Живіт(лікування розтяжок)',
+            },
+         ],
+      },
+      {
+         id: 8,
+         cover: '',
+         categoryMain: 'Смас-ліфтинг',
+         services: [
+            {
+               time: null,
+               price: 7000,
+               description: 'Лице повністю',
+            },
+            {
+               time: null,
+               price: 4500,
+               description: 'Нижня третина (щоки, підборіддя)',
+            },
+            {
+               time: null,
+               price: 1500,
+               description: 'Зона навколо очей',
+            },
+         ],
+      },
    ],
 }

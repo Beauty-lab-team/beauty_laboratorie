@@ -13,16 +13,20 @@ export default function Footer() {
                </div>
                <div className={s.tel}>
                   <p>Наш телефон:</p>
-                  <a href='tel:+380934520891'>+38(093)452-08-91</a>
+                  <a href='tel:+380675949525'>+38(067)594-95-25</a>
+                  <a href='tel:+380954863561'>+38(095)486-35-61</a>
                </div>
             </div>
             <div className={s.social}>
-               <p>Ми в соцмережах:</p>
+               <p>Соцмережі:</p>
                <div>
                   <a href='https://www.facebook.com/profile.php?id=100026693756002'>
                      <img src='/icons/facebook.svg' alt='facebook' />
                   </a>
                   <a href='https://instagram.com/beauty.laboratorie?igshid=MzRlODBiNWFlZA=='>
+                     <img src='/icons/instagram.svg' alt='instagram' />
+                  </a>
+                  <a href='https://instagram.com/rozbeiko_cosmetolog?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr'>
                      <img src='/icons/instagram.svg' alt='instagram' />
                   </a>
                </div>
