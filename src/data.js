@@ -415,7 +415,7 @@ export const data = {
       },
       {
          id: 7,
-         cover: '',
+         cover: '/services/мікроголковий-РФ.jpg',
          categoryMain: 'Мікроголковий РФ',
          services: [
             {
@@ -447,7 +447,7 @@ export const data = {
       },
       {
          id: 8,
-         cover: '',
+         cover: '/services/смас-ліфтінг.jpg',
          categoryMain: 'Смас-ліфтинг',
          services: [
             {

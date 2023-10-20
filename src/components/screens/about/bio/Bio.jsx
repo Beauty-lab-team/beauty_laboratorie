@@ -6,7 +6,7 @@ import CardHeading from '../../../UI/CardHeading'
 export default function Bio() {
    return (
       <Section className='pt-[140px] lg:pt-[160px]'>
-         <Heading>Наша клiнiка</Heading>
+         <Heading>Наша студія</Heading>
          <Text>
             Студія краси Beauty.laboratorie надає широкий спектр послуг естетичної, апаратної, лазерної та інʼєкційної косметології. Ми працюємо на
             результат і ніколи не обіцяємо неможливого

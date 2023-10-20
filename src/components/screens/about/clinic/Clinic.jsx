@@ -11,10 +11,10 @@ export default function Clinic() {
 
    return (
       <Section>
-         <Heading>Клiнiка всерединi</Heading>
+         <Heading>Інтер'єр студії</Heading>
          <Slider slides={1} tabletSlides={1}>
             <SwiperSlide>
-               <div className={s.photos}>
+               <div className={s.photosGrid}>
                   <div className={s.photo}>
                      <Image quality={100} width={1280} height={960} src='/clinic/a.jpg' alt='' />
                   </div>
@@ -28,15 +28,15 @@ export default function Clinic() {
             </SwiperSlide>
             {isDesktop && (
                <SwiperSlide>
-                  <div className={s.videos}>
-                     <div className={s.video}>
-                        <video src='/clinic/1.mp4' autoPlay loop playsInline muted loading='lazy' />
+                  <div className={s.photos}>
+                     <div className={s.photo}>
+                        <Image quality={100} width={1280} height={960} src='/clinic/d.jpg' alt='' />
                      </div>
-                     <div className={s.video}>
-                        <video src='/clinic/2.mp4' autoPlay loop playsInline muted loading='lazy' />
+                     <div className={s.photo}>
+                        <Image quality={100} width={1280} height={960} src='/clinic/e.jpg' alt='' />
                      </div>
-                     <div className={s.video}>
-                        <video src='/clinic/3.mp4' autoPlay loop playsInline muted loading='lazy' />
+                     <div className={s.photo}>
+                        <Image quality={100} width={1280} height={960} src='/clinic/f.jpg' alt='' />
                      </div>
                   </div>
                </SwiperSlide>
