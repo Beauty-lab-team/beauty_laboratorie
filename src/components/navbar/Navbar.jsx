@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav className={`${s.navbar} ${isMenuOpen ? s.open : ''}`}>
          <div className={s.content}>
             <Link className={s.logo} href='/'>
-               <Image src='/logo.svg' alt='BEAUTY.LABORATORIE' width={logoWidth} height={20} />
+               <Image src='/logo.svg' alt='BEAUTY.LABORATORIE' width={logoWidth} height={22} />
             </Link>
             <button className={s.menuBtn} onClick={menuClickHandler}>
                <svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' id='menu'>

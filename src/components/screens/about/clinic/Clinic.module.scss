@@ -2,6 +2,7 @@
    &Grid {
       @apply grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-3 md:gap-4 mb-12 xl:mb-4;
       .photo {
+         @apply mb-0;
          &:nth-child(1) {
             @apply md:col-span-2 md:row-span-2;
          }
@@ -13,14 +14,11 @@
          }
       }
    }
-   @apply grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 mb-12 xl:mb-4;
+   @apply grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4;
 }
-.photos,
-.photosGrid {
-   .photo {
-      @apply rounded-basic bg-accent-2 p-3 h-[604px];
-      img {
-         @apply rounded-inner h-full;
-      }
+.photo {
+   @apply rounded-basic bg-accent-2 p-3 h-full md:h-[604px] 2xl:h-[732px] mb-12 xl:mb-4;
+   img {
+      @apply rounded-inner h-full;
    }
 }
