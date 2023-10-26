@@ -3,7 +3,7 @@ import Layout from '../components/seo/Layout'
 
 export default function prices() {
    return (
-      <Layout title='BEAUTY.LABORATORIE | цiни' description='...'>
+      <Layout title='BEAUTY.LABORATORIE | Цiни' description='...'>
          <Prices />
       </Layout>
    )
