@@ -68,7 +68,7 @@ export default function Form({ handleClose }) {
 
    return (
       <form className={s.form} onSubmit={handlerSubmit}>
-         <div className='flex flex-col md:flex-row gap-2 md:gap-4'>
+         <div className='flex flex-col md:flex-row items-end gap-2 md:gap-4'>
             <div className='w-full flex flex-col gap-[5px] md:gap-[10px]'>
                {errors.name && <span className={s.error}>{errors.name}</span>}
                <input value={name} onChange={e => setName(e.target.value)} onBlur={handleBlur} name='name' id='name' type='text' placeholder="iм'я" />
