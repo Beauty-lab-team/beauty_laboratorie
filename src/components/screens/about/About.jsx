@@ -12,11 +12,11 @@ export default function AboutPage() {
       <div>
          <Bio />
          <Team />
+         <Certificates />
          <Clinic />
          <Equipment />
          <Benefits />
          <Reviews />
-         <Certificates />
          <Appointment />
       </div>
    )
