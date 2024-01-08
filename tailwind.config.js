@@ -9,7 +9,7 @@ module.exports = {
             'text-2': '#7c7c85',
             'text-3': '#9699a0',
             'accent-1': '#4559ac',
-            'accent-2': '#f4f4f5',
+            'accent-2': '#f4f4f8',
             navbar: 'rgba(255, 255, 255, 0.6)',
          },
          fontSize: {
