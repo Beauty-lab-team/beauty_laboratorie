@@ -31,7 +31,7 @@ export default function Slider({ slides, group, tabletSlides, children, classNam
          slidesPerGroup={group}
          modules={[Keyboard, Navigation, Pagination, Autoplay]}
          autoplay={{
-            delay: 6000,
+            delay: 9000,
          }}
          autoHeight
          pagination={{ clickable: true }}
