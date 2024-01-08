@@ -1,11 +1,5 @@
 .modalBlock {
    @apply fixed inset-0 opacity-0 scale-90 transition-all z-40 ease-out duration-200 pointer-events-none;
-   &.show {
-      @apply scale-100 opacity-100 pointer-events-auto;
-      .modal .content {
-         @apply pointer-events-auto;
-      }
-   }
 }
 
 .backdrop {
@@ -14,6 +8,9 @@
 
 .modal {
    @apply fixed inset-0 z-50 flex justify-center items-start pointer-events-none p-3 top-1/2 -translate-y-1/2 md:p-0;
+   &.open .content {
+      @apply pointer-events-auto;
+   }
    .content {
       @apply bg-white rounded-basic p-4 overflow-y-auto pointer-events-none;
    }
