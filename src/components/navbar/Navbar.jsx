@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import Links from './Links'
 import s from './Navbar.module.scss'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import useMediaQuery from '../../hooks/useMediaQuery'
@@ -12,6 +12,15 @@ const Navbar = () => {
    const menuClickHandler = () => setIsMenuOpen(!isMenuOpen)
 
    const logoWidth = useMediaQuery('(min-width: 768px)') ? 430 : 285
+
+   useEffect(() => {
+      const handleOutsideClick = event => {
+         if (!event.target.closest(`.${s.navbar}`)) setIsMenuOpen(false)
+      }
+      document.addEventListener('mousedown', handleOutsideClick)
+
+      return () => document.removeEventListener('mousedown', handleOutsideClick)
+   }, [])
 
    return (
       <nav className={`${s.navbar} ${isMenuOpen ? s.open : ''}`}>
