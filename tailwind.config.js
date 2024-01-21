@@ -13,8 +13,8 @@ module.exports = {
             navbar: 'rgba(255, 255, 255, 0.6)',
          },
          fontSize: {
-            'heading-mobile': '58px',
-            'heading-desktop': '72px',
+            'heading-mobile': '52px',
+            'heading-desktop': '66px',
             'cardHeading-mobile': '24px',
             'cardHeading-desktop': '28px',
          },

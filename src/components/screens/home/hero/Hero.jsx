@@ -12,14 +12,11 @@ export default function Hero() {
          <div className={s.hero}>
             <Image className={s.photo} src='/clinic/hero.jpg' alt='' width={500} height={440} quality={100} priority />
             <div className={s.info}>
-               <Heading>Смас-лiфтiнг у Днiпрi</Heading>
-               <Text>
-                  Шукаєте квалiфiкованих косметологiв з вiдгуками? Нашi клiєнти вдячнi за ефективнi процедури. Переконайтеся в цьому, зв'язавшись з
-                  нами безкоштовно для консультацiї.
-                  <br />
-                  <br />
-                  Довiрте свою красу нам
-               </Text>
+               <Heading>
+                  Студiя краси <span className='text-accent-1 italic block'>Beauty .laboratorie</span>{' '}
+                  <span className='text-[44px] lg:text-heading-desktop block'>Ти заслуговуєш на це…</span>
+               </Heading>
+               <Text>Догляд за тiлом та обличчям, лазерне видалення волосся</Text>
                <Link href='#appointment'>
                   <Button>Записатися на прийом</Button>
                </Link>
