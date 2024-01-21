@@ -2,8 +2,11 @@ import Footer from '../footer/Footer'
 import Meta from './Meta'
 import Navbar from '../navbar/Navbar'
 import Script from 'next/script'
+import { useRouter } from 'next/router'
 
 export default function Layout({ title, description, children }) {
+   const { pathname } = useRouter()
+
    return (
       <>
          <Meta title={title} description={description} />
@@ -22,11 +25,17 @@ export default function Layout({ title, description, children }) {
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-TMXL8BJ8');`}
          </Script>
-         <div className='app flex flex-col min-h-screen overflow-hidden'>
-            <Navbar />
-            <div className='container mx-auto px-3 md:px-12 flex-1 mb-[100px] md:mb-[120px]'>{children}</div>
-            <Footer />
-         </div>
+         {pathname == '/thankyou' ? (
+            <div className='app flex flex-col min-h-screen overflow-hidden'>
+               <div className='container mx-auto px-3 md:px-12 flex-1 mb-[100px] md:mb-[120px]'>{children}</div>
+            </div>
+         ) : (
+            <div className='app flex flex-col min-h-screen overflow-hidden'>
+               <Navbar />
+               <div className='container mx-auto px-3 md:px-12 flex-1 mb-[100px] md:mb-[120px]'>{children}</div>
+               <Footer />
+            </div>
+         )}
       </>
    )
 }

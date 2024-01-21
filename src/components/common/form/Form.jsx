@@ -2,8 +2,10 @@ import { useState } from 'react'
 import ReactInputMask from 'react-input-mask'
 import s from './Form.module.scss'
 import Button from '../../UI/Button'
+import { useRouter } from 'next/router'
 
 export default function Form({ handleClose }) {
+   const router = useRouter()
    const [phone, setPhone] = useState('')
    const [name, setName] = useState('')
    const [description, setDescription] = useState('')
@@ -52,17 +54,15 @@ export default function Form({ handleClose }) {
 
       fetch(`https://api.telegram.org/bot${process.env.TOKEN}/sendMessage?chat_id=${process.env.CHAT_ID}&text=${data}`)
          .then(res => {
-            alert('Ваша заявка успішно відправлена')
-
             setName('')
             setPhone('')
             setDescription('')
             setErrors({})
             handleClose ? handleClose(false) : null
+            router.push('/thankyou')
          })
          .catch(error => {
             console.error(error)
-            alert('Виникла помилка, спробуйте ще раз')
          })
    }
 
