@@ -19,6 +19,6 @@
 .photo {
    @apply rounded-basic bg-accent-2 p-3 h-full md:h-[604px] 2xl:h-[732px] mb-12 xl:mb-4;
    img {
-      @apply rounded-inner h-full;
+      @apply rounded-inner h-full object-cover;
    }
 }

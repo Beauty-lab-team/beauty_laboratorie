@@ -10,7 +10,7 @@ export default function Employees() {
    const employees = [
       {
          name: 'Оксана Розбейко',
-         about: 'Вища медична освіта, косметолог, стаж роботи в косметології 17 років',
+         about: 'Косметолог, вища медична освіта, стаж роботи 17 років',
          image: '/employees/Оксана-Розбейко.jpg',
       },
       {
@@ -18,10 +18,15 @@ export default function Employees() {
          about: 'Косметолог, медична освіта, спеціаліст з апаратних технологій по догляду за обличчям та тілом',
          image: '/employees/Софія-Чеснакова.jpg',
       },
+      {
+         name: 'Оксана Дащенко',
+         about: 'Косметолог, медична освіта, лазеротерапевт: видалення волосся, судин, стаж роботи 5 років',
+         image: '/employees/Оксана-Дащенко.jpg',
+      },
    ]
 
    return (
-      <Slider slides={2}>
+      <Slider slides={3}>
          {employees.map((el, i) => (
             <SwiperSlide key={i}>
                <Employee name={el.name} about={el.about} image={el.image} />
