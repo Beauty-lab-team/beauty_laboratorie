@@ -14,7 +14,7 @@ export default function Hero() {
             <div className={s.info}>
                <Heading>
                   Студiя краси <span className='text-accent-1 italic block'>Beauty .laboratorie</span>{' '}
-                  <span className='text-[44px] lg:text-heading-desktop block'>Ти заслуговуєш на це…</span>
+                  <span className='text-[44px] lg:text-heading-desktop hidden xl:block'>Ти заслуговуєш на це…</span>
                </Heading>
                <Text>Догляд за тiлом та обличчям, лазерне видалення волосся</Text>
                <Link href='#appointment'>

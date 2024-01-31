@@ -11,7 +11,7 @@ const Navbar = () => {
    const [isMenuOpen, setIsMenuOpen] = useState(false)
    const menuClickHandler = () => setIsMenuOpen(!isMenuOpen)
 
-   const logoWidth = useMediaQuery('(min-width: 768px)') ? 430 : 285
+   const logoWidth = useMediaQuery('(min-width: 1024px)') ? 430 : 235
 
    useEffect(() => {
       const handleOutsideClick = event => {
