@@ -4,12 +4,12 @@ module.exports = {
    theme: {
       extend: {
          colors: {
-            background: '#FAFAFA',
+            background: '#FFFFFF',
             'text-1': '#1A1A1A',
             'text-2': '#7c7c85',
             'text-3': '#9699a0',
             'accent-1': '#4559ac',
-            'accent-2': '#f4f4f8',
+            'accent-2': '#F9FAFB',
             navbar: 'rgba(255, 255, 255, 0.6)',
          },
          fontSize: {
