@@ -1,7 +1,7 @@
 .navbar {
-   @apply py-5 fixed left-0 right-0 z-30 backdrop-blur-lg border-b-2 border-navbar bg-navbar;
+   @apply py-1 md:py-3 lg:py-5 fixed left-0 right-0 z-30 backdrop-blur-lg border-b-2 border-navbar bg-navbar;
    &.open {
-      @apply h-[370px] sm:h-[190px] md:h-[130px];
+      @apply h-[360px] sm:h-[180px] md:h-[120px];
    }
    .content {
       @apply container px-3 md:px-12 mx-auto flex justify-between items-center;
@@ -14,7 +14,7 @@
    }
 }
 .navLinks {
-   @apply absolute md:static top-[80px] right-0 px-3 hidden md:flex flex-col sm:flex-row sm:justify-center md:justify-end items-center sm:items-center w-full gap-5 sm:gap-[22px] lg:gap-[34px] text-xl md:text-base lg:text-lg font-semibold text-text-3 sm:grid-cols-3 sm:grid-rows-2 sm:place-items-center;
+   @apply absolute md:static top-[60px] right-0 px-3 hidden md:flex flex-col sm:flex-row sm:justify-center md:justify-end items-center sm:items-center w-full gap-5 sm:gap-[22px] lg:gap-[34px] text-xl md:text-base lg:text-lg font-semibold text-text-3 sm:grid-cols-3 sm:grid-rows-2 sm:place-items-center;
    &.show {
       @apply flex sm:grid md:flex;
    }

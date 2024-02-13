@@ -23,6 +23,12 @@ body {
    @apply scroll-smooth bg-background font-montserrat;
 }
 
-.swiper-pagination-bullet-active {
+.swiper-pagination-bullet {
    @apply bg-accent-1 !important;
+}
+.heroWrapper .swiper-pagination {
+   @apply container px-3 md:px-12 !important;
+}
+.swiper-pagination {
+   @apply xl:flex justify-start container !important;
 }

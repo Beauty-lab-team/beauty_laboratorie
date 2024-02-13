@@ -8,7 +8,7 @@ import Reviews from '../../common/reviews/Reviews'
 export default function HomePage() {
    return (
       <div>
-         <Hero />
+         {/* <Hero /> */}
          <ServicesHome />
          <About />
          <Benefits />

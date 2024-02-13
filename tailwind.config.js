@@ -10,6 +10,7 @@ module.exports = {
             'text-3': '#9699a0',
             'accent-1': '#4559ac',
             'accent-2': '#F9FAFB',
+            'accent-3': '#fda4af',
             navbar: 'rgba(255, 255, 255, 0.6)',
          },
          fontSize: {

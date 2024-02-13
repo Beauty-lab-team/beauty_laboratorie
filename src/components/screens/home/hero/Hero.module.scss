@@ -1,16 +1,46 @@
 .hero {
-   @apply relative lg:static grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 mt-[-96px] md:mt-[-176px] justify-between items-center min-h-screen;
+   @apply relative lg:static grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-12 mt-[-96px] md:mt-[-176px] pb-12 lg:pb-0 justify-between items-center min-h-screen;
    .info {
-      @apply absolute lg:relative -bottom-12 sm:bottom-24 lg:-bottom-0 z-20 lg:col-span-1 lg:order-1 lg:pr-12;
+      // @apply absolute lg:relative bottom-0 sm:bottom-24 lg:-bottom-0 z-20 lg:col-span-1 lg:order-1 lg:pr-12 container mx-auto px-3 md:px-12;
+      @apply mt-[500px] md:mt-[650px] lg:mt-0 lg:col-span-1 lg:order-1 container mx-auto px-3 md:px-12;
+   }
+   .giftCard {
+      @apply mt-0 z-20;
       button {
-         @apply px-12 py-2 bg-accent-1 text-white mt-4 w-full lg:w-auto;
+         @apply px-12 py-2 bg-accent-3 border-accent-3 text-white mt-4 w-full lg:w-auto;
          &:hover {
-            @apply text-accent-1 border-accent-1 bg-transparent;
+            @apply text-accent-3 border-accent-3 bg-transparent;
          }
       }
    }
+   .insta {
+      @apply lg:-rotate-6 lg:relative left-[100px] xl:left-[460px] bottom-10 xl:scale-[120%] z-10;
+      .line1,
+      .line2,
+      .line3 {
+         @apply pointer-events-none;
+         path {
+            @apply fill-accent-3;
+         }
+      }
+      .line1 {
+         @apply hidden lg:block absolute top-10 -left-[200px] w-[300px] h-[300px] z-20 -rotate-90;
+      }
+      .line2 {
+         @apply hidden lg:block absolute -bottom-5 left-[380px] w-[40px] h-[40px] z-20 rotate-[190deg];
+      }
+      .line3 {
+         @apply hidden lg:block absolute top-40 left-[210px] w-[350px] h-[350px] z-20 rotate-[90deg];
+      }
+   }
+   button {
+      @apply px-12 py-2 bg-accent-1 text-white mt-4 w-full lg:w-auto;
+      &:hover {
+         @apply text-accent-1 border-accent-1 bg-transparent;
+      }
+   }
    .photo {
-      @apply absolute top-[45px] sm:top-[66px] lg:top-[110px] right-0 lg:order-2 lg:col-span-1 w-full h-[440px] sm:h-[760px] md:h-[545px] lg:w-[55%] lg:min-h-[calc(100vh-150px)] scale-105 lg:scale-110 rounded-b-basic object-cover object-right pointer-events-none;
+      @apply absolute top-[45px] sm:top-[66px] lg:top-[110px] right-0 xl:right-[52px] lg:order-2 lg:col-span-1 w-full h-[440px] sm:h-[760px] md:h-[545px] lg:w-[55%] lg:min-h-[calc(100vh-150px)] xl:scale-110 rounded-b-basic object-cover object-right pointer-events-none;
       clip-path: circle(83% at 30% 20%);
       @media screen and (min-width: 640px) {
          clip-path: circle(90% at 20% 10%);
