@@ -137,9 +137,9 @@ export default function Hero() {
                         <ServiceCard categoryMain={categoryMain} id={id} cover={cover} formHandler={setIsOpen} />
                      </div>
                      <div className={`${s.info} ${s.discount}`}>
-                        <Text className='px-3 lg:w-[350px]'>
-                           Отримай шалену знижку <span className='italic text-accent-1 text-2xl'>50% </span> на перший візит до нас!
-                        </Text>
+                        <Heading>
+                           Отримай шалену знижку <span className='italic text-accent-1'>50%</span> на перший вiзит до нас!
+                        </Heading>
                      </div>
                   </div>
                </Section>

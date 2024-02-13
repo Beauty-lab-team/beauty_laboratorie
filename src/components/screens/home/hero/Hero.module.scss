@@ -54,10 +54,10 @@
       }
    }
    .discount {
-      @apply mt-[-200px] lg:mt-0 z-20 relative text-center flex justify-center items-center;
+      @apply mt-[-70px] lg:mt-0 z-20 relative flex justify-center items-center;
    }
    .heroService {
-      @apply px-3 md:px-12 lg:pl-12 lg:pr-0 relative pb-20 lg:pb-0 overflow-hidden lg:overflow-visible z-20 lg:w-[420px];
+      @apply px-3 md:px-12 lg:pl-12 lg:pr-0 relative xl:left-[300px] xl:scale-125 pb-20 lg:pb-0 overflow-hidden lg:overflow-visible z-20 lg:w-[420px];
       .line1,
       .line2 {
          @apply pointer-events-none;
@@ -74,5 +74,5 @@
    }
 }
 .heroServiceWrapper {
-   @apply lg:flex flex-col items-center justify-center bg-gradient-to-t from-accent-1/25;
+   @apply pt-20 lg:pt-0;
 }
