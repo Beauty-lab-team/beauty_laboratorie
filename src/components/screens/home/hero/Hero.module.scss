@@ -1,8 +1,28 @@
 .hero {
    @apply relative lg:static grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-12 mt-[-96px] md:mt-[-176px] pb-12 lg:pb-0 justify-between items-center min-h-screen;
    .info {
-      // @apply absolute lg:relative bottom-0 sm:bottom-24 lg:-bottom-0 z-20 lg:col-span-1 lg:order-1 lg:pr-12 container mx-auto px-3 md:px-12;
       @apply mt-[500px] md:mt-[650px] lg:mt-0 lg:col-span-1 lg:order-1 container mx-auto px-3 md:px-12;
+   }
+   .main {
+      button {
+         @apply px-12 py-2 bg-accent-1 text-white mt-4 w-full lg:w-auto;
+         &:hover {
+            @apply text-accent-1 border-accent-1 bg-transparent;
+         }
+      }
+   }
+   .photo {
+      @apply absolute top-[45px] sm:top-[66px] lg:top-[110px] right-0 xl:right-[52px] lg:order-2 lg:col-span-1 w-full h-[440px] sm:h-[760px] md:h-[545px] lg:w-[55%] lg:min-h-[calc(100vh-150px)] xl:scale-110 rounded-b-basic object-cover object-right pointer-events-none;
+      clip-path: circle(83% at 30% 20%);
+      @media screen and (min-width: 640px) {
+         clip-path: circle(90% at 20% 10%);
+      }
+      @media screen and (min-width: 768px) {
+         clip-path: circle(83% at 30% 20%);
+      }
+      @media screen and (min-width: 1024px) {
+         clip-path: circle(80% at 80% 80%);
+      }
    }
    .giftCard {
       @apply mt-0 z-20;
@@ -33,23 +53,26 @@
          @apply hidden lg:block absolute top-40 left-[210px] w-[350px] h-[350px] z-20 rotate-[90deg];
       }
    }
-   button {
-      @apply px-12 py-2 bg-accent-1 text-white mt-4 w-full lg:w-auto;
-      &:hover {
-         @apply text-accent-1 border-accent-1 bg-transparent;
+   .discount {
+      @apply mt-[-200px] lg:mt-0 z-20 relative text-center flex justify-center items-center;
+   }
+   .heroService {
+      @apply px-3 md:px-12 lg:pl-12 lg:pr-0 relative pb-20 lg:pb-0 overflow-hidden lg:overflow-visible z-20 lg:w-[420px];
+      .line1,
+      .line2 {
+         @apply pointer-events-none;
+         path {
+            @apply fill-accent-1;
+         }
+      }
+      .line1 {
+         @apply hidden lg:block absolute top-[-55px] left-[20px] w-[50px] h-[50px] z-20 rotate-[40deg];
+      }
+      .line2 {
+         @apply block absolute top-[230px] md:top-[200px] lg:top-[-60px] -left-4 md:left-[160px] lg:left-[240px] w-[400px] h-[400px] md:w-[500px] md:h-[500px] z-10 rotate-180 lg:rotate-[115deg];
       }
    }
-   .photo {
-      @apply absolute top-[45px] sm:top-[66px] lg:top-[110px] right-0 xl:right-[52px] lg:order-2 lg:col-span-1 w-full h-[440px] sm:h-[760px] md:h-[545px] lg:w-[55%] lg:min-h-[calc(100vh-150px)] xl:scale-110 rounded-b-basic object-cover object-right pointer-events-none;
-      clip-path: circle(83% at 30% 20%);
-      @media screen and (min-width: 640px) {
-         clip-path: circle(90% at 20% 10%);
-      }
-      @media screen and (min-width: 768px) {
-         clip-path: circle(83% at 30% 20%);
-      }
-      @media screen and (min-width: 1024px) {
-         clip-path: circle(80% at 80% 80%);
-      }
-   }
+}
+.heroServiceWrapper {
+   @apply lg:flex flex-col items-center justify-center bg-gradient-to-t from-accent-1/25;
 }

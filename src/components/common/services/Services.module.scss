@@ -1,16 +1,16 @@
 .servicesList {
    @apply pb-6 lg:pb-0;
-   .service {
-      @apply rounded-basic bg-accent-2 p-6 mb-12 xl:mb-0 flex flex-col h-full;
-      .image {
-         @apply h-[250px] 2xl:h-[245px] w-full border rounded-inner mb-5 object-cover;
-      }
-      .buttons {
-         @apply flex gap-3 mt-5;
-         button,
-         a {
-            @apply flex justify-center items-center;
-         }
+}
+.service {
+   @apply rounded-basic bg-accent-2 p-6 mb-12 xl:mb-0 flex flex-col h-full;
+   .image {
+      @apply h-[250px] 2xl:h-[245px] w-full border rounded-inner mb-5 object-cover;
+   }
+   .buttons {
+      @apply flex gap-3 mt-5;
+      button,
+      a {
+         @apply flex justify-center items-center;
       }
    }
 }
