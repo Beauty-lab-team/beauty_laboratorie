@@ -65,7 +65,7 @@ export default function Hero() {
                      </div>
                      <div className={`${s.info} ${s.discount}`}>
                         <Heading className='2xl:max-w-[600px] 2xl:relative right-[80px]'>
-                           Отримай шалену знижку <span className='italic text-accent-1'>50%</span> на перший вiзит до нас!
+                           Отримай знижку <span className='italic text-accent-1'>50%</span> на перший вiзит!
                         </Heading>
                      </div>
                   </div>

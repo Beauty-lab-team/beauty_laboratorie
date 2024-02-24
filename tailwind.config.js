@@ -5,25 +5,22 @@ module.exports = {
       extend: {
          colors: {
             background: '#FFFFFF',
-            'text-1': '#1A1A1A',
-            'text-2': '#7c7c85',
-            'text-3': '#9699a0',
-            'accent-1': '#4559ac',
-            'accent-2': '#F9FAFB',
-            'accent-3': '#fda4af',
-            navbar: 'rgba(255, 255, 255, 0.6)',
+            'text-1': '#fb7185e6',
+            'text-2': '#fda4afe6',
+            'accent-1': '#fda4af',
+            'accent-2': '#fdf2f8c6',
          },
          fontSize: {
-            'heading-mobile': '52px',
-            'heading-desktop': '66px',
+            'heading-mobile': '56px',
+            'heading-desktop': '70px',
             'cardHeading-mobile': '24px',
             'cardHeading-desktop': '28px',
          },
          fontFamily: {
             helvetica: ['Helvetica', 'sans-serif'],
             montserrat: ['Montserrat', 'sans-serif'],
-            forum: ['Forum', 'serif'],
-            praho: ['Praho-regular', 'serif'],
+            'nyght-italic': ['Nyght-serif-italic', 'serif'],
+            nyght: ['Nyght-serif', 'serif'],
          },
          borderRadius: {
             basic: '20px',

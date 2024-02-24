@@ -7,6 +7,9 @@
       }
       svg {
          @apply transition-transform transform duration-200 ease-out origin-center relative right-2;
+         path {
+            @apply fill-accent-1;
+         }
          &.open {
             @apply rotate-90 mb-3;
          }

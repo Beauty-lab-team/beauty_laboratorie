@@ -17,6 +17,14 @@
    font-family: 'Praho-medium';
    src: url('/fonts/PrahoPro-Medium.ttf');
 }
+@font-face {
+   font-family: 'Nyght-serif-italic';
+   src: url('/fonts/NyghtSerif-RegularItalic.woff2') format('woff2');
+}
+@font-face {
+   font-family: 'Nyght-serif';
+   src: url('/fonts/NyghtSerif-Regular.woff2') format('woff2');
+}
 
 html,
 body {

@@ -11,7 +11,8 @@ export default function Meta({ title, description }) {
          <link rel='icon' type='image/png' sizes='16x16' href='favicon/favicon-16x16.png' />
          <link rel='manifest' href='favicon/site.webmanifest' />
          <link rel='mask-icon' href='favicon/safari-pinned-tab.svg' color='#5bbad5' />
-         <meta name='msapplication-TileColor' content='#da532c' />
+         <meta name='msapplication-TileColor' content='#fdf2f8c6' />
+         <meta name='theme-color' content='#fdf2f8c6' />
       </Head>
    )
 }

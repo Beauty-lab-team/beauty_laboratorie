@@ -27,9 +27,9 @@
    .giftCard {
       @apply mt-0 z-20;
       button {
-         @apply px-12 py-2 bg-accent-3 border-accent-3 text-white mt-4 w-full lg:w-auto;
+         @apply px-12 py-2 bg-accent-1 border-accent-1 text-white mt-4 w-full lg:w-auto;
          &:hover {
-            @apply text-accent-3 border-accent-3 bg-transparent;
+            @apply text-accent-1 border-accent-1 bg-transparent;
          }
       }
    }
@@ -40,7 +40,7 @@
       .line3 {
          @apply pointer-events-none;
          path {
-            @apply fill-accent-3;
+            @apply fill-accent-1;
          }
       }
       .line1 {

@@ -1,7 +1,7 @@
 export default function Heading(props) {
    return (
       <h2
-         className={`${props.className} font-praho text-heading-mobile lg:text-heading-desktop text-text-1 tracking-wide leading-[62px] lg:leading-[78px] mb-[20px] lg:mb-[44px]`}
+         className={`${props.className} font-nyght-italic text-heading-mobile md:text-heading-desktop text-text-1 leading-[62px] lg:leading-[78px] mb-[20px] lg:mb-[44px]`}
       >
          {props.children}
       </h2>
