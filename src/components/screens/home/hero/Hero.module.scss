@@ -12,7 +12,7 @@
       }
    }
    .photo {
-      @apply absolute top-[45px] sm:top-[66px] lg:top-[110px] right-0 2xl:right-[52px] lg:order-2 lg:col-span-1 w-full h-[440px] sm:h-[760px] md:h-[545px] lg:w-[55%] lg:min-h-[calc(100vh-150px)] 2xl:scale-110 rounded-b-basic object-cover object-right pointer-events-none;
+      @apply absolute top-[45px] md:top-[66px] lg:top-[110px] right-0 2xl:right-[52px] lg:order-2 lg:col-span-1 w-full h-[440px] md:h-[545px] lg:w-[55%] lg:min-h-[calc(100vh-150px)] 2xl:scale-110 rounded-b-basic object-cover object-right pointer-events-none;
       clip-path: circle(83% at 30% 20%);
       @media screen and (min-width: 640px) {
          clip-path: circle(90% at 20% 10%);
