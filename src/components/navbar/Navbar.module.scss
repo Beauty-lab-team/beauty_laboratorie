@@ -17,7 +17,7 @@
    }
 }
 .navLinks {
-   @apply absolute md:static top-[60px] right-0 px-3 hidden md:flex flex-col sm:flex-row sm:justify-center md:justify-end items-center sm:items-center w-full gap-5 sm:gap-[16px] lg:gap-[28px] text-xl md:text-base lg:text-lg font-semibold text-text-2 sm:grid-cols-3 sm:grid-rows-2 sm:place-items-center;
+   @apply absolute md:static top-[60px] right-0 px-3 hidden md:flex flex-col sm:flex-row sm:justify-center md:justify-end items-center sm:items-center w-full gap-5 lg:gap-[16px] xl:gap-[28px] text-xl md:text-base lg:text-lg font-semibold text-text-2 sm:grid-cols-3 sm:grid-rows-2 sm:place-items-center;
    &.show {
       @apply flex sm:grid md:flex;
    }
