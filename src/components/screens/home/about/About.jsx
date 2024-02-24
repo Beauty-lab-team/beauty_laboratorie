@@ -25,7 +25,7 @@ export default function About() {
             <Employees />
          </div>
          <svg
-            className='absolute -bottom-[130px] md:-bottom-[170px] lg:bottom-[200px] left-0 w-full lg:w-[500px]'
+            className='absolute -bottom-[130px] sm:-bottom-[160px] lg:bottom-[200px] left-0 w-full lg:w-[500px]'
             width='1478'
             height='202'
             viewBox='0 0 1478 202'
