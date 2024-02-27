@@ -2,7 +2,7 @@
    @apply flex flex-col gap-2 md:gap-4 w-full;
    input,
    textarea {
-      @apply w-full text-text-1 md:text-lg border-2 border-accent-2 rounded-inner px-5 py-3;
+      @apply w-full text-text-1 md:text-lg border-[1.5px] border-accent-2 rounded-inner px-5 py-3;
       &::placeholder {
          @apply text-text-2/70;
       }

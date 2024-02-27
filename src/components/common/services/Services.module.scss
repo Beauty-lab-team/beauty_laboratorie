@@ -4,7 +4,7 @@
 .service {
    @apply rounded-basic bg-accent-2 p-6 mb-12 xl:mb-0 flex flex-col h-full;
    .image {
-      @apply h-[250px] 2xl:h-[245px] w-full rounded-inner mb-5 object-cover;
+      @apply aspect-auto min-h-[240px] xl:max-h-[245px] w-full rounded-inner mb-5 object-cover;
    }
    .buttons {
       @apply flex gap-3 mt-5;

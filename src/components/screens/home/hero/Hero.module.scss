@@ -57,7 +57,7 @@
       @apply mt-[-70px] lg:mt-0 z-20 relative flex justify-center items-center;
    }
    .heroService {
-      @apply px-3 md:px-12 lg:pl-12 lg:pr-0 relative xl:left-[300px] 2xl:left-[360px] 2xl:scale-125 pb-20 lg:pb-0 overflow-hidden lg:overflow-visible z-20 lg:w-[420px];
+      @apply px-3 md:px-12 lg:pl-12 lg:pr-0 relative xl:left-[300px] 2xl:left-[360px] 2xl:scale-[120%] pb-20 lg:pb-0 overflow-hidden lg:overflow-visible z-20 lg:w-[420px];
       .line1,
       .line2 {
          @apply pointer-events-none;
@@ -69,7 +69,8 @@
          @apply hidden lg:block absolute top-[-55px] left-[20px] w-[50px] h-[50px] z-20 rotate-[40deg];
       }
       .line2 {
-         @apply block absolute top-[230px] md:top-[200px] xl:top-[80px] 2xl:top-[-60px] -left-4 md:left-[160px] xl:left-[580px] 2xl:left-[240px] w-[400px] h-[400px] md:w-[500px] md:h-[500px] z-10 rotate-180 xl:rotate-180 2xl:rotate-[115deg];
+         // @apply block absolute top-[230px] md:top-[200px] xl:top-[80px] 2xl:top-[-60px] -left-4 md:left-[160px] xl:left-[580px] 2xl:left-[240px] w-[400px] h-[400px] md:w-[500px] md:h-[500px] z-10 rotate-180 xl:rotate-180 2xl:rotate-[115deg];
+         @apply block absolute -bottom-[100px] md:-bottom-[160px] lg:-bottom-[260px] xl:-bottom-[150px] 2xl:-bottom-[100px] -left-4 md:left-[160px] xl:left-[580px] 2xl:left-[240px] w-[400px] h-[400px] md:w-[500px] md:h-[500px] z-10 rotate-180 xl:rotate-180 2xl:rotate-[115deg];
       }
    }
 }

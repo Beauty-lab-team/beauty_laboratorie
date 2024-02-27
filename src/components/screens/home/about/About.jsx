@@ -2,11 +2,13 @@ import Section from '../../../UI/Section'
 import Heading from '../../../UI/Heading'
 import Text from '../../../UI/Text'
 import Employees from '../../../common/employees/Employees'
+import Filler from '../../../UI/Filler'
 
 export default function About() {
    return (
       <Section className='grid grid-cols-1 lg:grid-cols-10 gap-10 justify-between relative'>
-         <div className='lg:col-span-4'>
+         <Filler />
+         <div className='lg:col-span-4 relative z-20'>
             <Heading>Про нас</Heading>
             <Text>
                Студія краси Beauty.laboratorie надає широкий спектр послуг естетичної, апаратної, лазерної та інʼєкційної косметології.
@@ -25,7 +27,7 @@ export default function About() {
             <Employees />
          </div>
          <svg
-            className='absolute -bottom-[130px] sm:-bottom-[160px] lg:bottom-[200px] left-0 w-full lg:w-[500px]'
+            className='absolute -bottom-[130px] sm:-bottom-[160px] lg:bottom-[200px] left-0 md:-left-8 w-full lg:w-[500px]'
             width='1478'
             height='202'
             viewBox='0 0 1478 202'
