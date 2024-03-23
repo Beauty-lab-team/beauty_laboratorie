@@ -83,6 +83,8 @@ export default function Form({ handleClose }) {
                   inputMode='tel'
                   placeholder='Номер телефону'
                   aria-label='Номер телефону'
+                  name='phone'
+                  id='phone'
                />
             </div>
          </div>

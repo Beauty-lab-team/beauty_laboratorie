@@ -21,7 +21,7 @@ const Navbar = () => {
    return (
       <nav className={`${s.navbar} ${isMenuOpen ? s.open : ''}`}>
          <div className={s.content}>
-            <Link className={s.logo} href='/'>
+            <Link className={s.logo} rel='nofollow' href='/'>
                <h3>BEAUTY.LABORATORIE</h3>
             </Link>
             <button className={s.menuBtn} onClick={menuClickHandler}>

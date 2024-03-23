@@ -24,7 +24,7 @@ export default function thankyou() {
             </svg>
             <h1 className='text-3xl font-bold text-text-1 mt-4'>Дякую!</h1>
             <p className='text-text-2 mt-2'>Ваша заявка успішно відправлена.</p>
-            <Link href='/' className='text-accent-1 hover:text-text-1 mt-4 font-semibold'>
+            <Link rel='nofollow' href='/' className='text-accent-1 hover:text-text-1 mt-4 font-semibold'>
                На головну
             </Link>
          </div>

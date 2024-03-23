@@ -12,7 +12,7 @@ export default function ServiceCard({ categoryMain, cover, id, formHandler }) {
 
    return (
       <div className={s.service}>
-         <Image className={s.image} src={cover} alt='' width={300} height={200} />
+         <Image className={s.image} src={cover} alt={categoryMain} width={300} height={200} />
          <CardHeading className='flex-1'>{categoryMain}</CardHeading>
          <div className={s.buttons}>
             <Button onClick={handleOpen}>Запис на прийом</Button>

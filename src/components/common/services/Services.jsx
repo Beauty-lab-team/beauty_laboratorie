@@ -24,13 +24,11 @@ export default function Services() {
             <Form handleClose={handleClose} />
          </Modal>
          {isHomePage && (
-            <Slider slides={3}>
-               {data.services.slice(0, 3).map((el, i) => (
-                  <SwiperSlide key={i}>
-                     <ServiceCard {...el} formHandler={setIsOpen} />
-                  </SwiperSlide>
+            <div className={s.servicesGrid}>
+               {data.services.slice(0, 6).map((el, i) => (
+                  <ServiceCard key={i} {...el} formHandler={setIsOpen} />
                ))}
-            </Slider>
+            </div>
          )}
          {!isHomePage && (
             <div className={s.servicesGrid}>
