@@ -3,14 +3,16 @@ import Appointment from '../../common/appointment/Appointment'
 import Benefits from './benefits/Benefits'
 import ServicesHome from './services/ServicesHome'
 import Reviews from '../../common/reviews/Reviews'
-// import Instagram from '../../common/instagram/Instagram'
+import Welcome from './welcome/Welcome'
+import Laser from './laser/Laser'
 
 export default function HomePage() {
    return (
       <div>
          <ServicesHome />
+         <Welcome />
          <About />
-         {/* <Instagram /> */}
+         <Laser />
          <Benefits />
          <Reviews />
          <Appointment />
