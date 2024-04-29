@@ -2,7 +2,7 @@ import { useState } from 'react'
 import ReactInputMask from 'react-input-mask'
 import s from './Form.module.scss'
 import Button from '../../UI/Button'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 export default function Form({ handleClose }) {
    const router = useRouter()
@@ -59,7 +59,7 @@ export default function Form({ handleClose }) {
             setDescription('')
             setErrors({})
             handleClose ? handleClose(false) : null
-            router.push('/thankyou')
+            router.replace('/thankyou')
          })
          .catch(error => {
             console.error(error)
