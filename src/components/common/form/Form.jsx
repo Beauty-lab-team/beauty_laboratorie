@@ -2,7 +2,7 @@ import { useState } from 'react'
 import ReactInputMask from 'react-input-mask'
 import s from './Form.module.scss'
 import Button from '../../UI/Button'
-import { useRouter } from 'next/navigation'
+import { useRouter } from 'next/router'
 
 export default function Form({ handleClose }) {
    const router = useRouter()
