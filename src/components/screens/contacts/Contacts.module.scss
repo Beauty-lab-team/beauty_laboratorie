@@ -1,0 +1,30 @@
+.videoWrap {
+   @apply sm:grid grid-cols-4 md:grid-cols-3 gap-10 items-center;
+   video {
+      @apply order-1 sm:order-2 w-full h-auto col-span-2 md:col-span-1 rounded-basic;
+   }
+   img {
+      @apply order-2 sm:order-1 mt-12 sm:mt-0 col-span-2 md:w-[85%];
+   }
+}
+.contacts {
+   @apply flex justify-between md:justify-end gap-8 pt-6 md:pt-10;
+   a {
+      @apply text-text-2 text-lg hover:underline;
+   }
+   p {
+      @apply text-text-1 text-xl mb-1;
+   }
+   .tel {
+      @apply flex flex-col gap-1;
+   }
+}
+.social {
+   @apply flex flex-col;
+   div {
+      @apply flex gap-2;
+   }
+   a {
+      @apply w-10 h-10 hover:opacity-80 duration-200 ease-out transition-all;
+   }
+}

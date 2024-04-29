@@ -2,20 +2,36 @@ import Image from 'next/image'
 import Section from '../../UI/Section'
 import Appointment from '../../common/appointment/Appointment'
 import Heading from '../../UI/Heading'
+import s from './Contacts.module.scss'
 export default function ContactsPage() {
    return (
       <Section className='pt-[140px] lg:pt-[160px]'>
          <Heading>Як нас знайти</Heading>
-         <div className='sm:grid grid-cols-4 md:grid-cols-3 gap-10 items-center'>
-            <video
-               className='order-1 sm:order-2 w-full h-auto col-span-2 md:col-span-1 rounded-basic'
-               src='/clinic/як-знайти.mp4'
-               controls
-               muted
-               playsInline
-               autoPlay
-            />
-            <Image className='order-2 sm:order-1 mt-12 sm:mt-0 col-span-2 md:w-[85%]' src='/info.svg' width={600} height={600} alt='info' />
+         <div className={s.videoWrap}>
+            <video src='/clinic/як-знайти.mp4' controls muted playsInline autoPlay />
+            <Image src='/info.svg' width={600} height={600} alt='info' />
+         </div>
+         <div className={s.contacts}>
+            <div className={s.tel}>
+               <p>Наш телефон:</p>
+               <a rel='nofollow' href='tel:+380675949525'>
+                  +38(067)594-95-25
+               </a>
+               <a rel='nofollow' href='tel:+380954863561'>
+                  +38(095)486-35-61
+               </a>
+            </div>
+            <div className={s.social}>
+               <p>Соцмережі:</p>
+               <div>
+                  <a rel='nofollow' href='https://www.facebook.com/profile.php?id=100026693756002'>
+                     <img src='/icons/facebook.svg' alt='facebook' />
+                  </a>
+                  <a rel='nofollow' href='https://instagram.com/beauty.laboratorie?igshid=MzRlODBiNWFlZA=='>
+                     <img src='/icons/instagram.svg' alt='instagram' />
+                  </a>
+               </div>
+            </div>
          </div>
          <Appointment />
       </Section>

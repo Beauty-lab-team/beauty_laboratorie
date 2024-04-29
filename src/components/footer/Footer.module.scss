@@ -1,30 +1,15 @@
 .footer {
    @apply bg-accent-2 border-t;
    .content {
-      @apply container px-3 md:px-12 py-8 mx-auto flex flex-col md:flex-row md:justify-between md:items-start gap-6 md:gap-8;
+      @apply container px-3 md:px-12 py-8 mx-auto gap-6 md:gap-8;
    }
    .map {
       @apply w-full md:flex-1 h-96 rounded-basic;
    }
    .contacts {
-      @apply flex flex-col gap-6 md:pt-1;
+      @apply flex justify-center md:pt-10;
       a {
-         @apply text-text-2 text-lg hover:underline;
-      }
-      p {
-         @apply text-text-1 text-xl mb-1;
-      }
-      .tel {
-         @apply flex flex-col gap-1;
-      }
-   }
-   .social {
-      @apply flex flex-col;
-      div {
-         @apply flex gap-2;
-      }
-      a {
-         @apply w-10 h-10 hover:opacity-80 duration-200 ease-out transition-all;
+         @apply text-text-2 text-xl hover:underline;
       }
    }
    .bottom {
