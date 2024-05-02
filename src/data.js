@@ -4,6 +4,7 @@ export const data = {
          id: 1,
          cover: '/services/косметологія-тіла.jpg',
          categoryMain: 'Косметологія тіла',
+         link: 'Kosmetologiya-tila-y-Dnipri',
          services: [
             {
                time: null,
@@ -56,6 +57,7 @@ export const data = {
          id: 2,
          cover: '/services/ін`єкції.jpg',
          categoryMain: 'Інʼєкції',
+         link: 'Inyektsii-v-Dnipri',
          subcategories: [
             {
                subName: 'Ботулотоксин',
@@ -208,6 +210,7 @@ export const data = {
          id: 3,
          cover: '/services/догляд-за-обличчям.jpg',
          categoryMain: 'Догляд за обличчям',
+         link: 'Doglyad-za-oblichcham-y-Dnipri',
          services: [
             {
                time: null,
@@ -235,6 +238,7 @@ export const data = {
          id: 4,
          cover: '/services/пілінги.jpg',
          categoryMain: 'Пілінги',
+         link: 'Pilingy-y-Dnipri',
          services: [
             {
                time: null,
@@ -267,6 +271,7 @@ export const data = {
          id: 5,
          cover: '/services/косметологія-обличчя.jpg',
          categoryMain: 'Косметологія обличчя',
+         link: 'Kosmetologiya-oblichchya-y-Dnipri',
          services: [
             {
                time: null,
@@ -289,6 +294,7 @@ export const data = {
          id: 6,
          cover: '/services/лазерна-епіляція.jpg',
          categoryMain: 'Лазерна епіляція',
+         link: 'Lazerna-epilyatsiya-y-Dnipri',
          subcategories: [
             {
                subName: 'Комплекс XS',
@@ -417,6 +423,7 @@ export const data = {
          id: 7,
          cover: '/services/мікроголковий-РФ.jpg',
          categoryMain: 'Мікроголковий РФ',
+         link: 'Mikrogolkoviy-RF-y-Dnipri',
          services: [
             {
                time: null,
@@ -449,6 +456,7 @@ export const data = {
          id: 8,
          cover: '/services/смас-ліфтінг.jpg',
          categoryMain: 'Смас-ліфтинг',
+         link: 'Smas-lifting-y-Dnipri',
          services: [
             {
                time: null,
