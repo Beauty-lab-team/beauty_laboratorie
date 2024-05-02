@@ -8,16 +8,16 @@ import Button from '../../../UI/Button'
 import Section from '../../../UI/Section'
 import HeroSlider from '../../../UI/slider/HeroSlider'
 import { SwiperSlide } from 'swiper/react'
-import { InstagramEmbed } from 'react-social-media-embed'
 import useMediaQuery from '../../../../hooks/useMediaQuery'
 import ServiceCard from '../../../common/services/ServiceCard'
 import Modal from '../../../UI/modal/Modal'
 import Form from '../../../common/form/Form'
 import { useState } from 'react'
 import { data } from '../../../../data'
+import { usePathname } from 'next/navigation'
 
 export default function Hero() {
-   const isDesktop = useMediaQuery('(min-width: 1024px)')
+   const pathname = usePathname()
    const [isOpen, setIsOpen] = useState(false)
    const { categoryMain, cover, id } = data.services[5]
 
@@ -27,7 +27,7 @@ export default function Hero() {
    }
 
    return (
-      <div className='heroWrapper'>
+      <div className={`heroWrapper ${pathname == '/' ? '' : 'hidden'}`}>
          <HeroSlider>
             <SwiperSlide>
                <Section>

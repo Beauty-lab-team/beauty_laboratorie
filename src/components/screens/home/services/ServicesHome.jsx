@@ -1,7 +1,7 @@
 import Heading from '../../../UI/Heading'
 import LinkToPage from '../../../UI/LinkToPage'
 import Section from '../../../UI/Section'
-import Services from '../../../common/services/Services'
+import ServicesList from '../../../common/services/ServicesList'
 
 export default function ServicesHome() {
    return (
@@ -12,7 +12,7 @@ export default function ServicesHome() {
                Всi послуги
             </LinkToPage>
          </div>
-         <Services />
+         <ServicesList />
       </Section>
    )
 }

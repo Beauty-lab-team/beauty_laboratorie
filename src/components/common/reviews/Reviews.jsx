@@ -1,3 +1,4 @@
+'use client'
 import { SwiperSlide } from 'swiper/react'
 import Heading from '../../UI/Heading'
 import Section from '../../UI/Section'

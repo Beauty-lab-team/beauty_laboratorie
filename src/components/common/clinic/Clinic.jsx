@@ -1,3 +1,4 @@
+'use client'
 import Section from '../../UI/Section'
 import Heading from '../../UI/Heading'
 import Slider from '../../UI/slider/Slider'

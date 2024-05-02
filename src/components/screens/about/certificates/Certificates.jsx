@@ -1,3 +1,4 @@
+'use client'
 import Section from '../../../UI/Section'
 import Heading from '../../../UI/Heading'
 import Image from 'next/image'

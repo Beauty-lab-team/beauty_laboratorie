@@ -1,20 +1,17 @@
+'use client'
 import { useEffect, useState } from 'react'
 import s from './Accordion.module.scss'
 import useMediaQuery from '../../../hooks/useMediaQuery'
 import CardHeading from '../CardHeading'
-import { useRouter } from 'next/router'
 
 export default function Accordion({ heading, sectionId, isClickable = false, children }) {
-   const router = useRouter()
-   const routeId = router.asPath.split('#')[1] || null
-
+   let routeId
    const isDesktop = useMediaQuery('(min-width: 768px)')
    const [isOpen, setIsOpen] = useState(false)
    const toggleAccordion = () => setIsOpen(!isOpen)
 
-   // useEffect(() => setIsOpen(isDesktop), [isDesktop])
-
    useEffect(() => {
+      routeId = window.location.hash.slice('#')[1]
       if (routeId) {
          const element = document.getElementById(routeId)
          if (element) {

@@ -7,7 +7,7 @@
       @apply w-full md:flex-1 h-96 rounded-basic;
    }
    .contacts {
-      @apply flex justify-center md:pt-10;
+      @apply flex justify-center pt-3 md:pt-10;
       a {
          @apply text-text-2 text-xl hover:underline;
       }

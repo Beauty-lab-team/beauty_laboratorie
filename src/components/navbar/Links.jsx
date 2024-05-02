@@ -3,7 +3,7 @@ import s from './Navbar.module.scss'
 import { data } from '../../data.js'
 import DropdownLink from './DropdownLink.jsx'
 
-const Links = ({ pathname, isMenuOpen }) => {
+const Links = ({ pathname, isMenuOpen, setMenu }) => {
    const links = [
       { title: 'Про нас', link: '/about-us' },
       { title: 'Iнтер`єр', link: '/interior' },
@@ -45,14 +45,14 @@ const Links = ({ pathname, isMenuOpen }) => {
                            </svg>
                         </div>
                         <ul tabIndex={0} className='dropdown-content z-[1] menu p-2 shadow bg-white rounded-basic w-[250px]'>
-                           <DropdownLink link='/services' title='Всі послуги' />
+                           <DropdownLink setMenu={setMenu} link='/services' title='Всі послуги' />
                            {data.services.map(service => (
-                              <DropdownLink link={`/services/${service.link}`} title={service.categoryMain} />
+                              <DropdownLink setMenu={setMenu} link={`/services/${service.link}`} title={service.categoryMain} />
                            ))}
                         </ul>
                      </div>
                   ) : (
-                     <Link rel='nofollow' href={el.link} className={pathname === el.link ? s.active : ''}>
+                     <Link onClick={() => setMenu(false)} rel='nofollow' href={el.link} className={pathname === el.link ? s.active : ''}>
                         {el.title}
                      </Link>
                   )}

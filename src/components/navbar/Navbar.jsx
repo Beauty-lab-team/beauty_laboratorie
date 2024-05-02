@@ -1,11 +1,12 @@
-import { useRouter } from 'next/router'
+'use client'
+import { usePathname } from 'next/navigation'
 import Links from './Links'
 import s from './Navbar.module.scss'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 
 const Navbar = () => {
-   const { pathname } = useRouter()
+   const pathname = usePathname()
    const [isMenuOpen, setIsMenuOpen] = useState(false)
    const menuClickHandler = () => setIsMenuOpen(!isMenuOpen)
 
@@ -21,7 +22,7 @@ const Navbar = () => {
    return (
       <nav className={`${s.navbar} ${isMenuOpen ? s.open : ''}`}>
          <div className={s.content}>
-            <Link className={s.logo} rel='nofollow' href='/'>
+            <Link onClick={() => setIsMenuOpen(false)} className={s.logo} rel='nofollow' href='/'>
                <h3>BEAUTY.LABORATORIE</h3>
             </Link>
             <button className={s.menuBtn} onClick={menuClickHandler}>
@@ -30,7 +31,7 @@ const Navbar = () => {
                   <path d='M6 36h36v-4H6v4zm0-10h36v-4H6v4zm0-14v4h36v-4H6z'></path>
                </svg>
             </button>
-            <Links pathname={pathname} isMenuOpen={isMenuOpen} />
+            <Links pathname={pathname} isMenuOpen={isMenuOpen} setMenu={setIsMenuOpen} />
          </div>
       </nav>
    )

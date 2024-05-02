@@ -1,3 +1,4 @@
+'use client'
 import Text from '../../UI/Text'
 import Accordion from '../../UI/accordion/Accordion'
 import s from './Features.module.scss'

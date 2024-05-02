@@ -1,9 +1,13 @@
 import Image from 'next/image'
-import Section from '../../UI/Section'
-import Appointment from '../../common/appointment/Appointment'
-import Heading from '../../UI/Heading'
-import s from './Contacts.module.scss'
-export default function ContactsPage() {
+import Heading from '../../../components/UI/Heading'
+import Section from '../../../components/UI/Section'
+import s from '../../components/screens/contacts/Contacts.module.scss'
+
+export const metadata = {
+   title: 'Контакти',
+}
+
+export default function Contacts() {
    return (
       <Section className='pt-[140px] lg:pt-[160px]'>
          <Heading>Як нас знайти</Heading>
@@ -33,7 +37,6 @@ export default function ContactsPage() {
                </div>
             </div>
          </div>
-         <Appointment />
       </Section>
    )
 }

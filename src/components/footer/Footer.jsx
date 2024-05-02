@@ -1,9 +1,10 @@
+'use client'
 import Link from 'next/link'
 import s from './Footer.module.scss'
-import { useRouter } from 'next/router'
+import { usePathname } from 'next/navigation'
 
 export default function Footer() {
-   const { pathname } = useRouter()
+   const pathname = usePathname()
 
    return (
       <footer className={s.footer}>

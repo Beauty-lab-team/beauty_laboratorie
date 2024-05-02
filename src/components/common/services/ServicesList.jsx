@@ -1,16 +1,15 @@
-import { SwiperSlide } from 'swiper/react'
-import Slider from '../../UI/slider/Slider'
+'use client'
 import s from './Services.module.scss'
-import { useRouter } from 'next/router'
-import Modal from '../../UI/modal/Modal'
-import Form from '../form/Form'
+import { usePathname } from 'next/navigation'
+import Modal from '../../UI/modal/Modal.jsx'
+import Form from '../form/Form.jsx'
 import { useState } from 'react'
-import ServiceCard from './ServiceCard'
+import ServiceCard from './ServiceCard.jsx'
 import { data } from '../../../data.js'
 
-export default function Services() {
+export default function ServicesList() {
    const [isOpen, setIsOpen] = useState(false)
-   const { pathname } = useRouter()
+   const pathname = usePathname()
    const isHomePage = pathname == '/'
 
    const handleClose = () => {

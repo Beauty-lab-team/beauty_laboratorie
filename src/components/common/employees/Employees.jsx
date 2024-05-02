@@ -1,12 +1,9 @@
+'use client'
 import Slider from '../../UI/slider/Slider'
 import { SwiperSlide } from 'swiper/react'
 import Employee from './Employee'
-import { useRouter } from 'next/router'
 
 export default function Employees() {
-   const { pathname } = useRouter()
-   const isHomePage = pathname == '/'
-
    const employees = [
       {
          name: 'Оксана Розбейко',
