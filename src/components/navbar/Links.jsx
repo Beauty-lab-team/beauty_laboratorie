@@ -46,9 +46,11 @@ const Links = ({ pathname, isMenuOpen, setMenu }) => {
                         </div>
                         <ul tabIndex={0} className='dropdown-content z-[1] menu p-2 shadow bg-white rounded-basic w-[250px]'>
                            <DropdownLink setMenu={setMenu} link='/services' title='Всі послуги' />
-                           {data.services.map(service => (
-                              <DropdownLink setMenu={setMenu} link={`/services/${service.link}`} title={service.categoryMain} />
-                           ))}
+                           {data.services.map(service => {
+                              return (
+                                 service.text && <DropdownLink setMenu={setMenu} link={`/services/${service.link}`} title={service.categoryMain} />
+                              )
+                           })}
                         </ul>
                      </div>
                   ) : (

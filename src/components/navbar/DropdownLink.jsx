@@ -4,7 +4,7 @@ import { usePathname } from 'next/navigation'
 
 export default function DropdownLink({ link, title, setMenu }) {
    const pathname = usePathname()
-   const isActive = pathname.includes(link)
+   const isActive = pathname === link
 
    return (
       <li>
