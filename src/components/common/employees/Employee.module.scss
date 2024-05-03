@@ -13,9 +13,9 @@
       @apply text-text-1 text-lg mt-4 mb-3;
    }
    .profile {
-      @apply flex justify-center flex-wrap gap-1.5 text-sm px-12;
+      @apply flex justify-center flex-wrap gap-1.5 text-sm px-3 md:px-6 mt-5 md:mt-3;
       li {
-         @apply border border-text-2 text-text-2 rounded-full py-1 px-2;
+         @apply bg-text-2 text-white rounded-full py-1.5 px-2;
       }
    }
 }
