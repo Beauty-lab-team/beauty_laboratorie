@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Heading from '../../../components/UI/Heading'
 import Section from '../../../components/UI/Section'
-import s from '../../components/screens/contacts/Contacts.module.scss'
+import s from '../../../components/screens/contacts/Contacts.module.scss'
 
 export const metadata = {
    title: 'Контакти',
