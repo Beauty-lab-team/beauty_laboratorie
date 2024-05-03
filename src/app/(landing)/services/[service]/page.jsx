@@ -27,7 +27,7 @@ export default function Service({ params }) {
       <div>
          <Heading className='mt-20 text-4xl'>{categoryMain}</Heading>
          <Text
-            className='prose prose-headings:text-text-1 prose-li:marker:text-text-2 prose-h1:mt-12 prose-h1:text-4xl'
+            className='prose prose-headings:text-text-1 prose-li:marker:text-text-2 prose-strong:text-text-1 prose-h1:mt-12 prose-h1:text-4xl'
             dangerouslySetInnerHTML={{ __html: content }}
          ></Text>
       </div>
