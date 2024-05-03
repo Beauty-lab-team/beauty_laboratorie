@@ -19,7 +19,7 @@ import { usePathname } from 'next/navigation'
 export default function Hero() {
    const pathname = usePathname()
    const [isOpen, setIsOpen] = useState(false)
-   const { categoryMain, cover, id } = data.services[5]
+   const { categoryMain, cover, id, text } = data.services[5]
 
    const handleClose = () => {
       setIsOpen(false)
@@ -61,7 +61,7 @@ export default function Hero() {
                               fill='black'
                            />
                         </svg>
-                        <ServiceCard categoryMain={categoryMain} id={id} cover={cover} formHandler={setIsOpen} />
+                        <ServiceCard categoryMain={categoryMain} id={id} cover={cover} text={text} formHandler={setIsOpen} />
                      </div>
                      <div className={`${s.info} ${s.discount}`}>
                         <Heading className='2xl:max-w-[600px] 2xl:relative right-[80px]'>
