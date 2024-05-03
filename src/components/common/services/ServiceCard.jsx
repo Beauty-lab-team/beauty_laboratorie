@@ -17,7 +17,11 @@ export default function ServiceCard({ categoryMain, cover, id, link, text, formH
          <div className={s.buttons}>
             <Button onClick={handleOpen}>Запис</Button>
             <LinkToPage link={`/prices/#${id}`}>Цiни</LinkToPage>
-            {text && <LinkToPage link={`/services/${link}`}>Детальніше</LinkToPage>}
+            {text && (
+               <LinkToPage className='col-span-2' link={`/services/${link}`}>
+                  Детальніше
+               </LinkToPage>
+            )}
          </div>
       </div>
    )
