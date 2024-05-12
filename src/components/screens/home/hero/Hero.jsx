@@ -19,7 +19,7 @@ import { usePathname } from 'next/navigation'
 export default function Hero() {
    const pathname = usePathname()
    const [isOpen, setIsOpen] = useState(false)
-   const { categoryMain, cover, id, text } = data.services[5]
+   const { categoryMain, cover, id, text } = data.services[0]
 
    const handleClose = () => {
       setIsOpen(false)

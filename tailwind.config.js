@@ -12,7 +12,9 @@ module.exports = {
          },
          fontSize: {
             'heading-mobile': '56px',
+            'heading-mobile-sm': '38px',
             'heading-desktop': '70px',
+            'heading-desktop-sm': '42px',
             'cardHeading-mobile': '24px',
             'cardHeading-desktop': '28px',
          },

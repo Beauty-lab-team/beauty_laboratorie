@@ -7,7 +7,7 @@
       @apply aspect-auto min-h-[240px] xl:max-h-[245px] w-full rounded-inner mb-5 object-cover;
    }
    .buttons {
-      @apply grid md:flex grid-cols-2 gap-2 md:gap-3 mt-5;
+      @apply grid xl:flex grid-cols-2 gap-2 xl:gap-3 mt-5;
       button,
       a {
          @apply flex justify-center items-center w-full;
@@ -15,6 +15,15 @@
    }
 }
 .servicesGrid {
+   &FullList {
+      @apply grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4;
+      .service {
+         @apply mb-0;
+         .image {
+            @apply xl:max-h-[355px];
+         }
+      }
+   }
    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4;
    .service {
       @apply mb-0;
