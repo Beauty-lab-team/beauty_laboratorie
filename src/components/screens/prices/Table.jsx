@@ -3,17 +3,6 @@ import Text from '../../UI/Text'
 import Accordion from '../../UI/accordion/Accordion'
 import s from './Prices.module.scss'
 
-function TableHead({ el }) {
-   return (
-      <thead>
-         <tr>
-            {el.services[0].time && <th>Час</th>}
-            <th>Опис</th>
-            <th>Цiна</th>
-         </tr>
-      </thead>
-   )
-}
 function TableContent({ el }) {
    return (
       <tr>
@@ -42,7 +31,6 @@ export default function Table({ data }) {
                   <table>
                      <thead>
                         <tr>
-                           {/* {el.services[0].time && <th>Час</th>} */}
                            <th>Опис</th>
                            <th>Цiна</th>
                         </tr>
@@ -59,7 +47,6 @@ export default function Table({ data }) {
                <table onClick={e => e.stopPropagation()}>
                   <thead>
                      <tr>
-                        {/* {el.services[0].time && <th>Час</th>} */}
                         <th>Опис</th>
                         <th>Цiна</th>
                      </tr>

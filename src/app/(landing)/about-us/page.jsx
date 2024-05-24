@@ -1,3 +1,4 @@
+import Clinic from '../../../components/common/clinic/Clinic'
 import Reviews from '../../../components/common/reviews/Reviews'
 import Benefits from '../../../components/screens/about/benefits/Benefits'
 import Bio from '../../../components/screens/about/bio/Bio'
@@ -19,6 +20,7 @@ export default function About() {
          <Equipment />
          <Benefits />
          <Reviews />
+         <Clinic />
       </div>
    )
 }

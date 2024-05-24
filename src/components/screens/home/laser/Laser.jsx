@@ -8,7 +8,10 @@ import s from './Laser.module.scss'
 export default function Laser() {
    return (
       <Section>
-         <Heading level='1'>Лазерна єпіляція у Дніпрі</Heading>
+         <Heading level='3'>Найпопулярніша послуга у нашій Б'юті лабораторії:</Heading>
+         <Heading size='sm' level='1'>
+            Лазерна єпіляція у Дніпрі
+         </Heading>
          <div className='grid lg:grid-cols-2 gap-8'>
             <Text>
                В нашій BEAUTY LABORATORIE є, на вибір, відомі та дієві професійні препарати, професійного косметологічного обладнання для лазерної
