@@ -1,8 +1,5 @@
 import Script from 'next/script'
-import Navbar from '../components/navbar/Navbar'
-import Footer from '../components/footer/Footer'
-import Hero from '../components/screens/home/hero/Hero'
-import Appointment from '../components/common/appointment/Appointment'
+import SessionProvider from '../components/SessionProvider'
 import '../styles/index.css'
 
 export const metadata = {
@@ -14,7 +11,7 @@ export const metadata = {
       "Косметична студія 'Beauty.laboratorie' - це центр краси та здоров'я у Дніпрі. Ми пропонуємо широкий спектр косметологічних послуг для чоловіків та жінок, включаючи догляд за обличчям, тілом, волоссям та нігтями. Наші фахівці з багаторічним досвідом роботи допоможуть вам зберегти молодість та красу",
 }
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
    return (
       <html lang='uk'>
          <head>
@@ -27,7 +24,7 @@ export default function RootLayout({ children }) {
             <meta name='theme-color' content='#fdf2f8c6' />
          </head>
          <body>
-            <div>{children}</div>
+            <SessionProvider>{children}</SessionProvider>
             <noscript>
                <iframe
                   src='https://www.googletagmanager.com/ns.html?id=GTM-TMXL8BJ8'
