@@ -1,18 +1,22 @@
 .hero {
-   @apply relative lg:static grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-12 mt-[-96px] md:mt-[-176px] pb-12 lg:pb-0 justify-between items-center min-h-screen;
+   @apply relative lg:static grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-12 mt-[-96px] md:mt-[-176px] pb-12 lg:pb-0 justify-between items-center min-h-screen xl:container xl:mx-auto;
    .info {
-      @apply mt-[500px] md:mt-[650px] lg:mt-0 lg:col-span-1 lg:order-1 container mx-auto px-3 md:px-12;
-   }
-   .main {
+      @apply max-w-3xl mt-[500px] md:mt-[650px] lg:mt-0 lg:col-span-1 lg:order-1 space-y-6 container mx-auto px-3 md:px-12;
       button {
-         @apply px-12 py-2 bg-accent-1 text-white mt-4 w-full lg:w-auto;
+         @apply px-12 py-2 bg-accent-1 text-white mt-4 xl:mt-8 w-full lg:w-auto;
          &:hover {
             @apply text-accent-1 border-accent-1 bg-transparent;
          }
       }
+      .list {
+         @apply list-disc pl-5;
+         li {
+            @apply text-text-2;
+         }
+      }
    }
    .photo {
-      @apply absolute top-[45px] md:top-[66px] lg:top-[110px] right-0 2xl:right-[52px] lg:order-2 lg:col-span-1 w-full h-[440px] md:h-[545px] lg:w-[55%] lg:min-h-[calc(100vh-150px)] 2xl:scale-110 rounded-b-basic object-cover object-right pointer-events-none;
+      @apply absolute top-[45px] md:top-[66px] lg:top-[110px] right-0 2xl:-right-[70px] lg:order-2 lg:col-span-1 w-full h-[440px] md:h-[545px] lg:w-[55%] lg:min-h-[calc(100vh-150px)] 2xl:scale-110 rounded-b-basic object-cover object-right pointer-events-none;
       clip-path: circle(83% at 30% 20%);
       @media screen and (min-width: 640px) {
          clip-path: circle(90% at 20% 10%);
