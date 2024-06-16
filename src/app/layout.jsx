@@ -33,6 +33,10 @@ export default async function RootLayout({ children }) {
                   style={{ display: 'none', visibility: 'hidden' }}
                ></iframe>
             </noscript>
+            <Script id='hydro_config' type='text/javascript'>
+               window.Hydro_tagId = "87e38291-1be9-4043-8924-42a06aaf670a";
+            </Script>
+            <Script id='hydro_script' src='https://track.hydro.online/'></Script>
             <Script id='google-analytics'>
                {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
