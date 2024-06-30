@@ -14,11 +14,11 @@
       tbody {
          @apply bg-white/75;
          tr {
-            &:nth-child(odd) {
-               @apply bg-rose-100/30;
-            }
             td {
-               @apply p-3 text-sm text-text-2 md:font-light;
+               @apply p-3 text-sm text-text-2 md:font-light border-b-2 border-rose-100/30;
+            }
+            &:last-of-type td {
+               @apply border-b-0;
             }
          }
       }
