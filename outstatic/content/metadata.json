@@ -1,6 +1,6 @@
 {
-  "commit": "cc17dbd2ec29be63a4cccda1240bc6995e4effd8",
-  "generated": "Tue, 02 Jul 2024 12:49:40 GMT",
+  "commit": "729dcd577308676bb124c3cd56f7ffdc8df06dbb",
+  "generated": "2024-07-02T16:42:20.509Z",
   "metadata": [
     {
       "__outstatic": {
@@ -19,24 +19,6 @@
       "slug": "serv-1",
       "status": "published",
       "title": "Super service"
-    },
-    {
-      "__outstatic": {
-        "commit": "31d9f96a8a1917ba064f955ec88141605e9fe136",
-        "hash": "2993890691",
-        "path": "outstatic/content/posts/new-pp.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-07-02T12:34:59.164Z",
-      "slug": "new-pp",
-      "status": "draft",
-      "title": "new pp"
     }
   ]
 }
