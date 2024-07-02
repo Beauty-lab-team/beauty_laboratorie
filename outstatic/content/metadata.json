@@ -1,24 +1,6 @@
 {
-  "commit": "729dcd577308676bb124c3cd56f7ffdc8df06dbb",
-  "generated": "2024-07-02T16:42:20.509Z",
+  "commit": "9004b3cdae489075b2b524b2e0a201668b41f98e",
+  "generated": "2024-07-02T16:42:23.715Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "59173c4bda26615511550137dee12b9e16133428",
-        "hash": "4187235896",
-        "path": "outstatic/content/services/serv-1.md"
-      },
-      "author": {
-        "name": "-",
-        "picture": ""
-      },
-      "collection": "services",
-      "coverImage": "/images/----------M4OD.jpg",
-      "description": "",
-      "publishedAt": "2024-07-02T11:25:52.069Z",
-      "slug": "serv-1",
-      "status": "published",
-      "title": "Super service"
-    }
   ]
 }
