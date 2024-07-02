@@ -1,0 +1,13 @@
+{
+  "title": "services",
+  "type": "object",
+  "properties": {
+    "tag": {
+      "required": true,
+      "description": "Write a type of service",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "tag"
+    }
+  }
+}
