@@ -1,6 +1,24 @@
 {
-  "commit": "9004b3cdae489075b2b524b2e0a201668b41f98e",
-  "generated": "2024-07-02T16:42:23.715Z",
+  "commit": "5d14da73a819bc5cfa60444f064d3ec8e24924e0",
+  "generated": "2024-07-02T16:45:30.137Z",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "5d14da73a819bc5cfa60444f064d3ec8e24924e0",
+        "hash": "1283856632",
+        "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-----------------cxOT.jpg",
+      "description": "",
+      "publishedAt": "2024-07-02T16:54:44.628Z",
+      "slug": "lazerna-epilyatsiya-v-dnipri",
+      "status": "draft",
+      "title": "Лазерна епіляція"
+    }
   ]
 }
