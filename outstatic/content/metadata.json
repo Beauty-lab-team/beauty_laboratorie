@@ -1,0 +1,42 @@
+{
+  "commit": "cc17dbd2ec29be63a4cccda1240bc6995e4effd8",
+  "generated": "Tue, 02 Jul 2024 12:49:28 GMT",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "59173c4bda26615511550137dee12b9e16133428",
+        "hash": "4187235896",
+        "path": "outstatic/content/services/serv-1.md"
+      },
+      "author": {
+        "name": "-",
+        "picture": ""
+      },
+      "collection": "services",
+      "coverImage": "/images/----------M4OD.jpg",
+      "description": "",
+      "publishedAt": "2024-07-02T11:25:52.069Z",
+      "slug": "serv-1",
+      "status": "published",
+      "title": "Super service"
+    },
+    {
+      "__outstatic": {
+        "commit": "31d9f96a8a1917ba064f955ec88141605e9fe136",
+        "hash": "2993890691",
+        "path": "outstatic/content/posts/new-pp.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-07-02T12:34:59.164Z",
+      "slug": "new-pp",
+      "status": "draft",
+      "title": "new pp"
+    }
+  ]
+}
