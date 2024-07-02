@@ -1,6 +1,6 @@
 {
-  "commit": "ab4b21dba72a3e183c0739d2ab657c28aa10916d",
-  "generated": "2024-07-02T16:47:46.225Z",
+  "commit": "de3c1738afcd1d9b5b4d0a0ce92ac3b99da3cd0b",
+  "generated": "2024-07-02T16:49:07.690Z",
   "metadata": [
     {
       "__outstatic": {
@@ -20,6 +20,25 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Лазерна епіляція"
+    },
+    {
+      "__outstatic": {
+        "commit": "de3c1738afcd1d9b5b4d0a0ce92ac3b99da3cd0b",
+        "hash": "370116599",
+        "path": "outstatic/content/services/slimsfera-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------A4NT.jpg",
+      "description": "",
+      "publishedAt": "2024-07-02T16:59:58.549Z",
+      "slug": "slimsfera-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Слімсфера"
     }
   ]
 }
