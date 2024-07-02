@@ -1,6 +1,6 @@
 ---
-title: 'Serv #1'
-status: 'draft'
+title: 'Super service'
+status: 'published'
 author:
   name: '-'
   picture: ''
@@ -10,4 +10,4 @@ coverImage: '/images/----------M4OD.jpg'
 publishedAt: '2024-07-02T11:25:52.069Z'
 ---
 
-![](/images/---------------------U4MD.jpg)
+simple
