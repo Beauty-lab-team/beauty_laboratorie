@@ -1,11 +1,11 @@
 {
-  "commit": "5d14da73a819bc5cfa60444f064d3ec8e24924e0",
-  "generated": "2024-07-02T16:45:30.137Z",
+  "commit": "ab4b21dba72a3e183c0739d2ab657c28aa10916d",
+  "generated": "2024-07-02T16:46:39.669Z",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "5d14da73a819bc5cfa60444f064d3ec8e24924e0",
-        "hash": "1283856632",
+        "commit": "ab4b21dba72a3e183c0739d2ab657c28aa10916d",
+        "hash": "1914148319",
         "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
       },
       "author": {
@@ -18,6 +18,7 @@
       "publishedAt": "2024-07-02T16:54:44.628Z",
       "slug": "lazerna-epilyatsiya-v-dnipri",
       "status": "draft",
+      "tag": "Косметологія тіла",
       "title": "Лазерна епіляція"
     }
   ]

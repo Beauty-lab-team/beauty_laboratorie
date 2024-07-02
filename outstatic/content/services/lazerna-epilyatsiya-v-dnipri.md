@@ -7,6 +7,7 @@ author:
 slug: 'lazerna-epilyatsiya-v-dnipri'
 description: ''
 coverImage: '/images/-----------------cxOT.jpg'
+tag: 'Косметологія тіла'
 publishedAt: '2024-07-02T16:54:44.628Z'
 ---
 
