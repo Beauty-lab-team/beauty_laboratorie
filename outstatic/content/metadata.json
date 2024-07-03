@@ -1,6 +1,6 @@
 {
-  "commit": "6692830aa22780d7d74ef16f5080d2f2191959a2",
-  "generated": "2024-07-03T15:14:40.232Z",
+  "commit": "0ebffab5174c6da8069d1b736c242b387624df79",
+  "generated": "2024-07-03T15:16:08.438Z",
   "metadata": [
     {
       "__outstatic": {
@@ -172,6 +172,25 @@
       "status": "draft",
       "tag": "Косметологія обличчя",
       "title": "Догляд за обличчям"
+    },
+    {
+      "__outstatic": {
+        "commit": "0ebffab5174c6da8069d1b736c242b387624df79",
+        "hash": "3111892866",
+        "path": "outstatic/content/services/mikroholkovyy-rf-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/------------------gxOD.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:26:48.454Z",
+      "slug": "mikroholkovyy-rf-v-dnipri",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "Мікроголковий РФ"
     }
   ]
 }
