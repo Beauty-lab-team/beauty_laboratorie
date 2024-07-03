@@ -1,6 +1,6 @@
 {
-  "commit": "e671f8973ffc6391c8194c0d9d7d38608a7dca7d",
-  "generated": "2024-07-03T15:16:55.079Z",
+  "commit": "e63c913f1041ae0bd66428b737eab8baec2ca199",
+  "generated": "2024-07-03T15:17:57.325Z",
   "metadata": [
     {
       "__outstatic": {
@@ -210,6 +210,25 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "Смас-ліфтинг"
+    },
+    {
+      "__outstatic": {
+        "commit": "e63c913f1041ae0bd66428b737eab8baec2ca199",
+        "hash": "3047673159",
+        "path": "outstatic/content/services/iniekciyi.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------g0ND.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:29:02.681Z",
+      "slug": "iniekciyi",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "Інʼєкції"
     }
   ]
 }
