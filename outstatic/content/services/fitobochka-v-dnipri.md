@@ -4,7 +4,7 @@ status: 'draft'
 author:
   name: 'Eduard Povierin'
   picture: 'https://avatars.githubusercontent.com/u/67825832?v=4'
-slug: 'fitobochka'
+slug: 'fitobochka-v-dnipri'
 description: ''
 coverImage: '/images/----------Q2NT.jpg'
 tag: 'Косметологія тіла'

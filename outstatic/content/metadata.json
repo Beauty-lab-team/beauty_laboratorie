@@ -1,6 +1,6 @@
 {
-  "commit": "9b1a4b0baf5f2999fa40140d6d17f3a3cc7918ea",
-  "generated": "2024-07-03T15:14:02.803Z",
+  "commit": "a7e5687faa063a06e3e374a65de432e084689bd2",
+  "generated": "2024-07-03T15:14:20.890Z",
   "metadata": [
     {
       "__outstatic": {
@@ -118,25 +118,6 @@
     },
     {
       "__outstatic": {
-        "commit": "c6c525cc4a9361c1b304c4c628de12f54f9f80c9",
-        "hash": "294769872",
-        "path": "outstatic/content/services/fitobochka.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/----------Q2NT.jpg",
-      "description": "",
-      "publishedAt": "2024-07-03T15:24:06.868Z",
-      "slug": "fitobochka",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Фітобочка"
-    },
-    {
-      "__outstatic": {
         "commit": "9b1a4b0baf5f2999fa40140d6d17f3a3cc7918ea",
         "hash": "1465348365",
         "path": "outstatic/content/services/pilingi.md"
@@ -153,6 +134,25 @@
       "status": "draft",
       "tag": "Косметологія обличчя",
       "title": "Пілінги"
+    },
+    {
+      "__outstatic": {
+        "commit": "a7e5687faa063a06e3e374a65de432e084689bd2",
+        "hash": "1192920853",
+        "path": "outstatic/content/services/fitobochka-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------Q2NT.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:24:06.868Z",
+      "slug": "fitobochka-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Фітобочка"
     }
   ]
 }
