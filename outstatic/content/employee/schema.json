@@ -1,0 +1,13 @@
+{
+  "title": "employee",
+  "type": "object",
+  "properties": {
+    "skill": {
+      "required": false,
+      "description": "Write a person skills (separated by ' , ')",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "skill"
+    }
+  }
+}
