@@ -18,7 +18,7 @@
    .photo {
       @apply opacity-85 absolute top-[72px] lg:top-auto lg:left-1/2 w-full lg:w-1/2 lg:order-2 lg:col-span-1 md:hidden lg:block h-[390px] lg:h-[calc(100dvh-50px)] self-end rounded-basic lg:rounded-none scale-110 lg:scale-100 object-cover pointer-events-none;
       @media screen and (min-width: 1400px) {
-         clip-path: circle(80% at 80% 75%);
+         clip-path: circle(77% at 80% 75%);
       }
    }
 }
