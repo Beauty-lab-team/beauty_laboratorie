@@ -1,6 +1,6 @@
 {
-  "commit": "22cfd2a8c85527dacc06065ff074ec530da71cd6",
-  "generated": "2024-07-03T15:07:37.784Z",
+  "commit": "0bbd9d7dcddc964e9642be669aa9493deb8a4e18",
+  "generated": "2024-07-03T15:11:42.291Z",
   "metadata": [
     {
       "__outstatic": {
@@ -96,6 +96,25 @@
       "slug": "oksana-rozbeyko",
       "status": "draft",
       "title": "Оксана Розбейко"
+    },
+    {
+      "__outstatic": {
+        "commit": "0bbd9d7dcddc964e9642be669aa9493deb8a4e18",
+        "hash": "2484188993",
+        "path": "outstatic/content/services/presoterapiya-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-------------QwND.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:22:25.645Z",
+      "slug": "presoterapiya-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Пресотерапія "
     }
   ]
 }
