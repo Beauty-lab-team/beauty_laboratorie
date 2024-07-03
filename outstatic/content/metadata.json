@@ -1,6 +1,6 @@
 {
-  "commit": "a7e5687faa063a06e3e374a65de432e084689bd2",
-  "generated": "2024-07-03T15:14:20.890Z",
+  "commit": "6692830aa22780d7d74ef16f5080d2f2191959a2",
+  "generated": "2024-07-03T15:14:40.232Z",
   "metadata": [
     {
       "__outstatic": {
@@ -153,6 +153,25 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Фітобочка"
+    },
+    {
+      "__outstatic": {
+        "commit": "6692830aa22780d7d74ef16f5080d2f2191959a2",
+        "hash": "4058142684",
+        "path": "outstatic/content/services/doglyad-za-oblichchyam.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/---------------------IzNj.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:26:24.230Z",
+      "slug": "doglyad-za-oblichchyam",
+      "status": "draft",
+      "tag": "Косметологія обличчя",
+      "title": "Догляд за обличчям"
     }
   ]
 }
