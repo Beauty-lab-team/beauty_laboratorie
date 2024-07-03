@@ -10,7 +10,7 @@ export default function DropdownLink({ link, title, setMenu }) {
       <li>
          <Link
             onClick={() => setMenu(false)}
-            className={`py-2 px-3 text-base rounded-inner hover:bg-black/5 transition-all ${isActive ? 'bg-accent-2' : ''}`}
+            className={`py-2 px-3 text-base rounded-inner hover:bg-text-1/5 transition-all ${isActive ? 'bg-text-1/5' : ''}`}
             rel='nofollow'
             href={link}
          >

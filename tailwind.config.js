@@ -5,16 +5,16 @@ module.exports = {
       extend: {
          colors: {
             background: '#FFFFFF',
-            'text-1': '#fb7185e6',
-            'text-2': '#fda4afe6',
-            'accent-1': '#fda4af',
-            'accent-2': '#fdf2f8c6',
+            'text-1': '#fb7185e2',
+            'text-2': '#fda4afe4',
+            'accent-1': '#fda4afe6',
+            'accent-2': '#fdf2f897',
          },
          fontSize: {
             'heading-mobile': '56px',
-            'heading-mobile-sm': '38px',
+            'heading-mobile-sm': '32px',
             'heading-desktop': '70px',
-            'heading-desktop-sm': '42px',
+            'heading-desktop-sm': '36px',
             'cardHeading-mobile': '24px',
             'cardHeading-desktop': '28px',
          },

@@ -4,3 +4,9 @@
       @apply bg-text-2 text-white rounded-full py-1 px-3;
    }
 }
+.listNumber {
+   @apply list-decimal list-inside [&>li]:list-item;
+   li {
+      @apply text-text-2 text-lg leading-[28px];
+   }
+}

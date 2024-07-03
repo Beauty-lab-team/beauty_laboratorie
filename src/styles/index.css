@@ -6,18 +6,6 @@
 @tailwind utilities;
 
 @font-face {
-   font-family: 'Forum';
-   src: url('/fonts/Forum-Regular.ttf');
-}
-@font-face {
-   font-family: 'Praho-regular';
-   src: url('/fonts/PrahoPro-Regular.ttf');
-}
-@font-face {
-   font-family: 'Praho-medium';
-   src: url('/fonts/PrahoPro-Medium.ttf');
-}
-@font-face {
    font-family: 'Nyght-serif-italic';
    src: url('/fonts/NyghtSerif-RegularItalic.woff2') format('woff2');
 }
@@ -29,13 +17,14 @@
 html,
 body {
    @apply scroll-smooth bg-background font-montserrat;
+   /* background: #fff1f26c; */
+}
+*::selection {
+   @apply bg-accent-1 text-background;
 }
 
 .swiper-pagination-bullet {
    @apply bg-accent-1 !important;
-}
-.heroWrapper .swiper-pagination {
-   @apply container px-3 md:px-12 !important;
 }
 .swiper-pagination {
    @apply xl:flex justify-start container !important;

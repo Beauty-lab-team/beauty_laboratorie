@@ -5,7 +5,7 @@ import s from './Navbar.module.scss'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 
-const Navbar = () => {
+const Navbar = ({ servicesLinks }) => {
    const pathname = usePathname()
    const [isMenuOpen, setIsMenuOpen] = useState(false)
    const menuClickHandler = () => setIsMenuOpen(!isMenuOpen)
@@ -31,7 +31,7 @@ const Navbar = () => {
                   <path d='M6 36h36v-4H6v4zm0-10h36v-4H6v4zm0-14v4h36v-4H6z'></path>
                </svg>
             </button>
-            <Links pathname={pathname} isMenuOpen={isMenuOpen} setMenu={setIsMenuOpen} />
+            <Links servicesLinks={servicesLinks} pathname={pathname} isMenuOpen={isMenuOpen} setMenu={setIsMenuOpen} />
          </div>
       </nav>
    )

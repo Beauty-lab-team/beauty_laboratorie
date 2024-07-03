@@ -1,12 +1,11 @@
 import Link from 'next/link'
 import s from './Navbar.module.scss'
-import { data } from '../../data.js'
 import DropdownLink from './DropdownLink.jsx'
 
-const Links = ({ pathname, isMenuOpen, setMenu }) => {
+const Links = ({ servicesLinks, pathname, isMenuOpen, setMenu }) => {
    const links = [
       { title: 'Про Beauty студію', link: '/about-us' },
-      { title: 'Лазерна епіляція', link: '/services/Lazerna-epilyatsiya-v-Dnipri' },
+      { title: 'Лазерна епіляція', link: '/services/lazerna-epilyatsiya-v-dnipri' },
       { title: 'Послуги', link: '/services', type: 'dropdown' },
       { title: 'Актуальне', link: '/actual', type: 'dropdown' },
       { title: 'Цiни', link: '/prices' },
@@ -20,13 +19,13 @@ const Links = ({ pathname, isMenuOpen, setMenu }) => {
                <li key={el.title}>
                   {el.type === 'dropdown' ? (
                      <div className='dropdown dropdown-hover'>
-                        <div tabIndex={0} role='button' className='flex gap-1 items-center'>
+                        <div tabIndex={0} role='button' className='flex gap-0.3 items-center'>
                            {el.title}
                            <svg
                               xmlns='http://www.w3.org/2000/svg'
-                              width='24'
-                              height='24'
-                              viewBox='0 0 24 24'
+                              width='20'
+                              height='20'
+                              viewBox='0 0 20 20'
                               fill='none'
                               stroke='currentColor'
                               stroke-width='2'
@@ -41,12 +40,9 @@ const Links = ({ pathname, isMenuOpen, setMenu }) => {
                            {el.link == '/services' && (
                               <>
                                  <DropdownLink setMenu={setMenu} link='/services' title='Всі послуги' />
-                                 {data.services.map(service => {
-                                    return (
-                                       service.text && (
-                                          <DropdownLink setMenu={setMenu} link={`/services/${service.link}`} title={service.categoryMain} />
-                                       )
-                                    )
+                                 {servicesLinks.map(service => {
+                                    const isContent = service.content.length != 3 ? true : false
+                                    return isContent && <DropdownLink setMenu={setMenu} link={`/services/${service.slug}`} title={service.title} />
                                  })}
                               </>
                            )}
