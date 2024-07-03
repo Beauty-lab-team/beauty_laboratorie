@@ -1,6 +1,6 @@
 {
-  "commit": "117d0ab45d0933d0b85f2a88600f89d9f499f627",
-  "generated": "2024-07-03T12:29:05.748Z",
+  "commit": "e0affca3269db6e597aa22bf434875e155cac9e6",
+  "generated": "2024-07-03T12:30:08.486Z",
   "metadata": [
     {
       "__outstatic": {
@@ -58,6 +58,25 @@
       "slug": "oksana-rozbeyko",
       "status": "draft",
       "title": "Оксана Розбейко"
+    },
+    {
+      "__outstatic": {
+        "commit": "e0affca3269db6e597aa22bf434875e155cac9e6",
+        "hash": "2231378351",
+        "path": "outstatic/content/employee/sofiya-chesnakova.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "employee",
+      "coverImage": "/images/---------------EzNz.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T12:41:26.375Z",
+      "skill": "Слімсфера, Смас ліфтінг / SMAS ліфтінг, Фітобочка, Прессотерапія, Обгортання",
+      "slug": "sofiya-chesnakova",
+      "status": "draft",
+      "title": "Софія Чеснакова"
     }
   ]
 }
