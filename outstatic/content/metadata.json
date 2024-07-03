@@ -1,6 +1,6 @@
 {
-  "commit": "c6c525cc4a9361c1b304c4c628de12f54f9f80c9",
-  "generated": "2024-07-03T15:12:51.391Z",
+  "commit": "9b1a4b0baf5f2999fa40140d6d17f3a3cc7918ea",
+  "generated": "2024-07-03T15:14:02.803Z",
   "metadata": [
     {
       "__outstatic": {
@@ -134,6 +134,25 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Фітобочка"
+    },
+    {
+      "__outstatic": {
+        "commit": "9b1a4b0baf5f2999fa40140d6d17f3a3cc7918ea",
+        "hash": "1465348365",
+        "path": "outstatic/content/services/pilingi.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/--------g4OD.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:25:20.682Z",
+      "slug": "pilingi",
+      "status": "draft",
+      "tag": "Косметологія обличчя",
+      "title": "Пілінги"
     }
   ]
 }
