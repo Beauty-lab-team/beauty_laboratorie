@@ -1,6 +1,6 @@
 {
-  "commit": "de3c1738afcd1d9b5b4d0a0ce92ac3b99da3cd0b",
-  "generated": "2024-07-02T16:49:07.690Z",
+  "commit": "117d0ab45d0933d0b85f2a88600f89d9f499f627",
+  "generated": "2024-07-03T12:29:05.748Z",
   "metadata": [
     {
       "__outstatic": {
@@ -39,6 +39,25 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Слімсфера"
+    },
+    {
+      "__outstatic": {
+        "commit": "117d0ab45d0933d0b85f2a88600f89d9f499f627",
+        "hash": "4128198517",
+        "path": "outstatic/content/employee/oksana-rozbeyko.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "employee",
+      "coverImage": "/images/-----------------M0ND.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T12:37:38.721Z",
+      "skill": "Мікроголковий RF, Смас ліфтінг / SMAS ліфтінг, Біоревіталізація, Догляд за обличчям, Лікування акне, Контурна пластика, Чистка обличчя",
+      "slug": "oksana-rozbeyko",
+      "status": "draft",
+      "title": "Оксана Розбейко"
     }
   ]
 }
