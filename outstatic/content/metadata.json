@@ -1,6 +1,6 @@
 {
-  "commit": "0ebffab5174c6da8069d1b736c242b387624df79",
-  "generated": "2024-07-03T15:16:08.438Z",
+  "commit": "e671f8973ffc6391c8194c0d9d7d38608a7dca7d",
+  "generated": "2024-07-03T15:16:55.079Z",
   "metadata": [
     {
       "__outstatic": {
@@ -191,6 +191,25 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "Мікроголковий РФ"
+    },
+    {
+      "__outstatic": {
+        "commit": "e671f8973ffc6391c8194c0d9d7d38608a7dca7d",
+        "hash": "3814074246",
+        "path": "outstatic/content/services/smas-lifting-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-------------Y0Mz.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:28:13.092Z",
+      "slug": "smas-lifting-v-dnipri",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "Смас-ліфтинг"
     }
   ]
 }
