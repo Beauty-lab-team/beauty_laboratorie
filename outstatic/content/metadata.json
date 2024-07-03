@@ -1,6 +1,6 @@
 {
-  "commit": "97cf0859fb46fad014e469447f333a08a10d538c",
-  "generated": "2024-07-03T12:31:07.122Z",
+  "commit": "22cfd2a8c85527dacc06065ff074ec530da71cd6",
+  "generated": "2024-07-03T15:06:53.072Z",
   "metadata": [
     {
       "__outstatic": {
@@ -42,25 +42,6 @@
     },
     {
       "__outstatic": {
-        "commit": "117d0ab45d0933d0b85f2a88600f89d9f499f627",
-        "hash": "4128198517",
-        "path": "outstatic/content/employee/oksana-rozbeyko.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "employee",
-      "coverImage": "/images/-----------------M0ND.jpg",
-      "description": "",
-      "publishedAt": "2024-07-03T12:37:38.721Z",
-      "skill": "Мікроголковий RF, Смас ліфтінг / SMAS ліфтінг, Біоревіталізація, Догляд за обличчям, Лікування акне, Контурна пластика, Чистка обличчя",
-      "slug": "oksana-rozbeyko",
-      "status": "draft",
-      "title": "Оксана Розбейко"
-    },
-    {
-      "__outstatic": {
         "commit": "656c9690be7425cf5e0f363bfa5318a8e5ffdbc1",
         "hash": "1308016495",
         "path": "outstatic/content/employee/sofiya-chesnakova.md"
@@ -96,6 +77,25 @@
       "slug": "oksana-dashchenko",
       "status": "draft",
       "title": "Оксана Дащенко"
+    },
+    {
+      "__outstatic": {
+        "commit": "22cfd2a8c85527dacc06065ff074ec530da71cd6",
+        "hash": "3289710338",
+        "path": "outstatic/content/employee/oksana-rozbeyko.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "employee",
+      "coverImage": "/images/-----------------M0ND.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T12:37:38.721Z",
+      "skill": "Мікроголковий RF, Смас ліфтінг / SMAS ліфтінг, Біоревіталізація, Догляд за обличчям, Лікування акне, Контурна пластика, Чистка обличчя",
+      "slug": "oksana-rozbeyko",
+      "status": "draft",
+      "title": "Оксана Розбейко"
     }
   ]
 }
