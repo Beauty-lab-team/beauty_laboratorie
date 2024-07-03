@@ -1,6 +1,6 @@
 {
-  "commit": "e63c913f1041ae0bd66428b737eab8baec2ca199",
-  "generated": "2024-07-03T15:17:57.325Z",
+  "commit": "7fb8e3a40603078206fc1937c110b407f497d58c",
+  "generated": "2024-07-03T15:18:17.871Z",
   "metadata": [
     {
       "__outstatic": {
@@ -156,25 +156,6 @@
     },
     {
       "__outstatic": {
-        "commit": "6692830aa22780d7d74ef16f5080d2f2191959a2",
-        "hash": "4058142684",
-        "path": "outstatic/content/services/doglyad-za-oblichchyam.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/---------------------IzNj.jpg",
-      "description": "",
-      "publishedAt": "2024-07-03T15:26:24.230Z",
-      "slug": "doglyad-za-oblichchyam",
-      "status": "draft",
-      "tag": "Косметологія обличчя",
-      "title": "Догляд за обличчям"
-    },
-    {
-      "__outstatic": {
         "commit": "0ebffab5174c6da8069d1b736c242b387624df79",
         "hash": "3111892866",
         "path": "outstatic/content/services/mikroholkovyy-rf-v-dnipri.md"
@@ -229,6 +210,25 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "Інʼєкції"
+    },
+    {
+      "__outstatic": {
+        "commit": "7fb8e3a40603078206fc1937c110b407f497d58c",
+        "hash": "2145127900",
+        "path": "outstatic/content/services/doglyad-za-oblichchyam.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-------------------gyMz.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:30:01.035Z",
+      "slug": "doglyad-za-oblichchyam",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "Догляд за обличчям"
     }
   ]
 }

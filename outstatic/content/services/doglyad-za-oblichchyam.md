@@ -6,9 +6,9 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/67825832?v=4'
 slug: 'doglyad-za-oblichchyam'
 description: ''
-coverImage: '/images/---------------------IzNj.jpg'
-tag: 'Косметологія обличчя'
-publishedAt: '2024-07-03T15:26:24.230Z'
+coverImage: '/images/-------------------gyMz.jpg'
+tag: 'Інʼєкції'
+publishedAt: '2024-07-03T15:30:01.035Z'
 ---
 
 \-
