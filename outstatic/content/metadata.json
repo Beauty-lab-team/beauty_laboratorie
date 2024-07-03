@@ -1,6 +1,6 @@
 {
-  "commit": "7fb8e3a40603078206fc1937c110b407f497d58c",
-  "generated": "2024-07-03T15:18:17.871Z",
+  "commit": "590559bcb8ec1fb237eff05ef3c9c3b11bc03b71",
+  "generated": "2024-07-03T15:21:45.855Z",
   "metadata": [
     {
       "__outstatic": {
@@ -229,6 +229,25 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "Догляд за обличчям"
+    },
+    {
+      "__outstatic": {
+        "commit": "590559bcb8ec1fb237eff05ef3c9c3b11bc03b71",
+        "hash": "332770526",
+        "path": "outstatic/content/services/chistka-oblichchya.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/---------------------M1Mj.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:33:10.313Z",
+      "slug": "chistka-oblichchya",
+      "status": "draft",
+      "tag": "Косметологія обличчя",
+      "title": "Чистка обличчя"
     }
   ]
 }
