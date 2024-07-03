@@ -1,6 +1,6 @@
 {
-  "commit": "e0affca3269db6e597aa22bf434875e155cac9e6",
-  "generated": "2024-07-03T12:30:08.486Z",
+  "commit": "656c9690be7425cf5e0f363bfa5318a8e5ffdbc1",
+  "generated": "2024-07-03T12:30:20.992Z",
   "metadata": [
     {
       "__outstatic": {
@@ -61,8 +61,8 @@
     },
     {
       "__outstatic": {
-        "commit": "e0affca3269db6e597aa22bf434875e155cac9e6",
-        "hash": "2231378351",
+        "commit": "656c9690be7425cf5e0f363bfa5318a8e5ffdbc1",
+        "hash": "1308016495",
         "path": "outstatic/content/employee/sofiya-chesnakova.md"
       },
       "author": {
@@ -70,7 +70,7 @@
         "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
       },
       "collection": "employee",
-      "coverImage": "/images/---------------EzNz.jpg",
+      "coverImage": "/images/----------------gyMz.jpg",
       "description": "",
       "publishedAt": "2024-07-03T12:41:26.375Z",
       "skill": "Слімсфера, Смас ліфтінг / SMAS ліфтінг, Фітобочка, Прессотерапія, Обгортання",
