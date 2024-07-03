@@ -1,6 +1,6 @@
 {
-  "commit": "0bbd9d7dcddc964e9642be669aa9493deb8a4e18",
-  "generated": "2024-07-03T15:11:42.291Z",
+  "commit": "c6c525cc4a9361c1b304c4c628de12f54f9f80c9",
+  "generated": "2024-07-03T15:12:51.391Z",
   "metadata": [
     {
       "__outstatic": {
@@ -115,6 +115,25 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Пресотерапія "
+    },
+    {
+      "__outstatic": {
+        "commit": "c6c525cc4a9361c1b304c4c628de12f54f9f80c9",
+        "hash": "294769872",
+        "path": "outstatic/content/services/fitobochka.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------Q2NT.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:24:06.868Z",
+      "slug": "fitobochka",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Фітобочка"
     }
   ]
 }
