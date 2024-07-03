@@ -7,11 +7,27 @@
       @apply w-full md:flex-1 h-96 rounded-basic;
    }
    .contacts {
-      @apply flex justify-center pt-3 md:pt-10;
+      @apply flex justify-between md:justify-end gap-8 pt-6 md:pt-10;
       a {
-         @apply text-text-2 text-xl hover:underline;
+         @apply text-text-2 text-lg hover:underline;
+      }
+      p {
+         @apply text-text-1 text-xl mb-1;
+      }
+      .tel {
+         @apply flex flex-col gap-1;
       }
    }
+   .social {
+      @apply flex flex-col;
+      div {
+         @apply flex gap-2;
+      }
+      a {
+         @apply w-10 h-10 hover:opacity-80 duration-200 ease-out transition-all;
+      }
+   }
+
    .bottom {
       @apply text-accent-1 text-center py-3;
    }

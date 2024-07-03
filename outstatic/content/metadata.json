@@ -1,0 +1,253 @@
+{
+  "commit": "590559bcb8ec1fb237eff05ef3c9c3b11bc03b71",
+  "generated": "2024-07-03T15:21:45.855Z",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "ab4b21dba72a3e183c0739d2ab657c28aa10916d",
+        "hash": "1914148319",
+        "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-----------------cxOT.jpg",
+      "description": "",
+      "publishedAt": "2024-07-02T16:54:44.628Z",
+      "slug": "lazerna-epilyatsiya-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Лазерна епіляція"
+    },
+    {
+      "__outstatic": {
+        "commit": "de3c1738afcd1d9b5b4d0a0ce92ac3b99da3cd0b",
+        "hash": "370116599",
+        "path": "outstatic/content/services/slimsfera-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------A4NT.jpg",
+      "description": "",
+      "publishedAt": "2024-07-02T16:59:58.549Z",
+      "slug": "slimsfera-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Слімсфера"
+    },
+    {
+      "__outstatic": {
+        "commit": "656c9690be7425cf5e0f363bfa5318a8e5ffdbc1",
+        "hash": "1308016495",
+        "path": "outstatic/content/employee/sofiya-chesnakova.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "employee",
+      "coverImage": "/images/----------------gyMz.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T12:41:26.375Z",
+      "skill": "Слімсфера, Смас ліфтінг / SMAS ліфтінг, Фітобочка, Прессотерапія, Обгортання",
+      "slug": "sofiya-chesnakova",
+      "status": "draft",
+      "title": "Софія Чеснакова"
+    },
+    {
+      "__outstatic": {
+        "commit": "97cf0859fb46fad014e469447f333a08a10d538c",
+        "hash": "3272712945",
+        "path": "outstatic/content/employee/oksana-dashchenko.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "employee",
+      "coverImage": "/images/---------------A5MD.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T12:42:27.749Z",
+      "skill": "Лікування лазером судин, Лазерна епіляція, Лазерна депіляція",
+      "slug": "oksana-dashchenko",
+      "status": "draft",
+      "title": "Оксана Дащенко"
+    },
+    {
+      "__outstatic": {
+        "commit": "22cfd2a8c85527dacc06065ff074ec530da71cd6",
+        "hash": "161919189",
+        "path": "outstatic/content/employee/oksana-rozbeyko.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "employee",
+      "coverImage": "/images/-----------------M0ND.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T12:37:38.721Z",
+      "skill": "Мікроголковий RF, Смас ліфтінг / SMAS ліфтінг, Біоревіталізація, Догляд за обличчям, Лікування акне, Контурна пластика, Чистка обличчя",
+      "slug": "oksana-rozbeyko",
+      "status": "draft",
+      "title": "Оксана Розбейко"
+    },
+    {
+      "__outstatic": {
+        "commit": "0bbd9d7dcddc964e9642be669aa9493deb8a4e18",
+        "hash": "2484188993",
+        "path": "outstatic/content/services/presoterapiya-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-------------QwND.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:22:25.645Z",
+      "slug": "presoterapiya-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Пресотерапія "
+    },
+    {
+      "__outstatic": {
+        "commit": "9b1a4b0baf5f2999fa40140d6d17f3a3cc7918ea",
+        "hash": "1465348365",
+        "path": "outstatic/content/services/pilingi.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/--------g4OD.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:25:20.682Z",
+      "slug": "pilingi",
+      "status": "draft",
+      "tag": "Косметологія обличчя",
+      "title": "Пілінги"
+    },
+    {
+      "__outstatic": {
+        "commit": "a7e5687faa063a06e3e374a65de432e084689bd2",
+        "hash": "1192920853",
+        "path": "outstatic/content/services/fitobochka-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------Q2NT.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:24:06.868Z",
+      "slug": "fitobochka-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Фітобочка"
+    },
+    {
+      "__outstatic": {
+        "commit": "0ebffab5174c6da8069d1b736c242b387624df79",
+        "hash": "3111892866",
+        "path": "outstatic/content/services/mikroholkovyy-rf-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/------------------gxOD.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:26:48.454Z",
+      "slug": "mikroholkovyy-rf-v-dnipri",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "Мікроголковий РФ"
+    },
+    {
+      "__outstatic": {
+        "commit": "e671f8973ffc6391c8194c0d9d7d38608a7dca7d",
+        "hash": "3814074246",
+        "path": "outstatic/content/services/smas-lifting-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-------------Y0Mz.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:28:13.092Z",
+      "slug": "smas-lifting-v-dnipri",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "Смас-ліфтинг"
+    },
+    {
+      "__outstatic": {
+        "commit": "e63c913f1041ae0bd66428b737eab8baec2ca199",
+        "hash": "3047673159",
+        "path": "outstatic/content/services/iniekciyi.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------g0ND.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:29:02.681Z",
+      "slug": "iniekciyi",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "Інʼєкції"
+    },
+    {
+      "__outstatic": {
+        "commit": "7fb8e3a40603078206fc1937c110b407f497d58c",
+        "hash": "2145127900",
+        "path": "outstatic/content/services/doglyad-za-oblichchyam.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-------------------gyMz.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:30:01.035Z",
+      "slug": "doglyad-za-oblichchyam",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "Догляд за обличчям"
+    },
+    {
+      "__outstatic": {
+        "commit": "590559bcb8ec1fb237eff05ef3c9c3b11bc03b71",
+        "hash": "332770526",
+        "path": "outstatic/content/services/chistka-oblichchya.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/---------------------M1Mj.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:33:10.313Z",
+      "slug": "chistka-oblichchya",
+      "status": "draft",
+      "tag": "Косметологія обличчя",
+      "title": "Чистка обличчя"
+    }
+  ]
+}

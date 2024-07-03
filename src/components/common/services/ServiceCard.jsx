@@ -1,28 +1,43 @@
+'use client'
 import Image from 'next/image'
 import s from './Services.module.scss'
 import CardHeading from '../../UI/CardHeading'
 import Button from '../../UI/Button'
 import LinkToPage from '../../UI/LinkToPage'
+import Modal from '../../UI/modal/Modal.jsx'
+import Form from '../form/Form.jsx'
+import { useState } from 'react'
 
-export default function ServiceCard({ categoryMain, cover, id, link, text, formHandler }) {
+export default function ServiceCard({ title, coverImage, slug, content }) {
+   const isContent = content.length != 3 ? true : false
+   const [isOpen, setIsOpen] = useState(false)
+   const handleClose = () => {
+      setIsOpen(false)
+      document.body.style.overflow = 'auto'
+   }
    const handleOpen = () => {
-      formHandler(true)
+      setIsOpen(true)
       document.body.style.overflow = 'hidden'
    }
 
    return (
-      <div className={s.service}>
-         <Image className={s.image} src={cover} alt={categoryMain} width={300} height={200} />
-         <CardHeading className='flex-1'>{categoryMain}</CardHeading>
-         <div className={s.buttons}>
-            <Button onClick={handleOpen}>Запис</Button>
-            <LinkToPage link={`/prices/#${id}`}>Цiни</LinkToPage>
-            {text && (
-               <LinkToPage className='col-span-2' link={`/services/${link}`}>
-                  Детальніше
-               </LinkToPage>
-            )}
+      <>
+         <Modal open={isOpen} handleClose={handleClose}>
+            <Form handleClose={handleClose} />
+         </Modal>
+         <div className={s.service}>
+            <Image className={s.image} src={coverImage} alt={title} width={300} height={200} />
+            <CardHeading className='flex-1'>{title}</CardHeading>
+            <div className={s.buttons}>
+               <Button onClick={handleOpen}>Запис</Button>
+               <LinkToPage link={`/prices/#${slug}`}>Цiни</LinkToPage>
+               {isContent && (
+                  <LinkToPage className='col-span-2' link={`/services/${slug}`}>
+                     Детальніше
+                  </LinkToPage>
+               )}
+            </div>
          </div>
-      </div>
+      </>
    )
 }

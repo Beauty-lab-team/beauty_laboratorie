@@ -1,5 +1,5 @@
 .navbar {
-   @apply py-1 md:py-4 fixed left-0 right-0 z-30 backdrop-blur-xl border-b-2 border-white/70 bg-white/70;
+   @apply py-1 md:py-4 fixed left-0 right-0 z-30 backdrop-blur-xl border-b-2 border-accent-2/40 bg-accent-2/30;
    &.open {
       @apply h-[375px] sm:h-[180px];
    }
@@ -7,7 +7,7 @@
       @apply container px-3 md:px-12 mx-auto flex justify-between items-center;
    }
    .logo {
-      @apply font-nyght uppercase text-2xl sm:text-3xl text-text-1;
+      @apply font-nyght-italic uppercase text-2xl sm:text-3xl text-text-1;
    }
    .menuBtn {
       @apply xl:hidden scale-75;
@@ -17,17 +17,17 @@
    }
 }
 .navLinks {
-   @apply absolute xl:static top-[80px] right-0 px-3 hidden xl:flex flex-col sm:flex-row sm:justify-center lg:justify-end items-center sm:items-center w-full gap-5 lg:gap-[16px] xl:gap-[28px] text-xl lg:text-lg font-semibold text-text-2 sm:grid-cols-3 sm:grid-rows-2 sm:place-items-center;
+   @apply absolute xl:static top-[80px] right-0 px-3 hidden xl:flex flex-col sm:flex-row sm:justify-center lg:justify-end items-center sm:items-center w-full gap-3 lg:gap-[10px] xl:gap-[22px] text-xl lg:text-lg font-semibold text-text-1/80 sm:grid-cols-3 sm:grid-rows-2 sm:place-items-center;
    &.show {
       @apply flex sm:grid xl:flex;
    }
    a {
-      @apply underline-offset-4 hover:underline tracking-wide;
+      @apply underline-offset-4 hover:bg-text-1/5 rounded-inner px-3 py-2 tracking-wide transition-all;
       & svg {
          @apply fill-green-500/60 w-[34px] lg:w-5 h-[34px] lg:h-5 bg-white/60 lg:bg-transparent rounded-full p-[6px] lg:p-0;
       }
       &.active {
-         @apply text-text-1;
+         @apply bg-text-1/5;
       }
    }
 }

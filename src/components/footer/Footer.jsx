@@ -1,7 +1,7 @@
 'use client'
-import Link from 'next/link'
 import s from './Footer.module.scss'
 import { usePathname } from 'next/navigation'
+import Contacts from '../common/contacts/Contacts'
 
 export default function Footer() {
    const pathname = usePathname()
@@ -15,11 +15,7 @@ export default function Footer() {
                loading='lazy'
                referrerPolicy='no-referrer-when-downgrade'
             ></iframe>
-            {pathname != '/contacts' && (
-               <div className={s.contacts}>
-                  <Link href='/contacts'>Подивитися контакти</Link>
-               </div>
-            )}
+            {pathname != '/contacts' && <Contacts />}
          </div>
          <div className={s.bottom}>
             <p>© {new Date().getFullYear()} Beauty Laboratorie</p>
