@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import s from './Navbar.module.scss'
 import DropdownLink from './DropdownLink.jsx'
+import capitalizeSlug from '../../utils/capitalizeSlug.js'
 
 const Links = ({ servicesLinks, pathname, isMenuOpen, setMenu }) => {
    const links = [
       { title: 'Про Beauty студію', link: '/about-us' },
-      { title: 'Лазерна епіляція', link: '/services/lazerna-epilyatsiya-v-dnipri' },
+      { title: 'Лазерна епіляція', link: '/services/Lazerna-epilyatsiya-v-Dnipri' },
       { title: 'Послуги', link: '/services', type: 'dropdown' },
       { title: 'Актуальне', link: '/actual', type: 'dropdown' },
       { title: 'Цiни', link: '/prices' },
@@ -42,7 +43,11 @@ const Links = ({ servicesLinks, pathname, isMenuOpen, setMenu }) => {
                                  <DropdownLink setMenu={setMenu} link='/services' title='Всі послуги' />
                                  {servicesLinks.map(service => {
                                     const isContent = service.content.length != 3 ? true : false
-                                    return isContent && <DropdownLink setMenu={setMenu} link={`/services/${service.slug}`} title={service.title} />
+                                    return (
+                                       isContent && (
+                                          <DropdownLink setMenu={setMenu} link={`/services/${capitalizeSlug(service.slug)}`} title={service.title} />
+                                       )
+                                    )
                                  })}
                               </>
                            )}

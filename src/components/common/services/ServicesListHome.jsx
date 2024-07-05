@@ -1,6 +1,6 @@
 import s from './Services.module.scss'
 import ServiceCard from './ServiceCard.jsx'
-import { getData } from './getData.js'
+import getData from '../../../utils/getData.js'
 
 export default async function ServicesListHome() {
    const { allServices } = await getData()

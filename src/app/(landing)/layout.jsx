@@ -1,7 +1,7 @@
-import { load } from 'outstatic/server'
 import Appointment from '../../components/common/appointment/Appointment'
 import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/navbar/Navbar'
+import getData from '../../utils/getData.js'
 
 export default async function LandingLayout({ children }) {
    const { allServices } = await getData()
@@ -16,14 +16,4 @@ export default async function LandingLayout({ children }) {
          <Footer />
       </div>
    )
-}
-
-async function getData() {
-   const db = await load()
-
-   const allServices = await db.find({ collection: 'services' }, ['title', 'slug', 'content']).sort({ publishedAt: -1 }).toArray()
-
-   return {
-      allServices,
-   }
 }
