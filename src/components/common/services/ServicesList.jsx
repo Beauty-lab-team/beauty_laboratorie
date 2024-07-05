@@ -1,7 +1,7 @@
 import s from './Services.module.scss'
 import ServiceCard from './ServiceCard.jsx'
 import Heading from '../../UI/Heading.jsx'
-import { load } from 'outstatic/server'
+import { getData } from './getData.js'
 
 export default async function ServicesList() {
    const { allServices } = await getData()
@@ -37,17 +37,4 @@ export default async function ServicesList() {
          </div>
       </div>
    )
-}
-
-async function getData() {
-   const db = await load()
-
-   const allServices = await db
-      .find({ collection: 'services' }, ['title', 'slug', 'content', 'coverImage', 'description', 'tag'])
-      .sort({ publishedAt: -1 })
-      .toArray()
-
-   return {
-      allServices,
-   }
 }
