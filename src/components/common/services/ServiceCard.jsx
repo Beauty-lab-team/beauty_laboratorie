@@ -7,22 +7,11 @@ import LinkToPage from '../../UI/LinkToPage'
 import Modal from '../../UI/modal/Modal.jsx'
 import Form from '../form/Form.jsx'
 import { useState } from 'react'
+import capitalizeSlug from '../../../utils/capitalizeSlug.js'
 
 export default function ServiceCard({ title, coverImage, slug, content }) {
    const isContent = content.length != 3 ? true : false
    const [isOpen, setIsOpen] = useState(false)
-
-   const capitalizeSlug = slug => {
-      if (slug == 'mikroholkovyy-rf-v-dnipri') return 'Mikroholkovyy-RF-v-Dnipri'
-      let words = slug.split('-')
-      if (words.length > 0) {
-         words[0] = words[0].charAt(0).toUpperCase() + words[0].slice(1)
-         if (words.length > 1) {
-            words[words.length - 1] = words[words.length - 1].charAt(0).toUpperCase() + words[words.length - 1].slice(1)
-         }
-      }
-      return words.join('-')
-   }
 
    const handleClose = () => {
       setIsOpen(false)

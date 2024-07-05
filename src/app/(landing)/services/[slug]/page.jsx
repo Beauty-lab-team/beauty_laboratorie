@@ -5,6 +5,7 @@ import Section from '../../../../components/UI/Section.jsx'
 import LinkToPage from '../../../../components/UI/LinkToPage.jsx'
 import { notFound } from 'next/navigation'
 import { getDocumentSlugs, load } from 'outstatic/server'
+import capitalizeSlug from '../../../../utils/capitalizeSlug.js'
 
 export async function generateMetadata(params) {
    const service = await getData(params)
@@ -65,5 +66,5 @@ async function getData({ params }) {
 
 export async function generateStaticParams() {
    const services = getDocumentSlugs('services')
-   return services.map(slug => ({ slug }))
+   return services.map(slug => capitalizeSlug(slug))
 }
