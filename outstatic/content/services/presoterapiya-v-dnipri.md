@@ -1,6 +1,5 @@
 ---
-title: 'Пресотерапія
-'
+title: 'Пресотерапія'
 status: 'draft'
 author:
   name: 'Eduard Povierin'
