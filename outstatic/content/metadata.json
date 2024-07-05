@@ -1,6 +1,6 @@
 {
-  "commit": "590559bcb8ec1fb237eff05ef3c9c3b11bc03b71",
-  "generated": "2024-07-03T15:21:45.855Z",
+  "commit": "dcffe3b23432868534dad6ed391a3f379838c4ba",
+  "generated": "2024-07-05T11:23:32.256Z",
   "metadata": [
     {
       "__outstatic": {
@@ -20,25 +20,6 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Лазерна епіляція"
-    },
-    {
-      "__outstatic": {
-        "commit": "de3c1738afcd1d9b5b4d0a0ce92ac3b99da3cd0b",
-        "hash": "370116599",
-        "path": "outstatic/content/services/slimsfera-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/----------A4NT.jpg",
-      "description": "",
-      "publishedAt": "2024-07-02T16:59:58.549Z",
-      "slug": "slimsfera-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Слімсфера"
     },
     {
       "__outstatic": {
@@ -248,6 +229,25 @@
       "status": "draft",
       "tag": "Косметологія обличчя",
       "title": "Чистка обличчя"
+    },
+    {
+      "__outstatic": {
+        "commit": "dcffe3b23432868534dad6ed391a3f379838c4ba",
+        "hash": "2585027264",
+        "path": "outstatic/content/services/slimsfera-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------A4NT.jpg",
+      "description": "Корекції фігури та позбавлення від целюліту досягається внаслідок поліпшення мікроциркуляції та лімфатичного відтоку",
+      "publishedAt": "2024-07-02T16:59:58.549Z",
+      "slug": "slimsfera-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Слімсфера"
     }
   ]
 }

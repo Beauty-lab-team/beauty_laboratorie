@@ -5,7 +5,7 @@ author:
   name: 'Eduard Povierin'
   picture: 'https://avatars.githubusercontent.com/u/67825832?v=4'
 slug: 'slimsfera-v-dnipri'
-description: ''
+description: 'Корекції фігури та позбавлення від целюліту досягається внаслідок поліпшення мікроциркуляції та лімфатичного відтоку'
 coverImage: '/images/----------A4NT.jpg'
 tag: 'Косметологія тіла'
 publishedAt: '2024-07-02T16:59:58.549Z'
