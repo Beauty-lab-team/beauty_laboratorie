@@ -1,6 +1,6 @@
 {
   "commit": "dcffe3b23432868534dad6ed391a3f379838c4ba",
-  "generated": "2024-07-05T11:23:32.256Z",
+  "generated": "2024-07-05T11:33:14.586Z",
   "metadata": [
     {
       "__outstatic": {
@@ -233,7 +233,7 @@
     {
       "__outstatic": {
         "commit": "dcffe3b23432868534dad6ed391a3f379838c4ba",
-        "hash": "2585027264",
+        "hash": "1066579748",
         "path": "outstatic/content/services/slimsfera-v-dnipri.md"
       },
       "author": {
@@ -247,7 +247,7 @@
       "slug": "slimsfera-v-dnipri",
       "status": "draft",
       "tag": "Косметологія тіла",
-      "title": "Слімсфера"
+      "title": "Слімсфера в Дніпрі"
     }
   ]
 }
