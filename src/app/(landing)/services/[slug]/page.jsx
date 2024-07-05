@@ -21,7 +21,6 @@ export async function generateMetadata(params) {
 
 export default async function ServiceArticle(params) {
    const service = await getData(params)
-   console.log(service.content)
 
    return (
       <Section className='pt-[140px] lg:pt-[160px] max-w-5xl mx-auto'>
@@ -39,9 +38,17 @@ export default async function ServiceArticle(params) {
 
 async function getData({ params }) {
    const db = await load()
-
    const service = await db
-      .find({ collection: 'services', slug: params.slug }, ['title', 'publishedAt', 'description', 'slug', 'author', 'content', 'coverImage', 'tags'])
+      .find({ collection: 'services', slug: params.slug.toLowerCase() }, [
+         'title',
+         'publishedAt',
+         'description',
+         'slug',
+         'author',
+         'content',
+         'coverImage',
+         'tags',
+      ])
       .first()
 
    if (!service) {
