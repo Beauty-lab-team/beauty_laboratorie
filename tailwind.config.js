@@ -6,9 +6,9 @@ module.exports = {
          colors: {
             background: '#FFFFFF',
             'text-1': '#fb7185e2',
-            'text-2': '#fda4afe4',
+            'text-2': '#f49ca6',
             'accent-1': '#fda4afe6',
-            'accent-2': '#fdf2f897',
+            'accent-2': '#fdf2f89e',
          },
          fontSize: {
             'heading-mobile': '56px',

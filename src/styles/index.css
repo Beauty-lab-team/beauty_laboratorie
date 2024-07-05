@@ -17,7 +17,6 @@
 html,
 body {
    @apply scroll-smooth bg-background font-montserrat;
-   /* background: #fff1f26c; */
 }
 *::selection {
    @apply bg-accent-1 text-background;
