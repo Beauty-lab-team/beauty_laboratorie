@@ -1,6 +1,6 @@
 {
-  "commit": "961257f8f4ee027b0d4ae7444d1e56436d30c46f",
-  "generated": "2024-07-15T14:47:08.761Z",
+  "commit": "2b4c004e95ecdac4e7664a8a66d4cc493c8e700e",
+  "generated": "2024-07-15T15:10:39.954Z",
   "metadata": [
     {
       "__outstatic": {
@@ -248,6 +248,25 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Пресотерапія у Дніпрі"
+    },
+    {
+      "__outstatic": {
+        "commit": "2b4c004e95ecdac4e7664a8a66d4cc493c8e700e",
+        "hash": "221728741",
+        "path": "outstatic/content/services/vydalennya-sudin-lazerom-y-dnipri.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "services",
+      "coverImage": "",
+      "description": "Лазерне видалення судин або лікування куперозу є ефективним методом для усунення небажаних судин на будь-яких ділянках  тіла або обличчя у Дніпрі",
+      "publishedAt": "2024-07-15T15:17:30.305Z",
+      "slug": "vydalennya-sudin-lazerom-y-dnipri",
+      "status": "draft",
+      "tag": "косметологія для тіла",
+      "title": "Видалення судин лазером у Дніпрі"
     }
   ]
 }
