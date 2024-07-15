@@ -1,6 +1,6 @@
 {
-  "commit": "7364b33fd8f3b9feb36452ae8b9536d5230fe8e6",
-  "generated": "2024-07-15T15:57:37.492Z",
+  "commit": "246d66f46e090a35bdb3ed7cc77d7d4597940b70",
+  "generated": "2024-07-15T15:59:57.275Z",
   "metadata": [
     {
       "__outstatic": {
@@ -251,7 +251,7 @@
     },
     {
       "__outstatic": {
-        "commit": "7364b33fd8f3b9feb36452ae8b9536d5230fe8e6",
+        "commit": "246d66f46e090a35bdb3ed7cc77d7d4597940b70",
         "hash": "672444531",
         "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
       },
