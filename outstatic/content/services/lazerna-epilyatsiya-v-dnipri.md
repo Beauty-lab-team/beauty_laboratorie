@@ -1,5 +1,5 @@
 ---
-title: 'Лазерна епіляція у Дніпрі'
+title: '# Лазерна епіляція у Дніпрі'
 status: 'draft'
 author:
   name: 'Eduard Povierin'
