@@ -1,6 +1,6 @@
 {
-  "commit": "41b91826899245e2b1041f786136acfed0c3abfa",
-  "generated": "2024-07-05T16:19:21.512Z",
+  "commit": "bb20273fe46e91f9df2e701fdbeed96ec946a9a2",
+  "generated": "2024-07-15T14:12:15.059Z",
   "metadata": [
     {
       "__outstatic": {
@@ -96,25 +96,6 @@
       "status": "draft",
       "tag": "Косметологія обличчя",
       "title": "Пілінги"
-    },
-    {
-      "__outstatic": {
-        "commit": "a7e5687faa063a06e3e374a65de432e084689bd2",
-        "hash": "1192920853",
-        "path": "outstatic/content/services/fitobochka-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/----------Q2NT.jpg",
-      "description": "",
-      "publishedAt": "2024-07-03T15:24:06.868Z",
-      "slug": "fitobochka-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Фітобочка"
     },
     {
       "__outstatic": {
@@ -248,6 +229,25 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Пресотерапія"
+    },
+    {
+      "__outstatic": {
+        "commit": "bb20273fe46e91f9df2e701fdbeed96ec946a9a2",
+        "hash": "613580009",
+        "path": "outstatic/content/services/fitobochka-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------Q2NT.jpg",
+      "description": "Очищення організму від токсинів і шлаків, відновлення емоційного стану за допомогою фітобочки у Дніпрі",
+      "publishedAt": "2024-07-03T15:24:06.868Z",
+      "slug": "fitobochka-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Фітобочка у Дніпрі"
     }
   ]
 }

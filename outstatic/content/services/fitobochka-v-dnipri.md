@@ -1,11 +1,11 @@
 ---
-title: 'Фітобочка'
+title: 'Фітобочка у Дніпрі'
 status: 'draft'
 author:
   name: 'Eduard Povierin'
   picture: 'https://avatars.githubusercontent.com/u/67825832?v=4'
 slug: 'fitobochka-v-dnipri'
-description: ''
+description: 'Очищення організму від токсинів і шлаків, відновлення емоційного стану за допомогою фітобочки у Дніпрі'
 coverImage: '/images/----------Q2NT.jpg'
 tag: 'Косметологія тіла'
 publishedAt: '2024-07-03T15:24:06.868Z'
