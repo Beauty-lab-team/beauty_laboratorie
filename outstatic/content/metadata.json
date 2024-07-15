@@ -1,6 +1,6 @@
 {
   "commit": "716c3760a6ff278e522ba9bf82c485fb49e3ecf3",
-  "generated": "2024-07-15T14:23:10.483Z",
+  "generated": "2024-07-15T14:25:25.770Z",
   "metadata": [
     {
       "__outstatic": {
@@ -233,7 +233,7 @@
     {
       "__outstatic": {
         "commit": "716c3760a6ff278e522ba9bf82c485fb49e3ecf3",
-        "hash": "3098091731",
+        "hash": "3218892688",
         "path": "outstatic/content/services/mikroholkovyy-rf-v-dnipri.md"
       },
       "author": {
