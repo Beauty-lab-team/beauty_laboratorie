@@ -1,6 +1,6 @@
 {
-  "commit": "bb20273fe46e91f9df2e701fdbeed96ec946a9a2",
-  "generated": "2024-07-15T14:12:15.059Z",
+  "commit": "716c3760a6ff278e522ba9bf82c485fb49e3ecf3",
+  "generated": "2024-07-15T14:23:10.483Z",
   "metadata": [
     {
       "__outstatic": {
@@ -96,25 +96,6 @@
       "status": "draft",
       "tag": "Косметологія обличчя",
       "title": "Пілінги"
-    },
-    {
-      "__outstatic": {
-        "commit": "0ebffab5174c6da8069d1b736c242b387624df79",
-        "hash": "3111892866",
-        "path": "outstatic/content/services/mikroholkovyy-rf-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/------------------gxOD.jpg",
-      "description": "",
-      "publishedAt": "2024-07-03T15:26:48.454Z",
-      "slug": "mikroholkovyy-rf-v-dnipri",
-      "status": "draft",
-      "tag": "Інʼєкції",
-      "title": "Мікроголковий РФ"
     },
     {
       "__outstatic": {
@@ -248,6 +229,25 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Фітобочка у Дніпрі"
+    },
+    {
+      "__outstatic": {
+        "commit": "716c3760a6ff278e522ba9bf82c485fb49e3ecf3",
+        "hash": "3098091731",
+        "path": "outstatic/content/services/mikroholkovyy-rf-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/------------------gxOD.jpg",
+      "description": "Підтягнута шкіра, оновлений колір обличчя та стимулювання виробки колагену за допомогою мікроголкового рф ліфтингу у Дніпрі",
+      "publishedAt": "2024-07-03T15:26:48.454Z",
+      "slug": "mikroholkovyy-rf-v-dnipri",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "Мікроголковий РФ у Дніпрі"
     }
   ]
 }
