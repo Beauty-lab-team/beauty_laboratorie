@@ -1,6 +1,6 @@
 {
-  "commit": "2b4c004e95ecdac4e7664a8a66d4cc493c8e700e",
-  "generated": "2024-07-15T15:10:39.954Z",
+  "commit": "99c872b3d50a8459a0789637298cfcad59ddd2b2",
+  "generated": "2024-07-15T15:14:02.996Z",
   "metadata": [
     {
       "__outstatic": {
@@ -251,8 +251,8 @@
     },
     {
       "__outstatic": {
-        "commit": "2b4c004e95ecdac4e7664a8a66d4cc493c8e700e",
-        "hash": "221728741",
+        "commit": "99c872b3d50a8459a0789637298cfcad59ddd2b2",
+        "hash": "4253003103",
         "path": "outstatic/content/services/vydalennya-sudin-lazerom-y-dnipri.md"
       },
       "author": {
@@ -265,7 +265,7 @@
       "publishedAt": "2024-07-15T15:17:30.305Z",
       "slug": "vydalennya-sudin-lazerom-y-dnipri",
       "status": "draft",
-      "tag": "косметологія для тіла",
+      "tag": "косметологія тіла",
       "title": "Видалення судин лазером у Дніпрі"
     }
   ]
