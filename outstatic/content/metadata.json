@@ -1,6 +1,6 @@
 {
   "commit": "246d66f46e090a35bdb3ed7cc77d7d4597940b70",
-  "generated": "2024-07-15T15:59:57.275Z",
+  "generated": "2024-07-15T16:03:09.597Z",
   "metadata": [
     {
       "__outstatic": {
@@ -252,7 +252,7 @@
     {
       "__outstatic": {
         "commit": "246d66f46e090a35bdb3ed7cc77d7d4597940b70",
-        "hash": "672444531",
+        "hash": "104654853",
         "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
       },
       "author": {
@@ -266,7 +266,7 @@
       "slug": "lazerna-epilyatsiya-v-dnipri",
       "status": "draft",
       "tag": "Косметологія тіла",
-      "title": "Лазерна епіляція у Дніпрі"
+      "title": "Лазерна епіляція"
     }
   ]
 }
