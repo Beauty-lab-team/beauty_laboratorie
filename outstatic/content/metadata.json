@@ -1,26 +1,7 @@
 {
-  "commit": "7a41e2be184bc7aa5e7cd770a27b72af45732a4b",
-  "generated": "2024-07-15T15:27:03.598Z",
+  "commit": "7364b33fd8f3b9feb36452ae8b9536d5230fe8e6",
+  "generated": "2024-07-15T15:50:02.866Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "ab4b21dba72a3e183c0739d2ab657c28aa10916d",
-        "hash": "1914148319",
-        "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/-----------------cxOT.jpg",
-      "description": "",
-      "publishedAt": "2024-07-02T16:54:44.628Z",
-      "slug": "lazerna-epilyatsiya-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Лазерна епіляція"
-    },
     {
       "__outstatic": {
         "commit": "656c9690be7425cf5e0f363bfa5318a8e5ffdbc1",
@@ -267,6 +248,25 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "Смас-ліфтинг у Дніпрі"
+    },
+    {
+      "__outstatic": {
+        "commit": "7364b33fd8f3b9feb36452ae8b9536d5230fe8e6",
+        "hash": "2933632494",
+        "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-----------------cxOT.jpg",
+      "description": "",
+      "publishedAt": "2024-07-02T16:54:44.628Z",
+      "slug": "lazerna-epilyatsiya-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Лазерна епіляція у Дніпрі"
     }
   ]
 }
