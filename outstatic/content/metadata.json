@@ -1,6 +1,6 @@
 {
-  "commit": "f7b359df9ca5aeb3e3bbe29173cea86f28ad37e7",
-  "generated": "2024-07-16T09:59:53.346Z",
+  "commit": "b736d2c6b30e382e34201ce36618baa70c052ebc",
+  "generated": "2024-07-16T10:12:18.195Z",
   "metadata": [
     {
       "__outstatic": {
@@ -251,8 +251,8 @@
     },
     {
       "__outstatic": {
-        "commit": "f7b359df9ca5aeb3e3bbe29173cea86f28ad37e7",
-        "hash": "111680546",
+        "commit": "b736d2c6b30e382e34201ce36618baa70c052ebc",
+        "hash": "3592485932",
         "path": "outstatic/content/services/smas-lifting-v-dnipri.md"
       },
       "author": {
