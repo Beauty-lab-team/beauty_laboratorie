@@ -39,4 +39,17 @@ publishedAt: '2024-07-03T15:25:20.682Z'
 
 Літні пілінги допоможуть підтримувати вашу шкіру в гарному стані без ризику ускладнень, якщо дотримуватися всіх рекомендацій та обирати правильні процедури.
 
-- 
+### Найпопулірніші послугу в нашій Б'юті лабораторії:
+
+[Смас ліфтинг у Дніпрі](https://cosmetcab.dp.ua/services/Smas-lifting-v-Dnipri)
+
+[Слімсфера в Дніпрі](https://cosmetcab.dp.ua/services/Slimsfera-v-Dnipri)
+
+[Пресотерапія у Дніпрі](https://cosmetcab.dp.ua/services/Presoterapiya-v-Dnipri)
+
+[Видалення судин лазером у Дніпрі](https://cosmetcab.dp.ua/outstatic/services/vydalennya-sudin-lazerom-y-dnipri)\
+[Фітобочка у Дніпрі](https://cosmetcab.dp.ua/services/Fitobochka-v-Dnipri)
+
+[Мікроголковий РФ у Дніпрі](https://cosmetcab.dp.ua/services/Mikroholkovyy-RF-v-Dnipri)
+
+[Лазерна епіляція у Дніпрі](https://cosmetcab.dp.ua/services/Lazerna-epilyatsiya-v-Dnipri)
