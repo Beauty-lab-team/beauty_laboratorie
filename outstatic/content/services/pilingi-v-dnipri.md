@@ -4,7 +4,7 @@ status: 'draft'
 author:
   name: 'Eduard Povierin'
   picture: 'https://avatars.githubusercontent.com/u/67825832?v=4'
-slug: 'pilingi'
+slug: 'pilingi-v-dnipri'
 description: 'Підтримуй свіжість та здоровий вигляд шкіри за допомогою літніх пілінгів у Дніпрі'
 coverImage: '/images/--------g4OD.jpg'
 tag: 'Косметологія обличчя'

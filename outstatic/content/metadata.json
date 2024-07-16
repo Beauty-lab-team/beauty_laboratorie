@@ -1,6 +1,6 @@
 {
   "commit": "b2059468e9d535cff22a3732266bbede93a1df8b",
-  "generated": "2024-07-16T17:21:37.870Z",
+  "generated": "2024-07-16T17:24:32.273Z",
   "metadata": [
     {
       "__outstatic": {
@@ -252,8 +252,8 @@
     {
       "__outstatic": {
         "commit": "b2059468e9d535cff22a3732266bbede93a1df8b",
-        "hash": "2721063881",
-        "path": "outstatic/content/services/pilingi.md"
+        "hash": "3547975435",
+        "path": "outstatic/content/services/pilingi-v-dnipri.md"
       },
       "author": {
         "name": "Eduard Povierin",
@@ -263,7 +263,7 @@
       "coverImage": "/images/--------g4OD.jpg",
       "description": "Підтримуй свіжість та здоровий вигляд шкіри за допомогою літніх пілінгів у Дніпрі",
       "publishedAt": "2024-07-03T15:25:20.682Z",
-      "slug": "pilingi",
+      "slug": "pilingi-v-dnipri",
       "status": "draft",
       "tag": "Косметологія обличчя",
       "title": "Пілінги"
