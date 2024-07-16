@@ -1,6 +1,6 @@
 {
-  "commit": "739a7b2cbd29000b5136199ac801143083ae4b00",
-  "generated": "2024-07-16T09:12:34.307Z",
+  "commit": "b538d3a6d0e1790711dbf6a3d9ff29fdd749578c",
+  "generated": "2024-07-16T09:18:34.151Z",
   "metadata": [
     {
       "__outstatic": {
@@ -251,7 +251,7 @@
     },
     {
       "__outstatic": {
-        "commit": "739a7b2cbd29000b5136199ac801143083ae4b00",
+        "commit": "b538d3a6d0e1790711dbf6a3d9ff29fdd749578c",
         "hash": "789510859",
         "path": "outstatic/content/services/mikroholkovyy-rf-v-dnipri.md"
       },
