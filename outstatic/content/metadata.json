@@ -1,6 +1,6 @@
 {
-  "commit": "7a766bf4c24b6b080812114bec0a0a9a68928c9a",
-  "generated": "2024-07-16T09:42:48.100Z",
+  "commit": "6f9ff30707d645b69be627643d4fb88b8cd4a24c",
+  "generated": "2024-07-16T09:50:49.209Z",
   "metadata": [
     {
       "__outstatic": {
@@ -251,8 +251,8 @@
     },
     {
       "__outstatic": {
-        "commit": "7a766bf4c24b6b080812114bec0a0a9a68928c9a",
-        "hash": "1635284299",
+        "commit": "6f9ff30707d645b69be627643d4fb88b8cd4a24c",
+        "hash": "1118381127",
         "path": "outstatic/content/services/chistka-oblichchya.md"
       },
       "author": {
