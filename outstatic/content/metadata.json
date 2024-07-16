@@ -1,6 +1,6 @@
 {
-  "commit": "1fadd35f2547232613cbeb59102103fbb6914908",
-  "generated": "2024-07-16T09:21:50.759Z",
+  "commit": "7a766bf4c24b6b080812114bec0a0a9a68928c9a",
+  "generated": "2024-07-16T09:42:48.100Z",
   "metadata": [
     {
       "__outstatic": {
@@ -115,25 +115,6 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "Догляд за обличчям"
-    },
-    {
-      "__outstatic": {
-        "commit": "590559bcb8ec1fb237eff05ef3c9c3b11bc03b71",
-        "hash": "332770526",
-        "path": "outstatic/content/services/chistka-oblichchya.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/---------------------M1Mj.jpg",
-      "description": "",
-      "publishedAt": "2024-07-03T15:33:10.313Z",
-      "slug": "chistka-oblichchya",
-      "status": "draft",
-      "tag": "Косметологія обличчя",
-      "title": "Чистка обличчя"
     },
     {
       "__outstatic": {
@@ -267,6 +248,25 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Пресотерапія"
+    },
+    {
+      "__outstatic": {
+        "commit": "7a766bf4c24b6b080812114bec0a0a9a68928c9a",
+        "hash": "1635284299",
+        "path": "outstatic/content/services/chistka-oblichchya.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/---------------------M1Mj.jpg",
+      "description": "Покращення текстури шкіри, глибоке очищення пор, зменшення запалень та акне, зволоження та живлення - доглянутий вигляд після очищення обличчя.",
+      "publishedAt": "2024-07-03T15:33:10.313Z",
+      "slug": "chistka-oblichchya",
+      "status": "draft",
+      "tag": "Косметологія обличчя",
+      "title": "Чистка обличчя"
     }
   ]
 }
