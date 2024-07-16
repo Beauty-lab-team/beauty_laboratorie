@@ -1,6 +1,6 @@
 {
-  "commit": "b736d2c6b30e382e34201ce36618baa70c052ebc",
-  "generated": "2024-07-16T10:12:18.195Z",
+  "commit": "4ed2e07c8c9c4d3c7e2d10cdff39ad95f5180d5c",
+  "generated": "2024-07-16T16:38:59.577Z",
   "metadata": [
     {
       "__outstatic": {
@@ -115,25 +115,6 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "Догляд за обличчям"
-    },
-    {
-      "__outstatic": {
-        "commit": "dcffe3b23432868534dad6ed391a3f379838c4ba",
-        "hash": "1066579748",
-        "path": "outstatic/content/services/slimsfera-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/----------A4NT.jpg",
-      "description": "Корекції фігури та позбавлення від целюліту досягається внаслідок поліпшення мікроциркуляції та лімфатичного відтоку",
-      "publishedAt": "2024-07-02T16:59:58.549Z",
-      "slug": "slimsfera-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Слімсфера в Дніпрі"
     },
     {
       "__outstatic": {
@@ -267,6 +248,25 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "SMAS ліфтинг"
+    },
+    {
+      "__outstatic": {
+        "commit": "4ed2e07c8c9c4d3c7e2d10cdff39ad95f5180d5c",
+        "hash": "3863928024",
+        "path": "outstatic/content/services/slimsfera-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------A4NT.jpg",
+      "description": "Корекції фігури та позбавлення від целюліту досягається внаслідок поліпшення мікроциркуляції та лімфатичного відтоку - послуга слімсфера в Дніпрі",
+      "publishedAt": "2024-07-02T16:59:58.549Z",
+      "slug": "slimsfera-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Slim сфера"
     }
   ]
 }
