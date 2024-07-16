@@ -1,6 +1,6 @@
 {
-  "commit": "e4d824d7d1917d58fb8a5666f18610f5b05cd90b",
-  "generated": "2024-07-16T08:56:26.603Z",
+  "commit": "b1f001f404429cd562d0df515acd5ac5186dc4c3",
+  "generated": "2024-07-16T08:59:47.608Z",
   "metadata": [
     {
       "__outstatic": {
@@ -251,8 +251,8 @@
     },
     {
       "__outstatic": {
-        "commit": "e4d824d7d1917d58fb8a5666f18610f5b05cd90b",
-        "hash": "2458939574",
+        "commit": "b1f001f404429cd562d0df515acd5ac5186dc4c3",
+        "hash": "1533883324",
         "path": "outstatic/content/services/vydalennya-sudin-lazerom-y-dnipri.md"
       },
       "author": {
