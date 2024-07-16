@@ -1,6 +1,6 @@
 {
-  "commit": "a11a04328279b1f52a549288321f5a5cd6726579",
-  "generated": "2024-07-16T09:06:06.850Z",
+  "commit": "739a7b2cbd29000b5136199ac801143083ae4b00",
+  "generated": "2024-07-16T09:12:34.307Z",
   "metadata": [
     {
       "__outstatic": {
@@ -156,25 +156,6 @@
     },
     {
       "__outstatic": {
-        "commit": "716c3760a6ff278e522ba9bf82c485fb49e3ecf3",
-        "hash": "1098640483",
-        "path": "outstatic/content/services/mikroholkovyy-rf-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/------------------gxOD.jpg",
-      "description": "Підтягнута шкіра, оновлений колір обличчя та стимулювання виробки колагену за допомогою мікроголкового рф ліфтингу у Дніпрі",
-      "publishedAt": "2024-07-03T15:26:48.454Z",
-      "slug": "mikroholkovyy-rf-v-dnipri",
-      "status": "draft",
-      "tag": "Інʼєкції",
-      "title": "Мікроголковий РФ у Дніпрі"
-    },
-    {
-      "__outstatic": {
         "commit": "961257f8f4ee027b0d4ae7444d1e56436d30c46f",
         "hash": "1431714550",
         "path": "outstatic/content/services/presoterapiya-v-dnipri.md"
@@ -267,6 +248,25 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Фітобочка"
+    },
+    {
+      "__outstatic": {
+        "commit": "739a7b2cbd29000b5136199ac801143083ae4b00",
+        "hash": "789510859",
+        "path": "outstatic/content/services/mikroholkovyy-rf-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/------------------gxOD.jpg",
+      "description": "Підтягнута шкіра, оновлений колір обличчя та стимулювання виробки колагену за допомогою мікроголкового рф ліфтингу у Дніпрі",
+      "publishedAt": "2024-07-03T15:26:48.454Z",
+      "slug": "mikroholkovyy-rf-v-dnipri",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "Мікроголковий RF ліфтінг"
     }
   ]
 }
