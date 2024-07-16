@@ -1,6 +1,6 @@
 {
-  "commit": "4ed2e07c8c9c4d3c7e2d10cdff39ad95f5180d5c",
-  "generated": "2024-07-16T16:38:59.577Z",
+  "commit": "b2059468e9d535cff22a3732266bbede93a1df8b",
+  "generated": "2024-07-16T17:21:37.870Z",
   "metadata": [
     {
       "__outstatic": {
@@ -58,25 +58,6 @@
       "slug": "oksana-rozbeyko",
       "status": "draft",
       "title": "Оксана Розбейко"
-    },
-    {
-      "__outstatic": {
-        "commit": "9b1a4b0baf5f2999fa40140d6d17f3a3cc7918ea",
-        "hash": "1465348365",
-        "path": "outstatic/content/services/pilingi.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/--------g4OD.jpg",
-      "description": "",
-      "publishedAt": "2024-07-03T15:25:20.682Z",
-      "slug": "pilingi",
-      "status": "draft",
-      "tag": "Косметологія обличчя",
-      "title": "Пілінги"
     },
     {
       "__outstatic": {
@@ -267,6 +248,25 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Slim сфера"
+    },
+    {
+      "__outstatic": {
+        "commit": "b2059468e9d535cff22a3732266bbede93a1df8b",
+        "hash": "2721063881",
+        "path": "outstatic/content/services/pilingi.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/--------g4OD.jpg",
+      "description": "Підтримуй свіжість та здоровий вигляд шкіри за допомогою літніх пілінгів у Дніпрі",
+      "publishedAt": "2024-07-03T15:25:20.682Z",
+      "slug": "pilingi",
+      "status": "draft",
+      "tag": "Косметологія обличчя",
+      "title": "Пілінги"
     }
   ]
 }
