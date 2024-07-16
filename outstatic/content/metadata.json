@@ -1,6 +1,6 @@
 {
-  "commit": "b1f001f404429cd562d0df515acd5ac5186dc4c3",
-  "generated": "2024-07-16T08:59:47.608Z",
+  "commit": "a11a04328279b1f52a549288321f5a5cd6726579",
+  "generated": "2024-07-16T09:06:06.850Z",
   "metadata": [
     {
       "__outstatic": {
@@ -156,25 +156,6 @@
     },
     {
       "__outstatic": {
-        "commit": "bb20273fe46e91f9df2e701fdbeed96ec946a9a2",
-        "hash": "613580009",
-        "path": "outstatic/content/services/fitobochka-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/----------Q2NT.jpg",
-      "description": "Очищення організму від токсинів і шлаків, відновлення емоційного стану за допомогою фітобочки у Дніпрі",
-      "publishedAt": "2024-07-03T15:24:06.868Z",
-      "slug": "fitobochka-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Фітобочка у Дніпрі"
-    },
-    {
-      "__outstatic": {
         "commit": "716c3760a6ff278e522ba9bf82c485fb49e3ecf3",
         "hash": "1098640483",
         "path": "outstatic/content/services/mikroholkovyy-rf-v-dnipri.md"
@@ -267,6 +248,25 @@
       "status": "draft",
       "tag": "косметологія тіла",
       "title": "Видалення судин лазером"
+    },
+    {
+      "__outstatic": {
+        "commit": "a11a04328279b1f52a549288321f5a5cd6726579",
+        "hash": "1711779450",
+        "path": "outstatic/content/services/fitobochka-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------Q2NT.jpg",
+      "description": "Очищення організму від токсинів і шлаків, відновлення емоційного стану за допомогою фітобочки у Дніпрі",
+      "publishedAt": "2024-07-03T15:24:06.868Z",
+      "slug": "fitobochka-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Фітобочка"
     }
   ]
 }
