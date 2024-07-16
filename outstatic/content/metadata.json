@@ -1,6 +1,6 @@
 {
-  "commit": "b538d3a6d0e1790711dbf6a3d9ff29fdd749578c",
-  "generated": "2024-07-16T09:18:34.151Z",
+  "commit": "1fadd35f2547232613cbeb59102103fbb6914908",
+  "generated": "2024-07-16T09:21:50.759Z",
   "metadata": [
     {
       "__outstatic": {
@@ -156,25 +156,6 @@
     },
     {
       "__outstatic": {
-        "commit": "961257f8f4ee027b0d4ae7444d1e56436d30c46f",
-        "hash": "1431714550",
-        "path": "outstatic/content/services/presoterapiya-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/-------------QwND.jpg",
-      "description": "зменшення об’ємів тіла, позбавлення від набряків, лімфодренажний масаж, зменьшення целюліту, покращення стану шкіри - забезбечить пресотерапія у Дніпрі",
-      "publishedAt": "2024-07-03T15:22:25.645Z",
-      "slug": "presoterapiya-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Пресотерапія у Дніпрі"
-    },
-    {
-      "__outstatic": {
         "commit": "7a41e2be184bc7aa5e7cd770a27b72af45732a4b",
         "hash": "376530725",
         "path": "outstatic/content/services/smas-lifting-v-dnipri.md"
@@ -267,6 +248,25 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "Мікроголковий RF ліфтінг"
+    },
+    {
+      "__outstatic": {
+        "commit": "1fadd35f2547232613cbeb59102103fbb6914908",
+        "hash": "704674961",
+        "path": "outstatic/content/services/presoterapiya-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-------------QwND.jpg",
+      "description": "зменшення об’ємів тіла, позбавлення від набряків, лімфодренажний масаж, зменьшення целюліту, покращення стану шкіри - забезбечить пресотерапія у Дніпрі",
+      "publishedAt": "2024-07-03T15:22:25.645Z",
+      "slug": "presoterapiya-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Пресотерапія"
     }
   ]
 }
