@@ -1,6 +1,6 @@
 {
-  "commit": "246d66f46e090a35bdb3ed7cc77d7d4597940b70",
-  "generated": "2024-07-15T16:03:29.277Z",
+  "commit": "e4d824d7d1917d58fb8a5666f18610f5b05cd90b",
+  "generated": "2024-07-16T08:56:26.603Z",
   "metadata": [
     {
       "__outstatic": {
@@ -213,25 +213,6 @@
     },
     {
       "__outstatic": {
-        "commit": "99c872b3d50a8459a0789637298cfcad59ddd2b2",
-        "hash": "4253003103",
-        "path": "outstatic/content/services/vydalennya-sudin-lazerom-y-dnipri.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
-      },
-      "collection": "services",
-      "coverImage": "",
-      "description": "Лазерне видалення судин або лікування куперозу є ефективним методом для усунення небажаних судин на будь-яких ділянках  тіла або обличчя у Дніпрі",
-      "publishedAt": "2024-07-15T15:17:30.305Z",
-      "slug": "vydalennya-sudin-lazerom-y-dnipri",
-      "status": "draft",
-      "tag": "косметологія тіла",
-      "title": "Видалення судин лазером у Дніпрі"
-    },
-    {
-      "__outstatic": {
         "commit": "7a41e2be184bc7aa5e7cd770a27b72af45732a4b",
         "hash": "376530725",
         "path": "outstatic/content/services/smas-lifting-v-dnipri.md"
@@ -267,6 +248,25 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Лазерна епіляція"
+    },
+    {
+      "__outstatic": {
+        "commit": "e4d824d7d1917d58fb8a5666f18610f5b05cd90b",
+        "hash": "2458939574",
+        "path": "outstatic/content/services/vydalennya-sudin-lazerom-y-dnipri.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "services",
+      "coverImage": "",
+      "description": "Лазерне видалення судин або лікування куперозу є ефективним методом для усунення небажаних судин на будь-яких ділянках  тіла або обличчя у Дніпрі",
+      "publishedAt": "2024-07-15T15:17:30.305Z",
+      "slug": "vydalennya-sudin-lazerom-y-dnipri",
+      "status": "draft",
+      "tag": "косметологія тіла",
+      "title": "Видалення судин лазером"
     }
   ]
 }
