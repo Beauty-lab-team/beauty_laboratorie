@@ -1,6 +1,6 @@
 {
-  "commit": "b2059468e9d535cff22a3732266bbede93a1df8b",
-  "generated": "2024-07-16T17:39:16.082Z",
+  "commit": "bcde8e6f949f227c64ccffaed9155af3b498c5e1",
+  "generated": "2024-07-17T11:00:09.638Z",
   "metadata": [
     {
       "__outstatic": {
@@ -270,8 +270,8 @@
     },
     {
       "__outstatic": {
-        "commit": "b2059468e9d535cff22a3732266bbede93a1df8b",
-        "hash": "3457112019",
+        "commit": "bcde8e6f949f227c64ccffaed9155af3b498c5e1",
+        "hash": "65657935",
         "path": "outstatic/content/services/pilingi-v-dnipri.md"
       },
       "author": {

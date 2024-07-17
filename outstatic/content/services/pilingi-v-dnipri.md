@@ -52,4 +52,4 @@ publishedAt: '2024-07-03T15:25:20.682Z'
 
 [Мікроголковий РФ у Дніпрі](https://cosmetcab.dp.ua/services/Mikroholkovyy-RF-v-Dnipri)
 
-[Лазерна епіляція у Дніпрі](https://cosmetcab.dp.ua/services/Lazerna-epilyatsiya-v-Dnipri)
+[Лазерна епіляція у Дніпрі](services/Lazerna-epilyatsiya-v-Dnipri)
