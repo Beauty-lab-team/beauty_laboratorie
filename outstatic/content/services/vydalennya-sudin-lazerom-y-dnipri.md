@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/174791371?v=4'
 slug: 'vydalennya-sudin-lazerom-y-dnipri'
 description: 'Лазерне видалення судин або лікування куперозу є ефективним методом для усунення небажаних судин на будь-яких ділянках  тіла або обличчя у Дніпрі'
-coverImage: ''
+coverImage: '/images/likyvannya-sudyn-lazerom-y-dnipri-AzMT.jpg'
 tag: 'косметологія тіла'
 publishedAt: '2024-07-15T15:17:30.305Z'
 ---
