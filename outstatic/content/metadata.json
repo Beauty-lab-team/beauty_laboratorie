@@ -1,6 +1,6 @@
 {
   "commit": "73ba850b662a406a138bdca09512457746310dfe",
-  "generated": "2024-07-17T12:40:44.262Z",
+  "generated": "2024-07-17T12:45:14.316Z",
   "metadata": [
     {
       "__outstatic": {
@@ -271,7 +271,7 @@
     {
       "__outstatic": {
         "commit": "73ba850b662a406a138bdca09512457746310dfe",
-        "hash": "765078483",
+        "hash": "3632801068",
         "path": "outstatic/content/services/vydalennya-sudin-lazerom-y-dnipri.md"
       },
       "author": {
@@ -279,7 +279,7 @@
         "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
       },
       "collection": "services",
-      "coverImage": "/images/likyvannya-sudyn-lazerom-y-dnipri-cxNj.jpg",
+      "coverImage": "/images/likyvannya-sudyn-lazerom-y-dnipri-kwNj.jpg",
       "description": "Лазерне видалення судин або лікування куперозу є ефективним методом для усунення небажаних судин на будь-яких ділянках  тіла або обличчя у Дніпрі",
       "publishedAt": "2024-07-15T15:17:30.305Z",
       "slug": "vydalennya-sudin-lazerom-y-dnipri",
