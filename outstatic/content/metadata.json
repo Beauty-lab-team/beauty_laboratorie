@@ -1,6 +1,6 @@
 {
-  "commit": "38993db6a159bc3e2af106c62e9b228b7a2e99cf",
-  "generated": "2024-07-17T13:04:04.402Z",
+  "commit": "926f5c2f4c64b3a864945a5d67fa48b8056ad612",
+  "generated": "2024-07-17T13:08:43.232Z",
   "metadata": [
     {
       "__outstatic": {
@@ -175,25 +175,6 @@
     },
     {
       "__outstatic": {
-        "commit": "6f9ff30707d645b69be627643d4fb88b8cd4a24c",
-        "hash": "1118381127",
-        "path": "outstatic/content/services/chistka-oblichchya.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/---------------------M1Mj.jpg",
-      "description": "Покращення текстури шкіри, глибоке очищення пор, зменшення запалень та акне, зволоження та живлення - доглянутий вигляд після очищення обличчя.",
-      "publishedAt": "2024-07-03T15:33:10.313Z",
-      "slug": "chistka-oblichchya",
-      "status": "draft",
-      "tag": "Косметологія обличчя",
-      "title": "Чистка обличчя"
-    },
-    {
-      "__outstatic": {
         "commit": "b736d2c6b30e382e34201ce36618baa70c052ebc",
         "hash": "3592485932",
         "path": "outstatic/content/services/smas-lifting-v-dnipri.md"
@@ -286,6 +267,25 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Лазерна епіляція"
+    },
+    {
+      "__outstatic": {
+        "commit": "926f5c2f4c64b3a864945a5d67fa48b8056ad612",
+        "hash": "1309494404",
+        "path": "outstatic/content/services/chistka-oblichchya.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/---------------------M1Mj.jpg",
+      "description": "Покращення текстури шкіри, глибоке очищення пор, зменшення запалень та акне, зволоження та живлення - доглянутий вигляд після очищення обличчя.",
+      "publishedAt": "2024-07-03T15:33:10.313Z",
+      "slug": "chistka-oblichchya",
+      "status": "draft",
+      "tag": "Косметологія обличчя",
+      "title": "Чистка обличчя"
     }
   ]
 }
