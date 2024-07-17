@@ -1,6 +1,6 @@
 {
-  "commit": "73ba850b662a406a138bdca09512457746310dfe",
-  "generated": "2024-07-17T12:45:14.316Z",
+  "commit": "38993db6a159bc3e2af106c62e9b228b7a2e99cf",
+  "generated": "2024-07-17T12:58:27.344Z",
   "metadata": [
     {
       "__outstatic": {
@@ -115,25 +115,6 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "Догляд за обличчям"
-    },
-    {
-      "__outstatic": {
-        "commit": "246d66f46e090a35bdb3ed7cc77d7d4597940b70",
-        "hash": "61589461",
-        "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/-----------------cxOT.jpg",
-      "description": "",
-      "publishedAt": "2024-07-02T16:54:44.628Z",
-      "slug": "lazerna-epilyatsiya-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Лазерна епіляція"
     },
     {
       "__outstatic": {
@@ -286,6 +267,25 @@
       "status": "draft",
       "tag": "косметологія тіла",
       "title": "Видалення судин лазером"
+    },
+    {
+      "__outstatic": {
+        "commit": "38993db6a159bc3e2af106c62e9b228b7a2e99cf",
+        "hash": "2396297456",
+        "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-----------------cxOT.jpg",
+      "description": "",
+      "publishedAt": "2024-07-02T16:54:44.628Z",
+      "slug": "lazerna-epilyatsiya-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Лазерна епіляція"
     }
   ]
 }
