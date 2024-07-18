@@ -1,6 +1,6 @@
 {
-  "commit": "677ad630c59713877872d93a53cfa274497fe2ed",
-  "generated": "2024-07-17T13:12:58.395Z",
+  "commit": "924c9068a9528ec8ac6ad62b417bb4699f2b9f43",
+  "generated": "2024-07-18T15:52:09.759Z",
   "metadata": [
     {
       "__outstatic": {
@@ -175,25 +175,6 @@
     },
     {
       "__outstatic": {
-        "commit": "4ed2e07c8c9c4d3c7e2d10cdff39ad95f5180d5c",
-        "hash": "3863928024",
-        "path": "outstatic/content/services/slimsfera-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/----------A4NT.jpg",
-      "description": "Корекції фігури та позбавлення від целюліту досягається внаслідок поліпшення мікроциркуляції та лімфатичного відтоку - послуга слімсфера в Дніпрі",
-      "publishedAt": "2024-07-02T16:59:58.549Z",
-      "slug": "slimsfera-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Slim сфера"
-    },
-    {
-      "__outstatic": {
         "commit": "bcde8e6f949f227c64ccffaed9155af3b498c5e1",
         "hash": "65657935",
         "path": "outstatic/content/services/pilingi-v-dnipri.md"
@@ -286,6 +267,25 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "SMAS ліфтинг"
+    },
+    {
+      "__outstatic": {
+        "commit": "924c9068a9528ec8ac6ad62b417bb4699f2b9f43",
+        "hash": "3600707149",
+        "path": "outstatic/content/services/slimsfera-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------A4NT.jpg",
+      "description": "Корекції фігури та позбавлення від целюліту досягається внаслідок поліпшення мікроциркуляції та лімфатичного відтоку - послуга слімсфера в Дніпрі",
+      "publishedAt": "2024-07-02T16:59:58.549Z",
+      "slug": "slimsfera-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Slim сфера"
     }
   ]
 }
