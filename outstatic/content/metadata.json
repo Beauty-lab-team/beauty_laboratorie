@@ -1,219 +1,10 @@
 {
-  "commit": "1d0d80773b8a2b8890b834e24049d6fca7f5e2a1",
-  "generated": "2024-07-19T14:44:46.260Z",
+  "commit": "de7df434e5b4a93a32a36136a24cfea8f3dd904b",
+  "generated": "Fri, 19 Jul 2024 14:47:57 GMT",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "656c9690be7425cf5e0f363bfa5318a8e5ffdbc1",
-        "hash": "1308016495",
-        "path": "outstatic/content/employee/sofiya-chesnakova.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "employee",
-      "coverImage": "/images/----------------gyMz.jpg",
-      "description": "",
-      "publishedAt": "2024-07-03T12:41:26.375Z",
-      "skill": "Слімсфера, Смас ліфтінг / SMAS ліфтінг, Фітобочка, Прессотерапія, Обгортання",
-      "slug": "sofiya-chesnakova",
-      "status": "draft",
-      "title": "Софія Чеснакова"
-    },
-    {
-      "__outstatic": {
-        "commit": "97cf0859fb46fad014e469447f333a08a10d538c",
-        "hash": "3272712945",
-        "path": "outstatic/content/employee/oksana-dashchenko.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "employee",
-      "coverImage": "/images/---------------A5MD.jpg",
-      "description": "",
-      "publishedAt": "2024-07-03T12:42:27.749Z",
-      "skill": "Лікування лазером судин, Лазерна епіляція, Лазерна депіляція",
-      "slug": "oksana-dashchenko",
-      "status": "draft",
-      "title": "Оксана Дащенко"
-    },
-    {
-      "__outstatic": {
-        "commit": "22cfd2a8c85527dacc06065ff074ec530da71cd6",
-        "hash": "161919189",
-        "path": "outstatic/content/employee/oksana-rozbeyko.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "employee",
-      "coverImage": "/images/-----------------M0ND.jpg",
-      "description": "",
-      "publishedAt": "2024-07-03T12:37:38.721Z",
-      "skill": "Мікроголковий RF, Смас ліфтінг / SMAS ліфтінг, Біоревіталізація, Догляд за обличчям, Лікування акне, Контурна пластика, Чистка обличчя",
-      "slug": "oksana-rozbeyko",
-      "status": "draft",
-      "title": "Оксана Розбейко"
-    },
-    {
-      "__outstatic": {
-        "commit": "9b1a4b0baf5f2999fa40140d6d17f3a3cc7918ea",
-        "hash": "1465348365",
-        "path": "outstatic/content/services/pilingi.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/--------g4OD.jpg",
-      "description": "",
-      "publishedAt": "2024-07-03T15:25:20.682Z",
-      "slug": "pilingi",
-      "status": "draft",
-      "tag": "Косметологія обличчя",
-      "title": "Пілінги"
-    },
-    {
-      "__outstatic": {
-        "commit": "e63c913f1041ae0bd66428b737eab8baec2ca199",
-        "hash": "3047673159",
-        "path": "outstatic/content/services/iniekciyi.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/----------g0ND.jpg",
-      "description": "",
-      "publishedAt": "2024-07-03T15:29:02.681Z",
-      "slug": "iniekciyi",
-      "status": "draft",
-      "tag": "Інʼєкції",
-      "title": "Інʼєкції"
-    },
-    {
-      "__outstatic": {
-        "commit": "7fb8e3a40603078206fc1937c110b407f497d58c",
-        "hash": "2145127900",
-        "path": "outstatic/content/services/doglyad-za-oblichchyam.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/-------------------gyMz.jpg",
-      "description": "",
-      "publishedAt": "2024-07-03T15:30:01.035Z",
-      "slug": "doglyad-za-oblichchyam",
-      "status": "draft",
-      "tag": "Інʼєкції",
-      "title": "Догляд за обличчям"
-    },
-    {
-      "__outstatic": {
-        "commit": "a11a04328279b1f52a549288321f5a5cd6726579",
-        "hash": "1711779450",
-        "path": "outstatic/content/services/fitobochka-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/----------Q2NT.jpg",
-      "description": "Очищення організму від токсинів і шлаків, відновлення емоційного стану за допомогою фітобочки у Дніпрі",
-      "publishedAt": "2024-07-03T15:24:06.868Z",
-      "slug": "fitobochka-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Фітобочка"
-    },
-    {
-      "__outstatic": {
-        "commit": "b538d3a6d0e1790711dbf6a3d9ff29fdd749578c",
-        "hash": "789510859",
-        "path": "outstatic/content/services/mikroholkovyy-rf-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/------------------gxOD.jpg",
-      "description": "Підтягнута шкіра, оновлений колір обличчя та стимулювання виробки колагену за допомогою мікроголкового рф ліфтингу у Дніпрі",
-      "publishedAt": "2024-07-03T15:26:48.454Z",
-      "slug": "mikroholkovyy-rf-v-dnipri",
-      "status": "draft",
-      "tag": "Інʼєкції",
-      "title": "Мікроголковий RF ліфтінг"
-    },
-    {
-      "__outstatic": {
-        "commit": "1fadd35f2547232613cbeb59102103fbb6914908",
-        "hash": "704674961",
-        "path": "outstatic/content/services/presoterapiya-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/-------------QwND.jpg",
-      "description": "зменшення об’ємів тіла, позбавлення від набряків, лімфодренажний масаж, зменьшення целюліту, покращення стану шкіри - забезбечить пресотерапія у Дніпрі",
-      "publishedAt": "2024-07-03T15:22:25.645Z",
-      "slug": "presoterapiya-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Пресотерапія"
-    },
-    {
-      "__outstatic": {
-        "commit": "bcde8e6f949f227c64ccffaed9155af3b498c5e1",
-        "hash": "65657935",
-        "path": "outstatic/content/services/pilingi-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/--------g4OD.jpg",
-      "description": "Підтримуй свіжість та здоровий вигляд шкіри за допомогою літнього пілінгу у Дніпрі",
-      "publishedAt": "2024-07-03T15:25:20.682Z",
-      "slug": "pilingi-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія обличчя",
-      "title": "Пілінги"
-    },
-    {
-      "__outstatic": {
-        "commit": "38993db6a159bc3e2af106c62e9b228b7a2e99cf",
-        "hash": "2980199523",
-        "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/-----------------cxOT.jpg",
-      "description": "Видалення небажаного волосся за допомогою якісного та безболісного лазеру - лазерна епіляція у Дніпрі",
-      "publishedAt": "2024-07-02T16:54:44.628Z",
-      "slug": "lazerna-epilyatsiya-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Лазерна епіляція"
-    },
-    {
-      "__outstatic": {
-        "commit": "926f5c2f4c64b3a864945a5d67fa48b8056ad612",
+        "commit": "ff824493adddb032c7e143e6117d41db2031677a",
         "hash": "1309494404",
         "path": "outstatic/content/services/chistka-oblichchya.md"
       },
@@ -232,7 +23,197 @@
     },
     {
       "__outstatic": {
-        "commit": "677ad630c59713877872d93a53cfa274497fe2ed",
+        "commit": "22eb4ff4c0392d3f6ac7bfa65a1f3d3902c35d7f",
+        "hash": "1308016495",
+        "path": "outstatic/content/employee/sofiya-chesnakova.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "employee",
+      "coverImage": "/images/----------------gyMz.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T12:41:26.375Z",
+      "skill": "Слімсфера, Смас ліфтінг / SMAS ліфтінг, Фітобочка, Прессотерапія, Обгортання",
+      "slug": "sofiya-chesnakova",
+      "status": "draft",
+      "title": "Софія Чеснакова"
+    },
+    {
+      "__outstatic": {
+        "commit": "b68d39dc67f74152f863a969056d9ecc490852e7",
+        "hash": "161919189",
+        "path": "outstatic/content/employee/oksana-rozbeyko.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "employee",
+      "coverImage": "/images/-----------------M0ND.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T12:37:38.721Z",
+      "skill": "Мікроголковий RF, Смас ліфтінг / SMAS ліфтінг, Біоревіталізація, Догляд за обличчям, Лікування акне, Контурна пластика, Чистка обличчя",
+      "slug": "oksana-rozbeyko",
+      "status": "draft",
+      "title": "Оксана Розбейко"
+    },
+    {
+      "__outstatic": {
+        "commit": "6a08f3ed692d907a50b7b4d8c365755d4ebf90ec",
+        "hash": "3272712945",
+        "path": "outstatic/content/employee/oksana-dashchenko.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "employee",
+      "coverImage": "/images/---------------A5MD.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T12:42:27.749Z",
+      "skill": "Лікування лазером судин, Лазерна епіляція, Лазерна депіляція",
+      "slug": "oksana-dashchenko",
+      "status": "draft",
+      "title": "Оксана Дащенко"
+    },
+    {
+      "__outstatic": {
+        "commit": "42ee959963da2b94246bb49a7d9690a85a3257a8",
+        "hash": "789510859",
+        "path": "outstatic/content/services/mikroholkovyy-rf-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/------------------gxOD.jpg",
+      "description": "Підтягнута шкіра, оновлений колір обличчя та стимулювання виробки колагену за допомогою мікроголкового рф ліфтингу у Дніпрі",
+      "publishedAt": "2024-07-03T15:26:48.454Z",
+      "slug": "mikroholkovyy-rf-v-dnipri",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "Мікроголковий RF ліфтінг"
+    },
+    {
+      "__outstatic": {
+        "commit": "ed2e948b325e72d44ca4ad1c788c27e8d9d6041c",
+        "hash": "2980199523",
+        "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-----------------cxOT.jpg",
+      "description": "Видалення небажаного волосся за допомогою якісного та безболісного лазеру - лазерна епіляція у Дніпрі",
+      "publishedAt": "2024-07-02T16:54:44.628Z",
+      "slug": "lazerna-epilyatsiya-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Лазерна епіляція"
+    },
+    {
+      "__outstatic": {
+        "commit": "f085bbf7bcdb930e7dc854ea0817305198e9f6fc",
+        "hash": "3047673159",
+        "path": "outstatic/content/services/iniekciyi.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------g0ND.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:29:02.681Z",
+      "slug": "iniekciyi",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "Інʼєкції"
+    },
+    {
+      "__outstatic": {
+        "commit": "f9a6431298274843572cb8aece42074bc993fd01",
+        "hash": "1711779450",
+        "path": "outstatic/content/services/fitobochka-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------Q2NT.jpg",
+      "description": "Очищення організму від токсинів і шлаків, відновлення емоційного стану за допомогою фітобочки у Дніпрі",
+      "publishedAt": "2024-07-03T15:24:06.868Z",
+      "slug": "fitobochka-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Фітобочка"
+    },
+    {
+      "__outstatic": {
+        "commit": "4c78b5565f0a1783685ce23c9693b60f6e707945",
+        "hash": "2145127900",
+        "path": "outstatic/content/services/doglyad-za-oblichchyam.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-------------------gyMz.jpg",
+      "description": "",
+      "publishedAt": "2024-07-03T15:30:01.035Z",
+      "slug": "doglyad-za-oblichchyam",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "Догляд за обличчям"
+    },
+    {
+      "__outstatic": {
+        "commit": "fa24260e97068cd1c60e352a095d5a0286a84245",
+        "hash": "3632801068",
+        "path": "outstatic/content/services/vydalennya-sudin-lazerom-y-dnipri.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/likyvannya-sudyn-lazerom-y-dnipri-kwNj.jpg",
+      "description": "Лазерне видалення судин або лікування куперозу є ефективним методом для усунення небажаних судин на будь-яких ділянках  тіла або обличчя у Дніпрі",
+      "publishedAt": "2024-07-15T15:17:30.305Z",
+      "slug": "vydalennya-sudin-lazerom-y-dnipri",
+      "status": "draft",
+      "tag": "косметологія тіла",
+      "title": "Видалення судин лазером"
+    },
+    {
+      "__outstatic": {
+        "commit": "26b22a119b1601a07ccae9f8e3cf38de7b6e4f36",
+        "hash": "65657935",
+        "path": "outstatic/content/services/pilingi-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/--------g4OD.jpg",
+      "description": "Підтримуй свіжість та здоровий вигляд шкіри за допомогою літнього пілінгу у Дніпрі",
+      "publishedAt": "2024-07-03T15:25:20.682Z",
+      "slug": "pilingi-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія обличчя",
+      "title": "Пілінги"
+    },
+    {
+      "__outstatic": {
+        "commit": "16ad3eb298758ed246fcf6f8f78417d829cd0129",
         "hash": "2974122653",
         "path": "outstatic/content/services/smas-lifting-v-dnipri.md"
       },
@@ -251,7 +232,7 @@
     },
     {
       "__outstatic": {
-        "commit": "924c9068a9528ec8ac6ad62b417bb4699f2b9f43",
+        "commit": "fcf3c39c623ab130b3941a84fe45e633df365a76",
         "hash": "3600707149",
         "path": "outstatic/content/services/slimsfera-v-dnipri.md"
       },
@@ -270,22 +251,22 @@
     },
     {
       "__outstatic": {
-        "commit": "1d0d80773b8a2b8890b834e24049d6fca7f5e2a1",
-        "hash": "843203953",
-        "path": "outstatic/content/services/vydalennya-sudin-lazerom-y-dnipri.md"
+        "commit": "eded67c9c13b2eae54f5427ea41a74cc6f9400c9",
+        "hash": "704674961",
+        "path": "outstatic/content/services/presoterapiya-v-dnipri.md"
       },
       "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
       },
       "collection": "services",
-      "coverImage": "/images/likyvannya-sudyn-lazerom-y-dnipri-kwNj.jpg",
-      "description": "Лазерне видалення судин або лікування куперозу є ефективним методом для усунення небажаних судин на будь-яких ділянках  тіла або обличчя у Дніпрі",
-      "publishedAt": "2024-07-15T15:17:30.305Z",
-      "slug": "vydalennya-sudin-lazerom-y-dnipri",
+      "coverImage": "/images/-------------QwND.jpg",
+      "description": "зменшення об’ємів тіла, позбавлення від набряків, лімфодренажний масаж, зменьшення целюліту, покращення стану шкіри - забезбечить пресотерапія у Дніпрі",
+      "publishedAt": "2024-07-03T15:22:25.645Z",
+      "slug": "presoterapiya-v-dnipri",
       "status": "draft",
-      "tag": "косметологія тіла",
-      "title": "Видалення судин лазером"
+      "tag": "Косметологія тіла",
+      "title": "Пресотерапія"
     }
   ]
 }
