@@ -5,7 +5,7 @@ import capitalizeSlug from '../../utils/capitalizeSlug.js'
 
 const Links = ({ servicesLinks, pathname, isMenuOpen, setMenu }) => {
    const links = [
-      { title: 'Про студію', link: '/about-us' },
+      { title: 'Про нас', link: '/about-us' },
       { title: 'Лазерна епіляція', link: '/services/Lazerna-epilyatsiya-v-Dnipri' },
       { title: 'Послуги', link: '/services', type: 'dropdown' },
       { title: 'Актуальне', link: '/actual', type: 'dropdown' },
@@ -45,7 +45,12 @@ const Links = ({ servicesLinks, pathname, isMenuOpen, setMenu }) => {
                                     const isContent = service.content.length != 3 ? true : false
                                     return (
                                        isContent && (
-                                          <DropdownLink setMenu={setMenu} link={`/services/${capitalizeSlug(service.slug)}`} title={service.title} />
+                                          <DropdownLink
+                                             key={service.slug}
+                                             setMenu={setMenu}
+                                             link={`/services/${capitalizeSlug(service.slug)}`}
+                                             title={service.title}
+                                          />
                                        )
                                     )
                                  })}

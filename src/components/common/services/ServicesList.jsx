@@ -8,15 +8,15 @@ export default async function ServicesList() {
 
    const filteredServices = [
       {
-         array: allServices.filter(el => el.tag == 'Косметологія тіла'),
+         array: allServices.filter(el => el.tag.toLowerCase() == 'косметологія тіла'),
          title: 'Косметологія тіла',
       },
       {
-         array: allServices.filter(el => el.tag == 'Косметологія обличчя'),
+         array: allServices.filter(el => el.tag.toLowerCase() == 'косметологія обличчя'),
          title: 'Косметологія обличчя',
       },
       {
-         array: allServices.filter(el => el.tag == 'Інʼєкції'),
+         array: allServices.filter(el => el.tag.toLowerCase() == 'інʼєкції'),
          title: 'Інʼєкції',
       },
    ]
