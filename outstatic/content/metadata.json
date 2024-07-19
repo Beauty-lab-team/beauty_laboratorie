@@ -1,6 +1,6 @@
 {
-  "commit": "1949d61e34fd0bc22bf65bb064074b881489ff77",
-  "generated": "2024-07-19T17:34:33.699Z",
+  "commit": "0ff9a422a2c73c0af441456e60fa15e6da8e9ff5",
+  "generated": "2024-07-19T17:36:36.697Z",
   "metadata": [
     {
       "__outstatic": {
@@ -156,25 +156,6 @@
     },
     {
       "__outstatic": {
-        "commit": "16ad3eb298758ed246fcf6f8f78417d829cd0129",
-        "hash": "2974122653",
-        "path": "outstatic/content/services/smas-lifting-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/-------------Y0Mz.jpg",
-      "description": "Інноваційна методика омолодження та підтяжки обличчя без хірургічного втручання - смас ліфтинг у Дніпрі",
-      "publishedAt": "2024-07-03T15:28:13.092Z",
-      "slug": "smas-lifting-v-dnipri",
-      "status": "draft",
-      "tag": "Інʼєкції",
-      "title": "SMAS ліфтинг"
-    },
-    {
-      "__outstatic": {
         "commit": "fcf3c39c623ab130b3941a84fe45e633df365a76",
         "hash": "3600707149",
         "path": "outstatic/content/services/slimsfera-v-dnipri.md"
@@ -267,6 +248,25 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "Мікроголковий RF ліфтінг"
+    },
+    {
+      "__outstatic": {
+        "commit": "0ff9a422a2c73c0af441456e60fa15e6da8e9ff5",
+        "hash": "18780957",
+        "path": "outstatic/content/services/smas-lifting-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-------------Y0Mz.jpg",
+      "description": "Інноваційна методика омолодження та підтяжки обличчя без хірургічного втручання - смас ліфтинг у Дніпрі",
+      "publishedAt": "2024-07-03T15:28:13.092Z",
+      "slug": "smas-lifting-v-dnipri",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "SMAS ліфтинг"
     }
   ]
 }
