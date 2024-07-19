@@ -1,6 +1,6 @@
 {
-  "commit": "91611f65853dd44321313a60aa106ea4c761bd31",
-  "generated": "2024-07-19T17:08:24.589Z",
+  "commit": "1949d61e34fd0bc22bf65bb064074b881489ff77",
+  "generated": "2024-07-19T17:34:33.699Z",
   "metadata": [
     {
       "__outstatic": {
@@ -58,25 +58,6 @@
       "slug": "oksana-dashchenko",
       "status": "draft",
       "title": "Оксана Дащенко"
-    },
-    {
-      "__outstatic": {
-        "commit": "42ee959963da2b94246bb49a7d9690a85a3257a8",
-        "hash": "789510859",
-        "path": "outstatic/content/services/mikroholkovyy-rf-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/------------------gxOD.jpg",
-      "description": "Підтягнута шкіра, оновлений колір обличчя та стимулювання виробки колагену за допомогою мікроголкового рф ліфтингу у Дніпрі",
-      "publishedAt": "2024-07-03T15:26:48.454Z",
-      "slug": "mikroholkovyy-rf-v-dnipri",
-      "status": "draft",
-      "tag": "Інʼєкції",
-      "title": "Мікроголковий RF ліфтінг"
     },
     {
       "__outstatic": {
@@ -267,6 +248,25 @@
       "status": "draft",
       "tag": "Косметологія обличчя",
       "title": "Чистка обличчя"
+    },
+    {
+      "__outstatic": {
+        "commit": "1949d61e34fd0bc22bf65bb064074b881489ff77",
+        "hash": "4159079485",
+        "path": "outstatic/content/services/mikroholkovyy-rf-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/------------------gxOD.jpg",
+      "description": "Підтягнута шкіра, оновлений колір обличчя та стимулювання виробки колагену за допомогою мікроголкового рф ліфтингу у Дніпрі",
+      "publishedAt": "2024-07-03T15:26:48.454Z",
+      "slug": "mikroholkovyy-rf-v-dnipri",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "Мікроголковий RF ліфтінг"
     }
   ]
 }
