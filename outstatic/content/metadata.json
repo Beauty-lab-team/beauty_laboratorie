@@ -1,6 +1,6 @@
 {
-  "commit": "0ff9a422a2c73c0af441456e60fa15e6da8e9ff5",
-  "generated": "2024-07-19T17:36:36.697Z",
+  "commit": "add5542c411729db5d4f0c914f971cc95926c555",
+  "generated": "2024-07-19T17:40:25.380Z",
   "metadata": [
     {
       "__outstatic": {
@@ -96,25 +96,6 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "Інʼєкції"
-    },
-    {
-      "__outstatic": {
-        "commit": "f9a6431298274843572cb8aece42074bc993fd01",
-        "hash": "1711779450",
-        "path": "outstatic/content/services/fitobochka-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/----------Q2NT.jpg",
-      "description": "Очищення організму від токсинів і шлаків, відновлення емоційного стану за допомогою фітобочки у Дніпрі",
-      "publishedAt": "2024-07-03T15:24:06.868Z",
-      "slug": "fitobochka-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Фітобочка"
     },
     {
       "__outstatic": {
@@ -267,6 +248,25 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "SMAS ліфтинг"
+    },
+    {
+      "__outstatic": {
+        "commit": "add5542c411729db5d4f0c914f971cc95926c555",
+        "hash": "978204257",
+        "path": "outstatic/content/services/fitobochka-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------Q2NT.jpg",
+      "description": "Очищення організму від токсинів і шлаків, відновлення емоційного стану за допомогою фітобочки у Дніпрі",
+      "publishedAt": "2024-07-03T15:24:06.868Z",
+      "slug": "fitobochka-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Фітобочка"
     }
   ]
 }
