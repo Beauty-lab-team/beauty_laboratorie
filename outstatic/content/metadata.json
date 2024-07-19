@@ -1,6 +1,6 @@
 {
   "commit": "add5542c411729db5d4f0c914f971cc95926c555",
-  "generated": "2024-07-19T17:40:25.380Z",
+  "generated": "2024-07-19T17:41:23.383Z",
   "metadata": [
     {
       "__outstatic": {
@@ -61,25 +61,6 @@
     },
     {
       "__outstatic": {
-        "commit": "ed2e948b325e72d44ca4ad1c788c27e8d9d6041c",
-        "hash": "2980199523",
-        "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/-----------------cxOT.jpg",
-      "description": "Видалення небажаного волосся за допомогою якісного та безболісного лазеру - лазерна епіляція у Дніпрі",
-      "publishedAt": "2024-07-02T16:54:44.628Z",
-      "slug": "lazerna-epilyatsiya-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Лазерна епіляція"
-    },
-    {
-      "__outstatic": {
         "commit": "f085bbf7bcdb930e7dc854ea0817305198e9f6fc",
         "hash": "3047673159",
         "path": "outstatic/content/services/iniekciyi.md"
@@ -96,6 +77,25 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "Інʼєкції"
+    },
+    {
+      "__outstatic": {
+        "commit": "f9a6431298274843572cb8aece42074bc993fd01",
+        "hash": "1711779450",
+        "path": "outstatic/content/services/fitobochka-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------Q2NT.jpg",
+      "description": "Очищення організму від токсинів і шлаків, відновлення емоційного стану за допомогою фітобочки у Дніпрі",
+      "publishedAt": "2024-07-03T15:24:06.868Z",
+      "slug": "fitobochka-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Фітобочка"
     },
     {
       "__outstatic": {
@@ -252,21 +252,21 @@
     {
       "__outstatic": {
         "commit": "add5542c411729db5d4f0c914f971cc95926c555",
-        "hash": "978204257",
-        "path": "outstatic/content/services/fitobochka-v-dnipri.md"
+        "hash": "148605005",
+        "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
       },
       "author": {
         "name": "Eduard Povierin",
         "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
       },
       "collection": "services",
-      "coverImage": "/images/----------Q2NT.jpg",
-      "description": "Очищення організму від токсинів і шлаків, відновлення емоційного стану за допомогою фітобочки у Дніпрі",
-      "publishedAt": "2024-07-03T15:24:06.868Z",
-      "slug": "fitobochka-v-dnipri",
+      "coverImage": "/images/-----------------cxOT.jpg",
+      "description": "Видалення небажаного волосся за допомогою якісного та безболісного лазеру - лазерна епіляція у Дніпрі",
+      "publishedAt": "2024-07-02T16:54:44.628Z",
+      "slug": "lazerna-epilyatsiya-v-dnipri",
       "status": "draft",
       "tag": "Косметологія тіла",
-      "title": "Фітобочка"
+      "title": "Лазерна епіляція"
     }
   ]
 }
