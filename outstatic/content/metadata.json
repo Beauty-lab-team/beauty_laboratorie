@@ -1,26 +1,7 @@
 {
-  "commit": "d5852f4dc43ec585d17d74864fa7c8c848f8a83f",
-  "generated": "2024-07-19T14:59:15.982Z",
+  "commit": "91611f65853dd44321313a60aa106ea4c761bd31",
+  "generated": "2024-07-19T17:08:24.589Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "ff824493adddb032c7e143e6117d41db2031677a",
-        "hash": "1309494404",
-        "path": "outstatic/content/services/chistka-oblichchya.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/---------------------M1Mj.jpg",
-      "description": "Покращення текстури шкіри, глибоке очищення пор, зменшення запалень та акне, зволоження та живлення - доглянутий вигляд після очищення обличчя.",
-      "publishedAt": "2024-07-03T15:33:10.313Z",
-      "slug": "chistka-oblichchya",
-      "status": "draft",
-      "tag": "Косметологія обличчя",
-      "title": "Чистка обличчя"
-    },
     {
       "__outstatic": {
         "commit": "22eb4ff4c0392d3f6ac7bfa65a1f3d3902c35d7f",
@@ -267,6 +248,25 @@
       "status": "draft",
       "tag": "Косметологія обличчя",
       "title": "Пілінги"
+    },
+    {
+      "__outstatic": {
+        "commit": "91611f65853dd44321313a60aa106ea4c761bd31",
+        "hash": "1321530438",
+        "path": "outstatic/content/services/chistka-oblichchya.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/---------------------M1Mj.jpg",
+      "description": "Покращення текстури шкіри, глибоке очищення пор, зменшення запалень та акне, зволоження та живлення - доглянутий вигляд після очищення обличчя.",
+      "publishedAt": "2024-07-03T15:33:10.313Z",
+      "slug": "chistka-oblichchya",
+      "status": "draft",
+      "tag": "Косметологія обличчя",
+      "title": "Чистка обличчя"
     }
   ]
 }

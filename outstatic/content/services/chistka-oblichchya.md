@@ -36,3 +36,18 @@ publishedAt: '2024-07-03T15:33:10.313Z'
 ![Чистка обличчя у Дніпрі](https://cosmetcab.dp.ua/api/outstatic/images/---------------------M1Mj.jpg)
 
 Чистка обличчя є важливою процедурою для підтримання здоров’я та краси шкіри. Вибір методу чистки залежить від типу шкіри, її стану та індивідуальних потреб. Регулярна чистка допомагає зберігати шкіру чистою, свіжою і сяючою, сприяючи покращенню її текстури та зовнішнього вигляду. Консультація з кваліфікованим косметологом допоможе вибрати найкращий метод і забезпечити ефективний догляд за шкірою.
+
+### Найпопулірніші послугу в нашій Б'юті лабораторії:
+
+[Смас ліфтинг у Дніпрі](https://cosmetcab.dp.ua/services/Smas-lifting-v-Dnipri)
+
+[Слімсфера в Дніпрі](https://cosmetcab.dp.ua/services/Slimsfera-v-Dnipri)
+
+[Пресотерапія у Дніпрі](https://cosmetcab.dp.ua/services/Presoterapiya-v-Dnipri)
+
+[Видалення судин лазером у Дніпрі](https://cosmetcab.dp.ua/outstatic/services/vydalennya-sudin-lazerom-y-dnipri)\
+[Фітобочка у Дніпрі](https://cosmetcab.dp.ua/services/Fitobochka-v-Dnipri)
+
+[Мікроголковий РФ у Дніпрі](https://cosmetcab.dp.ua/services/Mikroholkovyy-RF-v-Dnipri)
+
+[Лазерна епіляція у Дніпрі](services/Lazerna-epilyatsiya-v-Dnipri)
