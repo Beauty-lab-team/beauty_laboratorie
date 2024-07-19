@@ -1,6 +1,6 @@
 {
   "commit": "add5542c411729db5d4f0c914f971cc95926c555",
-  "generated": "2024-07-19T17:41:23.383Z",
+  "generated": "2024-07-19T17:42:32.731Z",
   "metadata": [
     {
       "__outstatic": {
@@ -58,6 +58,25 @@
       "slug": "oksana-dashchenko",
       "status": "draft",
       "title": "Оксана Дащенко"
+    },
+    {
+      "__outstatic": {
+        "commit": "ed2e948b325e72d44ca4ad1c788c27e8d9d6041c",
+        "hash": "2980199523",
+        "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-----------------cxOT.jpg",
+      "description": "Видалення небажаного волосся за допомогою якісного та безболісного лазеру - лазерна епіляція у Дніпрі",
+      "publishedAt": "2024-07-02T16:54:44.628Z",
+      "slug": "lazerna-epilyatsiya-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Лазерна епіляція"
     },
     {
       "__outstatic": {
@@ -156,25 +175,6 @@
     },
     {
       "__outstatic": {
-        "commit": "eded67c9c13b2eae54f5427ea41a74cc6f9400c9",
-        "hash": "704674961",
-        "path": "outstatic/content/services/presoterapiya-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/-------------QwND.jpg",
-      "description": "зменшення об’ємів тіла, позбавлення від набряків, лімфодренажний масаж, зменьшення целюліту, покращення стану шкіри - забезбечить пресотерапія у Дніпрі",
-      "publishedAt": "2024-07-03T15:22:25.645Z",
-      "slug": "presoterapiya-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Пресотерапія"
-    },
-    {
-      "__outstatic": {
         "commit": "d5852f4dc43ec585d17d74864fa7c8c848f8a83f",
         "hash": "2448735482",
         "path": "outstatic/content/services/pilingi-v-dnipri.md"
@@ -252,21 +252,21 @@
     {
       "__outstatic": {
         "commit": "add5542c411729db5d4f0c914f971cc95926c555",
-        "hash": "148605005",
-        "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
+        "hash": "841095030",
+        "path": "outstatic/content/services/presoterapiya-v-dnipri.md"
       },
       "author": {
         "name": "Eduard Povierin",
         "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
       },
       "collection": "services",
-      "coverImage": "/images/-----------------cxOT.jpg",
-      "description": "Видалення небажаного волосся за допомогою якісного та безболісного лазеру - лазерна епіляція у Дніпрі",
-      "publishedAt": "2024-07-02T16:54:44.628Z",
-      "slug": "lazerna-epilyatsiya-v-dnipri",
+      "coverImage": "/images/-------------QwND.jpg",
+      "description": "Зменшення об’ємів тіла, позбавлення від набряків, лімфодренажний масаж, зменьшення целюліту, покращення стану шкіри - забезбечить пресотерапія у Дніпрі",
+      "publishedAt": "2024-07-03T15:22:25.645Z",
+      "slug": "presoterapiya-v-dnipri",
       "status": "draft",
       "tag": "Косметологія тіла",
-      "title": "Лазерна епіляція"
+      "title": "Пресотерапія"
     }
   ]
 }
