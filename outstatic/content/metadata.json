@@ -1,6 +1,6 @@
 {
-  "commit": "de7df434e5b4a93a32a36136a24cfea8f3dd904b",
-  "generated": "Fri, 19 Jul 2024 14:47:57 GMT",
+  "commit": "d5852f4dc43ec585d17d74864fa7c8c848f8a83f",
+  "generated": "2024-07-19T14:59:15.982Z",
   "metadata": [
     {
       "__outstatic": {
@@ -194,25 +194,6 @@
     },
     {
       "__outstatic": {
-        "commit": "26b22a119b1601a07ccae9f8e3cf38de7b6e4f36",
-        "hash": "65657935",
-        "path": "outstatic/content/services/pilingi-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/--------g4OD.jpg",
-      "description": "Підтримуй свіжість та здоровий вигляд шкіри за допомогою літнього пілінгу у Дніпрі",
-      "publishedAt": "2024-07-03T15:25:20.682Z",
-      "slug": "pilingi-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія обличчя",
-      "title": "Пілінги"
-    },
-    {
-      "__outstatic": {
         "commit": "16ad3eb298758ed246fcf6f8f78417d829cd0129",
         "hash": "2974122653",
         "path": "outstatic/content/services/smas-lifting-v-dnipri.md"
@@ -267,6 +248,25 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Пресотерапія"
+    },
+    {
+      "__outstatic": {
+        "commit": "d5852f4dc43ec585d17d74864fa7c8c848f8a83f",
+        "hash": "2448735482",
+        "path": "outstatic/content/services/pilingi-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/--------g4OD.jpg",
+      "description": "Підтримуй свіжість та здоровий вигляд шкіри за допомогою літнього пілінгу у Дніпрі",
+      "publishedAt": "2024-07-03T15:25:20.682Z",
+      "slug": "pilingi-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія обличчя",
+      "title": "Пілінги"
     }
   ]
 }
