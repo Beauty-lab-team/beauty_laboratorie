@@ -1,6 +1,6 @@
 {
-  "commit": "c4ed6e5081df3c3fe9df9a31db99ccd1878eec3c",
-  "generated": "2024-07-31T10:33:48.018Z",
+  "commit": "bb1f2c5395c99b31d91717c6b7bdaa06da74b9ce",
+  "generated": "2024-07-31T10:45:01.956Z",
   "metadata": [
     {
       "__outstatic": {
@@ -339,24 +339,6 @@
       "slug": "art-1",
       "status": "draft",
       "title": "Art 1"
-    },
-    {
-      "__outstatic": {
-        "commit": "c4ed6e5081df3c3fe9df9a31db99ccd1878eec3c",
-        "hash": "3216668321",
-        "path": "outstatic/content/promotions/promo-1.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": ""
-      },
-      "collection": "promotions",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-07-31T10:45:35.132Z",
-      "slug": "promo-1",
-      "status": "draft",
-      "title": "Promo 1"
     }
   ]
 }
