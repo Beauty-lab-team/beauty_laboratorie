@@ -1,6 +1,6 @@
 {
-  "commit": "3a1f39d718e834c70b99151b78c163d13f6409fd",
-  "generated": "2024-07-31T09:34:05.469Z",
+  "commit": "153d5fb31021de4375eeb5bc185d53061bbf608c",
+  "generated": "2024-07-31T09:45:11.898Z",
   "metadata": [
     {
       "__outstatic": {
@@ -285,6 +285,24 @@
       "status": "draft",
       "tag": "Косметологія обличчя",
       "title": "Пілінги"
+    },
+    {
+      "__outstatic": {
+        "commit": "153d5fb31021de4375eeb5bc185d53061bbf608c",
+        "hash": "2406921375",
+        "path": "outstatic/content/news/taytl-2.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": ""
+      },
+      "collection": "news",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-07-09T09:56:37.000Z",
+      "slug": "taytl-2",
+      "status": "draft",
+      "title": "Тайтл #2"
     }
   ]
 }
