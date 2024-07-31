@@ -1,6 +1,6 @@
 {
   "commit": "481fd98073a89671c8857aa4fbae8d7aba3d47e4",
-  "generated": "2024-07-31T10:45:17.404Z",
+  "generated": "2024-07-31T10:45:20.368Z",
   "metadata": [
     {
       "__outstatic": {
@@ -251,6 +251,24 @@
     },
     {
       "__outstatic": {
+        "commit": "b07707b148f3e23a2f795633b182041adf32aad8",
+        "hash": "855342503",
+        "path": "outstatic/content/news/taytl-1.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": ""
+      },
+      "collection": "news",
+      "coverImage": "https://loremflickr.com/640/480/abstract",
+      "description": "",
+      "publishedAt": "2024-07-31T08:55:31.295Z",
+      "slug": "taytl-1",
+      "status": "draft",
+      "title": "Тайтл #1"
+    },
+    {
+      "__outstatic": {
         "commit": "3a1f39d718e834c70b99151b78c163d13f6409fd",
         "hash": "1472206022",
         "path": "outstatic/content/services/pilingi-v-dnipri.md"
@@ -267,24 +285,6 @@
       "status": "draft",
       "tag": "Косметологія обличчя",
       "title": "Пілінги"
-    },
-    {
-      "__outstatic": {
-        "commit": "153d5fb31021de4375eeb5bc185d53061bbf608c",
-        "hash": "2406921375",
-        "path": "outstatic/content/news/taytl-2.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": ""
-      },
-      "collection": "news",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-07-09T09:56:37.000Z",
-      "slug": "taytl-2",
-      "status": "draft",
-      "title": "Тайтл #2"
     },
     {
       "__outstatic": {
