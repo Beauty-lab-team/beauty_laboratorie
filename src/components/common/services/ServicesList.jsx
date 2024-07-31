@@ -4,19 +4,19 @@ import Heading from '../../UI/Heading.jsx'
 import getData from '../../../utils/getData.js'
 
 export default async function ServicesList() {
-   const { allServices } = await getData()
+   const { allData } = await getData('services')
 
    const filteredServices = [
       {
-         array: allServices.filter(el => el.tag.toLowerCase() == 'косметологія тіла'),
+         array: allData.filter(el => el.tag.toLowerCase() == 'косметологія тіла'),
          title: 'Косметологія тіла',
       },
       {
-         array: allServices.filter(el => el.tag.toLowerCase() == 'косметологія обличчя'),
+         array: allData.filter(el => el.tag.toLowerCase() == 'косметологія обличчя'),
          title: 'Косметологія обличчя',
       },
       {
-         array: allServices.filter(el => el.tag.toLowerCase() == 'інʼєкції'),
+         array: allData.filter(el => el.tag.toLowerCase() == 'інʼєкції'),
          title: 'Інʼєкції',
       },
    ]

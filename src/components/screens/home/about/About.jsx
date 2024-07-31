@@ -1,15 +1,15 @@
 import Section from '../../../UI/Section'
 import Employees from '../../../common/employees/Employees'
 import Filler from '../../../UI/Filler'
-import { load } from 'outstatic/server'
+import getData from '../../../../utils/getData'
 
 export default async function About() {
-   const { allEmployees } = await getData()
+   const { allData } = await getData('employee')
 
    return (
       <Section className='relative'>
          <Filler />
-         <Employees allEmployees={allEmployees} />
+         <Employees allEmployees={allData} />
          <svg
             className='absolute -bottom-[145px] sm:-bottom-[160px] lg:bottom-[200px] lg:hidden left-0 md:-left-8 w-full lg:w-[500px]'
             width='1478'
@@ -28,15 +28,4 @@ export default async function About() {
          </svg>
       </Section>
    )
-}
-async function getData() {
-   const db = await load()
-
-   const allEmployees = (
-      await db.find({ collection: 'employee' }, ['title', 'content', 'coverImage', 'skill']).sort({ publishedAt: -1 }).toArray()
-   ).reverse()
-
-   return {
-      allEmployees,
-   }
 }

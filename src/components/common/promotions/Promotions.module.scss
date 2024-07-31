@@ -1,0 +1,22 @@
+.promotionsList {
+   @apply py-6 lg:pb-0;
+}
+.promotion {
+   @apply rounded-basic bg-accent-2 p-6 mb-12 xl:mb-0 flex flex-col self-start;
+   .image {
+      @apply aspect-auto h-[250px] xl:h-[360px] w-full rounded-inner mb-5 object-cover;
+   }
+   .buttons {
+      @apply grid xl:flex grid-cols-2 gap-2 xl:gap-3 mt-2;
+      button,
+      a {
+         @apply flex justify-center items-center w-full;
+      }
+   }
+}
+.promotionsGrid {
+   @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4;
+   .promotion {
+      @apply mb-0;
+   }
+}
