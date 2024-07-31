@@ -1,6 +1,6 @@
 {
-  "commit": "bb1f2c5395c99b31d91717c6b7bdaa06da74b9ce",
-  "generated": "2024-07-31T10:45:01.956Z",
+  "commit": "481fd98073a89671c8857aa4fbae8d7aba3d47e4",
+  "generated": "2024-07-31T10:45:13.938Z",
   "metadata": [
     {
       "__outstatic": {
@@ -303,24 +303,6 @@
       "slug": "taytl-2",
       "status": "draft",
       "title": "Тайтл #2"
-    },
-    {
-      "__outstatic": {
-        "commit": "17535db703aebedd50ad4b618647825a28002935",
-        "hash": "3214959254",
-        "path": "outstatic/content/news/taytl-3.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": ""
-      },
-      "collection": "news",
-      "coverImage": "https://loremflickr.com/640/480/people",
-      "description": "",
-      "publishedAt": "2024-08-15T09:59:27.000Z",
-      "slug": "taytl-3",
-      "status": "draft",
-      "title": "Тайтл #3"
     },
     {
       "__outstatic": {
