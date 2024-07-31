@@ -1,6 +1,6 @@
 {
-  "commit": "3a081744949d96c01c4c5aefc9d3acb70800e5cf",
-  "generated": "2024-07-19T18:14:10.261Z",
+  "commit": "b07707b148f3e23a2f795633b182041adf32aad8",
+  "generated": "2024-07-31T09:32:47.406Z",
   "metadata": [
     {
       "__outstatic": {
@@ -267,6 +267,24 @@
       "status": "draft",
       "tag": "косметологія тіла",
       "title": "Видалення судин лазером"
+    },
+    {
+      "__outstatic": {
+        "commit": "b07707b148f3e23a2f795633b182041adf32aad8",
+        "hash": "855342503",
+        "path": "outstatic/content/news/taytl-1.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": ""
+      },
+      "collection": "news",
+      "coverImage": "https://loremflickr.com/640/480/abstract",
+      "description": "",
+      "publishedAt": "2024-07-31T08:55:31.295Z",
+      "slug": "taytl-1",
+      "status": "draft",
+      "title": "Тайтл #1"
     }
   ]
 }
