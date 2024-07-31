@@ -1,6 +1,6 @@
 {
-  "commit": "17535db703aebedd50ad4b618647825a28002935",
-  "generated": "2024-07-31T09:48:16.247Z",
+  "commit": "95efc9f1b8feaf230337d7f9278adb69961ec125",
+  "generated": "2024-07-31T10:33:29.791Z",
   "metadata": [
     {
       "__outstatic": {
@@ -321,6 +321,24 @@
       "slug": "taytl-3",
       "status": "draft",
       "title": "Тайтл #3"
+    },
+    {
+      "__outstatic": {
+        "commit": "95efc9f1b8feaf230337d7f9278adb69961ec125",
+        "hash": "4005668888",
+        "path": "outstatic/content/articles/art-1.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": ""
+      },
+      "collection": "articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-07-31T10:44:54.183Z",
+      "slug": "art-1",
+      "status": "draft",
+      "title": "Art 1"
     }
   ]
 }
