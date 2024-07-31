@@ -1,6 +1,6 @@
 {
-  "commit": "b07707b148f3e23a2f795633b182041adf32aad8",
-  "generated": "2024-07-31T09:32:47.406Z",
+  "commit": "3a1f39d718e834c70b99151b78c163d13f6409fd",
+  "generated": "2024-07-31T09:34:05.469Z",
   "metadata": [
     {
       "__outstatic": {
@@ -232,25 +232,6 @@
     },
     {
       "__outstatic": {
-        "commit": "add5542c411729db5d4f0c914f971cc95926c555",
-        "hash": "1340907792",
-        "path": "outstatic/content/services/pilingi-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/--------g4OD.jpg",
-      "description": "Підтримуй свіжість та здоровий вигляд шкіри за допомогою літнього пілінгу у Дніпрі",
-      "publishedAt": "2024-07-03T15:25:20.682Z",
-      "slug": "pilingi-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія обличчя",
-      "title": "Пілінги"
-    },
-    {
-      "__outstatic": {
         "commit": "3a081744949d96c01c4c5aefc9d3acb70800e5cf",
         "hash": "3551828305",
         "path": "outstatic/content/services/vydalennya-sudin-lazerom-y-dnipri.md"
@@ -285,6 +266,25 @@
       "slug": "taytl-1",
       "status": "draft",
       "title": "Тайтл #1"
+    },
+    {
+      "__outstatic": {
+        "commit": "3a1f39d718e834c70b99151b78c163d13f6409fd",
+        "hash": "1472206022",
+        "path": "outstatic/content/services/pilingi-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/--------g4OD.jpg",
+      "description": "Підтримуй свіжість та здоровий вигляд шкіри за допомогою літнього пілінгу у Дніпрі",
+      "publishedAt": "2024-07-03T15:25:20.682Z",
+      "slug": "pilingi-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія обличчя",
+      "title": "Пілінги"
     }
   ]
 }
