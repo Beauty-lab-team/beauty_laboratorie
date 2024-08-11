@@ -4,7 +4,7 @@ WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm ci
 COPY . .
-RUN npm run build
+RUN CI=false npm run build
 
 FROM node:18-alpine as runner
 WORKDIR /app
