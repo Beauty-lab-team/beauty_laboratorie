@@ -1,6 +1,6 @@
 {
-  "commit": "ca1cef586fa95696a6d339ff00658d084db5cec8",
-  "generated": "2024-08-12T13:09:31.625Z",
+  "commit": "1be6251afde50693a5cb7da9964110fe648b714f",
+  "generated": "2024-08-12T13:10:07.492Z",
   "metadata": [
     {
       "__outstatic": {
@@ -270,8 +270,8 @@
     },
     {
       "__outstatic": {
-        "commit": "ca1cef586fa95696a6d339ff00658d084db5cec8",
-        "hash": "3181299552",
+        "commit": "1be6251afde50693a5cb7da9964110fe648b714f",
+        "hash": "1568239588",
         "path": "outstatic/content/articles/kosmetologichna-studiya-u-dnipri-presoterapiya.md"
       },
       "author": {
