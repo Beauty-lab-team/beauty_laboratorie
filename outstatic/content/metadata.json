@@ -1,6 +1,6 @@
 {
   "commit": "38d484b9637e762a59c8d1967ec36a3125b4232f",
-  "generated": "2024-08-12T13:33:39.353Z",
+  "generated": "2024-08-12T13:46:48.820Z",
   "metadata": [
     {
       "__outstatic": {
@@ -289,7 +289,7 @@
     {
       "__outstatic": {
         "commit": "38d484b9637e762a59c8d1967ec36a3125b4232f",
-        "hash": "514432355",
+        "hash": "4229459851",
         "path": "outstatic/content/news/yak-doglyadati-za-oblichchyam-vlitku.md"
       },
       "author": {
@@ -297,11 +297,11 @@
         "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
       },
       "collection": "news",
-      "coverImage": "/images/smas-lifting-v-dnipri-U3Nz.jpg",
+      "coverImage": "/images/smas-lifting-v-dnipri-UzMT.jpg",
       "description": "Як доглядати за обличчям влітку? Б'юті лабораторія - салон краси, корисного і бережливого догляду за твоїм тілом у Дніпрі",
       "publishedAt": "2024-08-12T13:42:07.795Z",
       "slug": "yak-doglyadati-za-oblichchyam-vlitku",
-      "status": "draft",
+      "status": "published",
       "title": "Як доглядати за обличчям влітку? "
     }
   ]
