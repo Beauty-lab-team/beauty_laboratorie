@@ -5,7 +5,7 @@ author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/174791371?v=4'
 slug: 'kosmetologichna-studiya-u-dnipri-presoterapiya'
-description: 'Косметологічна студія у Дніпрі пропонує курс пресотерапії для покращення стану шкіри та вдосконалення форм тіла'
+description: 'Косметологічна студія у Дніпрі пропонує курс пресотерапії для покращення стану шкіри та вдосконалення форм тіла.'
 coverImage: '/images/pressoterapiya-y-dnipri-I3Mz.jpg'
 publishedAt: '2024-08-12T13:22:52.979Z'
 ---
