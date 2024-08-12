@@ -1,5 +1,8 @@
 .modalBlock {
-   @apply fixed inset-0 z-40;
+   @apply fixed inset-0 z-40 opacity-0 scale-90 pointer-events-none transition-all ease-out;
+   &.open {
+      @apply opacity-100 scale-100 pointer-events-auto;
+   }
 }
 
 .backdrop {
