@@ -80,7 +80,8 @@ publishedAt: '2024-08-12T13:22:52.979Z'
 
 [Слімсфера в Дніпрі](https://cosmetcab.dp.ua/services/Slimsfera-v-Dnipri)
 
-[Видалення судин лазером у Дніпрі](https://cosmetcab.dp.ua/outstatic/services/vydalennya-sudin-lazerom-y-dnipri)\
+[Видалення судин лазером у Дніпрі](https://cosmetcab.dp.ua/outstatic/services/vydalennya-sudin-lazerom-y-dnipri)
+
 [Фітобочка у Дніпрі](https://cosmetcab.dp.ua/services/Fitobochka-v-Dnipri)
 
 [Мікроголковий РФ у Дніпрі](https://cosmetcab.dp.ua/services/Mikroholkovyy-RF-v-Dnipri)
