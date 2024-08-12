@@ -1,5 +1,4 @@
 import Script from 'next/script'
-import SessionProvider from '../components/SessionProvider'
 import '../styles/index.css'
 
 export const metadata = {
@@ -24,7 +23,7 @@ export default async function RootLayout({ children }) {
             <meta name='theme-color' content='#fdf2f8c6' />
          </head>
          <body>
-            <SessionProvider>{children}</SessionProvider>
+            {children}
             <noscript>
                <iframe
                   src='https://www.googletagmanager.com/ns.html?id=GTM-TMXL8BJ8'
