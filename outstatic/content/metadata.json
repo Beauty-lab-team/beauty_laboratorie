@@ -1,6 +1,6 @@
 {
-  "commit": "71497dcc8bb157e107a9efa5e61a33c31f0415be",
-  "generated": "Wed, 31 Jul 2024 10:48:02 GMT",
+  "commit": "ca1cef586fa95696a6d339ff00658d084db5cec8",
+  "generated": "2024-08-12T13:09:31.625Z",
   "metadata": [
     {
       "__outstatic": {
@@ -267,6 +267,24 @@
       "status": "draft",
       "tag": "Косметологія обличчя",
       "title": "Пілінги"
+    },
+    {
+      "__outstatic": {
+        "commit": "ca1cef586fa95696a6d339ff00658d084db5cec8",
+        "hash": "3181299552",
+        "path": "outstatic/content/articles/kosmetologichna-studiya-u-dnipri-presoterapiya.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "articles",
+      "coverImage": "/images/pressoterapiya-y-dnipri-I3Mz.jpg",
+      "description": "Косметологічна студія у Дніпрі пропонує курс пресотерапії для покращення стану шкіри та вдосконалення форм тіла",
+      "publishedAt": "2024-08-12T13:22:52.979Z",
+      "slug": "kosmetologichna-studiya-u-dnipri-presoterapiya",
+      "status": "draft",
+      "title": "Косметологічна студія у Дніпрі пропонує"
     }
   ]
 }
