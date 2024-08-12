@@ -1,6 +1,6 @@
 {
-  "commit": "859cfcf50787ba38ec2c296b45f70904bfad3d40",
-  "generated": "2024-08-12T14:44:26.680Z",
+  "commit": "c74e2f0aae9e93d35a17cc44b9fec924d26aa0f4",
+  "generated": "2024-08-12T14:47:13.206Z",
   "metadata": [
     {
       "__outstatic": {
@@ -306,8 +306,8 @@
     },
     {
       "__outstatic": {
-        "commit": "859cfcf50787ba38ec2c296b45f70904bfad3d40",
-        "hash": "3780945764",
+        "commit": "c74e2f0aae9e93d35a17cc44b9fec924d26aa0f4",
+        "hash": "3126135419",
         "path": "outstatic/content/promotions/akciyna-propoziciya-vid-studiyi-krasi-po-krashchim-cinam-u-dnipri.md"
       },
       "author": {
@@ -319,7 +319,7 @@
       "description": "Акційна пропозиція від  студії краси по кращим цінам у Дніпрі, професійний комплексний догляд за обличчям або тілом",
       "publishedAt": "2024-08-12T14:52:34.150Z",
       "slug": "akciyna-propoziciya-vid-studiyi-krasi-po-krashchim-cinam-u-dnipri",
-      "status": "draft",
+      "status": "published",
       "title": "Акційна пропозиція від  студії краси по кращим цінам у Дніпрі! "
     }
   ]
