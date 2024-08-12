@@ -1,6 +1,6 @@
 {
-  "commit": "38d484b9637e762a59c8d1967ec36a3125b4232f",
-  "generated": "2024-08-12T13:47:41.649Z",
+  "commit": "028ce3a34bc9aad140e18d0a4e1928ca794dfb94",
+  "generated": "2024-08-12T13:48:59.697Z",
   "metadata": [
     {
       "__outstatic": {
@@ -251,24 +251,6 @@
     },
     {
       "__outstatic": {
-        "commit": "b39b0ba8d142d137213cb2a6749b33816c5875c9",
-        "hash": "1695677341",
-        "path": "outstatic/content/articles/kosmetologichna-studiya-u-dnipri-presoterapiya.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
-      },
-      "collection": "articles",
-      "coverImage": "/images/pressoterapiya-y-dnipri-I3Mz.jpg",
-      "description": "Косметологічна студія у Дніпрі пропонує курс пресотерапії для покращення стану шкіри та вдосконалення форм тіла.",
-      "publishedAt": "2024-08-12T13:22:52.979Z",
-      "slug": "kosmetologichna-studiya-u-dnipri-presoterapiya",
-      "status": "published",
-      "title": "Косметологічна студія у Дніпрі пропонує"
-    },
-    {
-      "__outstatic": {
         "commit": "df4c1c62dcee9229b96f6d5694982230dd1dcc9a",
         "hash": "229616410",
         "path": "outstatic/content/services/chistka-oblichchya.md"
@@ -303,6 +285,24 @@
       "slug": "yak-doglyadati-za-oblichchyam-vlitku",
       "status": "published",
       "title": "Як доглядати за обличчям влітку? "
+    },
+    {
+      "__outstatic": {
+        "commit": "028ce3a34bc9aad140e18d0a4e1928ca794dfb94",
+        "hash": "3840042597",
+        "path": "outstatic/content/articles/kosmetologichna-studiya-u-dnipri-presoterapiya.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "articles",
+      "coverImage": "/images/pressoterapiya-y-dnipri-c3ND.jpg",
+      "description": "Косметологічна студія у Дніпрі пропонує курс пресотерапії для покращення стану шкіри та вдосконалення форм тіла.",
+      "publishedAt": "2024-08-12T13:22:52.979Z",
+      "slug": "kosmetologichna-studiya-u-dnipri-presoterapiya",
+      "status": "published",
+      "title": "Косметологічна студія у Дніпрі пропонує"
     }
   ]
 }

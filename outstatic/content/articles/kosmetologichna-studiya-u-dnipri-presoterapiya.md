@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/174791371?v=4'
 slug: 'kosmetologichna-studiya-u-dnipri-presoterapiya'
 description: 'Косметологічна студія у Дніпрі пропонує курс пресотерапії для покращення стану шкіри та вдосконалення форм тіла.'
-coverImage: '/images/pressoterapiya-y-dnipri-I3Mz.jpg'
+coverImage: '/images/pressoterapiya-y-dnipri-c3ND.jpg'
 publishedAt: '2024-08-12T13:22:52.979Z'
 ---
 
@@ -55,6 +55,8 @@ publishedAt: '2024-08-12T13:22:52.979Z'
 ✅Загальна втома та втома ніг
 
 ✅Профілактика тромбозу
+
+![курс пресотерапії у дніпрі](https://cosmetcab.dp.ua/api/outstatic/images/pressoterapiya-y-dnipri-I3Mz.jpg)
 
 **Протипоказання:**
 
