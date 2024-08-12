@@ -1,6 +1,6 @@
 {
-  "commit": "df4c1c62dcee9229b96f6d5694982230dd1dcc9a",
-  "generated": "2024-08-12T13:20:47.935Z",
+  "commit": "ec45426ded5c162368eff7fbee49c080b9e333ed",
+  "generated": "2024-08-12T13:31:47.231Z",
   "metadata": [
     {
       "__outstatic": {
@@ -285,6 +285,24 @@
       "status": "draft",
       "tag": "Косметологія обличчя",
       "title": "Чистка обличчя"
+    },
+    {
+      "__outstatic": {
+        "commit": "ec45426ded5c162368eff7fbee49c080b9e333ed",
+        "hash": "3565116675",
+        "path": "outstatic/content/news/yak-doglyadati-za-oblichchyam-vlitku.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "news",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-08-12T13:42:07.795Z",
+      "slug": "yak-doglyadati-za-oblichchyam-vlitku",
+      "status": "draft",
+      "title": "Як доглядати за обличчям влітку? "
     }
   ]
 }
