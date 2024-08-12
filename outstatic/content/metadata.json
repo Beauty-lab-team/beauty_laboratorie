@@ -1,6 +1,6 @@
 {
-  "commit": "06e7e709a168992db395078f48d705dbe9094dce",
-  "generated": "2024-08-12T14:16:53.829Z",
+  "commit": "859cfcf50787ba38ec2c296b45f70904bfad3d40",
+  "generated": "2024-08-12T14:44:26.680Z",
   "metadata": [
     {
       "__outstatic": {
@@ -303,6 +303,24 @@
       "slug": "yak-doglyadati-za-oblichchyam-vlitku",
       "status": "published",
       "title": "Як доглядати за обличчям влітку? "
+    },
+    {
+      "__outstatic": {
+        "commit": "859cfcf50787ba38ec2c296b45f70904bfad3d40",
+        "hash": "3780945764",
+        "path": "outstatic/content/promotions/akciyna-propoziciya-vid-studiyi-krasi-po-krashchim-cinam-u-dnipri.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "promotions",
+      "coverImage": "/images/biorevitalizacziya-AyOD.jpg",
+      "description": "Акційна пропозиція від  студії краси по кращим цінам у Дніпрі, професійний комплексний догляд за обличчям або тілом",
+      "publishedAt": "2024-08-12T14:52:34.150Z",
+      "slug": "akciyna-propoziciya-vid-studiyi-krasi-po-krashchim-cinam-u-dnipri",
+      "status": "draft",
+      "title": "Акційна пропозиція від  студії краси по кращим цінам у Дніпрі! "
     }
   ]
 }
