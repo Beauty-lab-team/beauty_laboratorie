@@ -1,6 +1,6 @@
 {
   "commit": "028ce3a34bc9aad140e18d0a4e1928ca794dfb94",
-  "generated": "2024-08-12T13:48:59.697Z",
+  "generated": "2024-08-12T13:49:33.598Z",
   "metadata": [
     {
       "__outstatic": {
@@ -289,7 +289,7 @@
     {
       "__outstatic": {
         "commit": "028ce3a34bc9aad140e18d0a4e1928ca794dfb94",
-        "hash": "3840042597",
+        "hash": "1605278255",
         "path": "outstatic/content/articles/kosmetologichna-studiya-u-dnipri-presoterapiya.md"
       },
       "author": {
@@ -297,7 +297,7 @@
         "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
       },
       "collection": "articles",
-      "coverImage": "/images/pressoterapiya-y-dnipri-c3ND.jpg",
+      "coverImage": "/images/pressoterapiya-y-dnipri-EyNz.jpg",
       "description": "Косметологічна студія у Дніпрі пропонує курс пресотерапії для покращення стану шкіри та вдосконалення форм тіла.",
       "publishedAt": "2024-08-12T13:22:52.979Z",
       "slug": "kosmetologichna-studiya-u-dnipri-presoterapiya",
