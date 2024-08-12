@@ -1,26 +1,7 @@
 {
-  "commit": "b39b0ba8d142d137213cb2a6749b33816c5875c9",
-  "generated": "2024-08-12T13:19:07.508Z",
+  "commit": "df4c1c62dcee9229b96f6d5694982230dd1dcc9a",
+  "generated": "2024-08-12T13:20:47.935Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "0e1a2a418dd6339beb967324d413364f941b8fba",
-        "hash": "1321530438",
-        "path": "outstatic/content/services/chistka-oblichchya.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/---------------------M1Mj.jpg",
-      "description": "Покращення текстури шкіри, глибоке очищення пор, зменшення запалень та акне, зволоження та живлення - доглянутий вигляд після очищення обличчя.",
-      "publishedAt": "2024-07-03T15:33:10.313Z",
-      "slug": "chistka-oblichchya",
-      "status": "draft",
-      "tag": "Косметологія обличчя",
-      "title": "Чистка обличчя"
-    },
     {
       "__outstatic": {
         "commit": "22eb4ff4c0392d3f6ac7bfa65a1f3d3902c35d7f",
@@ -285,6 +266,25 @@
       "slug": "kosmetologichna-studiya-u-dnipri-presoterapiya",
       "status": "published",
       "title": "Косметологічна студія у Дніпрі пропонує"
+    },
+    {
+      "__outstatic": {
+        "commit": "df4c1c62dcee9229b96f6d5694982230dd1dcc9a",
+        "hash": "229616410",
+        "path": "outstatic/content/services/chistka-oblichchya.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/---------------------M1Mj.jpg",
+      "description": "Покращення текстури шкіри, глибоке очищення пор, зменшення запалень та акне, зволоження та живлення - доглянутий вигляд після очищення обличчя.",
+      "publishedAt": "2024-07-03T15:33:10.313Z",
+      "slug": "chistka-oblichchya",
+      "status": "draft",
+      "tag": "Косметологія обличчя",
+      "title": "Чистка обличчя"
     }
   ]
 }

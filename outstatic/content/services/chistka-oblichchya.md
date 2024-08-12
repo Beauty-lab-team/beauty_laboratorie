@@ -45,7 +45,8 @@ publishedAt: '2024-07-03T15:33:10.313Z'
 
 [Пресотерапія у Дніпрі](https://cosmetcab.dp.ua/services/Presoterapiya-v-Dnipri)
 
-[Видалення судин лазером у Дніпрі](https://cosmetcab.dp.ua/outstatic/services/vydalennya-sudin-lazerom-y-dnipri)\
+[Видалення судин лазером у Дніпрі](https://cosmetcab.dp.ua/outstatic/services/vydalennya-sudin-lazerom-y-dnipri)
+
 [Фітобочка у Дніпрі](https://cosmetcab.dp.ua/services/Fitobochka-v-Dnipri)
 
 [Мікроголковий РФ у Дніпрі](https://cosmetcab.dp.ua/services/Mikroholkovyy-RF-v-Dnipri)
