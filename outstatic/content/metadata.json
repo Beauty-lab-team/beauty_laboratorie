@@ -1,6 +1,6 @@
 {
-  "commit": "028ce3a34bc9aad140e18d0a4e1928ca794dfb94",
-  "generated": "2024-08-12T13:49:33.598Z",
+  "commit": "06e7e709a168992db395078f48d705dbe9094dce",
+  "generated": "2024-08-12T14:16:32.610Z",
   "metadata": [
     {
       "__outstatic": {
@@ -270,24 +270,6 @@
     },
     {
       "__outstatic": {
-        "commit": "38d484b9637e762a59c8d1967ec36a3125b4232f",
-        "hash": "3382529112",
-        "path": "outstatic/content/news/yak-doglyadati-za-oblichchyam-vlitku.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
-      },
-      "collection": "news",
-      "coverImage": "/images/smas-lifting-v-dnipri-k3Nz.jpg",
-      "description": "Як доглядати за обличчям влітку? Б'юті лабораторія - салон краси, корисного і бережливого догляду за твоїм тілом у Дніпрі",
-      "publishedAt": "2024-08-12T13:42:07.795Z",
-      "slug": "yak-doglyadati-za-oblichchyam-vlitku",
-      "status": "published",
-      "title": "Як доглядати за обличчям влітку? "
-    },
-    {
-      "__outstatic": {
         "commit": "028ce3a34bc9aad140e18d0a4e1928ca794dfb94",
         "hash": "1605278255",
         "path": "outstatic/content/articles/kosmetologichna-studiya-u-dnipri-presoterapiya.md"
@@ -303,6 +285,24 @@
       "slug": "kosmetologichna-studiya-u-dnipri-presoterapiya",
       "status": "published",
       "title": "Косметологічна студія у Дніпрі пропонує"
+    },
+    {
+      "__outstatic": {
+        "commit": "06e7e709a168992db395078f48d705dbe9094dce",
+        "hash": "1408472699",
+        "path": "outstatic/content/news/yak-doglyadati-za-oblichchyam-vlitku.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "news",
+      "coverImage": "/images/smas-lifting-v-dnipri-k3Nz.jpg",
+      "description": "Як доглядати за обличчям влітку? Б'юті лабораторія - салон краси, корисного і бережливого догляду за твоїм тілом у Дніпрі",
+      "publishedAt": "2024-08-12T13:42:07.795Z",
+      "slug": "yak-doglyadati-za-oblichchyam-vlitku",
+      "status": "published",
+      "title": "Як доглядати за обличчям влітку? "
     }
   ]
 }
