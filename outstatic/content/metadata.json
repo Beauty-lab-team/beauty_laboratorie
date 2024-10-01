@@ -1,6 +1,6 @@
 {
-  "commit": "c74e2f0aae9e93d35a17cc44b9fec924d26aa0f4",
-  "generated": "2024-08-12T14:47:13.206Z",
+  "commit": "42e29dc01d4d0c35e65ba7b4005ba54ab10e4fa4",
+  "generated": "2024-10-01T19:16:17.794Z",
   "metadata": [
     {
       "__outstatic": {
@@ -321,6 +321,24 @@
       "slug": "akciyna-propoziciya-vid-studiyi-krasi-po-krashchim-cinam-u-dnipri",
       "status": "published",
       "title": "Акційна пропозиція від  студії краси по кращим цінам у Дніпрі! "
+    },
+    {
+      "__outstatic": {
+        "commit": "42e29dc01d4d0c35e65ba7b4005ba54ab10e4fa4",
+        "hash": "758183458",
+        "path": "outstatic/content/articles/perevagi-slimsferi.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "articles",
+      "coverImage": "/images/slimsfera-dnipro-beauty-lab-UyNz.jpg",
+      "description": "Слімсфера – це сучасна технологія, що застосовується в косметології для зниження ваги, корекції фігури та боротьби з целюлітом",
+      "publishedAt": "2024-10-01T19:23:19.838Z",
+      "slug": "perevagi-slimsferi",
+      "status": "draft",
+      "title": "Переваги слімсфери"
     }
   ]
 }
