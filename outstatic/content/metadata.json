@@ -1,6 +1,6 @@
 {
-  "commit": "1a2446b15ff10c3d63d5cdae69cf3f4bd010ea07",
-  "generated": "2024-10-01T19:19:33.404Z",
+  "commit": "ab55e33cfb9b76b8bbaba9ebdae5af3557fcc5e8",
+  "generated": "2024-10-01T19:22:19.331Z",
   "metadata": [
     {
       "__outstatic": {
@@ -324,8 +324,8 @@
     },
     {
       "__outstatic": {
-        "commit": "1a2446b15ff10c3d63d5cdae69cf3f4bd010ea07",
-        "hash": "592351838",
+        "commit": "ab55e33cfb9b76b8bbaba9ebdae5af3557fcc5e8",
+        "hash": "942328805",
         "path": "outstatic/content/articles/perevagi-slimsferi.md"
       },
       "author": {
