@@ -1,6 +1,6 @@
 {
   "commit": "ab55e33cfb9b76b8bbaba9ebdae5af3557fcc5e8",
-  "generated": "2024-10-01T19:22:19.331Z",
+  "generated": "2024-10-01T19:22:46.196Z",
   "metadata": [
     {
       "__outstatic": {
@@ -325,7 +325,7 @@
     {
       "__outstatic": {
         "commit": "ab55e33cfb9b76b8bbaba9ebdae5af3557fcc5e8",
-        "hash": "942328805",
+        "hash": "457338195",
         "path": "outstatic/content/articles/perevagi-slimsferi.md"
       },
       "author": {
