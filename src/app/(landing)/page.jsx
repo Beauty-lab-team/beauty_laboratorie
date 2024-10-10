@@ -6,6 +6,14 @@ import Welcome from '../../components/screens/home/welcome/Welcome'
 import About from '../../components/screens/home/about/About'
 import Hero from '../../components/screens/home/hero/Hero'
 
+export const metadata = {
+   title: "Б'юті лабораторія у Дніпрі - якісна лазерна епіляція та догляд за тілом",
+   description:
+      "Косметологічна студія Beauty.laboratorie - це центр краси та здоров'я де ви отримаєте професійний комплексний догляд за обличчям та тілом.",
+   keywords:
+      "Б'юті лабораторія у Дніпрі - якісна лазерна епіляція та догляд за тілом косметологічна студія Beauty laboratorie центр краси та здоров'я де ви отримаєте професійний комплексний догляд за обличчям та тілом для чоловіків жінок за волоссям антівікові програми та ефективні процедури у центрі міста Дніпро правий берег косметолог у Дніпрі консультація запис на прийом Оксана Розбейко.",
+}
+
 export default function Home() {
    return (
       <>

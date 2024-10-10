@@ -1,15 +1,6 @@
 import Script from 'next/script'
 import '../styles/index.css'
 
-export const metadata = {
-   title: {
-      template: '%s | BEAUTY.LABORATORIE',
-      default: 'BEAUTY.LABORATORIE',
-   },
-   description:
-      "Косметична студія 'Beauty.laboratorie' - це центр краси та здоров'я у Дніпрі. Ми пропонуємо широкий спектр косметологічних послуг для чоловіків та жінок, включаючи догляд за обличчям, тілом, волоссям та нігтями. Наші фахівці з багаторічним досвідом роботи допоможуть вам зберегти молодість та красу",
-}
-
 export default async function RootLayout({ children }) {
    return (
       <html lang='uk'>
@@ -21,6 +12,15 @@ export default async function RootLayout({ children }) {
             <link rel='mask-icon' href='favicon/safari-pinned-tab.svg' color='#5bbad5' />
             <meta name='msapplication-TileColor' content='#fdf2f8c6' />
             <meta name='theme-color' content='#fdf2f8c6' />
+            <meta
+               name='description'
+               content="Косметологічна студія Beauty.laboratorie - це центр краси та здоров'я де ви отримаєте професійний комплексний догляд за обличчям та тілом."
+            />
+            <meta
+               name='keywords'
+               content="Б'юті лабораторія у Дніпрі - якісна лазерна епіляція та догляд за тілом косметологічна студія Beauty laboratorie центр краси та здоров'я де ви отримаєте професійний комплексний догляд за обличчям та тілом для чоловіків жінок за волоссям антівікові програми та ефективні процедури у центрі міста Дніпро правий берег косметолог у Дніпрі консультація запис на прийом Оксана Розбейко."
+            />
+            <title>Б'юті лабораторія у Дніпрі - якісна лазерна епіляція та догляд за тілом</title>
          </head>
          <body>
             {children}
