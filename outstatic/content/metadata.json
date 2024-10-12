@@ -1,6 +1,6 @@
 {
-  "commit": "610054f2adf34fac5e495c7197692906fdff840c",
-  "generated": "2024-10-12T17:11:41.681Z",
+  "commit": "d1075420974fb9045571b580df9ceb55d7de640c",
+  "generated": "2024-10-12T17:22:56.584Z",
   "metadata": [
     {
       "__outstatic": {
@@ -285,25 +285,6 @@
     },
     {
       "__outstatic": {
-        "commit": "fcf3c39c623ab130b3941a84fe45e633df365a76",
-        "hash": "3600707149",
-        "path": "outstatic/content/services/slimsfera-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/----------A4NT.jpg",
-      "description": "Корекції фігури та позбавлення від целюліту досягається внаслідок поліпшення мікроциркуляції та лімфатичного відтоку - послуга слімсфера в Дніпрі",
-      "publishedAt": "2024-07-02T16:59:58.549Z",
-      "slug": "slimsfera-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Slim сфера"
-    },
-    {
-      "__outstatic": {
         "commit": "6a6b6ded447903615513072826b7806ddada9872",
         "hash": "2729945523",
         "path": "outstatic/content/services/smas-lifting-v-dnipri.md"
@@ -339,6 +320,25 @@
       "status": "draft",
       "tag": "Косметологія обличчя",
       "title": "Чистка обличчя"
+    },
+    {
+      "__outstatic": {
+        "commit": "d1075420974fb9045571b580df9ceb55d7de640c",
+        "hash": "158419069",
+        "path": "outstatic/content/services/slimsfera-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------A4NT.jpg",
+      "description": "Корекції фігури та позбавлення від целюліту досягається внаслідок поліпшення мікроциркуляції та лімфатичного відтоку - послуга слімсфера в Дніпрі",
+      "publishedAt": "2024-07-02T16:59:58.549Z",
+      "slug": "slimsfera-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Slim сфера"
     }
   ]
 }
