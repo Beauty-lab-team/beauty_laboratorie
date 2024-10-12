@@ -1,6 +1,6 @@
 {
-  "commit": "d1075420974fb9045571b580df9ceb55d7de640c",
-  "generated": "2024-10-12T17:22:56.584Z",
+  "commit": "78387b2c4b18c7723966ddab86abe4b5e9608394",
+  "generated": "2024-10-12T17:30:33.704Z",
   "metadata": [
     {
       "__outstatic": {
@@ -285,25 +285,6 @@
     },
     {
       "__outstatic": {
-        "commit": "6a6b6ded447903615513072826b7806ddada9872",
-        "hash": "2729945523",
-        "path": "outstatic/content/services/smas-lifting-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/-------------Y0Mz.jpg",
-      "description": "Інноваційна методика омолодження та підтяжки обличчя без хірургічного втручання - смас ліфтинг у Дніпрі",
-      "publishedAt": "2024-07-03T15:28:13.092Z",
-      "slug": "smas-lifting-v-dnipri",
-      "status": "draft",
-      "tag": "Інʼєкції",
-      "title": "SMAS ліфтинг"
-    },
-    {
-      "__outstatic": {
         "commit": "610054f2adf34fac5e495c7197692906fdff840c",
         "hash": "2345084725",
         "path": "outstatic/content/services/chistka-oblichchya.md"
@@ -339,6 +320,25 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Slim сфера"
+    },
+    {
+      "__outstatic": {
+        "commit": "78387b2c4b18c7723966ddab86abe4b5e9608394",
+        "hash": "788783010",
+        "path": "outstatic/content/services/smas-lifting-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-------------Y0Mz.jpg",
+      "description": "Інноваційна методика омолодження та підтяжки обличчя без хірургічного втручання - смас ліфтинг у Дніпрі",
+      "publishedAt": "2024-07-03T15:28:13.092Z",
+      "slug": "smas-lifting-v-dnipri",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "SMAS ліфтинг"
     }
   ]
 }
