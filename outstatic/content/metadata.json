@@ -1,6 +1,6 @@
 {
-  "commit": "6a6b6ded447903615513072826b7806ddada9872",
-  "generated": "2024-10-12T11:45:19.859Z",
+  "commit": "610054f2adf34fac5e495c7197692906fdff840c",
+  "generated": "2024-10-12T17:11:41.681Z",
   "metadata": [
     {
       "__outstatic": {
@@ -56,25 +56,6 @@
       "slug": "perevagi-slimsferi",
       "status": "published",
       "title": "Переваги слімсфери"
-    },
-    {
-      "__outstatic": {
-        "commit": "90727f2bad34bcc50e4fdf6439541399475934d0",
-        "hash": "229616410",
-        "path": "outstatic/content/services/chistka-oblichchya.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/---------------------M1Mj.jpg",
-      "description": "Покращення текстури шкіри, глибоке очищення пор, зменшення запалень та акне, зволоження та живлення - доглянутий вигляд після очищення обличчя.",
-      "publishedAt": "2024-07-03T15:33:10.313Z",
-      "slug": "chistka-oblichchya",
-      "status": "draft",
-      "tag": "Косметологія обличчя",
-      "title": "Чистка обличчя"
     },
     {
       "__outstatic": {
@@ -339,6 +320,25 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "SMAS ліфтинг"
+    },
+    {
+      "__outstatic": {
+        "commit": "610054f2adf34fac5e495c7197692906fdff840c",
+        "hash": "2345084725",
+        "path": "outstatic/content/services/chistka-oblichchya.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/---------------------M1Mj.jpg",
+      "description": "Покращення текстури шкіри, глибоке очищення пор, зменшення запалень та акне, зволоження та живлення - доглянутий вигляд після очищення обличчя.",
+      "publishedAt": "2024-07-03T15:33:10.313Z",
+      "slug": "chistka-oblichchya",
+      "status": "draft",
+      "tag": "Косметологія обличчя",
+      "title": "Чистка обличчя"
     }
   ]
 }
