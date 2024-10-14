@@ -1,6 +1,6 @@
 {
-  "commit": "73516521721291e75e8aaf3d5356297766dace9b",
-  "generated": "2024-10-14T19:56:40.374Z",
+  "commit": "1c2414fefffca47794577c93b1f34aca38ce96a0",
+  "generated": "2024-10-14T20:47:34.387Z",
   "metadata": [
     {
       "__outstatic": {
@@ -339,6 +339,24 @@
       "status": "draft",
       "tag": "Косметологія тіла",
       "title": "Фітобочка"
+    },
+    {
+      "__outstatic": {
+        "commit": "1c2414fefffca47794577c93b1f34aca38ce96a0",
+        "hash": "2712108691",
+        "path": "outstatic/content/articles/chistka-oblichya-dnipro.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "articles",
+      "coverImage": "/images/chistka-oblichya-dnipro-M5Mj.jpg",
+      "description": "Доглядати за собою, щоб бути впевненою, гарною та завжди догляннутою",
+      "publishedAt": "2024-10-14T20:50:36.717Z",
+      "slug": "chistka-oblichya-dnipro",
+      "status": "draft",
+      "title": "Чистка обличчя"
     }
   ]
 }
