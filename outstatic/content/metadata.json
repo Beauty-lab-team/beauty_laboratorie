@@ -1,6 +1,6 @@
 {
-  "commit": "78387b2c4b18c7723966ddab86abe4b5e9608394",
-  "generated": "2024-10-12T17:30:33.704Z",
+  "commit": "73516521721291e75e8aaf3d5356297766dace9b",
+  "generated": "2024-10-14T19:56:40.374Z",
   "metadata": [
     {
       "__outstatic": {
@@ -171,25 +171,6 @@
     },
     {
       "__outstatic": {
-        "commit": "c5e2b54ec45d2ebd693b6db552d2c7f0171db110",
-        "hash": "978204257",
-        "path": "outstatic/content/services/fitobochka-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/----------Q2NT.jpg",
-      "description": "Очищення організму від токсинів і шлаків, відновлення емоційного стану за допомогою фітобочки у Дніпрі",
-      "publishedAt": "2024-07-03T15:24:06.868Z",
-      "slug": "fitobochka-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Фітобочка"
-    },
-    {
-      "__outstatic": {
         "commit": "141a358b011252917cc209ab721e054f45a61447",
         "hash": "148605005",
         "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
@@ -339,6 +320,25 @@
       "status": "draft",
       "tag": "Інʼєкції",
       "title": "SMAS ліфтинг"
+    },
+    {
+      "__outstatic": {
+        "commit": "73516521721291e75e8aaf3d5356297766dace9b",
+        "hash": "2308380276",
+        "path": "outstatic/content/services/fitobochka-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------Q2NT.jpg",
+      "description": "Очищення організму від токсинів і шлаків, відновлення емоційного стану за допомогою фітобочки у Дніпрі",
+      "publishedAt": "2024-07-03T15:24:06.868Z",
+      "slug": "fitobochka-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Фітобочка"
     }
   ]
 }
