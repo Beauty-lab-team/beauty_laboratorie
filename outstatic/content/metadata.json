@@ -1,6 +1,6 @@
 {
-  "commit": "1c2414fefffca47794577c93b1f34aca38ce96a0",
-  "generated": "2024-10-14T20:47:34.387Z",
+  "commit": "46fe1e284f327728589bac21822cc767555dffb3",
+  "generated": "2024-10-14T20:48:21.595Z",
   "metadata": [
     {
       "__outstatic": {
@@ -342,8 +342,8 @@
     },
     {
       "__outstatic": {
-        "commit": "1c2414fefffca47794577c93b1f34aca38ce96a0",
-        "hash": "2712108691",
+        "commit": "46fe1e284f327728589bac21822cc767555dffb3",
+        "hash": "3048989612",
         "path": "outstatic/content/articles/chistka-oblichya-dnipro.md"
       },
       "author": {
@@ -355,7 +355,7 @@
       "description": "Доглядати за собою, щоб бути впевненою, гарною та завжди догляннутою",
       "publishedAt": "2024-10-14T20:50:36.717Z",
       "slug": "chistka-oblichya-dnipro",
-      "status": "draft",
+      "status": "published",
       "title": "Чистка обличчя"
     }
   ]
