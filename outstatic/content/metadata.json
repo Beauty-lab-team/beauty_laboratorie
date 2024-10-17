@@ -1,6 +1,6 @@
 {
-  "commit": "b487deda23e50bce4c048df16e13171ad0330a79",
-  "generated": "2024-10-17T14:02:32.470Z",
+  "commit": "90ae1fd0a62dfc22aa33f35ec98cdfc1e8daff0e",
+  "generated": "2024-10-17T14:13:09.659Z",
   "metadata": [
     {
       "__outstatic": {
@@ -56,24 +56,6 @@
       "slug": "perevagi-slimsferi",
       "status": "published",
       "title": "Переваги слімсфери"
-    },
-    {
-      "__outstatic": {
-        "commit": "9284e0806bf4c3c6ca0c1b00beccc109bbb305a0",
-        "hash": "3126135419",
-        "path": "outstatic/content/promotions/akciyna-propoziciya-vid-studiyi-krasi-po-krashchim-cinam-u-dnipri.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
-      },
-      "collection": "promotions",
-      "coverImage": "/images/biorevitalizacziya-AyOD.jpg",
-      "description": "Акційна пропозиція від  студії краси по кращим цінам у Дніпрі, професійний комплексний догляд за обличчям або тілом",
-      "publishedAt": "2024-08-12T14:52:34.150Z",
-      "slug": "akciyna-propoziciya-vid-studiyi-krasi-po-krashchim-cinam-u-dnipri",
-      "status": "published",
-      "title": "Акційна пропозиція від  студії краси по кращим цінам у Дніпрі! "
     },
     {
       "__outstatic": {
@@ -375,6 +357,24 @@
       "slug": "epilyaciya-lazerna-u-dnipri",
       "status": "published",
       "title": "Епіляція лазерна у Дніпрі"
+    },
+    {
+      "__outstatic": {
+        "commit": "90ae1fd0a62dfc22aa33f35ec98cdfc1e8daff0e",
+        "hash": "2295497794",
+        "path": "outstatic/content/promotions/akciyna-propoziciya-vid-studiyi-krasi-po-krashchim-cinam-u-dnipri.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "promotions",
+      "coverImage": "/images/biorevitalizacziya-AyOD.jpg",
+      "description": "Акційна пропозиція від  студії краси по кращим цінам у Дніпрі, професійний комплексний догляд за обличчям або тілом",
+      "publishedAt": "2024-08-12T14:52:34.150Z",
+      "slug": "akciyna-propoziciya-vid-studiyi-krasi-po-krashchim-cinam-u-dnipri",
+      "status": "published",
+      "title": "Акційна пропозиція від  студії краси по кращим цінам у Дніпрі! "
     }
   ]
 }
