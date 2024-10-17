@@ -1,6 +1,6 @@
 {
-  "commit": "625250e0779c001025655049faee9a28217f5ec3",
-  "generated": "2024-10-17T13:42:12.115Z",
+  "commit": "3cf5a7bf15bb2b9908b1ee7c981400188a82f06c",
+  "generated": "2024-10-17T13:47:52.001Z",
   "metadata": [
     {
       "__outstatic": {
@@ -360,8 +360,8 @@
     },
     {
       "__outstatic": {
-        "commit": "625250e0779c001025655049faee9a28217f5ec3",
-        "hash": "3280505643",
+        "commit": "3cf5a7bf15bb2b9908b1ee7c981400188a82f06c",
+        "hash": "2018829391",
         "path": "outstatic/content/articles/epilyaciya-lazerna-u-dnipri.md"
       },
       "author": {
