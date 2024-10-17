@@ -1,6 +1,6 @@
 {
-  "commit": "3cf5a7bf15bb2b9908b1ee7c981400188a82f06c",
-  "generated": "2024-10-17T13:58:01.608Z",
+  "commit": "b487deda23e50bce4c048df16e13171ad0330a79",
+  "generated": "2024-10-17T14:02:32.470Z",
   "metadata": [
     {
       "__outstatic": {
@@ -360,8 +360,8 @@
     },
     {
       "__outstatic": {
-        "commit": "3cf5a7bf15bb2b9908b1ee7c981400188a82f06c",
-        "hash": "3488121503",
+        "commit": "b487deda23e50bce4c048df16e13171ad0330a79",
+        "hash": "748125767",
         "path": "outstatic/content/articles/epilyaciya-lazerna-u-dnipri.md"
       },
       "author": {
@@ -369,7 +369,7 @@
         "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
       },
       "collection": "articles",
-      "coverImage": "",
+      "coverImage": "/images/lazerna-epilyacia-dnipro-k3MD.jpg",
       "description": "Лазерна епіляція та її переваги перед восковою епіляцією у Дніпрі",
       "publishedAt": "2024-10-17T13:41:27.264Z",
       "slug": "epilyaciya-lazerna-u-dnipri",
