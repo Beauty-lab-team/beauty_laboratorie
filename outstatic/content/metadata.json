@@ -1,6 +1,6 @@
 {
-  "commit": "90ae1fd0a62dfc22aa33f35ec98cdfc1e8daff0e",
-  "generated": "2024-10-17T14:13:09.659Z",
+  "commit": "386ecc1d8308bf529072b23d2ff3b81bdc114dbf",
+  "generated": "2024-10-17T14:13:44.786Z",
   "metadata": [
     {
       "__outstatic": {
@@ -248,25 +248,6 @@
     },
     {
       "__outstatic": {
-        "commit": "610054f2adf34fac5e495c7197692906fdff840c",
-        "hash": "2345084725",
-        "path": "outstatic/content/services/chistka-oblichchya.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/---------------------M1Mj.jpg",
-      "description": "Покращення текстури шкіри, глибоке очищення пор, зменшення запалень та акне, зволоження та живлення - доглянутий вигляд після очищення обличчя.",
-      "publishedAt": "2024-07-03T15:33:10.313Z",
-      "slug": "chistka-oblichchya",
-      "status": "draft",
-      "tag": "Косметологія обличчя",
-      "title": "Чистка обличчя"
-    },
-    {
-      "__outstatic": {
         "commit": "d1075420974fb9045571b580df9ceb55d7de640c",
         "hash": "158419069",
         "path": "outstatic/content/services/slimsfera-v-dnipri.md"
@@ -375,6 +356,25 @@
       "slug": "akciyna-propoziciya-vid-studiyi-krasi-po-krashchim-cinam-u-dnipri",
       "status": "published",
       "title": "Акційна пропозиція від  студії краси по кращим цінам у Дніпрі! "
+    },
+    {
+      "__outstatic": {
+        "commit": "386ecc1d8308bf529072b23d2ff3b81bdc114dbf",
+        "hash": "3773222119",
+        "path": "outstatic/content/services/chistka-oblichchya.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/---------------------M1Mj.jpg",
+      "description": "Покращення текстури шкіри, глибоке очищення пор, зменшення запалень та акне, зволоження та живлення - доглянутий вигляд після очищення обличчя.",
+      "publishedAt": "2024-07-03T15:33:10.313Z",
+      "slug": "chistka-oblichchya",
+      "status": "draft",
+      "tag": "Косметологія обличчя",
+      "title": "Чистка обличчя"
     }
   ]
 }
