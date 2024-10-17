@@ -1,6 +1,6 @@
 {
-  "commit": "46fe1e284f327728589bac21822cc767555dffb3",
-  "generated": "2024-10-14T20:48:21.595Z",
+  "commit": "625250e0779c001025655049faee9a28217f5ec3",
+  "generated": "2024-10-17T13:42:12.115Z",
   "metadata": [
     {
       "__outstatic": {
@@ -357,6 +357,24 @@
       "slug": "chistka-oblichya-dnipro",
       "status": "published",
       "title": "Чистка обличчя"
+    },
+    {
+      "__outstatic": {
+        "commit": "625250e0779c001025655049faee9a28217f5ec3",
+        "hash": "3280505643",
+        "path": "outstatic/content/articles/epilyaciya-lazerna-u-dnipri.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "articles",
+      "coverImage": "",
+      "description": "Лазерна епіляція та її переваги перед восковою епіляцією у Дніпрі",
+      "publishedAt": "2024-10-17T13:41:27.264Z",
+      "slug": "epilyaciya-lazerna-u-dnipri",
+      "status": "published",
+      "title": "Епіляція лазерна у Дніпрі"
     }
   ]
 }
