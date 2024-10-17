@@ -41,3 +41,19 @@ publishedAt: '2024-10-01T19:23:19.838Z'
 • Вагітність та період лактації • Онкологічні захворювання • Гострі інфекційні захворювання • Захворювання серцево-судинної системи • Шкірні захворювання у місцях проведення процедури
 
 Записуйтесь на консультацію, ми допоможемо визначити, чи підходить вам ця процедура, та скласти індивідуальний план для досягнення найкращих результатів.
+
+### Найпопулірніші послугу в нашій Б'юті лабораторії:
+
+[Смас ліфтинг у Дніпрі](https://cosmetcab.dp.ua/services/Smas-lifting-v-Dnipri)
+
+[Слімсфера в Дніпрі](https://cosmetcab.dp.ua/services/Slimsfera-v-Dnipri)
+
+[Пресотерапія у Дніпрі](https://cosmetcab.dp.ua/services/Presoterapiya-v-Dnipri)
+
+[Видалення судин лазером у Дніпрі](https://cosmetcab.dp.ua/outstatic/services/vydalennya-sudin-lazerom-y-dnipri)
+
+[Фітобочка у Дніпрі](https://cosmetcab.dp.ua/services/Fitobochka-v-Dnipri)
+
+[Мікроголковий РФ у Дніпрі](https://cosmetcab.dp.ua/services/Mikroholkovyy-RF-v-Dnipri)
+
+[Лазерна епіляція у Дніпрі](https://cosmetcab.dp.ua/)

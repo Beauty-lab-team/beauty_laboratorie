@@ -1,6 +1,6 @@
 {
-  "commit": "386ecc1d8308bf529072b23d2ff3b81bdc114dbf",
-  "generated": "2024-10-17T14:13:44.786Z",
+  "commit": "be04c85aba0eac796522a86f20fadb59438760b0",
+  "generated": "2024-10-17T14:14:34.037Z",
   "metadata": [
     {
       "__outstatic": {
@@ -38,24 +38,6 @@
       "slug": "kosmetologichna-studiya-u-dnipri-presoterapiya",
       "status": "published",
       "title": "Косметологічна студія у Дніпрі пропонує"
-    },
-    {
-      "__outstatic": {
-        "commit": "495022c7666a6b80c82dd144acac8f16374b839e",
-        "hash": "3834477843",
-        "path": "outstatic/content/articles/perevagi-slimsferi.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
-      },
-      "collection": "articles",
-      "coverImage": "/images/slimsfera-dnipro-beauty-lab-A1MT.jpg",
-      "description": "Слімсфера – це сучасна технологія, що застосовується в косметології для зниження ваги, корекції фігури та боротьби з целюлітом",
-      "publishedAt": "2024-10-01T19:23:19.838Z",
-      "slug": "perevagi-slimsferi",
-      "status": "published",
-      "title": "Переваги слімсфери"
     },
     {
       "__outstatic": {
@@ -375,6 +357,24 @@
       "status": "draft",
       "tag": "Косметологія обличчя",
       "title": "Чистка обличчя"
+    },
+    {
+      "__outstatic": {
+        "commit": "be04c85aba0eac796522a86f20fadb59438760b0",
+        "hash": "3893845365",
+        "path": "outstatic/content/articles/perevagi-slimsferi.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "articles",
+      "coverImage": "/images/slimsfera-dnipro-beauty-lab-A1MT.jpg",
+      "description": "Слімсфера – це сучасна технологія, що застосовується в косметології для зниження ваги, корекції фігури та боротьби з целюлітом",
+      "publishedAt": "2024-10-01T19:23:19.838Z",
+      "slug": "perevagi-slimsferi",
+      "status": "published",
+      "title": "Переваги слімсфери"
     }
   ]
 }
