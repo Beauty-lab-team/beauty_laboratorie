@@ -80,9 +80,7 @@ publishedAt: '2024-08-12T13:22:52.979Z'
 
 [Смас ліфтинг у Дніпрі](https://cosmetcab.dp.ua/services/Smas-lifting-v-Dnipri)
 
-[Слімсфера в Дніпрі](https://cosmetcab.dp.ua/services/Slimsfera-v-Dnipri)
-
-[Видалення судин лазером у Дніпрі](https://cosmetcab.dp.ua/outstatic/services/vydalennya-sudin-lazerom-y-dnipri)
+[Слімсфера у Дніпрі](https://cosmetcab.dp.ua/services/Slimsfera-v-Dnipri)
 
 [Фітобочка у Дніпрі](https://cosmetcab.dp.ua/services/Fitobochka-v-Dnipri)
 
