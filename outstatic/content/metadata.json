@@ -1,6 +1,6 @@
 {
-  "commit": "8cd0e1023cef5a0b1d53b270bf965f15deacd8c9",
-  "generated": "2024-10-17T14:15:24.644Z",
+  "commit": "c98e5dd1f9cea83056941c7dc4fc08603b2e1ef9",
+  "generated": "2024-10-24T14:32:13.139Z",
   "metadata": [
     {
       "__outstatic": {
@@ -360,8 +360,8 @@
     },
     {
       "__outstatic": {
-        "commit": "8cd0e1023cef5a0b1d53b270bf965f15deacd8c9",
-        "hash": "3427878274",
+        "commit": "c98e5dd1f9cea83056941c7dc4fc08603b2e1ef9",
+        "hash": "561305675",
         "path": "outstatic/content/articles/kosmetologichna-studiya-u-dnipri-presoterapiya.md"
       },
       "author": {
@@ -370,11 +370,11 @@
       },
       "collection": "articles",
       "coverImage": "/images/pressoterapiya-y-dnipri-EyNz.jpg",
-      "description": "Косметологічна студія у Дніпрі пропонує курс пресотерапії для покращення стану шкіри та вдосконалення форм тіла.",
+      "description": "Косметологічна студія у Дніпрі пропонує курс пресотерапії з обгортанням для покращення здоров'я та емоційного стану.",
       "publishedAt": "2024-08-12T13:22:52.979Z",
       "slug": "kosmetologichna-studiya-u-dnipri-presoterapiya",
       "status": "published",
-      "title": "Косметологічна студія у Дніпрі пропонує"
+      "title": "Пресотерапія з обгортанням  у Дніпрі"
     }
   ]
 }
