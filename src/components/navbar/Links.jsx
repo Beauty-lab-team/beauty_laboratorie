@@ -29,10 +29,10 @@ const Links = ({ servicesLinks, pathname, isMenuOpen, setMenu }) => {
                               viewBox='0 0 20 20'
                               fill='none'
                               stroke='currentColor'
-                              stroke-width='2'
-                              stroke-linecap='round'
-                              stroke-linejoin='round'
-                              class='lucide lucide-chevron-down'
+                              strokeWidth='2'
+                              strokeLinecap='round'
+                              strokeLinejoin='round'
+                              className='lucide lucide-chevron-down'
                            >
                               <path d='m6 9 6 6 6-6' />
                            </svg>
