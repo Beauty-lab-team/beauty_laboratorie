@@ -22,7 +22,7 @@ export default function sitemap() {
          url: 'https://cosmetcab.dp.ua/services',
          lastModified: new Date(),
          changeFrequency: 'monthly',
-         priority: 0.8,
+         priority: 0.9,
       },
       {
          url: 'https://cosmetcab.dp.ua/services/Lazerna-epilyatsiya-v-Dnipri',
