@@ -1,6 +1,18 @@
-# *
+# Разрешить индексацию для всех
 User-agent: *
 Allow: /
+
+# Запретить индексацию для адресов .netlify.app
+User-agent: *
+Disallow: /*.netlify.app
+
+# Запретить индексацию для API
+User-agent: *
+Disallow: /api/
+
+# Запретить индексацию для админки
+User-agent: *
+Disallow: /admin/
 
 # Host
 Host: https://cosmetcab.dp.ua/

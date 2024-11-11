@@ -9,7 +9,6 @@ export default async function RootLayout({ children }) {
             <link rel='icon' type='image/png' sizes='32x32' href='favicon/favicon-32x32.png' />
             <link rel='icon' type='image/png' sizes='16x16' href='favicon/favicon-16x16.png' />
             <link rel='manifest' href='favicon/site.webmanifest' />
-            <link rel='mask-icon' href='favicon/safari-pinned-tab.svg' color='#5bbad5' />
             <meta name='msapplication-TileColor' content='#fdf2f8c6' />
             <meta name='theme-color' content='#fdf2f8c6' />
             <meta
@@ -32,11 +31,11 @@ export default async function RootLayout({ children }) {
                   style={{ display: 'none', visibility: 'hidden' }}
                ></iframe>
             </noscript>
-            <Script id='hydro_config' type='text/javascript'>
-               window.Hydro_tagId = "87e38291-1be9-4043-8924-42a06aaf670a";
+            {/* <Script id='hydro_config' type='text/javascript'>
+               {`window.Hydro_tagId = "87e38291-1be9-4043-8924-42a06aaf670a";`}
             </Script>
             <Script id='hydro_script' src='https://track.hydro.online/'></Script>
-            {/* Google tag (gtag.js) */}
+
             <Script strategy='afterInteractive' src='https://www.googletagmanager.com/gtag/js?id=G-YL1YTBH7PV' />
             <Script id='google-analytics' strategy='afterInteractive'>
                {`
@@ -45,7 +44,7 @@ export default async function RootLayout({ children }) {
                   gtag('js', new Date());
                   gtag('config', 'G-YL1YTBH7PV');
                `}
-            </Script>
+            </Script> */}
          </body>
       </html>
    )
