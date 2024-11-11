@@ -3,7 +3,6 @@
    "scripts": {
       "dev": "next",
       "build": "next build",
-      "noIndex": "npm run build && echo 'User-agent: *\nDisallow: /' > .next/robots.txt",
       "start": "next start",
       "lint": "next lint"
    },
