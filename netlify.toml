@@ -1,0 +1,14 @@
+[build]
+command = "npm run build"
+publish = ".next"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+[context.deploy-preview]
+command = "npm run noIndex"
+
+[context.branch-deploy]
+command = "npm run build"
