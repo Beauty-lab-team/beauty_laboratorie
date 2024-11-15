@@ -1,6 +1,6 @@
 {
-  "commit": "c98e5dd1f9cea83056941c7dc4fc08603b2e1ef9",
-  "generated": "2024-10-24T14:41:43.561Z",
+  "commit": "ec93cb885a846a06554d45bc51e142de2cd0b73d",
+  "generated": "2024-11-15T10:42:33.090Z",
   "metadata": [
     {
       "__outstatic": {
@@ -58,24 +58,6 @@
       "slug": "oksana-rozbeyko",
       "status": "draft",
       "title": "Оксана Розбейко"
-    },
-    {
-      "__outstatic": {
-        "commit": "c287c5d33841f66567c59e3ed55ccf294e645979",
-        "hash": "1786947567",
-        "path": "outstatic/content/news/yak-doglyadati-za-oblichchyam-vlitku.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
-      },
-      "collection": "news",
-      "coverImage": "/images/smas-lifting-v-dnipri-k3Nz.jpg",
-      "description": "Як доглядати за обличчям влітку? Б'юті лабораторія - салон краси, корисного і бережливого догляду за твоїм тілом у Дніпрі",
-      "publishedAt": "2024-08-12T13:42:07.795Z",
-      "slug": "yak-doglyadati-za-oblichchyam-vlitku",
-      "status": "published",
-      "title": "Як доглядати за обличчям влітку? "
     },
     {
       "__outstatic": {
@@ -375,6 +357,24 @@
       "slug": "kosmetologichna-studiya-u-dnipri-presoterapiya",
       "status": "published",
       "title": "Пресотерапія з обгортанням  у Дніпрі"
+    },
+    {
+      "__outstatic": {
+        "commit": "ec93cb885a846a06554d45bc51e142de2cd0b73d",
+        "hash": "2135269058",
+        "path": "outstatic/content/news/yak-doglyadati-za-oblichchyam-vlitku.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "news",
+      "coverImage": "/images/smas-lifting-v-dnipri-k3Nz.jpg",
+      "description": "Як доглядати за обличчям влітку? Б'юті лабораторія - салон краси, корисного і бережливого догляду за твоїм тілом у Дніпрі",
+      "publishedAt": "2024-08-12T13:42:07.795Z",
+      "slug": "yak-doglyadati-za-oblichchyam-vlitku",
+      "status": "published",
+      "title": "Як доглядати за обличчям влітку? "
     }
   ]
 }
