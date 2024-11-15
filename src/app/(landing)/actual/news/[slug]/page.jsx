@@ -60,7 +60,11 @@ async function getData({ params }) {
 }
 
 export async function generateStaticParams() {
-   const newss = getDocumentSlugs('news')
-   const capSlugs = newss.map(slug => capitalizeSlug(slug))
-   return capSlugs.map(slug => ({ slug }))
+   try {
+      const newss = getDocumentSlugs('news')
+      const capSlugs = newss.map(slug => capitalizeSlug(slug))
+      return capSlugs.map(slug => ({ slug }))
+   } catch (e) {
+      return []
+   }
 }
