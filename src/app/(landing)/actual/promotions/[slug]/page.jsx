@@ -3,18 +3,16 @@ import Text from '../../../../../components/UI/Text.jsx'
 import Heading from '../../../../../components/UI/Heading.jsx'
 import Section from '../../../../../components/UI/Section.jsx'
 import LinkToPage from '../../../../../components/UI/LinkToPage.jsx'
-import { notFound } from 'next/navigation'
 import { getDocumentSlugs, load } from 'outstatic/server'
 import capitalizeSlug from '../../../../../utils/capitalizeSlug.js'
 import { format } from 'date-fns'
 import ukLocale from 'date-fns/locale/uk'
+import { redirect } from 'next/navigation.js'
 
 export async function generateMetadata(params) {
    const promotion = await getData(params)
 
-   if (!promotion) {
-      return {}
-   }
+   if (!promotion) redirect('/')
 
    return {
       title: promotion.title,
@@ -47,9 +45,8 @@ async function getData({ params }) {
       .find({ collection: 'promotions', slug: params.slug.toLowerCase() }, ['title', 'publishedAt', 'description', 'slug', 'content', 'coverImage'])
       .first()
 
-   if (!promotion) {
-      notFound()
-   }
+   if (!promotion) return null
+
    const converter = new Showdown.Converter()
    const content = converter.makeHtml(promotion.content)
 

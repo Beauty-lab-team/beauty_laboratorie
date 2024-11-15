@@ -3,16 +3,14 @@ import Text from '../../../../components/UI/Text.jsx'
 import Heading from '../../../../components/UI/Heading.jsx'
 import Section from '../../../../components/UI/Section.jsx'
 import LinkToPage from '../../../../components/UI/LinkToPage.jsx'
-import { notFound } from 'next/navigation'
 import { getDocumentSlugs, load } from 'outstatic/server'
 import capitalizeSlug from '../../../../utils/capitalizeSlug.js'
+import { redirect } from 'next/navigation.js'
 
 export async function generateMetadata(params) {
    const service = await getData(params)
 
-   if (!service) {
-      return {}
-   }
+   if (!service) redirect('/')
 
    return {
       title: service.title,
@@ -22,6 +20,10 @@ export async function generateMetadata(params) {
 
 export default async function ServiceArticle(params) {
    const service = await getData(params)
+
+   if (!service) {
+      return <notFound />
+   }
 
    return (
       <Section className='pt-[140px] lg:pt-[160px] max-w-5xl mx-auto'>
@@ -67,9 +69,8 @@ async function getData({ params }) {
       ])
       .first()
 
-   if (!service) {
-      notFound()
-   }
+   if (!service) return null
+
    const converter = new Showdown.Converter()
    const content = converter.makeHtml(service.content)
    let isVideo = false
