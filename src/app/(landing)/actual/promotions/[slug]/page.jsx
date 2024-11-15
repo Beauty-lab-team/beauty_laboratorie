@@ -24,8 +24,6 @@ export default async function PromotionArticle(params) {
    const promotion = await getData(params)
    const formattedDate = format(new Date(promotion.publishedAt), 'dd MMMM yyyy', { locale: ukLocale })
 
-   if (!promotion) redirect('/')
-
    return (
       <Section className='pt-[140px] lg:pt-[160px] max-w-5xl mx-auto'>
          <Heading className='tracking-normal'>{promotion.title}</Heading>
@@ -47,7 +45,7 @@ async function getData({ params }) {
       .find({ collection: 'promotions', slug: params.slug.toLowerCase() }, ['title', 'publishedAt', 'description', 'slug', 'content', 'coverImage'])
       .first()
 
-   if (!promotion) return null
+   if (!promotion) redirect('/')
 
    const converter = new Showdown.Converter()
    const content = converter.makeHtml(promotion.content)

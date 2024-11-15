@@ -21,8 +21,6 @@ export async function generateMetadata(params) {
 export default async function ServiceArticle(params) {
    const service = await getData(params)
 
-   if (!service) redirect('/')
-
    return (
       <Section className='pt-[140px] lg:pt-[160px] max-w-5xl mx-auto'>
          <Heading level='1' className='tracking-normal'>
@@ -67,7 +65,7 @@ async function getData({ params }) {
       ])
       .first()
 
-   if (!service) return null
+   if (!service) redirect('/')
 
    const converter = new Showdown.Converter()
    const content = converter.makeHtml(service.content)

@@ -22,9 +22,8 @@ export async function generateMetadata(params) {
 
 export default async function News(params) {
    const news = await getData(params)
-   const formattedDate = format(new Date(news.publishedAt), 'dd MMMM yyyy', { locale: ukLocale })
 
-   if (!news) redirect('/')
+   const formattedDate = format(new Date(news.publishedAt), 'dd MMMM yyyy', { locale: ukLocale })
 
    return (
       <Section className='pt-[140px] lg:pt-[160px] max-w-5xl mx-auto'>
@@ -47,11 +46,10 @@ async function getData({ params }) {
       .find({ collection: 'news', slug: params.slug.toLowerCase() }, ['title', 'publishedAt', 'description', 'slug', 'content', 'coverImage'])
       .first()
 
-   if (!news) return null
+   if (!news) redirect('/')
 
    const converter = new Showdown.Converter()
    const content = converter.makeHtml(news.content)
-
    return {
       ...news,
       content,
