@@ -21,24 +21,30 @@ export async function generateMetadata(params) {
 }
 
 export default async function News(params) {
-   const news = await getData(params)
-   if (Object.keys(news).length == 0) redirect('/')
+   try {
+      const news = await getData(params)
+      if (Object.keys(news).length == 0) redirect('/')
 
-   const formattedDate = format(new Date(news.publishedAt), 'dd MMMM yyyy', { locale: ukLocale })
+      const formattedDate = format(new Date(news.publishedAt), 'dd MMMM yyyy', { locale: ukLocale })
 
-   return (
-      <Section className='pt-[140px] lg:pt-[160px] max-w-5xl mx-auto'>
-         <Heading className='tracking-normal'>{news.title}</Heading>
-         <Text
-            className='prose mb-10 max-w-5xl prose-headings:text-text-1 prose-li:marker:text-text-2 prose-strong:text-text-1 prose-a:text-text-1 prose-a:underline prose-h1:mt-12 prose-h1:text-4xl prose-video:rounded-basic prose-img:rounded-basic prose-video:max-w-2xl prose-img:max-w-2xl prose-video:w-full prose-img:w-full'
-            dangerouslySetInnerHTML={{ __html: news.content }}
-         ></Text>
-         <Text className='italic mb-3'>{formattedDate}</Text>
-         <LinkToPage className='w-full lg:w-auto block lg:inline-block text-center' link='/'>
-            На головну
-         </LinkToPage>
-      </Section>
-   )
+      return (
+         <Section className='pt-[140px] lg:pt-[160px] max-w-5xl mx-auto'>
+            <Heading className='tracking-normal'>{news.title}</Heading>
+            <Text
+               className='prose mb-10 max-w-5xl prose-headings:text-text-1 prose-li:marker:text-text-2 prose-strong:text-text-1 prose-a:text-text-1 prose-a:underline prose-h1:mt-12 prose-h1:text-4xl prose-video:rounded-basic prose-img:rounded-basic prose-video:max-w-2xl prose-img:max-w-2xl prose-video:w-full prose-img:w-full'
+               dangerouslySetInnerHTML={{ __html: news.content }}
+            ></Text>
+            <Text className='italic mb-3'>{formattedDate}</Text>
+            <LinkToPage className='w-full lg:w-auto block lg:inline-block text-center' link='/'>
+               На головну
+            </LinkToPage>
+         </Section>
+      )
+   } catch (error) {
+      // Log the error and redirect to the homepage
+      console.error(`Error fetching news data: ${error}`)
+      redirect('/')
+   }
 }
 
 async function getData({ params }) {
@@ -60,11 +66,7 @@ async function getData({ params }) {
 }
 
 export async function generateStaticParams() {
-   try {
-      const newss = getDocumentSlugs('news')
-      const capSlugs = newss.map(slug => capitalizeSlug(slug))
-      return capSlugs.map(slug => ({ slug }))
-   } catch (e) {
-      return []
-   }
+   const newss = getDocumentSlugs('news')
+   const capSlugs = newss.map(slug => capitalizeSlug(slug))
+   return capSlugs.map(slug => ({ slug }))
 }
