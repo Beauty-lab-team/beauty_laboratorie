@@ -12,7 +12,7 @@ import { redirect } from 'next/navigation.js'
 export async function generateMetadata(params) {
    const news = await getData(params)
 
-   if (!news) redirect('/')
+   if (!news) return {}
 
    return {
       title: news.title,
@@ -23,6 +23,8 @@ export async function generateMetadata(params) {
 export default async function News(params) {
    const news = await getData(params)
    const formattedDate = format(new Date(news.publishedAt), 'dd MMMM yyyy', { locale: ukLocale })
+
+   if (!news) redirect('/')
 
    return (
       <Section className='pt-[140px] lg:pt-[160px] max-w-5xl mx-auto'>

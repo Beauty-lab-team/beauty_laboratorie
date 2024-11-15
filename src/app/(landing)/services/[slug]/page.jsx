@@ -10,7 +10,7 @@ import { redirect } from 'next/navigation.js'
 export async function generateMetadata(params) {
    const service = await getData(params)
 
-   if (!service) redirect('/')
+   if (!service) return {}
 
    return {
       title: service.title,
@@ -21,9 +21,7 @@ export async function generateMetadata(params) {
 export default async function ServiceArticle(params) {
    const service = await getData(params)
 
-   if (!service) {
-      return <notFound />
-   }
+   if (!service) redirect('/')
 
    return (
       <Section className='pt-[140px] lg:pt-[160px] max-w-5xl mx-auto'>
