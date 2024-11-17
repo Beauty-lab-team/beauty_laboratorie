@@ -82,8 +82,16 @@ async function getData({ params }) {
    }
 }
 
-export async function generateStaticParams() {
+export function getStaticPaths() {
    const services = getDocumentSlugs('services')
-   const capSlugs = services.map(slug => capitalizeSlug(slug))
-   return capSlugs.map(slug => ({ slug }))
+   const paths = services.map(slug => ({
+      params: { slug: capitalizeSlug(slug) },
+   }))
+   return { paths, fallback: false }
+}
+
+export function generateStaticParams() {
+   const services = getDocumentSlugs('services')
+   const paths = services.map(slug => capitalizeSlug(slug))
+   return paths
 }

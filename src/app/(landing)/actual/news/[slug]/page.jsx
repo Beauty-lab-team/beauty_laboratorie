@@ -61,3 +61,11 @@ export async function generateStaticParams() {
    const capSlugs = newss.map(slug => capitalizeSlug(slug))
    return capSlugs.map(slug => ({ slug }))
 }
+
+export function getStaticPaths() {
+   const news = getDocumentSlugs('news')
+   const paths = news.map(slug => ({
+      params: { slug: capitalizeSlug(slug) },
+   }))
+   return { paths, fallback: false }
+}
