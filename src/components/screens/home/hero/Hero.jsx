@@ -11,7 +11,7 @@ export default function Hero() {
    return (
       <Section>
          <div className={s.hero}>
-            <Image className={s.photo} src='/clinic/hero.jpg' alt='Hero image' width={500} height={440} quality={100} priority />
+            <Image className={s.photo} src='/clinic/hero.jpg' alt='Hero image' width={500} height={440} priority />
             <div className={`${s.info} ${s.main}`}>
                <Heading className='text-text-2'>
                   Студiя краси <span className='text-text-1 italic block'>Beauty .laboratorie</span>
