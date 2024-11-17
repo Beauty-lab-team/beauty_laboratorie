@@ -1,6 +1,6 @@
 {
-  "commit": "ec93cb885a846a06554d45bc51e142de2cd0b73d",
-  "generated": "2024-11-15T10:42:33.090Z",
+  "commit": "9b38d3893d4cfabec19dfc069c97aec6d0a7c26d",
+  "generated": "Sun, 17 Nov 2024 08:35:40 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -20,6 +20,133 @@
       "slug": "oksana-dashchenko",
       "status": "draft",
       "title": "Оксана Дащенко"
+    },
+    {
+      "__outstatic": {
+        "commit": "473ed3f2d00764b3d091872a411a2123731d7d8e",
+        "hash": "3893845365",
+        "path": "outstatic/content/articles/perevagi-slimsferi.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "articles",
+      "coverImage": "/images/slimsfera-dnipro-beauty-lab-A1MT.jpg",
+      "description": "Слімсфера – це сучасна технологія, що застосовується в косметології для зниження ваги, корекції фігури та боротьби з целюлітом",
+      "publishedAt": "2024-10-01T19:23:19.838Z",
+      "slug": "perevagi-slimsferi",
+      "status": "published",
+      "title": "Переваги слімсфери"
+    },
+    {
+      "__outstatic": {
+        "commit": "7c48e6c8c1a67cbbed5e34fd37ad92db6b4e4515",
+        "hash": "1873751805",
+        "path": "outstatic/content/articles/kosmetologichna-studiya-u-dnipri-presoterapiya.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "articles",
+      "coverImage": "/images/pressoterapiya-y-dnipri-EyNz.jpg",
+      "description": "Косметологічна студія у Дніпрі пропонує курс пресотерапії з обгортанням для покращення здоров'я та емоційного стану.",
+      "publishedAt": "2024-08-12T13:22:52.979Z",
+      "slug": "kosmetologichna-studiya-u-dnipri-presoterapiya",
+      "status": "published",
+      "title": "Пресотерапія з обгортанням  у Дніпрі"
+    },
+    {
+      "__outstatic": {
+        "commit": "5965acd66438a7b0acb68a164a8fde029619449a",
+        "hash": "748125767",
+        "path": "outstatic/content/articles/epilyaciya-lazerna-u-dnipri.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "articles",
+      "coverImage": "/images/lazerna-epilyacia-dnipro-k3MD.jpg",
+      "description": "Лазерна епіляція та її переваги перед восковою епіляцією у Дніпрі",
+      "publishedAt": "2024-10-17T13:41:27.264Z",
+      "slug": "epilyaciya-lazerna-u-dnipri",
+      "status": "published",
+      "title": "Епіляція лазерна у Дніпрі"
+    },
+    {
+      "__outstatic": {
+        "commit": "50c42672dd55425b4039a1aed90bd09fed014bd1",
+        "hash": "3048989612",
+        "path": "outstatic/content/articles/chistka-oblichya-dnipro.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "articles",
+      "coverImage": "/images/chistka-oblichya-dnipro-M5Mj.jpg",
+      "description": "Доглядати за собою, щоб бути впевненою, гарною та завжди догляннутою",
+      "publishedAt": "2024-10-14T20:50:36.717Z",
+      "slug": "chistka-oblichya-dnipro",
+      "status": "published",
+      "title": "Чистка обличчя"
+    },
+    {
+      "__outstatic": {
+        "commit": "d577b306ae9874c74ab559eeb2fd06aa02f02aca",
+        "hash": "3773222119",
+        "path": "outstatic/content/services/chistka-oblichchya.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/---------------------M1Mj.jpg",
+      "description": "Покращення текстури шкіри, глибоке очищення пор, зменшення запалень та акне, зволоження та живлення - доглянутий вигляд після очищення обличчя.",
+      "publishedAt": "2024-07-03T15:33:10.313Z",
+      "slug": "chistka-oblichchya",
+      "status": "draft",
+      "tag": "Косметологія обличчя",
+      "title": "Чистка обличчя"
+    },
+    {
+      "__outstatic": {
+        "commit": "121ae9392789d2d61d13922c5eb55faf9f3cc9dd",
+        "hash": "2295497794",
+        "path": "outstatic/content/promotions/akciyna-propoziciya-vid-studiyi-krasi-po-krashchim-cinam-u-dnipri.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "promotions",
+      "coverImage": "/images/biorevitalizacziya-AyOD.jpg",
+      "description": "Акційна пропозиція від  студії краси по кращим цінам у Дніпрі, професійний комплексний догляд за обличчям або тілом",
+      "publishedAt": "2024-08-12T14:52:34.150Z",
+      "slug": "akciyna-propoziciya-vid-studiyi-krasi-po-krashchim-cinam-u-dnipri",
+      "status": "published",
+      "title": "Акційна пропозиція від  студії краси по кращим цінам у Дніпрі! "
+    },
+    {
+      "__outstatic": {
+        "commit": "c7ea3c28b10e5ed11d9fcbe52544cca69d2f4d9f",
+        "hash": "2135269058",
+        "path": "outstatic/content/news/yak-doglyadati-za-oblichchyam-vlitku.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
+      },
+      "collection": "news",
+      "coverImage": "/images/smas-lifting-v-dnipri-k3Nz.jpg",
+      "description": "Як доглядати за обличчям влітку? Б'юті лабораторія - салон краси, корисного і бережливого догляду за твоїм тілом у Дніпрі",
+      "publishedAt": "2024-08-12T13:42:07.795Z",
+      "slug": "yak-doglyadati-za-oblichchyam-vlitku",
+      "status": "published",
+      "title": "Як доглядати за обличчям влітку? "
     },
     {
       "__outstatic": {
@@ -80,6 +207,25 @@
     },
     {
       "__outstatic": {
+        "commit": "141a358b011252917cc209ab721e054f45a61447",
+        "hash": "148605005",
+        "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-----------------cxOT.jpg",
+      "description": "Видалення небажаного волосся за допомогою якісного та безболісного лазеру - лазерна епіляція у Дніпрі",
+      "publishedAt": "2024-07-02T16:54:44.628Z",
+      "slug": "lazerna-epilyatsiya-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Лазерна епіляція"
+    },
+    {
+      "__outstatic": {
         "commit": "f085bbf7bcdb930e7dc854ea0817305198e9f6fc",
         "hash": "3047673159",
         "path": "outstatic/content/services/iniekciyi.md"
@@ -99,22 +245,22 @@
     },
     {
       "__outstatic": {
-        "commit": "141a358b011252917cc209ab721e054f45a61447",
-        "hash": "148605005",
-        "path": "outstatic/content/services/lazerna-epilyatsiya-v-dnipri.md"
+        "commit": "c2fec8112bea011613ad7f6aeb8f6d539e0388ae",
+        "hash": "2308380276",
+        "path": "outstatic/content/services/fitobochka-v-dnipri.md"
       },
       "author": {
         "name": "Eduard Povierin",
         "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
       },
       "collection": "services",
-      "coverImage": "/images/-----------------cxOT.jpg",
-      "description": "Видалення небажаного волосся за допомогою якісного та безболісного лазеру - лазерна епіляція у Дніпрі",
-      "publishedAt": "2024-07-02T16:54:44.628Z",
-      "slug": "lazerna-epilyatsiya-v-dnipri",
+      "coverImage": "/images/----------Q2NT.jpg",
+      "description": "Очищення організму від токсинів і шлаків, відновлення емоційного стану за допомогою фітобочки у Дніпрі",
+      "publishedAt": "2024-07-03T15:24:06.868Z",
+      "slug": "fitobochka-v-dnipri",
       "status": "draft",
       "tag": "Косметологія тіла",
-      "title": "Лазерна епіляція"
+      "title": "Фітобочка"
     },
     {
       "__outstatic": {
@@ -156,6 +302,44 @@
     },
     {
       "__outstatic": {
+        "commit": "3d26bd0d766a8248cc0665d3a06efd4e19b1e4e1",
+        "hash": "788783010",
+        "path": "outstatic/content/services/smas-lifting-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/-------------Y0Mz.jpg",
+      "description": "Інноваційна методика омолодження та підтяжки обличчя без хірургічного втручання - смас ліфтинг у Дніпрі",
+      "publishedAt": "2024-07-03T15:28:13.092Z",
+      "slug": "smas-lifting-v-dnipri",
+      "status": "draft",
+      "tag": "Інʼєкції",
+      "title": "SMAS ліфтинг"
+    },
+    {
+      "__outstatic": {
+        "commit": "743e5d7cf0b94a0482e17e8980352cc626c93638",
+        "hash": "158419069",
+        "path": "outstatic/content/services/slimsfera-v-dnipri.md"
+      },
+      "author": {
+        "name": "Eduard Povierin",
+        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/----------A4NT.jpg",
+      "description": "Корекції фігури та позбавлення від целюліту досягається внаслідок поліпшення мікроциркуляції та лімфатичного відтоку - послуга слімсфера в Дніпрі",
+      "publishedAt": "2024-07-02T16:59:58.549Z",
+      "slug": "slimsfera-v-dnipri",
+      "status": "draft",
+      "tag": "Косметологія тіла",
+      "title": "Slim сфера"
+    },
+    {
+      "__outstatic": {
         "commit": "3b9e37f8e3d8af824f57db759770f94141f63743",
         "hash": "841095030",
         "path": "outstatic/content/services/presoterapiya-v-dnipri.md"
@@ -191,190 +375,6 @@
       "status": "draft",
       "tag": "Косметологія обличчя",
       "title": "Пілінги"
-    },
-    {
-      "__outstatic": {
-        "commit": "d1075420974fb9045571b580df9ceb55d7de640c",
-        "hash": "158419069",
-        "path": "outstatic/content/services/slimsfera-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/----------A4NT.jpg",
-      "description": "Корекції фігури та позбавлення від целюліту досягається внаслідок поліпшення мікроциркуляції та лімфатичного відтоку - послуга слімсфера в Дніпрі",
-      "publishedAt": "2024-07-02T16:59:58.549Z",
-      "slug": "slimsfera-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Slim сфера"
-    },
-    {
-      "__outstatic": {
-        "commit": "78387b2c4b18c7723966ddab86abe4b5e9608394",
-        "hash": "788783010",
-        "path": "outstatic/content/services/smas-lifting-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/-------------Y0Mz.jpg",
-      "description": "Інноваційна методика омолодження та підтяжки обличчя без хірургічного втручання - смас ліфтинг у Дніпрі",
-      "publishedAt": "2024-07-03T15:28:13.092Z",
-      "slug": "smas-lifting-v-dnipri",
-      "status": "draft",
-      "tag": "Інʼєкції",
-      "title": "SMAS ліфтинг"
-    },
-    {
-      "__outstatic": {
-        "commit": "73516521721291e75e8aaf3d5356297766dace9b",
-        "hash": "2308380276",
-        "path": "outstatic/content/services/fitobochka-v-dnipri.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/----------Q2NT.jpg",
-      "description": "Очищення організму від токсинів і шлаків, відновлення емоційного стану за допомогою фітобочки у Дніпрі",
-      "publishedAt": "2024-07-03T15:24:06.868Z",
-      "slug": "fitobochka-v-dnipri",
-      "status": "draft",
-      "tag": "Косметологія тіла",
-      "title": "Фітобочка"
-    },
-    {
-      "__outstatic": {
-        "commit": "46fe1e284f327728589bac21822cc767555dffb3",
-        "hash": "3048989612",
-        "path": "outstatic/content/articles/chistka-oblichya-dnipro.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
-      },
-      "collection": "articles",
-      "coverImage": "/images/chistka-oblichya-dnipro-M5Mj.jpg",
-      "description": "Доглядати за собою, щоб бути впевненою, гарною та завжди догляннутою",
-      "publishedAt": "2024-10-14T20:50:36.717Z",
-      "slug": "chistka-oblichya-dnipro",
-      "status": "published",
-      "title": "Чистка обличчя"
-    },
-    {
-      "__outstatic": {
-        "commit": "b487deda23e50bce4c048df16e13171ad0330a79",
-        "hash": "748125767",
-        "path": "outstatic/content/articles/epilyaciya-lazerna-u-dnipri.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
-      },
-      "collection": "articles",
-      "coverImage": "/images/lazerna-epilyacia-dnipro-k3MD.jpg",
-      "description": "Лазерна епіляція та її переваги перед восковою епіляцією у Дніпрі",
-      "publishedAt": "2024-10-17T13:41:27.264Z",
-      "slug": "epilyaciya-lazerna-u-dnipri",
-      "status": "published",
-      "title": "Епіляція лазерна у Дніпрі"
-    },
-    {
-      "__outstatic": {
-        "commit": "90ae1fd0a62dfc22aa33f35ec98cdfc1e8daff0e",
-        "hash": "2295497794",
-        "path": "outstatic/content/promotions/akciyna-propoziciya-vid-studiyi-krasi-po-krashchim-cinam-u-dnipri.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
-      },
-      "collection": "promotions",
-      "coverImage": "/images/biorevitalizacziya-AyOD.jpg",
-      "description": "Акційна пропозиція від  студії краси по кращим цінам у Дніпрі, професійний комплексний догляд за обличчям або тілом",
-      "publishedAt": "2024-08-12T14:52:34.150Z",
-      "slug": "akciyna-propoziciya-vid-studiyi-krasi-po-krashchim-cinam-u-dnipri",
-      "status": "published",
-      "title": "Акційна пропозиція від  студії краси по кращим цінам у Дніпрі! "
-    },
-    {
-      "__outstatic": {
-        "commit": "386ecc1d8308bf529072b23d2ff3b81bdc114dbf",
-        "hash": "3773222119",
-        "path": "outstatic/content/services/chistka-oblichchya.md"
-      },
-      "author": {
-        "name": "Eduard Povierin",
-        "picture": "https://avatars.githubusercontent.com/u/67825832?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/---------------------M1Mj.jpg",
-      "description": "Покращення текстури шкіри, глибоке очищення пор, зменшення запалень та акне, зволоження та живлення - доглянутий вигляд після очищення обличчя.",
-      "publishedAt": "2024-07-03T15:33:10.313Z",
-      "slug": "chistka-oblichchya",
-      "status": "draft",
-      "tag": "Косметологія обличчя",
-      "title": "Чистка обличчя"
-    },
-    {
-      "__outstatic": {
-        "commit": "be04c85aba0eac796522a86f20fadb59438760b0",
-        "hash": "3893845365",
-        "path": "outstatic/content/articles/perevagi-slimsferi.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
-      },
-      "collection": "articles",
-      "coverImage": "/images/slimsfera-dnipro-beauty-lab-A1MT.jpg",
-      "description": "Слімсфера – це сучасна технологія, що застосовується в косметології для зниження ваги, корекції фігури та боротьби з целюлітом",
-      "publishedAt": "2024-10-01T19:23:19.838Z",
-      "slug": "perevagi-slimsferi",
-      "status": "published",
-      "title": "Переваги слімсфери"
-    },
-    {
-      "__outstatic": {
-        "commit": "c98e5dd1f9cea83056941c7dc4fc08603b2e1ef9",
-        "hash": "1873751805",
-        "path": "outstatic/content/articles/kosmetologichna-studiya-u-dnipri-presoterapiya.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
-      },
-      "collection": "articles",
-      "coverImage": "/images/pressoterapiya-y-dnipri-EyNz.jpg",
-      "description": "Косметологічна студія у Дніпрі пропонує курс пресотерапії з обгортанням для покращення здоров'я та емоційного стану.",
-      "publishedAt": "2024-08-12T13:22:52.979Z",
-      "slug": "kosmetologichna-studiya-u-dnipri-presoterapiya",
-      "status": "published",
-      "title": "Пресотерапія з обгортанням  у Дніпрі"
-    },
-    {
-      "__outstatic": {
-        "commit": "ec93cb885a846a06554d45bc51e142de2cd0b73d",
-        "hash": "2135269058",
-        "path": "outstatic/content/news/yak-doglyadati-za-oblichchyam-vlitku.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/174791371?v=4"
-      },
-      "collection": "news",
-      "coverImage": "/images/smas-lifting-v-dnipri-k3Nz.jpg",
-      "description": "Як доглядати за обличчям влітку? Б'юті лабораторія - салон краси, корисного і бережливого догляду за твоїм тілом у Дніпрі",
-      "publishedAt": "2024-08-12T13:42:07.795Z",
-      "slug": "yak-doglyadati-za-oblichchyam-vlitku",
-      "status": "published",
-      "title": "Як доглядати за обличчям влітку? "
     }
   ]
 }
