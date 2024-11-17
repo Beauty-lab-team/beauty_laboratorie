@@ -11,15 +11,6 @@ export default async function RootLayout({ children }) {
             <link rel='manifest' href='favicon/site.webmanifest' />
             <meta name='msapplication-TileColor' content='#fdf2f8c6' />
             <meta name='theme-color' content='#fdf2f8c6' />
-            <meta
-               name='description'
-               content="Косметологічна студія Beauty.laboratorie - це центр краси та здоров'я де ви отримаєте професійний комплексний догляд за обличчям та тілом."
-            />
-            <meta
-               name='keywords'
-               content="Б'юті лабораторія у Дніпрі - якісна лазерна епіляція та догляд за тілом косметологічна студія Beauty laboratorie центр краси та здоров'я де ви отримаєте професійний комплексний догляд за обличчям та тілом для чоловіків жінок за волоссям антівікові програми та ефективні процедури у центрі міста Дніпро правий берег косметолог у Дніпрі консультація запис на прийом Оксана Розбейко."
-            />
-            <title>Б'юті лабораторія у Дніпрі - якісна лазерна епіляція та догляд за тілом</title>
          </head>
          <body>
             {children}
